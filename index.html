@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Darts Daily 🎯</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #f0f0f0;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid #e94560;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+
+    .logo span { color: #e94560; }
+
+    .date-badge {
+      background: #e94560;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 25px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      display: flex;
+      gap: 24px;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: #e94560; }
+
+    /* ── HERO BANNER ── */
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e, #0f3460);
+      text-align: center;
+      padding: 40px 20px 30px;
+      border-bottom: 1px solid #222;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .hero h1 span { color: #e94560; }
+
+    .hero p {
+      color: #aaa;
+      font-size: 1rem;
+    }
+
+    .streak-bar {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #1a1a2e;
+      border: 1px solid #e94560;
+      border-radius: 30px;
+      padding: 8px 20px;
+      margin-top: 16px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #e94560;
+    }
+
+    /* ── MAIN GRID ── */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    /* ── CARDS ── */
+    .card {
+      background: #1a1a1a;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid #2a2a2a;
+      transition: transform 0.2s, border-color 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: #e94560;
+    }
+
+    .card-badge {
+      display: inline-block;
+      background: #e94560;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 14px;
+    }
+
+    .card-badge.green { background: #00b894; }
+    .card-badge.blue { background: #0984e3; }
+    .card-badge.purple { background: #6c5ce7; }
+    .card-badge.orange { background: #e17055; }
+
+    .card h2 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+
+    .card p {
+      color: #999;
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    /* ── PLAYER OF THE DAY ── */
+    .player-card {
+      grid-column: span 1;
+    }
+
+    .player-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #e94560, #0f3460);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      margin-bottom: 14px;
+      border: 3px solid #e94560;
+    }
+
+    .player-name {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+
+    .player-nickname {
+      color: #e94560;
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      font-style: italic;
+    }
+
+    .player-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .stat-box {
+      background: #111;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #2a2a2a;
+    }
+
+    .stat-box .stat-val {
+      font-size: 1.3rem;
+      font-weight: 900;
+      color: #e94560;
+    }
+
+    .stat-box .stat-label {
+      font-size: 0.7rem;
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #2a2a2a;
+      color: #ccc;
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 12px;
+      margin: 3px 2px;
+    }
+
+    /* ── TRIVIA ── */
+    .trivia-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .trivia-option {
+      background: #111;
+      border: 2px solid #2a2a2a;
+      border-radius: 10px;
+      padding: 12px 16px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      color: #ccc;
+      transition: all 0.2s;
+      text-align: left;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .trivia-option:hover {
+      border-color: #e94560;
+      color: #fff;
+      background: #1f1f1f;
+    }
+
+    .trivia-option.correct {
+      border-color: #00b894;
+      background: #00b89420;
+      color: #00b894;
+    }
+
+    .trivia-option.wrong {
+      border-color: #e94560;
+      background: #e9456020;
+      color: #e94560;
+    }
+
+    .trivia-result {
+      margin-top: 14px;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 0.88rem;
+      display: none;
+    }
+
+    .trivia-result.show { display: block; }
+    .trivia-result.correct-res { background: #00b89420; color: #00b894; border: 1px solid #00b894; }
+    .trivia-result.wrong-res { background: #e9456020; color: #e94560; border: 1px solid #e94560; }
+
+    .share-btn {
+      background: #1DA1F2;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 10px;
+      display: none;
+    }
+
+    .share-btn.show { display: inline-block; }
+
+    /* ── PRODUCT OF THE DAY ── */
+    .product-img {
+      width: 100%;
+      height: 160px;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      margin-bottom: 16px;
+      border: 1px solid #2a2a2a;
+    }
+
+    .product-price {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: #00b894;
+      margin: 8px 0;
+    }
+
+    .product-rating {
+      color: #f9ca24;
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+
+    .buy-btn {
+      display: block;
+      width: 100%;
+      background: #e94560;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 13px;
+      font-size: 1rem;
+      font-weight: 800;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 14px;
+      transition: background 0.2s;
+      letter-spacing: 1px;
+    }
+
+    .buy-btn:hover { background: #c0392b; }
+
+    .buy-btn.secondary {
+      background: #2a2a2a;
+      margin-top: 8px;
+      font-size: 0.85rem;
+    }
+
+    .buy-btn.secondary:hover { background: #3a3a3a; }
+
+    /* ── STAT OF THE DAY ── */
+    .stat-of-day {
+      background: linear-gradient(135deg, #0f3460, #16213e);
+      border: 1px solid #0f3460;
+    }
+
+    .big-stat {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #e94560;
+      line-height: 1;
+      margin: 10px 0 6px;
+    }
+
+    .stat-desc {
+      color: #ccc;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    /* ── NEWS FEED ── */
+    .news-item {
+      display: flex;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid #2a2a2a;
+      align-items: flex-start;
+    }
+
+    .news-item:last-child { border-bottom: none; }
+
+    .news-emoji {
+      font-size: 1.8rem;
+      flex-shrink: 0;
+    }
+
+    .news-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+
+    .news-meta {
+      font-size: 0.75rem;
+      color: #666;
+    }
+
+    .news-meta span { color: #e94560; }
+
+    /* ── HISTORY ── */
+    .history-card {
+      background: linear-gradient(135deg, #1a0a2e, #16213e);
+      border: 1px solid #6c5ce7;
+    }
+
+    .history-year {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #6c5ce7;
+      line-height: 1;
+      margin: 8px 0;
+    }
+
+    /* ── NEWSLETTER ── */
+    .newsletter-card {
+      background: linear-gradient(135deg, #e9456015, #1a1a1a);
+      border: 1px solid #e94560;
+      text-align: center;
+    }
+
+    .email-form {
+      display: flex;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .email-form input {
+      flex: 1;
+      background: #111;
+      border: 1px solid #2a2a2a;
+      border-radius: 8px;
+      padding: 12px 16px;
+      color: #fff;
+      font-size: 0.9rem;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .email-form input:focus {
+      outline: none;
+      border-color: #e94560;
+    }
+
+    .email-form button {
+      background: #e94560;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 20px;
+      font-weight: 800;
+      cursor: pointer;
+      font-family: 'Segoe UI', sans-serif;
+      white-space: nowrap;
+    }
+
+    /* ── AD PLACEHOLDER ── */
+    .ad-placeholder {
+      background: #111;
+      border: 2px dashed #2a2a2a;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      color: #444;
+      font-size: 0.8rem;
+      margin-bottom: 24px;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #0a0a0a;
+      border-top: 1px solid #1a1a1a;
+      padding: 30px 40px;
+      text-align: center;
+      color: #444;
+      font-size: 0.8rem;
+    }
+
+    footer a { color: #e94560; text-decoration: none; }
+
+    /* ── COUNTDOWN ── */
+    .countdown {
+      background: #111;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 14px;
+      text-align: center;
+      margin-top: 14px;
+    }
+
+    .countdown-label {
+      font-size: 0.7rem;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+    }
+
+    .countdown-time {
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: #e94560;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+      header { flex-direction: column; gap: 12px; }
+      nav { flex-wrap: wrap; justify-content: center; }
+    }
+
+    @media (max-width: 580px) {
+      .grid { grid-template-columns: 1fr; }
+      .logo { font-size: 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .email-form { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════ HEADER ═══════════════════════════════════ -->
+<header>
+  <div class="logo">DARTS<span>DAILY</span> 🎯</div>
+  <nav>
+    <a href="#">Players</a>
+    <a href="#">Trivia</a>
+    <a href="#">Gear</a>
+    <a href="#">News</a>
+    <a href="#">History</a>
+  </nav>
+  <div class="date-badge" id="today-date">Loading...</div>
+</header>
+
+<!-- ═══════════════════════════════════ HERO ════════════════════════════════════ -->
+<div class="hero">
+  <h1>Your Daily Dose of <span>Darts</span> 🎯</h1>
+  <p>Player of the day · Trivia · Gear picks · News · History</p>
+  <div class="streak-bar">🔥 You're on a <span id="streak-count">1</span>-day streak! Keep it going!</div>
+</div>
+
+<!-- ════════════════════════════════ AD BANNER ════════════════════════════════ -->
+<div class="container">
+  <div class="ad-placeholder">
+    📢 Google AdSense Banner (728×90) — Replace this div with your AdSense code
+  </div>
+
+<!-- ═══════════════════════════════════ ROW 1 ════════════════════════════════════ -->
+  <div class="grid">
+
+    <!-- PLAYER OF THE DAY -->
+    <div class="card player-card">
+      <div class="card-badge">🎯 Player of the Day</div>
+      <div class="player-avatar">🎯</div>
+      <div class="player-name">Phil Taylor</div>
+      <div class="player-nickname">"The Power"</div>
+      <div>
+        <span class="tag">🇬🇧 England</span>
+        <span class="tag">PDC Legend</span>
+        <span class="tag">Right-handed</span>
+      </div>
+      <div class="player-stats">
+        <div class="stat-box">
+          <div class="stat-val">16</div>
+          <div class="stat-label">World Titles</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val">98.6</div>
+          <div class="stat-label">Career Avg</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val">11</div>
+          <div class="stat-label">9-Dart Legs</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val">1990</div>
+          <div class="stat-label">First Title</div>
+        </div>
+      </div>
+      <p style="margin-top:14px; font-size:0.82rem; color:#888; line-height:1.6;">
+        Widely regarded as the greatest darts player of all time, Phil Taylor dominated the sport for over two decades, winning a record 16 World Championship titles.
+      </p>
+      <div class="countdown">
+        <div class="countdown-label">⏳ Next player in</div>
+        <div class="countdown-time" id="countdown">00:00:00</div>
+      </div>
+    </div>
+
+    <!-- TRIVIA OF THE DAY -->
+    <div class="card">
+      <div class="card-badge green">🧠 Trivia of the Day</div>
+      <h2 style="font-size:1rem; margin-bottom:12px; line-height:1.5;">
+        Who was the first player to hit a 9-dart finish on live television?
+      </h2>
+      <div class="trivia-options">
+        <button class="trivia-option" onclick="checkAnswer(this, false)">A) Phil Taylor</button>
+        <button class="trivia-option" onclick="checkAnswer(this, true)">B) John Lowe ✅</button>
+        <button class="trivia-option" onclick="checkAnswer(this, false)">C) Eric Bristow</button>
+        <button class="trivia-option" onclick="checkAnswer(this, false)">D) Dennis Priestley</button>
+      </div>
+      <div class="trivia-result correct-res" id="correct-msg">
+        ✅ <strong>Correct!</strong> John Lowe achieved the first televised 9-dart finish in 1984 at the MFI World Matchplay, winning £102,000!
+        <br><button class="share-btn show" onclick="shareTrivia()">🐦 Share on Twitter</button>
+      </div>
+      <div class="trivia-result wrong-res" id="wrong-msg">
+        ❌ <strong>Not quite!</strong> The answer is <strong>John Lowe</strong> — he did it in 1984 at the MFI World Matchplay, winning £102,000!
+        <br><button class="share-btn show" onclick="shareTrivia()">🐦 Share on Twitter</button>
+      </div>
+      <p style="margin-top:16px; font-size:0.78rem; color:#555;">
+        🔥 Come back tomorrow for a new question and keep your streak alive!
+      </p>
+    </div>
+
+    <!-- PRODUCT OF THE DAY -->
+    <div class="card">
+      <div class="card-badge orange">🛒 Product of the Day</div>
+      <div class="product-img">🎯</div>
+      <h2>Target Darts Vapor8 Black</h2>
+      <div class="product-rating">⭐⭐⭐⭐⭐ <span style="color:#666; font-size:0.8rem;">(4.8 / 847 reviews)</span></div>
+      <p style="font-size:0.82rem; color:#999; margin-bottom:6px;">
+        23g tungsten barrels with micro-grip texture. Perfect for pencil-grip players wanting more control. One of the best-selling barrels on the market.
+      </p>
+      <div class="product-price">£29.99</div>
+      <div>
+        <span class="tag">✅ Free shipping</span>
+        <span class="tag">🎯 Intermediate</span>
+        <span class="tag">23g</span>
+      </div>
+      <a href="#" class="buy-btn">🛒 Buy on Darts Corner</a>
+      <a href="#" class="buy-btn secondary">📦 Also on Amazon</a>
+      <p style="font-size:0.72rem; color:#444; margin-top:10px; text-align:center;">
+        * Affiliate links — we may earn a small commission
+      </p>
+    </div>
+
+  </div>
+
+<!-- ═══════════════════════════════════ ROW 2 ════════════════════════════════════ -->
+  <div class="grid-2">
+
+    <!-- NEWS FEED -->
+    <div class="card">
+      <div class="card-badge blue">📰 Darts News</div>
+      <h2 style="margin-bottom:16px;">Latest Headlines</h2>
+
+      <div class="news-item">
+        <div class="news-emoji">🏆</div>
+        <div>
+          <div class="news-title">Luke Littler wins back-to-back Premier League nights in dramatic fashion</div>
+          <div class="news-meta">2 hours ago · <span>PDC.tv</span></div>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-emoji">🎯</div>
+        <div>
+          <div class="news-title">Michael van Gerwen hits record-breaking average in World Series event</div>
+          <div class="news-meta">5 hours ago · <span>BBC Sport</span></div>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-emoji">💰</div>
+        <div>
+          <div class="news-title">PDC announces £2 million prize fund for 2026 World Championship</div>
+          <div class="news-meta">Yesterday · <span>Darts Database</span></div>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-emoji">🌍</div>
+        <div>
+          <div class="news-title">Fallon Sherrock makes history at the Women's World Matchplay final</div>
+          <div class="news-meta">Yesterday · <span>Sky Sports</span></div>
+        </div>
+      </div>
+
+      <div class="news-item">
+        <div class="news-emoji">🆕</div>
+        <div>
+          <div class="news-title">Three new players earn their PDC Tour cards at Q-School 2026</div>
+          <div class="news-meta">2 days ago · <span>PDC.tv</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div style="display:flex; flex-direction:column; gap:24px;">
+
+      <!-- STAT OF THE DAY -->
+      <div class="card stat-of-day">
+        <div class="card-badge purple">📊 Stat of the Day</div>
+        <div class="big-stat">180</div>
+        <p class="stat-desc">
+          Phil Taylor scored more maximum 180s in a single year (2002) than the entire field combined at the 1988 World Championship.
+        </p>
+        <button onclick="shareStat()" style="background:#6c5ce7; color:#fff; border:none; border-radius:8px; padding:8px 16px; font-size:0.8rem; font-weight:700; cursor:pointer; margin-top:14px;">
+          🐦 Share This Stat
+        </button>
+      </div>
+
+      <!-- THIS DAY IN HISTORY -->
+      <div class="card history-card">
+        <div class="card-badge" style="background:#6c5ce7;">📅 This Day in Darts History</div>
+        <div class="history-year">2007</div>
+        <p class="stat-desc">
+          <strong style="color:#fff;">Phil Taylor vs Raymond van Barneveld</strong> — one of the greatest World Championship finals ever played ended 7-6 in a sudden death leg. Barneveld won.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+<!-- ═════════════════════════════ NEWSLETTER ════════════════════════════════ -->
+  <div class="card newsletter-card" style="margin-bottom:24px;">
+    <div class="card-badge">📧 Daily Newsletter</div>
+    <h2>Get Darts Daily in Your Inbox</h2>
+    <p style="color:#999; margin-top:8px;">Player of the day, trivia, best gear deals — delivered every morning. No spam. Ever.</p>
+    <div class="email-form">
+      <input type="email" placeholder="your@email.com" id="email-input"/>
+      <button onclick="subscribeEmail()">Subscribe Free 🎯</button>
+    </div>
+    <p id="email-msg" style="font-size:0.8rem; color:#00b894; margin-top:10px; display:none;">
+      ✅ You're in! First email arrives tomorrow morning.
+    </p>
+  </div>
+
+<!-- ═══════════════════════════════ BOTTOM AD ════════════════════════════════ -->
+  <div class="ad-placeholder">
+    📢 Google AdSense Banner (728×90) — Replace this div with your AdSense code
+  </div>
+
+</div><!-- end .container -->
+
+<!-- ═══════════════════════════════════ FOOTER ══════════════════════════════════ -->
+<footer>
+  <p style="margin-bottom:8px;">
+    🎯 <strong style="color:#fff;">DartsDaily</strong> — Your daily darts fix
+  </p>
+  <p>
+    <a href="#">Privacy Policy</a> · <a href="#">Disclaimer</a> · <a href="#">Contact</a> · <a href="#">Advertise</a>
+  </p>
+  <p style="margin-top:10px;">
+    * This site contains affiliate links. We may earn a commission on purchases made through our links, at no extra cost to you.
+  </p>
+</footer>
+
+<!-- ═══════════════════════════════════ JS ══════════════════════════════════════ -->
+<script>
+  // ── Date badge ──
+  const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const now = new Date();
+  document.getElementById("today-date").textContent =
+    days[now.getDay()] + " " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear();
+
+  // ── Streak (localStorage) ──
+  const today = now.toDateString();
+  const lastVisit = localStorage.getItem("dd_last");
+  let streak = parseInt(localStorage.getItem("dd_streak") || "0");
+  const yesterday = new Date(now); yesterday.setDate(yesterday.getDate() - 1);
+  if (lastVisit === today) { /* same day, no change */ }
+  else if (lastVisit === yesterday.toDateString()) { streak++; }
+  else { streak = 1; }
+  localStorage.setItem("dd_last", today);
+  localStorage.setItem("dd_streak", streak);
+  document.getElementById("streak-count").textContent = streak;
+
+  // ── Countdown to midnight ──
+  function updateCountdown() {
+    const n = new Date();
+    const midnight = new Date(n); midnight.setHours(24,0,0,0);
+    const diff = midnight - n;
+    const h = Math.floor(diff/3600000).toString().padStart(2,"0");
+    const m = Math.floor((diff%3600000)/60000).toString().padStart(2,"0");
+    const s = Math.floor((diff%60000)/1000).toString().padStart(2,"0");
+    document.getElementById("countdown").textContent = h+":"+m+":"+s;
+  }
+  updateCountdown(); setInterval(updateCountdown, 1000);
+
+  // ── Trivia ──
+  let answered = false;
+  function checkAnswer(btn, isCorrect) {
+    if (answered) return;
+    answered = true;
+    const opts = document.querySelectorAll(".trivia-option");
+    opts.forEach(o => o.disabled = true);
+    if (isCorrect) {
+      btn.classList.add("correct");
+      document.getElementById("correct-msg").classList.add("show");
+    } else {
+      btn.classList.add("wrong");
+      document.querySelectorAll(".trivia-option")[1].classList.add("correct");
+      document.getElementById("wrong-msg").classList.add("show");
+    }
+  }
+
+  // ── Share buttons ──
+  function shareTrivia() {
+    const text = "🎯 Darts Daily Trivia: Who was the first player to hit a 9-dart finish on live TV? I just answered! Can you beat me? 👇 dartsdaily.com";
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank");
+  }
+
+  function shareStat() {
+    const text = "📊 Darts fact: Phil Taylor scored more 180s in 2002 than the entire field at the 1988 World Championship combined! 🤯 via @DartsDaily dartsdaily.com";
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank");
+  }
+
+  // ── Newsletter ──
+  function subscribeEmail() {
+    const val = document.getElementById("email-input").value;
+    if (!val || !val.includes("@")) { alert("Please enter a valid email address!"); return; }
+    document.getElementById("email-msg").style.display = "block";
+    document.getElementById("email-input").value = "";
+  }
+</script>
+</body>
+</html>
