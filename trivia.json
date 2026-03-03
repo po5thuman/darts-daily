@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Who was the first player to hit a 9-dart finish on live television?",
+    "options": ["Phil Taylor", "John Lowe", "Eric Bristow", "Dennis Priestley"],
+    "correct": 1,
+    "explanation": "John Lowe achieved the first televised 9-dart finish on 13 October 1984 at the MFI World Matchplay. He won £102,000 — a record prize at the time.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 2,
+    "question": "How many World Championship titles did Phil Taylor win during his career?",
+    "options": ["12", "14", "16", "18"],
+    "correct": 2,
+    "explanation": "Phil Taylor won 16 World Championship titles — an all-time record in darts that is unlikely to ever be broken.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 3,
+    "question": "What is the maximum checkout possible in a game of darts?",
+    "options": ["167", "170", "171", "180"],
+    "correct": 1,
+    "explanation": "The maximum checkout is 170 — Triple 20, Triple 20, Bullseye. It is the holy grail of finishing combinations in darts.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 4,
+    "question": "Which country does Michael van Gerwen represent?",
+    "options": ["Belgium", "Germany", "Netherlands", "Denmark"],
+    "correct": 2,
+    "explanation": "Michael van Gerwen represents the Netherlands. He was born in Vlijmen and is widely regarded as the greatest player of the modern era.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 5,
+    "question": "What is the official throwing distance from the oche to the dartboard?",
+    "options": ["2.17m", "2.27m", "2.37m", "2.47m"],
+    "correct": 2,
+    "explanation": "The official throwing distance is 2.37 metres from the front of the board to the oche — standardised across all professional tournaments worldwide.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 6,
+    "question": "What score does the bullseye carry in darts?",
+    "options": ["25", "40", "50", "60"],
+    "correct": 2,
+    "explanation": "The bullseye scores 50 points. The outer bull scores 25. Most professionals aim for Triple 20 as their primary scoring target rather than the bull.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 7,
+    "question": "Who was the first woman to beat a man at the PDC World Championship?",
+    "options": ["Lisa Ashton", "Deta Hedman", "Fallon Sherrock", "Mikuru Suzuki"],
+    "correct": 2,
+    "explanation": "Fallon Sherrock made history at the 2019 PDC World Championship by becoming the first woman ever to beat a man at the tournament — defeating Ted Evetts in round one.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 8,
+    "question": "What is the nickname of darts player Peter Wright?",
+    "options": ["The Power", "The Wizard", "Snakebite", "The Iceman"],
+    "correct": 2,
+    "explanation": "Peter Wright is nicknamed Snakebite — a nod to his colourful, snake-themed outfits and hairstyles that make him one of the most recognisable players in the sport.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 9,
+    "question": "At what age did Luke Littler win the PDC World Championship in 2025?",
+    "options": ["15", "16", "17", "18"],
+    "correct": 2,
+    "explanation": "Luke Littler won the PDC World Championship in January 2025 at the age of 17 — making him the youngest world champion in the tournament's history.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 10,
+    "question": "What is the highest number of points you can score with a single dart?",
+    "options": ["50", "57", "60", "66"],
+    "correct": 2,
+    "explanation": "The maximum score with a single dart is 60 — the Triple 20. This is why professional players always aim for the top of the board as their primary scoring target.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 11,
+    "question": "Which venue hosts the PDC World Darts Championship every year?",
+    "options": ["Wembley Arena", "Alexandra Palace", "The O2", "MSG Sphere"],
+    "correct": 1,
+    "explanation": "The PDC World Championship is held every year at Alexandra Palace in North London — known affectionately as Ally Pally. It is one of the most iconic venues in world sport.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 12,
+    "question": "How many points must a player start from in a standard professional darts game?",
+    "options": ["301", "401", "501", "601"],
+    "correct": 2,
+    "explanation": "A standard professional darts game starts at 501 points. Players must reach exactly zero, finishing on a double or the bullseye.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 13,
+    "question": "Which player is nicknamed The Flying Scotsman?",
+    "options": ["Peter Wright", "Gary Anderson", "John Henderson", "Alan Warriner"],
+    "correct": 1,
+    "explanation": "Gary Anderson is nicknamed The Flying Scotsman. The two-time World Champion from Forfar is one of the most naturally talented players ever to pick up a dart.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 14,
+    "question": "How many sections are there on a standard dartboard?",
+    "options": ["18", "19", "20", "21"],
+    "correct": 2,
+    "explanation": "There are 20 numbered sections on a standard dartboard, ranging from 1 to 20. The layout is designed so high numbers are surrounded by low numbers to penalise inaccuracy.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 15,
+    "question": "What profession did Gerwyn Price have before becoming a professional darts player?",
+    "options": ["Footballer", "Rugby player", "Boxer", "Cricketer"],
+    "correct": 1,
+    "explanation": "Gerwyn Price played professional rugby union in Wales before switching to darts. He only turned professional at darts in his late 20s — making his World Championship title even more remarkable.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 16,
+    "question": "What year was the PDC — Professional Darts Corporation — founded?",
+    "options": ["1990", "1991", "1992", "1993"],
+    "correct": 3,
+    "explanation": "The PDC was founded in 1993 when 16 of the world's top players broke away from the BDO to form the World Darts Council — later renamed the Professional Darts Corporation.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 17,
+    "question": "Which player is nicknamed Barney?",
+    "options": ["Barry Hearn", "Raymond van Barneveld", "Andy Hamilton", "Dean Winstanley"],
+    "correct": 1,
+    "explanation": "Raymond van Barneveld is known as Barney. The Dutch legend won 5 World Championship titles and is best remembered for his iconic 7-6 victory over Phil Taylor in the 2007 PDC World final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 18,
+    "question": "What height must the centre of a dartboard be mounted from the floor?",
+    "options": ["1.53m", "1.63m", "1.73m", "1.83m"],
+    "correct": 2,
+    "explanation": "The centre of a dartboard — the bullseye — must be mounted exactly 1.73 metres from the floor in all professional tournaments. This is standardised worldwide.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 19,
+    "question": "Which country does John Part represent?",
+    "options": ["USA", "Australia", "Canada", "New Zealand"],
+    "correct": 2,
+    "explanation": "John Part represents Canada. Nicknamed Darth Maple, he was the first non-European player to win a World Darts Championship and claimed three world titles across three different decades.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 20,
+    "question": "What is the nickname of darts player Gerwyn Price?",
+    "options": ["The Viking", "The Wizard", "The Iceman", "The Giant"],
+    "correct": 2,
+    "explanation": "Gerwyn Price is nicknamed The Iceman — a reference to his intense, focused demeanour on stage. The Welsh World Champion is one of the most driven competitors in the sport.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 21,
+    "question": "What walk-on music does Gary Anderson use?",
+    "options": ["Flower of Scotland", "500 Miles by The Proclaimers", "Jump Around", "Thunderstruck"],
+    "correct": 1,
+    "explanation": "Gary Anderson walks on to 500 Miles by The Proclaimers — one of the most beloved walk-on songs in darts. The Ally Pally crowd always sings along when The Flying Scotsman takes to the stage.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 22,
+    "question": "How many World Championship titles did Eric Bristow win?",
+    "options": ["3", "4", "5", "6"],
+    "correct": 2,
+    "explanation": "Eric Bristow won 5 World Championship titles between 1980 and 1986, dominating an entire decade of darts. The Crafty Cockney was the undisputed king of the sport throughout the 1980s.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 23,
+    "question": "What is the nickname of darts player Adrian Lewis?",
+    "options": ["The Ace", "Jackpot", "The Hammer", "Bullseye"],
+    "correct": 1,
+    "explanation": "Adrian Lewis is nicknamed Jackpot — a reference to his explosive ability to hit big finishes at crucial moments. He won back-to-back PDC World Championship titles in 2011 and 2012.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 24,
+    "question": "Which player is known for his trademark colourful hair and outfits?",
+    "options": ["Gary Anderson", "Mensur Suljovic", "Peter Wright", "Simon Whitlock"],
+    "correct": 2,
+    "explanation": "Peter Wright — Snakebite — is famous for his wild, colourful hairstyles and outfits. His wife Joanne designs many of them and he has become one of the most visually distinctive players in sports history.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 25,
+    "question": "What is the outer bull worth in a game of darts?",
+    "options": ["20", "25", "30", "50"],
+    "correct": 1,
+    "explanation": "The outer bull — also called the 25 ring or bull — is worth 25 points. The inner bullseye is worth 50 points and counts as a double for checkout purposes.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 26,
+    "question": "Which player won the PDC World Championship in 2021?",
+    "options": ["Gary Anderson", "Peter Wright", "Gerwyn Price", "Michael van Gerwen"],
+    "correct": 2,
+    "explanation": "Gerwyn Price won the 2021 PDC World Championship, defeating Gary Anderson 7-3 in the final. The Iceman became the first Welsh player to win the PDC World title.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 27,
+    "question": "What is Luke Littler's nickname?",
+    "options": ["The Rocket", "The Nuke", "The Bomb", "The Missile"],
+    "correct": 1,
+    "explanation": "Luke Littler is nicknamed The Nuke — a powerful nickname for a player who exploded onto the world stage at 16 and won the PDC World Championship at just 17 years old.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 28,
+    "question": "What is the minimum number of darts needed to finish a game of 501?",
+    "options": ["7", "8", "9", "10"],
+    "correct": 2,
+    "explanation": "The minimum number of darts needed to finish a game of 501 is 9 — known as a nine-dart finish or perfect leg. It is the holy grail of darts and one of sport's rarest achievements.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 29,
+    "question": "Which player is nicknamed The Crafty Cockney?",
+    "options": ["John Lowe", "Dennis Priestley", "Eric Bristow", "Bobby George"],
+    "correct": 2,
+    "explanation": "Eric Bristow was nicknamed The Crafty Cockney — a nod to his sharp, streetwise personality and his roots in East London. He was the dominant player in world darts throughout the 1980s.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 30,
+    "question": "What sport did Jonny Clayton work in before becoming a professional darts player?",
+    "options": ["Plumber", "Electrician", "Plasterer", "Carpenter"],
+    "correct": 2,
+    "explanation": "Jonny Clayton — The Ferret — worked as a plasterer before turning professional at darts. He went on to win the Premier League and Grand Slam of Darts in the same year he went full time.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  }
+]
