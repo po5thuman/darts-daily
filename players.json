@@ -58,6 +58,7 @@
   {
     "id": 3,
     "name": "Luke Littler",
+    "photo": "images/luke-littler.jpg",
     "nickname": "The Nuke",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
