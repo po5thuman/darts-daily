@@ -653,12 +653,12 @@
             const dayOfYear = Math.floor((now - start) / 86400000);
             const p = players[dayOfYear % players.length];
 
-            document.getElemeconst avatar = document.getElementById('p-avatar');
+            const avatar = document.getElementById('p-avatar');
             if (p.photo) {
                 avatar.innerHTML = `<img src="${p.photo}" alt="${p.name}" onerror="this.parentElement.textContent='${p.flag || '🎯'}'">`;
             } else {
                 avatar.textContent = p.flag || '🎯';
-            }ntById('p-avatar').textContent = p.flag || '🎯';
+            }
 
             const statusClass = p.status === 'Active' ? 'status-active' : 'status-retired';
             document.getElementById('p-name').innerHTML = 
