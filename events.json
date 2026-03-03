@@ -3,48 +3,48 @@
     "id": 1,
     "name": "PDC UK Open",
     "location": "Minehead, England",
-    "date_display": "7-9 March 2025",
-    "date_iso": "2025-03-07",
+    "date_display": "7-9 March 2026",
+    "date_iso": "2026-03-07",
     "tour": "PDC"
   },
   {
     "id": 2,
     "name": "PDC European Tour - German Darts Open",
     "location": "Hildesheim, Germany",
-    "date_display": "28-30 March 2025",
-    "date_iso": "2025-03-28",
+    "date_display": "28-30 March 2026",
+    "date_iso": "2026-03-28",
     "tour": "PDC"
   },
   {
     "id": 3,
     "name": "PDC Premier League Darts",
     "location": "Various UK Venues",
-    "date_display": "March - May 2025",
-    "date_iso": "2025-03-13",
+    "date_display": "March - May 2026",
+    "date_iso": "2026-03-13",
     "tour": "PDC"
   },
   {
     "id": 4,
     "name": "PDC World Series - US Darts Masters",
     "location": "Las Vegas, USA",
-    "date_display": "June 2025",
-    "date_iso": "2025-06-06",
+    "date_display": "June 2026",
+    "date_iso": "2026-06-06",
     "tour": "PDC"
   },
   {
     "id": 5,
     "name": "PDC Grand Slam of Darts",
     "location": "Wolverhampton, England",
-    "date_display": "November 2025",
-    "date_iso": "2025-11-08",
+    "date_display": "November 2026",
+    "date_iso": "2026-11-08",
     "tour": "PDC"
   },
   {
     "id": 6,
     "name": "PDC World Darts Championship",
     "location": "Alexandra Palace, London",
-    "date_display": "19 Dec 2025 - 3 Jan 2026",
-    "date_iso": "2025-12-19",
+    "date_display": "19 Dec 2026 - 3 Jan 2026",
+    "date_iso": "2026-12-19",
     "tour": "PDC"
   }
 ]
