@@ -535,37 +535,17 @@
     </div>
 </div>
 
-        <div class="card">
-            <div class="card-eyebrow">Latest News</div>
-            <div class="news-item">
-                <div class="news-icon">🏆</div>
-                <div>
-                    <div class="news-title">Luke Littler wins third consecutive ranking event in dominant fashion</div>
-                    <div class="news-meta"><span class="news-source">PDC.tv</span> &nbsp;·&nbsp; 2 hours ago</div>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-icon">🎯</div>
-                <div>
-                    <div class="news-title">Van Gerwen hits 9-dart finish in practice ahead of Premier League opener</div>
-                    <div class="news-meta"><span class="news-source">Darts News</span> &nbsp;·&nbsp; 5 hours ago</div>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-icon">📊</div>
-                <div>
-                    <div class="news-title">PDC Order of Merit updated — full standings and biggest movers</div>
-                    <div class="news-meta"><span class="news-source">Dartsnews.com</span> &nbsp;·&nbsp; 1 day ago</div>
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-icon">🌟</div>
-                <div>
-                    <div class="news-title">Fallon Sherrock reaches final in stunning comeback victory</div>
-                    <div class="news-meta"><span class="news-source">Sky Sports</span> &nbsp;·&nbsp; 2 days ago</div>
-                </div>
-            </div>
-        </div>
+<div class="card">
+    <div class="card-eyebrow">Latest News</div>
+
+    <div id="news-loading" style="color:var(--muted);font-size:0.85rem;">
+        Loading latest news...
+    </div>
+
+    <div id="news-content" style="display:none;">
+        <div id="news-list"></div>
+    </div>
+</div>
 
         <div class="card full-width">
             <div class="card-eyebrow">Newsletter</div>
@@ -802,6 +782,41 @@ loadStatOfDay();
     }
 }
 loadHistoryOfDay();
+
+
+    async function loadLatestNews() {
+    try {
+        const res = await fetch('news.json');
+        const news = await res.json();
+
+        const latest = news.slice(0, 4);
+
+        document.getElementById('news-list').innerHTML = latest.map((item, index) => `
+            <div class="news-item" style="${index === 0 ? 'padding-top:0;' : ''}">
+                <div class="news-icon">${item.icon}</div>
+                <div>
+                    <div class="news-title">
+                        <a href="${item.url}" target="_blank" style="color:var(--text);text-decoration:none;">
+                            ${item.title}
+                        </a>
+                    </div>
+                    <div class="news-meta">
+                        <span class="news-source">${item.source}</span>
+                        &nbsp;·&nbsp; ${item.time}
+                    </div>
+                </div>
+            </div>
+        `).join('');
+
+        document.getElementById('news-loading').style.display = 'none';
+        document.getElementById('news-content').style.display = 'block';
+
+    } catch (err) {
+        document.getElementById('news-loading').textContent = 'Error loading news.';
+        console.error(err);
+    }
+}
+loadLatestNews();
 </script>
 
 </body>
