@@ -1164,5 +1164,91 @@
     }
 </script>
 
+<script>
+    async function loadPlayerOfDay() {
+    try {
+        const res = await fetch('players.json'); // fetch JSON stored in repo
+        const players = await res.json();
+
+        // Pick player based on day of year
+        const now = new Date();
+        const start = new Date(now.getFullYear(), 0, 0);
+        const dayOfYear = Math.floor((now - start) / 86400000);
+        const player = players[dayOfYear % players.length];
+
+        // Avatar
+        document.getElementById('p-avatar').textContent = player.flag || '🎯';
+
+        // Name + Status
+        const statusClass = player.status === 'Active' ? 'status-active' : 'status-retired';
+        document.getElementById('p-name').innerHTML =
+            `${player.name} <span class="status-badge ${statusClass}">${player.status}</span>`;
+
+        // Nickname
+        document.getElementById('p-nickname').textContent = `"${player.nickname}"`;
+
+        // Tags
+        document.getElementById('p-tags').innerHTML =
+            player.tags.map(t => `<span class="tag">${t}</span>`).join('');
+
+        // Info Grid
+        const infoItems = [
+            { label: 'Born', value: player.born },
+            { label: 'Hometown', value: player.hometown },
+            { label: 'Pro Since', value: player.pro_since },
+            { label: player.retired ? 'Retired' : 'Status', value: player.retired ? player.retired : 'Active' },
+            { label: 'Dart Weight', value: player.dart_weight },
+            { label: 'Dart Brand', value: player.dart_brand },
+            { label: 'Walk-on', value: player.walk_on_music },
+            { label: 'Style', value: player.throwing_style }
+        ];
+        document.getElementById('p-info-grid').innerHTML = infoItems
+            .map(item => `<div class="info-row"><div class="info-label">${item.label}</div><div class="info-value">${item.value}</div></div>`)
+            .join('');
+
+        // Highlights
+        document.getElementById('p-highlights').innerHTML = player.highlights
+            .map(h => `<div class="highlight-item"><div class="highlight-dot"></div><div>${h}</div></div>`)
+            .join('');
+
+        // Quote
+        document.getElementById('p-quote').innerHTML =
+            `<span>"${player.quote}"</span><br><small>— ${player.name}</small>`;
+
+        // Fun Fact
+        document.getElementById('p-funfact').textContent = player.fun_fact;
+
+        // Bio
+        document.getElementById('p-bio').textContent = player.bio;
+
+        // Shares
+        document.getElementById('p-share-x').onclick = () => shareX(player.share_text);
+        document.getElementById('p-share-wa').onclick = () => shareWA(player.share_text);
+
+        // Show content
+        document.getElementById('player-loading').style.display = 'none';
+        document.getElementById('player-content').style.display = 'block';
+    } catch (err) {
+        document.getElementById('player-loading').textContent = 'Error loading player data.';
+        console.error(err);
+    }
+}
+
+// Share helpers
+function shareX(text) {
+    const url = encodeURIComponent(window.location.href);
+    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${url}`, '_blank', 'width=550,height=420');
+}
+function shareFB() {
+    const url = encodeURIComponent(window.location.href);
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=460');
+}
+function shareWA(text) {
+    window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(text + ' ' + window.location.href)}`, '_blank');
+}
+
+loadPlayerOfDay();
+</script>
+
 </body>
 </html>
