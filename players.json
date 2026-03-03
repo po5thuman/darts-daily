@@ -756,7 +756,7 @@
   {
     "id": 27,
     "name": "John Part",
-    "photo": "images/john-part.png",
+    "photo": "images/john-part.jpg",
     "nickname": "Darth Maple",
     "flag": "🇨🇦",
     "country": "Canada",
@@ -785,7 +785,7 @@
   {
     "id": 28,
     "name": "Tony O'Shea",
-    "photo": "images/tony-oshea.png",
+    "photo": "images/tony-oshea.jpeg",
     "nickname": "The Tornado",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
