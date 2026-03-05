@@ -1,5 +1,13 @@
 [
   {
+    "id": 7,
+    "name": "PDC UK Open",
+    "location": "Minehead, England",
+    "date_display": "7-9 March 2026",
+    "date_iso": "2026-04-07",
+    "tour": "PDC"
+  },
+  {
     "id": 1,
     "name": "PDC UK Open",
     "location": "Minehead, England",
