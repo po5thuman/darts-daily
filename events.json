@@ -1,58 +1,164 @@
 [
   {
-    "id": 7,
-    "name": "PDC Malta Open",
-    "location": "Luqa, Malta",
-    "date_display": "7-9 March 2026",
-    "date_iso": "2026-06-03",
-    "tour": "PDC"
-  },
-  {
     "id": 1,
-    "name": "PDC UK Open",
-    "location": "Minehead, England",
-    "date_display": "7-9 March 2026",
-    "date_iso": "2026-03-07",
-    "tour": "PDC"
+    "name": "2026 UK Open",
+    "location": "Butlins, Minehead, England",
+    "date_display": "Fri 06 Mar – Sun 08 Mar 2026",
+    "date_iso": "2026-03-06",
+    "tour": "PDC",
+    "icon": "🏆"
   },
   {
     "id": 2,
-    "name": "PDC European Tour - German Darts Open",
-    "location": "Hildesheim, Germany",
-    "date_display": "28-30 March 2026",
-    "date_iso": "2026-03-28",
-    "tour": "PDC"
+    "name": "2026 Premier League Night 6",
+    "location": "Motorpoint Arena, Nottingham, England",
+    "date_display": "Thu 12 Mar 2026",
+    "date_iso": "2026-03-12",
+    "tour": "PDC Premier League",
+    "icon": "⭐"
   },
   {
     "id": 3,
-    "name": "PDC Premier League Darts",
-    "location": "Various UK Venues",
-    "date_display": "March - May 2026",
+    "name": "2026 ET2 - European Darts Trophy",
+    "location": "Lokhalle, Göttingen, Germany",
+    "date_display": "Fri 13 Mar – Sun 15 Mar 2026",
     "date_iso": "2026-03-13",
-    "tour": "PDC"
+    "tour": "PDC European Tour",
+    "icon": "🌍"
   },
   {
     "id": 4,
-    "name": "PDC World Series - US Darts Masters",
-    "location": "Las Vegas, USA",
-    "date_display": "June 2026",
-    "date_iso": "2026-06-06",
-    "tour": "PDC"
+    "name": "2026 Premier League Night 7",
+    "location": "3Arena, Dublin, Ireland",
+    "date_display": "Thu 19 Mar 2026",
+    "date_iso": "2026-03-19",
+    "tour": "PDC Premier League",
+    "icon": "⭐"
   },
   {
     "id": 5,
-    "name": "PDC Grand Slam of Darts",
-    "location": "Wolverhampton, England",
-    "date_display": "November 2026",
-    "date_iso": "2026-11-08",
-    "tour": "PDC"
+    "name": "2026 ET3 - Belgian Darts Open",
+    "location": "Oktoberhallen, Wieze, Belgium",
+    "date_display": "Fri 20 Mar – Sun 22 Mar 2026",
+    "date_iso": "2026-03-20",
+    "tour": "PDC European Tour",
+    "icon": "🇧🇪"
   },
   {
     "id": 6,
-    "name": "PDC World Darts Championship",
-    "location": "Alexandra Palace, London",
-    "date_display": "19 Dec 2026 - 3 Jan 2026",
-    "date_iso": "2026-12-19",
-    "tour": "PDC"
+    "name": "2026 Premier League Night 8",
+    "location": "Uber Arena, Berlin, Germany",
+    "date_display": "Thu 26 Mar 2026",
+    "date_iso": "2026-03-26",
+    "tour": "PDC Premier League",
+    "icon": "⭐"
+  },
+  {
+    "id": 7,
+    "name": "2026 Players Championship 7",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Mon 30 Mar 2026",
+    "date_iso": "2026-03-30",
+    "tour": "PDC Players Championship",
+    "icon": "🎯"
+  },
+  {
+    "id": 8,
+    "name": "2026 Players Championship 8",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Tue 31 Mar 2026",
+    "date_iso": "2026-03-31",
+    "tour": "PDC Players Championship",
+    "icon": "🎯"
+  },
+  {
+    "id": 9,
+    "name": "2026 Premier League Night 9",
+    "location": "AO Arena, Manchester, England",
+    "date_display": "Thu 02 Apr 2026",
+    "date_iso": "2026-04-02",
+    "tour": "PDC Premier League",
+    "icon": "⭐"
+  },
+  {
+    "id": 10,
+    "name": "2026 ET4 - German Darts Grand Prix",
+    "location": "Zenith, Munich, Germany",
+    "date_display": "Sat 04 Apr – Mon 06 Apr 2026",
+    "date_iso": "2026-04-04",
+    "tour": "PDC European Tour",
+    "icon": "🇩🇪"
+  },
+  {
+    "id": 11,
+    "name": "2026 Premier League Night 10",
+    "location": "Brighton Centre, Brighton, England",
+    "date_display": "Thu 09 Apr 2026",
+    "date_iso": "2026-04-09",
+    "tour": "PDC Premier League",
+    "icon": "⭐"
+  },
+  {
+    "id": 12,
+    "name": "2026 Players Championship 9",
+    "location": "Robin Park Tennis Centre, Wigan, England",
+    "date_display": "Mon 13 Apr 2026",
+    "date_iso": "2026-04-13",
+    "tour": "PDC Players Championship",
+    "icon": "🎯"
+  },
+  {
+    "id": 13,
+    "name": "2026 Players Championship 10",
+    "location": "Robin Park Tennis Centre, Wigan, England",
+    "date_display": "Tue 14 Apr 2026",
+    "date_iso": "2026-04-14",
+    "tour": "PDC Players Championship",
+    "icon": "🎯"
+  },
+  {
+    "id": 14,
+    "name": "2026 Premier League Night 11",
+    "location": "Ahoy Arena, Rotterdam, Netherlands",
+    "date_display": "Thu 16 Apr 2026",
+    "date_iso": "2026-04-16",
+    "tour": "PDC Premier League",
+    "icon": "⭐"
+  },
+  {
+    "id": 15,
+    "name": "2026 ET5 - European Darts Grand Prix",
+    "location": "Glaspalast, Sindelfingen, Germany",
+    "date_display": "Fri 17 Apr – Sun 19 Apr 2026",
+    "date_iso": "2026-04-17",
+    "tour": "PDC European Tour",
+    "icon": "🇩🇪"
+  },
+  {
+    "id": 16,
+    "name": "2026 Premier League Night 12",
+    "location": "M&S Bank Arena, Liverpool, England",
+    "date_display": "Thu 23 Apr 2026",
+    "date_iso": "2026-04-23",
+    "tour": "PDC Premier League",
+    "icon": "⭐"
+  },
+  {
+    "id": 17,
+    "name": "2026 Players Championship 11",
+    "location": "Arena MK, Milton Keynes, England",
+    "date_display": "Mon 27 Apr 2026",
+    "date_iso": "2026-04-27",
+    "tour": "PDC Players Championship",
+    "icon": "🎯"
+  },
+  {
+    "id": 18,
+    "name": "2026 Players Championship 12",
+    "location": "Arena MK, Milton Keynes, England",
+    "date_display": "Tue 28 Apr 2026",
+    "date_iso": "2026-04-28",
+    "tour": "PDC Players Championship",
+    "icon": "🎯"
   }
 ]
