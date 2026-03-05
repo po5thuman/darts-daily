@@ -122,6 +122,9 @@
         .news-title { font-size: 0.83rem; font-weight: 500; color: var(--text); margin-bottom: 4px; line-height: 1.4; }
         .news-meta { font-size: 0.71rem; color: var(--muted); }
         .news-source { color: var(--accent); font-weight: 500; }
+        .event-bottom-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+        .ticket-btn { display: inline-flex; align-items: center; gap: 5px; background: transparent; border: 1px solid var(--accent); color: var(--accent); padding: 3px 10px; border-radius: 4px; font-size: 0.68rem; font-weight: 600; font-family: 'Inter', sans-serif; text-decoration: none; letter-spacing: 0.5px; transition: all 0.15s; white-space: nowrap; }
+        .ticket-btn:hover { background: var(--accent); color: var(--bg); }
         .event-item { display: flex; gap: 14px; align-items: flex-start; padding: 13px 0; border-bottom: 1px solid var(--border); }
         .event-item:last-child { border-bottom: none; padding-bottom: 0; }
         .event-item:first-child { padding-top: 0; }
@@ -569,32 +572,29 @@
     }
     loadLatestNews();
 
-    async function loadUpcomingEvents() {
-        try {
-            const res = await fetch("events.json");
-            const events = await res.json();
-            const today = new Date();
-            today.setHours(0,0,0,0);
-            const upcoming = events.filter(function(e) { return new Date(e.date_iso) >= today; }).slice(0, 6);
-            if (upcoming.length === 0) {
-                document.getElementById("events-loading").textContent = "No upcoming events found.";
-                return;
-            }
-            document.getElementById("events-list").innerHTML = upcoming.map(function(e) {
-                const d = new Date(e.date_iso);
-                const day = d.getDate();
-                const month = d.toLocaleString("default", { month: "short" }).toUpperCase();
-                const badgeClass = e.tour ? e.tour.toLowerCase() : "pdc";
-                return "<div class=\"event-item\"><div class=\"event-date-box\"><div class=\"event-date-day\">" + day + "</div><div class=\"event-date-month\">" + month + "</div></div><div class=\"event-info\"><div class=\"event-name\">" + e.name + "</div><div class=\"event-meta\"><span>&#127759; " + e.location + "</span><span>&#128197; " + e.date_display + "</span></div><span class=\"event-badge " + badgeClass + "\">" + (e.tour || "PDC") + "</span></div></div>";
-            }).join("");
-            document.getElementById("events-loading").style.display = "none";
-            document.getElementById("events-content").style.display = "block";
-        } catch (err) {
-            document.getElementById("events-loading").textContent = "Error loading events.";
-            console.error(err);
-        }
-    }
-    loadUpcomingEvents();
+document.getElementById('events-list').innerHTML = upcoming.map((event, index) => `
+    <div class="event-item" style="${index === 0 ? 'padding-top:0;' : ''}">
+        <div class="event-date-box">
+            <div class="event-day">${new Date(event.date_iso).getDate()}</div>
+            <div class="event-month">${new Date(event.date_iso).toLocaleString('en-GB', { month: 'short' }).toUpperCase()}</div>
+        </div>
+        <div class="event-details">
+            <div class="event-name">${event.name}</div>
+            <div class="event-meta">
+                <span class="event-location">${event.icon} ${event.location}</span>
+                &nbsp;·&nbsp;
+                <span class="event-date">📅 ${event.date_display}</span>
+            </div>
+            <div class="event-bottom-row">
+                <span class="event-tour">${event.tour.toUpperCase()}</span>
+                ${event.ticket_url ? `
+                <a href="${event.ticket_url}" target="_blank" rel="noopener noreferrer" class="ticket-btn">
+                    🎟️ Buy Tickets
+                </a>` : ''}
+            </div>
+        </div>
+    </div>
+`).join('');
 </script>
 
 </body>
