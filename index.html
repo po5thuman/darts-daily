@@ -562,8 +562,8 @@
             const news = await res.json();
             const latest = news.slice(0, 4);
             document.getElementById("news-list").innerHTML = latest.map(function(item, index) {
-                return "<div class=\"news-item\" style=\"" + (index === 0 ? "padding-top:0;" : "") + "\"><div class=\"news-icon\">" + item.icon + "</div><div><div class=\"news-title\"><a href=\"" + item.url + "\" target=\"_blank\" style=\"color:var(--text);text-decoration:none;\">" + item.title + "</a></div><div class=\"news-meta\"><span class=\"news-source\">" + item.source + "</span></div></div></div>";
-                // return "<div class=\"news-item\" style=\"" + (index === 0 ? "padding-top:0;" : "") + "\"><div class=\"news-icon\">" + item.icon + "</div><div><div class=\"news-title\"><a href=\"" + item.url + "\" target=\"_blank\" style=\"color:var(--text);text-decoration:none;\">" + item.title + "</a></div><div class=\"news-meta\"><span class=\"news-source\">" + item.source + "</span> &nbsp;&#183;&nbsp; " + item.time + "</div></div></div>";
+                //return "<div class=\"news-item\" style=\"" + (index === 0 ? "padding-top:0;" : "") + "\"><div class=\"news-icon\">" + item.icon + "</div><div><div class=\"news-title\"><a href=\"" + item.url + "\" target=\"_blank\" style=\"color:var(--text);text-decoration:none;\">" + item.title + "</a></div><div class=\"news-meta\"><span class=\"news-source\">" + item.source + "</span></div></div></div>";
+                return "<div class=\"news-item\" style=\"" + (index === 0 ? "padding-top:0;" : "") + "\"><div class=\"news-icon\">" + item.icon + "</div><div><div class=\"news-title\"><a href=\"" + item.url + "\" target=\"_blank\" style=\"color:var(--text);text-decoration:none;\">" + item.title + "</a></div><div class=\"news-meta\"><span class=\"news-source\">" + item.source + "</span> &nbsp;&#183;&nbsp; " + item.time + "</div></div></div>";
             }).join("");
             document.getElementById("news-loading").style.display = "none";
             document.getElementById("news-content").style.display = "block";
