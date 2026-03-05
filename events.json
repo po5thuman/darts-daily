@@ -16,7 +16,7 @@
     "date_display": "Thu 12 Mar 2026",
     "date_iso": "2026-03-12",
     "tour": "PDC Premier League",
-    "icon": "⭐"    
+    "icon": "⭐"
   },
   {
     "id": 3,
@@ -169,5 +169,495 @@
     "date_iso": "2026-04-28",
     "tour": "PDC Players Championship",
     "icon": "🎯"
+  },
+  {
+    "id": 19,
+    "name": "2026 Premier League Night 13",
+    "location": "P & J Live, Aberdeen, Scotland",
+    "date_display": "Thu 30 Apr 2026",
+    "date_iso": "2026-04-30",
+    "tour": "PDC Premier League",
+    "icon": "⭐",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 20,
+    "name": "2026 Players Championship 13",
+    "location": "Halle 39, Hildesheim, Germany",
+    "date_display": "Mon 04 May 2026",
+    "date_iso": "2026-05-04",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 21,
+    "name": "2026 Players Championship 14",
+    "location": "Halle 39, Hildesheim, Germany",
+    "date_display": "Tue 05 May 2026",
+    "date_iso": "2026-05-05",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 22,
+    "name": "2026 Premier League Night 14",
+    "location": "First Direct Arena, Leeds, England",
+    "date_display": "Thu 07 May 2026",
+    "date_iso": "2026-05-07",
+    "tour": "PDC Premier League",
+    "icon": "⭐",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 23,
+    "name": "2026 ET6 - Austrian Darts Open",
+    "location": "Stadthalle, Austria",
+    "date_display": "Fri 08 May – Sun 10 May 2026",
+    "date_iso": "2026-05-08",
+    "tour": "PDC European Tour",
+    "icon": "🇦🇹",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 24,
+    "name": "2026 Players Championship 15",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Tue 12 May 2026",
+    "date_iso": "2026-05-12",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 25,
+    "name": "2026 Players Championship 16",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Wed 13 May 2026",
+    "date_iso": "2026-05-13",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 26,
+    "name": "2026 Premier League Night 15",
+    "location": "Utilita Arena, Birmingham, England",
+    "date_display": "Thu 14 May 2026",
+    "date_iso": "2026-05-14",
+    "tour": "PDC Premier League",
+    "icon": "⭐",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 27,
+    "name": "2026 Players Championship 17",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Mon 18 May 2026",
+    "date_iso": "2026-05-18",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 28,
+    "name": "2026 Players Championship 18",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Tue 19 May 2026",
+    "date_iso": "2026-05-19",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 29,
+    "name": "2026 Premier League Night 16",
+    "location": "Utilita Arena, Sheffield, England",
+    "date_display": "Thu 21 May 2026",
+    "date_iso": "2026-05-21",
+    "tour": "PDC Premier League",
+    "icon": "⭐",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 30,
+    "name": "2026 ET7 - International Darts Open",
+    "location": "WT Energiesysteme Arena, Germany",
+    "date_display": "Fri 22 May – Sun 24 May 2026",
+    "date_iso": "2026-05-22",
+    "tour": "PDC European Tour",
+    "icon": "🌍",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 31,
+    "name": "2026 Premier League Finals",
+    "location": "The O2, London, England",
+    "date_display": "Thu 28 May 2026",
+    "date_iso": "2026-05-28",
+    "tour": "PDC Premier League",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 32,
+    "name": "2026 ET8 - Baltic Sea Darts Open",
+    "location": "Wunderino Arena Europaplatz, Germany",
+    "date_display": "Fri 29 May – Sun 31 May 2026",
+    "date_iso": "2026-05-29",
+    "tour": "PDC European Tour",
+    "icon": "🌍",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 33,
+    "name": "2026 Players Championship 19",
+    "location": "Arena MK, Milton Keynes, England",
+    "date_display": "Tue 02 Jun 2026",
+    "date_iso": "2026-06-02",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 34,
+    "name": "2026 Players Championship 20",
+    "location": "Arena MK, Milton Keynes, England",
+    "date_display": "Wed 03 Jun 2026",
+    "date_iso": "2026-06-03",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 35,
+    "name": "2026 Nordic Darts Masters",
+    "location": "Forum, Copenhagen, Denmark",
+    "date_display": "Fri 05 Jun – Sat 06 Jun 2026",
+    "date_iso": "2026-06-05",
+    "tour": "PDC World Series",
+    "icon": "🇩🇰",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 36,
+    "name": "2026 World Cup of Darts",
+    "location": "Eissporthalle Frankfurt, Germany",
+    "date_display": "Thu 11 Jun – Sun 14 Jun 2026",
+    "date_iso": "2026-06-11",
+    "tour": "PDC World Cup",
+    "icon": "🌍",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 37,
+    "name": "2026 Players Championship 21",
+    "location": "Robin Park Tennis Centre, Wigan, England",
+    "date_display": "Tue 16 Jun 2026",
+    "date_iso": "2026-06-16",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 38,
+    "name": "2026 Players Championship 22",
+    "location": "Robin Park Tennis Centre, Wigan, England",
+    "date_display": "Wed 17 Jun 2026",
+    "date_iso": "2026-06-17",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 39,
+    "name": "2026 ET9 - Slovak Darts Open",
+    "location": "Incheba Expo, Slovakia",
+    "date_display": "Fri 19 Jun – Sun 21 Jun 2026",
+    "date_iso": "2026-06-19",
+    "tour": "PDC European Tour",
+    "icon": "🇸🇰",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 40,
+    "name": "2026 US Darts Masters",
+    "location": "Madison Square Garden, New York, USA",
+    "date_display": "Thu 25 Jun – Fri 26 Jun 2026",
+    "date_iso": "2026-06-25",
+    "tour": "PDC World Series",
+    "icon": "🇺🇸",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 41,
+    "name": "2026 Players Championship 23",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Mon 06 Jul 2026",
+    "date_iso": "2026-07-06",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 42,
+    "name": "2026 Players Championship 24",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Tue 07 Jul 2026",
+    "date_iso": "2026-07-07",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 43,
+    "name": "2026 ET10 - European Darts Open",
+    "location": "Ostermann-Arena, Leverkusen, Germany",
+    "date_display": "Fri 10 Jul – Sun 12 Jul 2026",
+    "date_iso": "2026-07-10",
+    "tour": "PDC European Tour",
+    "icon": "🇩🇪",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 44,
+    "name": "2026 World Matchplay",
+    "location": "Winter Gardens, Blackpool, England",
+    "date_display": "Sat 18 Jul – Sun 26 Jul 2026",
+    "date_iso": "2026-07-18",
+    "tour": "PDC",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 45,
+    "name": "2026 Players Championship 25",
+    "location": "Halle 39, Hildesheim, Germany",
+    "date_display": "Tue 28 Jul 2026",
+    "date_iso": "2026-07-28",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 46,
+    "name": "2026 Players Championship 26",
+    "location": "Halle 39, Hildesheim, Germany",
+    "date_display": "Wed 29 Jul 2026",
+    "date_iso": "2026-07-29",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 47,
+    "name": "2026 New Zealand Darts Masters",
+    "location": "Spark Arena, New Zealand",
+    "date_display": "Fri 14 Aug – Sat 15 Aug 2026",
+    "date_iso": "2026-08-14",
+    "tour": "PDC World Series",
+    "icon": "🇳🇿",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 48,
+    "name": "2026 Australian Darts Masters",
+    "location": "WIN Entertainment Centre, Wollongong, Australia",
+    "date_display": "Fri 21 Aug – Sat 22 Aug 2026",
+    "date_iso": "2026-08-21",
+    "tour": "PDC World Series",
+    "icon": "🇦🇺",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 49,
+    "name": "2026 Players Championship 27",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Tue 25 Aug 2026",
+    "date_iso": "2026-08-25",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 50,
+    "name": "2026 Players Championship 28",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Wed 26 Aug 2026",
+    "date_iso": "2026-08-26",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 51,
+    "name": "2026 ET11 - Hungarian Darts Trophy",
+    "location": "SYMA Dome, Hungary",
+    "date_display": "Fri 28 Aug – Sun 30 Aug 2026",
+    "date_iso": "2026-08-28",
+    "tour": "PDC European Tour",
+    "icon": "🇭🇺",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 52,
+    "name": "2026 ET12 - Czech Darts Open",
+    "location": "PVA Expo, Prague, Czech Republic",
+    "date_display": "Fri 04 Sep – Sun 06 Sep 2026",
+    "date_iso": "2026-09-04",
+    "tour": "PDC European Tour",
+    "icon": "🇨🇿",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 53,
+    "name": "2026 ET13 - Flanders Darts Trophy",
+    "location": "Antwerp Xpo, Belgium",
+    "date_display": "Fri 11 Sep – Sun 13 Sep 2026",
+    "date_iso": "2026-09-11",
+    "tour": "PDC European Tour",
+    "icon": "🇧🇪",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 54,
+    "name": "2026 World Series of Darts Finals",
+    "location": "AFAS Live, Amsterdam, Netherlands",
+    "date_display": "Thu 17 Sep – Sun 20 Sep 2026",
+    "date_iso": "2026-09-17",
+    "tour": "PDC World Series",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 55,
+    "name": "2026 Players Championship 29",
+    "location": "Fleetwood, England",
+    "date_display": "Tue 22 Sep 2026",
+    "date_iso": "2026-09-22",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 56,
+    "name": "2026 Players Championship 30",
+    "location": "Fleetwood, England",
+    "date_display": "Wed 23 Sep 2026",
+    "date_iso": "2026-09-23",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 57,
+    "name": "2026 World Grand Prix",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Mon 28 Sep – Sun 04 Oct 2026",
+    "date_iso": "2026-09-28",
+    "tour": "PDC",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 58,
+    "name": "2026 ET14 - Swiss Darts Trophy",
+    "location": "St. Jakobshalle, Switzerland",
+    "date_display": "Fri 09 Oct – Sun 11 Oct 2026",
+    "date_iso": "2026-10-09",
+    "tour": "PDC European Tour",
+    "icon": "🇨🇭",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 59,
+    "name": "2026 ET15 - Dutch Darts Championship",
+    "location": "MECC, Maastricht, Netherlands",
+    "date_display": "Fri 16 Oct – Sun 18 Oct 2026",
+    "date_iso": "2026-10-16",
+    "tour": "PDC European Tour",
+    "icon": "🇳🇱",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 60,
+    "name": "2026 European Championship",
+    "location": "Westfalenhalle, Dortmund, Germany",
+    "date_display": "Thu 22 Oct – Sun 25 Oct 2026",
+    "date_iso": "2026-10-22",
+    "tour": "PDC European Tour",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 61,
+    "name": "2026 Players Championship 31",
+    "location": "Fleetwood, England",
+    "date_display": "Wed 28 Oct 2026",
+    "date_iso": "2026-10-28",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 62,
+    "name": "2026 Players Championship 32",
+    "location": "Fleetwood, England",
+    "date_display": "Thu 29 Oct 2026",
+    "date_iso": "2026-10-29",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 63,
+    "name": "2026 Players Championship 33",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Wed 04 Nov 2026",
+    "date_iso": "2026-11-04",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 64,
+    "name": "2026 Players Championship 34",
+    "location": "Mattioli Arena, Leicester, England",
+    "date_display": "Thu 05 Nov 2026",
+    "date_iso": "2026-11-05",
+    "tour": "PDC Players Championship",
+    "icon": "🎯",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 65,
+    "name": "2026 Grand Slam of Darts",
+    "location": "Aldersley Leisure Village, Wolverhampton, England",
+    "date_display": "Sat 14 Nov – Sun 22 Nov 2026",
+    "date_iso": "2026-11-14",
+    "tour": "PDC",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 66,
+    "name": "2026 Players Championship Finals",
+    "location": "Butlins, Minehead, England",
+    "date_display": "Fri 27 Nov – Sun 29 Nov 2026",
+    "date_iso": "2026-11-27",
+    "tour": "PDC Players Championship",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+  },
+  {
+    "id": 67,
+    "name": "2027 World Championship",
+    "location": "Alexandra Palace, London, England",
+    "date_display": "Thu 10 Dec 2026 – Sun 03 Jan 2027",
+    "date_iso": "2026-12-10",
+    "tour": "PDC",
+    "icon": "🏆",
+    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
   }
 ]
