@@ -1015,6 +1015,7 @@
             <script>
             fetch("https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/takel")
             </script>
+ 
             <!-- NEW CODE ENDS HERE -->
             <style>
 
@@ -1133,12 +1134,18 @@ body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.pr
     function shareFB() { window.open("https://www.facebook.com/sharer/sharer.php?u=" + pageURL, "_blank", "width=600,height=460"); }
     function shareWA(text) { window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text + " " + window.location.href), "_blank"); }
 
-    function subscribeNewsletter() {
-        const input = document.getElementById("emailInput");
-        if (!input.value || !input.value.includes("@")) { alert("Please enter a valid email address."); return; }
-        alert("You are subscribed! Welcome to DartsDaily.");
-        input.value = "";
-    }
+function subscribeNewsletter() {
+    const input = document.getElementById("emailInput");
+    if (!input.value || !input.value.includes("@")) { alert("Please enter a valid email address."); return; }
+    alert("You are subscribed! Welcome to DartsDaily.");
+    input.value = "";
+}
+
+function ml_webform_success_38186798() {
+    var $ = ml_jQuery || jQuery;
+    $('.ml-subscribe-form-38186798 .row-success').show();
+    $('.ml-subscribe-form-38186798 .row-form').hide();
+}
 
     const start = new Date(now.getFullYear(), 0, 0);
     const dayOfYear = Math.floor((now - start) / 86400000);
