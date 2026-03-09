@@ -426,8 +426,7 @@
             <div class="section-title">Get DartsDaily in your inbox</div>
             <p class="newsletter-desc">Player of the Day, Trivia, Stat and the best gear deal -- delivered every morning. Free, no spam, unsubscribe anytime.</p>
             <div class="newsletter-form">
-                <!-- <input type="email" class="newsletter-input" placeholder="your@email.com" id="emailInput"> -->
-                <div class="ml-embedded" data-form="cLdnSP"></div>
+                <input type="email" class="newsletter-input" placeholder="your@email.com" id="emailInput">
                 <button class="btn-newsletter" onclick="subscribeNewsletter()">Subscribe</button>
             </div>
             <p class="newsletter-sub">&#128235; Join 3,400+ darts fans -- no spam, ever.</p>
@@ -790,6 +789,43 @@ document.addEventListener("keydown", function(e) {
 
 //-- End MailerLite Universal -->
 
+
+// ─── NEWSLETTER ──────────────────────────────────────────────
+document.getElementById("newsletter-form").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const email = document.getElementById("newsletter-email").value;
+    const msg   = document.getElementById("newsletter-msg");
+    const btn   = this.querySelector("button");
+
+    // Loading state
+    btn.textContent = "Subscribing...";
+    btn.style.opacity = "0.7";
+
+    try {
+        await fetch("https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/subscribe", {
+            method: "POST",
+            mode: "no-cors",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: `fields[email]=${encodeURIComponent(email)}&ml-submit=1&anticsrf=true`
+        });
+
+        // Success
+        document.getElementById("newsletter-form").style.display = "none";
+        msg.textContent = "✅ You're in! Welcome to Darts Daily 🎯";
+        msg.style.color = "var(--green)";
+        msg.style.fontSize = "0.9rem";
+
+    } catch(err) {
+        // Error
+        btn.textContent = "Subscribe";
+        btn.style.opacity = "1";
+        msg.textContent = "❌ Something went wrong. Please try again.";
+        msg.style.color = "var(--red)";
+    }
+});
+
+    
 </script>
 
 </body>
