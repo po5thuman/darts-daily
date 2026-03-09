@@ -219,74 +219,97 @@
 
     <div class="container">
 
-        <!-- PLAYER OF THE DAY -->
-        <div class="card">
-            <div class="card-eyebrow">Player of the Day</div>
-            <div id="player-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's player...</div>
-            <div id="player-content" style="display:none;">
-                <div class="player-header">
-                    <div class="player-avatar" id="p-avatar"></div>
-                    <div>
-                        <div class="player-name" id="p-name"></div>
-                        <div class="player-nickname" id="p-nickname"></div>
-                        <div class="player-tags" id="p-tags"></div>
-                    </div>
-                </div>
-                <div class="player-info-grid" id="p-info-grid"></div>
-                <div class="highlights-list">
-                    <div class="highlights-title">Career Highlights</div>
-                    <div id="p-highlights"></div>
-                </div>
-                <div class="quote-block" id="p-quote"></div>
-                <div class="fun-fact-block">
-                    <div class="fun-fact-label">&#128161; Did You Know?</div>
-                    <div id="p-funfact"></div>
-                </div>
-                <p class="player-bio" id="p-bio"></p>
-                <div class="share-row">
-                    <button class="share-btn x" id="p-share-x">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn fb" onclick="shareFB()">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn wa" id="p-share-wa">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                        Share
-                    </button>
+<!-- PLAYER OF THE DAY -->
+<div class="card">
+    <div class="card-eyebrow">Player of the Day</div>
+    <div id="player-loading" style="display:none;"></div>
+    <div id="player-content">
+        <div class="player-header">
+            <div class="player-avatar" id="p-avatar">🎯</div>
+            <div>
+                <div class="player-name" id="p-name">Phil Taylor <span class="status-badge status-retired">Retired</span></div>
+                <div class="player-nickname" id="p-nickname">"The Power"</div>
+                <div class="player-tags" id="p-tags">
+                    <span class="tag">England</span>
+                    <span class="tag">Legend</span>
+                    <span class="tag">PDC</span>
                 </div>
             </div>
         </div>
+        <div class="player-info-grid" id="p-info-grid">
+            <div class="info-row"><div class="info-label">Born</div><div class="info-value">13 Aug 1960</div></div>
+            <div class="info-row"><div class="info-label">Hometown</div><div class="info-value">Stoke-on-Trent</div></div>
+            <div class="info-row"><div class="info-label">Pro Since</div><div class="info-value">1988</div></div>
+            <div class="info-row"><div class="info-label">Retired</div><div class="info-value">2018</div></div>
+            <div class="info-row"><div class="info-label">Dart Weight</div><div class="info-value">26g</div></div>
+            <div class="info-row"><div class="info-label">Dart Brand</div><div class="info-value">Target Darts</div></div>
+            <div class="info-row"><div class="info-label">Walk-on</div><div class="info-value">Simply the Best</div></div>
+            <div class="info-row"><div class="info-label">Style</div><div class="info-value">Front dart, pencil grip</div></div>
+        </div>
+        <div class="highlights-list">
+            <div class="highlights-title">Career Highlights</div>
+            <div id="p-highlights">
+                <div class="highlight-item"><div class="highlight-dot"></div><div>16 World Championship titles (1995–2013)</div></div>
+                <div class="highlight-item"><div class="highlight-dot"></div><div>First player to hit a televised nine-dart finish (1990)</div></div>
+                <div class="highlight-item"><div class="highlight-dot"></div><div>Record 85 PDC ranking titles</div></div>
+                <div class="highlight-item"><div class="highlight-dot"></div><div>Premier League Darts champion 6 times</div></div>
+            </div>
+        </div>
+        <div class="quote-block" id="p-quote"><span>"I just wanted to be the best. Every single day."</span><br><small>-- Phil Taylor</small></div>
+        <div class="fun-fact-block">
+            <div class="fun-fact-label">💡 Did You Know?</div>
+            <div id="p-funfact">Phil Taylor started playing darts at age 28 after being given a set by his future sponsor Eric Bristow. Just two years later he won his first World Championship.</div>
+        </div>
+        <p class="player-bio" id="p-bio">Phil Taylor is widely regarded as the greatest darts player of all time. Nicknamed "The Power", he dominated the sport for three decades, winning 16 World Championship titles and amassing a record 85 PDC ranking event victories. His consistency, mental strength and competitive drive set a standard that the sport has never seen before or since.</p>
+        <div class="share-row">
+            <button class="share-btn x" id="p-share-x" onclick="shareX('Today\'s Player of the Day on DartsDaily: Phil Taylor — The Power! 🎯')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                Share
+            </button>
+            <button class="share-btn fb" onclick="shareFB()">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Share
+            </button>
+            <button class="share-btn wa" id="p-share-wa" onclick="shareWA('Today\'s Player of the Day on DartsDaily: Phil Taylor — The Power! 🎯')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Share
+            </button>
+        </div>
+    </div>
+</div>
 
-        <!-- TRIVIA OF THE DAY -->
-        <div class="card">
-            <div class="card-eyebrow">Trivia of the Day</div>
-            <div id="trivia-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's trivia...</div>
-            <div id="trivia-content" style="display:none;">
-                <div class="section-title">Daily Question</div>
-                <div class="section-sub">One question. Do you know your darts?</div>
-                <p class="trivia-q" id="t-question"></p>
-                <div class="trivia-options" id="t-options"></div>
-                <div class="trivia-result" id="triviaResult"><span id="t-explanation"></span></div>
-                <div class="trivia-footer" style="margin-bottom:14px;"><span id="triviaPlayers">1,247</span> people answered today</div>
-                <div class="share-row">
-                    <button class="share-btn x" id="t-share-x">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn fb" onclick="shareFB()">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn wa" id="t-share-wa">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                        Share
-                    </button>
-                </div>
-            </div>
+<!-- TRIVIA OF THE DAY -->
+<div class="card">
+    <div class="card-eyebrow">Trivia of the Day</div>
+    <div id="trivia-loading" style="display:none;"></div>
+    <div id="trivia-content">
+        <div class="section-title">Daily Question</div>
+        <div class="section-sub">One question. Do you know your darts?</div>
+        <p class="trivia-q" id="t-question">How many World Championship titles did Phil Taylor win during his career?</p>
+        <div class="trivia-options" id="t-options">
+            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 0, 2)">A) 10</button>
+            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 1, 2)">B) 14</button>
+            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 2, 2)">C) 16</button>
+            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 3, 2)">D) 18</button>
         </div>
+        <div class="trivia-result" id="triviaResult"><span id="t-explanation">Phil Taylor won 16 World Championship titles — 2 with the BDO and 14 with the PDC — making him the most decorated darts player of all time.</span></div>
+        <div class="trivia-footer" style="margin-bottom:14px;"><span id="triviaPlayers">1,247</span> people answered today</div>
+        <div class="share-row">
+            <button class="share-btn x" id="t-share-x" onclick="shareX('Can you answer today\'s darts trivia on DartsDaily? 🎯')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                Share
+            </button>
+            <button class="share-btn fb" onclick="shareFB()">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Share
+            </button>
+            <button class="share-btn wa" id="t-share-wa" onclick="shareWA('Can you answer today\'s darts trivia on DartsDaily? 🎯')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Share
+            </button>
+        </div>
+    </div>
+</div>
 
         <!-- PRODUCT OF THE DAY -->
         <div class="card">
@@ -308,73 +331,143 @@
             <p class="affiliate-note">* Affiliate links -- we earn a small commission at no extra cost to you.</p>
         </div>
 
-        <!-- STAT OF THE DAY -->
-        <div class="card">
-            <div class="card-eyebrow">Stat of the Day</div>
-            <div id="stat-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's stat...</div>
-            <div id="stat-content" style="display:none;">
-                <div class="stat-display">
-                    <div class="stat-number" id="s-number"></div>
-                    <div class="stat-context" id="s-stat"></div>
-                </div>
-                <div class="share-row">
-                    <button class="share-btn x" id="s-share-x">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn fb" onclick="shareFB()">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn wa" id="s-share-wa">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                        Share
-                    </button>
-                </div>
-            </div>
+<!-- STAT OF THE DAY -->
+<div class="card">
+    <div class="card-eyebrow">Stat of the Day</div>
+    <div id="stat-loading" style="display:none;"></div>
+    <div id="stat-content">
+        <div class="stat-display">
+            <div class="stat-number" id="s-number">16</div>
+            <div class="stat-context" id="s-stat">World Championship titles won by <strong>Phil Taylor</strong> — more than any other player in the history of professional darts.</div>
         </div>
+        <div class="share-row">
+            <button class="share-btn x" id="s-share-x" onclick="shareX('Did you know? Phil Taylor won 16 World Championship titles! 🎯 DartsDaily')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                Share
+            </button>
+            <button class="share-btn fb" onclick="shareFB()">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Share
+            </button>
+            <button class="share-btn wa" id="s-share-wa" onclick="shareWA('Did you know? Phil Taylor won 16 World Championship titles! 🎯 DartsDaily')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Share
+            </button>
+        </div>
+    </div>
+</div>
 
-        <!-- THIS DAY IN HISTORY -->
-        <div class="card">
-            <div class="card-eyebrow">This Day in History</div>
-            <div id="history-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's history...</div>
-            <div id="history-content" style="display:none;">
-                <div class="history-year" id="h-year"></div>
-                <div class="history-body" id="h-story"></div>
-                <div class="share-row">
-                    <button class="share-btn x" id="h-share-x">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn fb" onclick="shareFB()">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                        Share
-                    </button>
-                    <button class="share-btn wa" id="h-share-wa">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                        Share
-                    </button>
+<!-- THIS DAY IN HISTORY -->
+<div class="card">
+    <div class="card-eyebrow">This Day in History</div>
+    <div id="history-loading" style="display:none;"></div>
+    <div id="history-content">
+        <div class="history-year" id="h-year">2007</div>
+        <div class="history-body" id="h-story"><strong>Phil Taylor</strong> defeated Raymond van Barneveld 7–6 in one of the greatest World Championship finals ever played at Alexandra Palace. Van Barneveld came back from 3–0 down to level the match before Taylor held his nerve in a deciding set — a match widely regarded as the finest in darts history.</div>
+        <div class="share-row">
+            <button class="share-btn x" id="h-share-x" onclick="shareX('On this day in darts history — 2007: Taylor vs Van Barneveld, the greatest final ever! 🎯 DartsDaily')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                Share
+            </button>
+            <button class="share-btn fb" onclick="shareFB()">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Share
+            </button>
+            <button class="share-btn wa" id="h-share-wa" onclick="shareWA('On this day in darts history — 2007: Taylor vs Van Barneveld, the greatest final ever! 🎯 DartsDaily')">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Share
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- LATEST NEWS -->
+<div class="card">
+    <div class="card-eyebrow">Latest News</div>
+    <div id="news-loading" style="display:none;"></div>
+    <div id="news-content">
+        <div id="news-list">
+            <div class="news-item" style="padding-top:0;">
+                <div class="news-icon">🎯</div>
+                <div>
+                    <div class="news-title">Luke Littler continues dominant PDC Premier League campaign</div>
+                    <div class="news-meta"><span class="news-source">PDC</span> &nbsp;·&nbsp; Today</div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-icon">🏆</div>
+                <div>
+                    <div class="news-title">Michael van Gerwen eyes record-breaking European Tour season</div>
+                    <div class="news-meta"><span class="news-source">Darts World</span> &nbsp;·&nbsp; Today</div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-icon">📺</div>
+                <div>
+                    <div class="news-title">Sky Sports confirms expanded darts broadcast schedule for 2026</div>
+                    <div class="news-meta"><span class="news-source">Sky Sports</span> &nbsp;·&nbsp; Yesterday</div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-icon">⭐</div>
+                <div>
+                    <div class="news-title">Fallon Sherrock reaches WDF World Championship quarter-finals</div>
+                    <div class="news-meta"><span class="news-source">BBC Sport</span> &nbsp;·&nbsp; Yesterday</div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- LATEST NEWS -->
-        <div class="card">
-            <div class="card-eyebrow">Latest News</div>
-            <div id="news-loading" style="color:var(--muted);font-size:0.85rem;">Loading latest news...</div>
-            <div id="news-content" style="display:none;">
-                <div id="news-list"></div>
+<!-- UPCOMING EVENTS -->
+<div class="card full-width">
+    <div class="card-eyebrow">Upcoming Events</div>
+    <div id="events-loading" style="display:none;"></div>
+    <div id="events-content">
+        <div id="events-list">
+            <div class="event-item" style="padding-top:0;">
+                <div class="event-date-box"><div class="event-date-day">13</div><div class="event-date-month">Mar</div></div>
+                <div class="event-info">
+                    <div class="event-name">PDC Premier League Darts — Night 4</div>
+                    <div class="event-meta"><span>🏟️ Leeds First Direct Arena, Leeds</span></div>
+                    <div class="event-bottom-row"><span class="event-badge pdc">PDC</span></div>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-date-box"><div class="event-date-day">20</div><div class="event-date-month">Mar</div></div>
+                <div class="event-info">
+                    <div class="event-name">PDC Premier League Darts — Night 5</div>
+                    <div class="event-meta"><span>🏟️ Glasgow OVO Hydro, Glasgow</span></div>
+                    <div class="event-bottom-row"><span class="event-badge pdc">PDC</span></div>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-date-box"><div class="event-date-day">28</div><div class="event-date-month">Mar</div></div>
+                <div class="event-info">
+                    <div class="event-name">European Tour — German Darts Championship</div>
+                    <div class="event-meta"><span>🏟️ Hildesheim, Germany</span></div>
+                    <div class="event-bottom-row"><span class="event-badge pdc">PDC</span></div>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-date-box"><div class="event-date-day">4</div><div class="event-date-month">Apr</div></div>
+                <div class="event-info">
+                    <div class="event-name">PDC Premier League Darts — Night 7</div>
+                    <div class="event-meta"><span>🏟️ Dublin 3Arena, Dublin</span></div>
+                    <div class="event-bottom-row"><span class="event-badge pdc">PDC</span></div>
+                </div>
+            </div>
+            <div class="event-item">
+                <div class="event-date-box"><div class="event-date-day">11</div><div class="event-date-month">Apr</div></div>
+                <div class="event-info">
+                    <div class="event-name">PDC Premier League Darts — Night 8</div>
+                    <div class="event-meta"><span>🏟️ Rotterdam Ahoy, Netherlands</span></div>
+                    <div class="event-bottom-row"><span class="event-badge pdc">PDC</span></div>
+                </div>
             </div>
         </div>
-
-        <!-- UPCOMING EVENTS -->
-        <div class="card full-width">
-            <div class="card-eyebrow">Upcoming Events</div>
-            <div id="events-loading" style="color:var(--muted);font-size:0.85rem;">Loading upcoming events...</div>
-            <div id="events-content" style="display:none;">
-                <div id="events-list"></div>
-            </div>
-        </div>
+    </div>
+</div>
 
         <!-- NEWSLETTER -->
         <div class="card full-width">
