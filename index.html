@@ -176,19 +176,6 @@
         #modal-box::-webkit-scrollbar-thumb:hover { background: var(--accent); }
         @media (max-width: 600px) { #modal-box { padding: 28px 20px; max-height: 85vh; } }
 
-        /* ─── PRODUCT CAROUSEL ─────────────────────────────────── */
-        .carousel { position: relative; width: 100%; margin-bottom: 16px; }
-        .carousel-track { display: flex; overflow: hidden; border-radius: 10px; border: 1px solid var(--border); }
-        .carousel-slide { min-width: 100%; height: 200px; background: var(--surface2); display: flex; align-items: center; justify-content: center; transition: transform 0.4s ease; }
-        .carousel-slide img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
-        .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: var(--surface); border: 1px solid var(--border); color: var(--text); width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; transition: all 0.15s; z-index: 2; }
-        .carousel-btn:hover { background: var(--accent); color: #000; border-color: var(--accent); }
-        .carousel-btn.prev { left: 8px; }
-        .carousel-btn.next { right: 8px; }
-        .carousel-dots { display: flex; justify-content: center; gap: 6px; margin-top: 8px; }
-        .carousel-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--border); cursor: pointer; transition: background 0.2s; }
-        .carousel-dot.active { background: var(--accent); }
-        
     </style>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <!-- MailerLite Universal -->
@@ -331,17 +318,9 @@
     <div id="product-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's product...</div>
     <div id="product-content" style="display:none;">
         <div class="product-badge" id="prod-badge">Today's Pick</div>
-
-        <!-- CAROUSEL -->
-        <div class="carousel" id="prod-carousel">
-            <div class="carousel-track" id="carousel-track">
-                <!-- slides injected by JS -->
-            </div>
-            <button class="carousel-btn prev" onclick="moveCarousel(-1)">&#8592;</button>
-            <button class="carousel-btn next" onclick="moveCarousel(1)">&#8594;</button>
-            <div class="carousel-dots" id="carousel-dots"></div>
+        <div class="product-visual">
+            <img id="prod-image" src="" alt="" style="width:100%;height:100%;object-fit:contain;padding:10px;">
         </div>
-
         <div class="product-name" id="prod-name"></div>
         <div class="product-desc" id="prod-desc"></div>
         <div class="product-pricing">
@@ -1525,24 +1504,6 @@ document.addEventListener("keydown", function(e) {
     if (e.key === "Escape") closeModal();
 });
 
-// ─── CAROUSEL ────────────────────────────────────────────────
-let carouselIndex = 0;
-let carouselTotal = 0;
-
-function moveCarousel(dir) {
-    carouselIndex = (carouselIndex + dir + carouselTotal) % carouselTotal;
-    updateCarousel();
-}
-
-function updateCarousel() {
-    const track = document.getElementById("carousel-track");
-    track.style.transform = "translateX(-" + (carouselIndex * 100) + "%)";
-    track.style.transition = "transform 0.4s ease";
-    document.querySelectorAll(".carousel-dot").forEach(function(dot, i) {
-        dot.classList.toggle("active", i === carouselIndex);
-    });
-}
-
 // ─── PRODUCT OF THE DAY ──────────────────────────────────────
 async function loadProductOfDay() {
     try {
@@ -1550,23 +1511,9 @@ async function loadProductOfDay() {
         const products = await res.json();
         const p = products[dayOfYear % products.length];
 
-        // Badge
         document.getElementById("prod-badge").textContent = p.badge;
-
-        // Carousel
-        const track = document.getElementById("carousel-track");
-        const dots = document.getElementById("carousel-dots");
-        carouselTotal = p.images.length;
-
-        track.innerHTML = p.images.map(function(img) {
-            return "<div class=\"carousel-slide\"><img src=\"" + img + "\" alt=\"" + p.name + "\" onerror=\"this.parentElement.innerHTML='🎯'\"></div>";
-        }).join("");
-
-        dots.innerHTML = p.images.map(function(_, i) {
-            return "<div class=\"carousel-dot" + (i === 0 ? " active" : "") + "\" onclick=\"carouselIndex=" + i + ";updateCarousel()\"></div>";
-        }).join("");
-
-        // Details
+        document.getElementById("prod-image").src = p.images[0];
+        document.getElementById("prod-image").alt = p.name;
         document.getElementById("prod-name").textContent = p.name;
         document.getElementById("prod-desc").textContent = p.desc;
         document.getElementById("prod-price").textContent = p.price;
@@ -1574,7 +1521,6 @@ async function loadProductOfDay() {
         document.getElementById("prod-discount").textContent = p.discount;
         document.getElementById("prod-rating").innerHTML = "<span>★★★★★</span> " + p.rating + " / 5 &nbsp;·&nbsp; " + p.reviews + " reviews &nbsp;·&nbsp; " + p.grip + " &nbsp;·&nbsp; " + p.level;
 
-        // Buttons
         let buttons = "";
         if (p.darts_corner_url) {
             buttons += "<a href=\"" + p.darts_corner_url + "\" class=\"btn btn-main\" target=\"_blank\" rel=\"noopener\">Darts Corner</a>";
@@ -1592,7 +1538,7 @@ async function loadProductOfDay() {
         console.error(err);
     }
 }
-loadProductOfDay();    
+loadProductOfDay();
 </script>
 
 </body>
