@@ -395,29 +395,36 @@
             <div class="news-item" style="padding-top:0;">
                 <div class="news-icon">🎯</div>
                 <div>
-                    <div class="news-title">Luke Littler continues dominant PDC Premier League campaign</div>
-                    <div class="news-meta"><span class="news-source">PDC</span> &nbsp;·&nbsp; Today</div>
+                    <div class="news-title"><a href="https://www.newsshopper.co.uk/sport/25918417.luke-littler-retains-uk-open-crown-victory-james-wade-minehead/" target="_blank" style="color:var(--text);text-decoration:none;">Luke Littler retains UK Open crown with victory over James Wade at Minehead</a></div>
+                    <div class="news-meta"><span class="news-source">newsshopper.co.uk</span> &nbsp;·&nbsp; 09/03/2026</div>
                 </div>
             </div>
             <div class="news-item">
                 <div class="news-icon">🏆</div>
                 <div>
-                    <div class="news-title">Michael van Gerwen eyes record-breaking European Tour season</div>
-                    <div class="news-meta"><span class="news-source">Darts World</span> &nbsp;·&nbsp; Today</div>
+                    <div class="news-title"><a href="https://talksport.com/darts/4024539/premier-league-luke-littler-revenge-jonny-clayton/" target="_blank" style="color:var(--text);text-decoration:none;">Darts star fears ‘revenge’ after back-to-back wins against Luke Littler</a></div>
+                    <div class="news-meta"><span class="news-source">talksport.com</span> &nbsp;·&nbsp; 05/03/2026</div>
                 </div>
             </div>
             <div class="news-item">
                 <div class="news-icon">📺</div>
                 <div>
-                    <div class="news-title">Sky Sports confirms expanded darts broadcast schedule for 2026</div>
-                    <div class="news-meta"><span class="news-source">Sky Sports</span> &nbsp;·&nbsp; Yesterday</div>
+                    <div class="news-title"><a href="https://www.dailystar.co.uk/sport/darts/mark-webster-health-update-darts-36817807" target="_blank" style="color:var(--text);text-decoration:none;">Mark Webster gives health update after medical condition forces darts break</a></div>
+                    <div class="news-meta"><span class="news-source">dailystar.co.uk</span> &nbsp;·&nbsp; 04/03/2026</div>
                 </div>
             </div>
             <div class="news-item">
                 <div class="news-icon">⭐</div>
                 <div>
-                    <div class="news-title">Fallon Sherrock reaches WDF World Championship quarter-finals</div>
-                    <div class="news-meta"><span class="news-source">BBC Sport</span> &nbsp;·&nbsp; Yesterday</div>
+                    <div class="news-title"><a href="https://dartsnews.com/pdc/if-it-all-comes-together-at-a-major-im-not-going-to-say-she-cant-do-it-because-i-genuinely-believe-she-can-colin-lloyd-says-beau-greaves-is-making-an-ever-bigger-impact-in-the-pdc" target="_blank" style="color:var(--text);text-decoration:none;">Colin Lloyd says Beau Greaves is making an ever bigger impact in the PDC</a></div>
+                    <div class="news-meta"><span class="news-source">dartsnews.com</span> &nbsp;·&nbsp; 03/03/2026</div>
+                </div>
+            </div>
+            <div class="news-item">
+                <div class="news-icon">📺</div>
+                <div>
+                    <div class="news-title"><a href="https://www.sportingnews.com/uk/darts/news/pdc-uk-open-darts-awesome-foursome-day-1-viewers-friday/8812fdd3b44b452df8fd6367" target="_blank" style="color:var(--text);text-decoration:none;">PDC UK Open darts: An awesome foursome for Day 1 viewers this Friday</a></div>
+                    <div class="news-meta"><span class="news-source">sportingnews.com</span> &nbsp;·&nbsp; 02/03/2026</div>
                 </div>
             </div>
         </div>
@@ -1415,13 +1422,9 @@ async function loadUpcomingEvents() {
                         &nbsp;·&nbsp;
                         <span class="event-date">📅 ${event.date_display}</span>
                     </div>
-                    <div class="event-bottom-row">
-                        <span class="event-badge">${event.tour}</span>
-                        ${event.ticket_url ? `
-                        <a href="${event.ticket_url}" target="_blank" rel="noopener noreferrer" class="ticket-btn">
-                            🎟️ Buy Tickets
-                        </a>` : ''}
-                    </div>
+<div class="event-bottom-row">
+    <span class="event-badge">${event.tour}</span>
+</div>
                 </div>
             </div>
         `).join('');
