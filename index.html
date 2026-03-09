@@ -213,6 +213,22 @@
         body.light #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; }
         body.light #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input::-webkit-input-placeholder { color: var(--muted) !important; }
         body.light #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit button.primary { background: var(--text) !important; color: var(--bg) !important; }
+       
+        /* ─── KILL THE GHOST BUTTON BOX ────────────────────────────── */
+        #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit button[disabled] { display: none !important; }
+        #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit button.loading { display: none !important; visibility: hidden !important; width: 0 !important; height: 0 !important; padding: 0 !important; margin: 0 !important; border: none !important; background: transparent !important; }
+        
+        /* ─── FIX SUCCESS MESSAGE LAYOUT ───────────────────────────── */
+        #mlb2-38186798.ml-form-embedContainer .ml-form-successBody { padding: 0 !important; display: block !important; width: 100% !important; }
+        #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper { position: relative !important; }
+        #mlb2-38186798.ml-form-embedContainer .ml-form-embedBody.row-form { display: block !important; }
+        #mlb2-38186798.ml-form-embedContainer .ml-form-successContent { padding: 0 !important; margin: 0 !important; }
+        #mlb2-38186798.ml-form-embedContainer .ml-form-successContent h4 { color: var(--green) !important; font-family: 'Inter', sans-serif !important; font-size: 0.9rem !important; font-weight: 600 !important; margin: 0 0 4px 0 !important; }
+        #mlb2-38186798.ml-form-embedContainer .ml-form-successContent p { color: var(--muted) !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; margin: 0 !important; }
+        
+        /* ─── FIX FORM LAYOUT ───────────────────────────────────────── */
+        #mlb2-38186798.ml-form-embedContainer .ml-block-form { display: flex !important; gap: 10px !important; align-items: center !important; width: 100% !important; }
+        #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit { width: auto !important; flex-shrink: 0 !important; margin: 0 !important; line-height: 1 !important; }
     </style>
 </head>
 <body>
