@@ -155,6 +155,23 @@
         .footer-links a { font-size: 0.73rem; color: var(--muted); text-decoration: none; transition: color 0.15s; }
         .footer-links a:hover { color: var(--text); }
         .footer-copy { font-size: 0.7rem; color: var(--subtle); }
+        #modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(4px); }
+        #modal-overlay.active { display: flex; }
+        #modal-box { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 40px; max-width: 600px; width: 100%; max-height: 80vh; overflow-y: auto; position: relative; animation: modalSlideUp 0.3s ease; }
+        @keyframes modalSlideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        #modal-close { position: absolute; top: 16px; right: 16px; background: var(--surface2); border: 1px solid var(--border); color: var(--text); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 0.85rem; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+        #modal-close:hover { background: var(--accent); color: #000; }
+        #modal-content h2 { font-size: 1.4rem; font-weight: 700; color: var(--accent); margin-bottom: 16px; }
+        #modal-content h3 { font-size: 1rem; font-weight: 600; color: var(--text); margin: 20px 0 8px; }
+        #modal-content p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin-bottom: 12px; }
+        #modal-content a { color: var(--accent); text-decoration: none; }
+        #modal-content a:hover { text-decoration: underline; }
+        #modal-content .modal-emoji { font-size: 2rem; margin-bottom: 12px; display: block; }
+        #modal-box::-webkit-scrollbar { width: 6px; }
+        #modal-box::-webkit-scrollbar-track { background: var(--surface2); border-radius: 3px; }
+        #modal-box::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+        #modal-box::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+        @media (max-width: 600px) { #modal-box { padding: 28px 20px; max-height: 85vh; } }
     </style>
 </head>
 <body>
@@ -371,14 +388,24 @@
 <div class="ad-strip">Advertisement -- Replace with Google AdSense leaderboard (728x90)</div>
 
 <footer>
-    <div class="footer-logo">Darts<span>Daily</span></div>
-    <div class="footer-links">
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Affiliate Disclosure</a>
+    <div class="footer-brand">
+        <span class="footer-logo">Darts<span style="color:var(--accent)">Daily</span></span>
     </div>
-    <p class="footer-copy">&#169; 2025 DartsDaily. All rights reserved. Affiliate links are marked.</p>
+    <div class="footer-links">
+        <a href="#" onclick="openModal('about'); return false;">About</a>
+        <a href="#" onclick="openModal('contact'); return false;">Contact</a>
+        <a href="#" onclick="openModal('privacy'); return false;">Privacy Policy</a>
+        <a href="#" onclick="openModal('affiliate'); return false;">Affiliate Disclosure</a>
+    </div>
+    <p class="footer-copy">© 2026 DartsDaily. All rights reserved. Affiliate links are marked.</p>
+
+    <!-- MODAL -->
+    <div id="modal-overlay" onclick="closeModal()">
+        <div id="modal-box" onclick="event.stopPropagation()">
+            <button id="modal-close" onclick="closeModal()">✕</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
 </footer>
 
 <script>
@@ -625,6 +652,78 @@ async function loadUpcomingEvents() {
     }
 }
 loadUpcomingEvents();
+
+// ─── MODAL CONTENT ───────────────────────────────────────────
+const modalContent = {
+
+    about: `
+        <span class="modal-emoji">🎯</span>
+        <h2>About Darts Daily</h2>
+        <p>Darts Daily is your daily hub for everything professional darts. Built by a darts fan, for darts fans.</p>
+        <p>We cover the full PDC calendar — from the Premier League and European Tour to the World Championship — bringing you the latest news, tournament dates, player profiles, daily stats and trivia all in one place.</p>
+        <p>Whether you're looking for upcoming events near you, want to brush up on your darts knowledge or simply stay up to date with the latest from the oche — Darts Daily has you covered, every day.</p>
+    `,
+
+    contact: `
+        <span class="modal-emoji">✉️</span>
+        <h2>Contact</h2>
+        <p>We'd love to hear from you! Whether you have a suggestion, spotted something wrong or just want to talk darts — get in touch.</p>
+        <h3>Email</h3>
+        <p><a href="mailto:hello@dartsdaily.net">hello@dartsdaily.net</a></p>
+        <h3>Response Time</h3>
+        <p>We aim to respond to all messages within 48 hours.</p>
+        <h3>News Tips</h3>
+        <p>Got a darts story or tip you think we should cover? Send it over to <a href="mailto:hello@dartsdaily.net">hello@dartsdaily.net</a> and we'll take a look.</p>
+    `,
+
+    privacy: `
+        <span class="modal-emoji">🔒</span>
+        <h2>Privacy Policy</h2>
+        <p style="color:var(--muted);font-size:0.8rem;">Last updated: March 2026</p>
+        <p>At Darts Daily (dartsdaily.net) we take your privacy seriously. This policy explains what data we collect and how we use it.</p>
+        <h3>1. Information We Collect</h3>
+        <p>Darts Daily uses Google Analytics to collect anonymous data about how visitors use our site. This includes pages visited, time spent on site and general location (country level). No personally identifiable information is collected.</p>
+        <h3>2. Cookies</h3>
+        <p>We use cookies solely for Google Analytics purposes. These cookies help us understand how our audience uses the site so we can improve the experience. You can disable cookies at any time through your browser settings.</p>
+        <h3>3. Third Party Links</h3>
+        <p>Darts Daily contains links to third party websites including Amazon and ticket providers. We are not responsible for the privacy practices of these external sites.</p>
+        <h3>4. Affiliate Links</h3>
+        <p>Some links on this site are affiliate links. This means we may earn a small commission if you make a purchase through them, at no extra cost to you. See our Affiliate Disclosure for more details.</p>
+        <h3>5. Contact</h3>
+        <p>If you have any questions about this privacy policy please contact us at <a href="mailto:hello@dartsdaily.net">hello@dartsdaily.net</a></p>
+    `,
+
+    affiliate: `
+        <span class="modal-emoji">💰</span>
+        <h2>Affiliate Disclosure</h2>
+        <p>Darts Daily participates in affiliate marketing programmes including the Amazon Associates Programme.</p>
+        <p>This means that some links on this site are affiliate links. If you click one of these links and make a purchase, we may earn a small commission — at absolutely no extra cost to you.</p>
+        <p>We only recommend products and services that we believe are relevant and useful to darts fans. Affiliate commissions help keep Darts Daily free and allow us to continue providing daily darts content.</p>
+        <p>All affiliate links on this site are clearly marked in line with Amazon Associates and ASA guidelines.</p>
+        <p>Thank you for supporting Darts Daily. 🎯</p>
+    `
+
+};
+
+// ─── OPEN MODAL ──────────────────────────────────────────────
+function openModal(type) {
+    document.getElementById("modal-content").innerHTML = modalContent[type];
+    document.getElementById("modal-overlay").classList.add("active");
+    document.body.style.overflow = "hidden";
+}
+
+// ─── CLOSE MODAL ─────────────────────────────────────────────
+function closeModal() {
+    document.getElementById("modal-overlay").classList.remove("active");
+    document.body.style.overflow = "";
+}
+
+// ─── CLOSE ON ESCAPE KEY ─────────────────────────────────────
+document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") closeModal();
+});
+
+    
 </script>
 
 </body>
