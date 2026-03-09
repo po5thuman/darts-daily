@@ -174,34 +174,6 @@
         #modal-box::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
         #modal-box::-webkit-scrollbar-thumb:hover { background: var(--accent); }
         @media (max-width: 600px) { #modal-box { padding: 28px 20px; max-height: 85vh; } }
-
-        /* ─── MAILERLITE OVERRIDES ─────────────────────────────────── */
-        #mlb2-38186798.ml-form-embedContainer { background: transparent !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper { background: transparent !important; border: none !important; border-radius: 0 !important; width: 100% !important; max-width: 100% !important; display: block !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 100% !important; width: 100% !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedBody { padding: 0 !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedContent { display: none !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-formContent { margin: 0 !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow { margin: 0 !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedBodyDefault { display: flex !important; gap: 10px !important; align-items: center !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-formContent { flex: 1 !important; margin: 0 !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit { margin: 0 !important; width: auto !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; border-radius: 8px !important; border-width: 1px !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; padding: 11px 15px !important; width: 100% !important; transition: border-color 0.15s, background 0.3s !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input:focus { outline: none !important; border-color: var(--accent) !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input::-webkit-input-placeholder { color: var(--muted) !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input::-moz-placeholder { color: var(--muted) !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input:-ms-input-placeholder { color: var(--muted) !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit button.primary { background: var(--text) !important; color: var(--bg) !important; border: none !important; border-radius: 8px !important; font-family: 'Inter', sans-serif !important; font-size: 0.81rem !important; font-weight: 600 !important; padding: 11px 20px !important; cursor: pointer !important; white-space: nowrap !important; transition: opacity 0.15s !important; width: auto !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit button.primary:hover { opacity: 0.85 !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-align-center { text-align: left !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-successBody { padding: 0 !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-successContent h4 { color: var(--green) !important; font-family: 'Inter', sans-serif !important; font-size: 0.9rem !important; font-weight: 600 !important; margin: 0 0 4px 0 !important; }
-        #mlb2-38186798.ml-form-embedContainer .ml-form-successContent p { color: var(--muted) !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; margin: 0 !important; }
-        
-        /* ─── LIGHT THEME OVERRIDES ────────────────────────────────── */
-        body.light #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; }
-        body.light #mlb2-38186798.ml-form-embedContainer .ml-form-fieldRow input::-webkit-input-placeholder { color: var(--muted) !important; }
-        body.light #mlb2-38186798.ml-form-embedContainer .ml-form-embedSubmit button.primary { background: var(--text) !important; color: var(--bg) !important; }
     </style>
 </head>
 <body>
@@ -399,8 +371,7 @@
             <div class="section-title">Get DartsDaily in your inbox</div>
             <p class="newsletter-desc">Player of the Day, Trivia, Stat and the best gear deal -- delivered every morning. Free, no spam, unsubscribe anytime.</p>
             <div class="newsletter-form">
-                <!-- <input type="email" class="newsletter-input" placeholder="your@email.com" id="emailInput"> -->
-                <div class="ml-embedded" data-form="cLdnSP"></div>
+                <input type="email" class="newsletter-input" placeholder="your@email.com" id="emailInput">
                 <button class="btn-newsletter" onclick="subscribeNewsletter()">Subscribe</button>
             </div>
             <p class="newsletter-sub">&#128235; Join 3,400+ darts fans -- no spam, ever.</p>
@@ -753,12 +724,7 @@ document.addEventListener("keydown", function(e) {
     if (e.key === "Escape") closeModal();
 });
 
-// ─── MailerLite ─────────────────────────────────────
-(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '2173793');
+
 
 </script>
 
