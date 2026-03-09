@@ -791,7 +791,7 @@ document.addEventListener("keydown", function(e) {
 
 
 // ─── NEWSLETTER ──────────────────────────────────────────────
-document.getElementById("newsletter-form").addEventListener("submit", async function(e) {
+document.getElementById("newsletter-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
     const email = document.getElementById("newsletter-email").value;
@@ -802,27 +802,51 @@ document.getElementById("newsletter-form").addEventListener("submit", async func
     btn.textContent = "Subscribing...";
     btn.style.opacity = "0.7";
 
-    try {
-        await fetch("https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/subscribe", {
-            method: "POST",
-            mode: "no-cors",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: `fields[email]=${encodeURIComponent(email)}&ml-submit=1&anticsrf=true`
-        });
+    // Create a unique callback name
+    const callbackName = "mlCallback_" + Date.now();
 
-        // Success
-        document.getElementById("newsletter-form").style.display = "none";
-        msg.textContent = "✅ You're in! Welcome to Darts Daily 🎯";
-        msg.style.color = "var(--green)";
-        msg.style.fontSize = "0.9rem";
+    // Create script tag for JSONP
+    const script = document.createElement("script");
 
-    } catch(err) {
-        // Error
+    // Set timeout in case it fails
+    const timeout = setTimeout(function() {
+        cleanup();
         btn.textContent = "Subscribe";
         btn.style.opacity = "1";
         msg.textContent = "❌ Something went wrong. Please try again.";
         msg.style.color = "var(--red)";
+    }, 8000);
+
+    // Cleanup function
+    function cleanup() {
+        clearTimeout(timeout);
+        delete window[callbackName];
+        if (script.parentNode) script.parentNode.removeChild(script);
     }
+
+    // Define the callback
+    window[callbackName] = function(data) {
+        cleanup();
+        if (data && data.success) {
+            // Success
+            document.getElementById("newsletter-form").style.display = "none";
+            msg.textContent = "✅ Check your inbox to confirm your subscription!";
+            msg.style.color = "var(--green)";
+            msg.style.fontSize = "0.9rem";
+        } else {
+            // Failed
+            btn.textContent = "Subscribe";
+            btn.style.opacity = "1";
+            msg.textContent = "❌ Something went wrong. Please try again.";
+            msg.style.color = "var(--red)";
+        }
+    };
+
+    // Build the JSONP URL
+    script.src = `https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/subscribe?fields[email]=${encodeURIComponent(email)}&ml-submit=1&anticsrf=true&callback=${callbackName}`;
+
+    // Fire it
+    document.head.appendChild(script);
 });
 
     
