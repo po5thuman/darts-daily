@@ -6,8 +6,8 @@
     <title>Darts Daily | Darts News, Stats & Trivia Every Day</title>
     <meta name="description" content="Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.">
     <link rel="canonical" href="https://www.dartsdaily.net">
-    <meta name='impact-site-verification' value='74c5a484-3125-4f75-b76d-f8f1bc22dee6'> <!-- Ticketmaster verification -->
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="zZziyd8CYNIL2MTuqqc39w" async></script> <!-- ahrefs verification -->
+    <meta name='impact-site-verification' value='74c5a484-3125-4f75-b76d-f8f1bc22dee6'>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="zZziyd8CYNIL2MTuqqc39w" async></script>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -37,18 +37,10 @@
         .toggle-thumb { width: 14px; height: 14px; background: var(--accent); border-radius: 50%; position: absolute; top: 2px; left: 2px; transition: transform 0.25s; }
         body.light .toggle-thumb { transform: translateX(16px); }
         body.light .toggle-track { background: var(--accent-dim); border-color: var(--accent); }
-        .countdown-bar { border-bottom: 1px solid var(--border); padding: 8px 16px; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 0.75rem; color: var(--muted); transition: border-color 0.3s; white-space: nowrap; flex-wrap: nowrap; }
-        .countdown-bar span { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: 1px; white-space: nowrap; }
-        .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--subtle); flex-shrink: 0; }
-        .ad-strip { border-bottom: 1px solid var(--border); padding: 14px 24px; text-align: center; font-size: 0.7rem; color: var(--subtle); letter-spacing: 2px; text-transform: uppercase; transition: border-color 0.3s; }
         .page-wrapper { display: flex; gap: 0; max-width: 1400px; margin: 0 auto; padding: 30px 16px; align-items: flex-start; }
-        .ad-sidebar { width: 160px; flex-shrink: 0; position: sticky; top: 84px; display: flex; flex-direction: column; gap: 16px; }
-        .ad-sidebar-unit { width: 160px; min-height: 600px; background: var(--surface); border: 1px dashed var(--border); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--subtle); font-size: 0.65rem; letter-spacing: 1.5px; text-transform: uppercase; text-align: center; padding: 10px; transition: background 0.3s, border-color 0.3s; }
-        .ad-sidebar-unit .ad-label { font-size: 0.6rem; color: var(--subtle); letter-spacing: 2px; }
-        @media (max-width: 1100px) { .ad-sidebar { display: none; } }
-        .container { flex: 1; min-width: 0; padding: 0 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-        @media (max-width: 768px) { .container { grid-template-columns: 1fr; padding: 0; } .page-wrapper { padding: 20px 12px; } }
-        @media (max-width: 480px) { .date-text { display: none; } .header-right { gap: 8px; } .countdown-bar { font-size: 0.72rem; gap: 6px; } }
+        .container { flex: 1; min-width: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        @media (max-width: 768px) { .container { grid-template-columns: 1fr; } .page-wrapper { padding: 20px 12px; } }
+        @media (max-width: 480px) { .date-text { display: none; } .header-right { gap: 8px; } }
         .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; transition: border-color 0.2s, background 0.3s; }
         .card:hover { border-color: var(--subtle); }
         .card.full-width { grid-column: 1 / -1; }
@@ -94,25 +86,15 @@
         .trivia-btn.correct { border-color: var(--green); background: rgba(76,175,125,0.1); color: var(--green); }
         .trivia-btn.wrong { border-color: var(--red); background: rgba(224,92,92,0.1); color: var(--red); }
         .trivia-result { display: none; background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 13px; font-size: 0.81rem; color: var(--muted); line-height: 1.6; margin-bottom: 12px; }
-        .trivia-result strong { color: var(--text); }
         .trivia-footer { font-size: 0.73rem; color: var(--muted); margin-bottom: 14px; }
         .product-badge { display: inline-block; font-size: 0.63rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(200,169,110,0.25); padding: 3px 9px; border-radius: 4px; margin-bottom: 14px; }
         .product-visual { width: 100%; height: 280px; background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 3rem; margin-bottom: 16px; }
         .product-name { font-size: 0.98rem; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.3px; }
-        .product-desc { font-size: 0.81rem; color: var(--muted); line-height: 1.6; margin-bottom: 12px; }
-        .product-pricing { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
-        .product-price { font-size: 1.35rem; font-weight: 800; color: var(--text); letter-spacing: -0.5px; }
-        .product-old { font-size: 0.83rem; color: var(--muted); text-decoration: line-through; }
-        .product-discount { font-size: 0.7rem; font-weight: 700; color: var(--green); background: rgba(76,175,125,0.1); border: 1px solid rgba(76,175,125,0.2); padding: 2px 8px; border-radius: 4px; }
-        .product-rating { font-size: 0.76rem; color: var(--muted); margin-bottom: 14px; }
-        .product-rating span { color: var(--accent); }
-        .buy-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+        .product-desc { font-size: 0.81rem; color: var(--muted); line-height: 1.6; margin-bottom: 16px; }
         .btn { padding: 11px 14px; border-radius: 8px; font-size: 0.79rem; font-weight: 600; font-family: "Inter", sans-serif; text-decoration: none; text-align: center; cursor: pointer; border: none; transition: all 0.15s; display: block; }
         .btn-main { background: var(--text); color: var(--bg); }
         .btn-main:hover { opacity: 0.88; }
-        .btn-outline { background: transparent; color: var(--text); border: 1px solid var(--border); }
-        .btn-outline:hover { border-color: var(--text); }
-        .affiliate-note { font-size: 0.66rem; color: var(--subtle); }
+        .affiliate-note { font-size: 0.66rem; color: var(--subtle); margin-top: 8px; }
         .stat-display { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 22px; margin-bottom: 16px; text-align: center; }
         .stat-number { font-size: 3rem; font-weight: 800; color: var(--accent); letter-spacing: -2px; line-height: 1; margin-bottom: 10px; }
         .stat-context { font-size: 0.86rem; color: var(--muted); line-height: 1.6; }
@@ -127,9 +109,6 @@
         .news-title { font-size: 0.83rem; font-weight: 500; color: var(--text); margin-bottom: 4px; line-height: 1.4; }
         .news-meta { font-size: 0.71rem; color: var(--muted); }
         .news-source { color: var(--accent); font-weight: 500; }
-        .event-bottom-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
-        .ticket-btn { display: inline-flex; align-items: center; gap: 5px; background: transparent; border: 1px solid var(--accent); color: var(--accent); padding: 3px 10px; border-radius: 4px; font-size: 0.68rem; font-weight: 600; font-family: 'Inter', sans-serif; text-decoration: none; letter-spacing: 0.5px; transition: all 0.15s; white-space: nowrap; }
-        .ticket-btn:hover { background: var(--accent); color: var(--bg); }
         .event-item { display: flex; gap: 14px; align-items: flex-start; padding: 13px 0; border-bottom: 1px solid var(--border); }
         .event-item:last-child { border-bottom: none; padding-bottom: 0; }
         .event-item:first-child { padding-top: 0; }
@@ -139,19 +118,11 @@
         .event-info { flex: 1; }
         .event-name { font-size: 0.85rem; font-weight: 600; color: var(--text); margin-bottom: 3px; line-height: 1.4; }
         .event-meta { font-size: 0.72rem; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 4px; }
-        .event-meta span { display: flex; align-items: center; gap: 3px; }
-        .event-badge { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; display: inline-block; background: rgba(200,169,110,0.12); color: var(--accent); border: 1px solid rgba(200,169,110,0.4); }
+        .event-bottom-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+        .event-badge { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; display: inline-block; }
         .event-badge.pdc { background: rgba(200,169,110,0.12); color: var(--accent); border: 1px solid rgba(200,169,110,0.2); }
         .event-badge.wdf { background: rgba(76,175,125,0.1); color: var(--green); border: 1px solid rgba(76,175,125,0.2); }
-        .event-badge.btc { background: rgba(224,92,92,0.1); color: var(--red); border: 1px solid rgba(224,92,92,0.2); }
         .newsletter-desc { font-size: 0.83rem; color: var(--muted); margin-bottom: 16px; line-height: 1.6; }
-        .newsletter-form { display: flex; gap: 10px; flex-wrap: wrap; }
-        .newsletter-input { flex: 1; min-width: 180px; padding: 11px 15px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface2); color: var(--text); font-size: 0.83rem; font-family: "Inter", sans-serif; transition: border-color 0.15s, background 0.3s; }
-        .newsletter-input:focus { outline: none; border-color: var(--accent); }
-        .newsletter-input::placeholder { color: var(--muted); }
-        .btn-newsletter { background: var(--text); color: var(--bg); padding: 11px 20px; border-radius: 8px; border: none; font-weight: 600; font-size: 0.81rem; font-family: "Inter", sans-serif; cursor: pointer; white-space: nowrap; transition: opacity 0.15s; }
-        .btn-newsletter:hover { opacity: 0.85; }
-        .newsletter-sub { font-size: 0.7rem; color: var(--muted); margin-top: 10px; }
         footer { border-top: 1px solid var(--border); padding: 28px 24px; text-align: center; transition: border-color 0.3s; }
         .footer-logo { font-size: 0.92rem; font-weight: 700; color: var(--muted); margin-bottom: 12px; }
         .footer-logo span { color: var(--accent); }
@@ -159,19 +130,7 @@
         .footer-links a { font-size: 0.73rem; color: var(--muted); text-decoration: none; transition: color 0.15s; }
         .footer-links a:hover { color: var(--text); }
         .footer-copy { font-size: 0.7rem; color: var(--subtle); }
-        #modal-content h3 { font-size: 1rem; font-weight: 600; color: var(--text); margin: 20px 0 8px; }
-        #modal-content p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin-bottom: 12px; }
-        #modal-content a { color: var(--accent); text-decoration: none; }
-        #modal-content a:hover { text-decoration: underline; }
-        #modal-content .modal-emoji { font-size: 2rem; margin-bottom: 12px; display: block; }
-        #modal-box::-webkit-scrollbar { width: 6px; }
-        #modal-box::-webkit-scrollbar-track { background: var(--surface2); border-radius: 3px; }
-        #modal-box::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-        #modal-box::-webkit-scrollbar-thumb:hover { background: var(--accent); }
-        @media (max-width: 600px) { #modal-box { padding: 28px 20px; max-height: 85vh; } }
-
     </style>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <!-- MailerLite Universal -->
     <script>
         (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
@@ -196,172 +155,155 @@
     </div>
 </header>
 
-<div class="container">
+<div class="page-wrapper">
+    <div class="container">
 
-<!-- PLAYER OF THE DAY -->
-<div class="card">
-    <div class="card-eyebrow">Player of the Day</div>
-    <div id="player-loading" style="display:none;"></div>
-    <div id="player-content">
-        <div class="player-header">
-            <div class="player-avatar" id="p-avatar">
-    <img src="/images/phil-taylor.png" alt="Phil Taylor" onerror="this.parentElement.textContent='🎯'">
-</div>
-            <div>
-                <div class="player-name" id="p-name">Phil Taylor <span class="status-badge status-retired">Retired</span></div>
-                <div class="player-nickname" id="p-nickname">"The Power"</div>
-                <div class="player-tags" id="p-tags">
-                    <span class="tag">England</span>
-                    <span class="tag">Legend</span>
-                    <span class="tag">PDC</span>
+        <!-- PLAYER OF THE DAY -->
+        <div class="card">
+            <div class="card-eyebrow">Player of the Day</div>
+            <div class="player-header">
+                <div class="player-avatar">
+                    <img src="/images/phil-taylor.png" alt="Phil Taylor" onerror="this.parentElement.textContent='🎯'">
+                </div>
+                <div>
+                    <div class="player-name">Phil Taylor <span class="status-badge status-retired">Retired</span></div>
+                    <div class="player-nickname">"The Power"</div>
+                    <div class="player-tags">
+                        <span class="tag">England</span>
+                        <span class="tag">Legend</span>
+                        <span class="tag">PDC</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="player-info-grid" id="p-info-grid">
-            <div class="info-row"><div class="info-label">Born</div><div class="info-value">13 Aug 1960</div></div>
-            <div class="info-row"><div class="info-label">Hometown</div><div class="info-value">Stoke-on-Trent</div></div>
-            <div class="info-row"><div class="info-label">Pro Since</div><div class="info-value">1988</div></div>
-            <div class="info-row"><div class="info-label">Retired</div><div class="info-value">2018</div></div>
-            <div class="info-row"><div class="info-label">Dart Weight</div><div class="info-value">26g</div></div>
-            <div class="info-row"><div class="info-label">Dart Brand</div><div class="info-value">Target Darts</div></div>
-            <div class="info-row"><div class="info-label">Walk-on</div><div class="info-value">Simply the Best</div></div>
-            <div class="info-row"><div class="info-label">Style</div><div class="info-value">Front dart, pencil grip</div></div>
-        </div>
-        <div class="highlights-list">
-            <div class="highlights-title">Career Highlights</div>
-            <div id="p-highlights">
+            <div class="player-info-grid">
+                <div class="info-row"><div class="info-label">Born</div><div class="info-value">13 Aug 1960</div></div>
+                <div class="info-row"><div class="info-label">Hometown</div><div class="info-value">Stoke-on-Trent</div></div>
+                <div class="info-row"><div class="info-label">Pro Since</div><div class="info-value">1988</div></div>
+                <div class="info-row"><div class="info-label">Retired</div><div class="info-value">2018</div></div>
+                <div class="info-row"><div class="info-label">Dart Weight</div><div class="info-value">26g</div></div>
+                <div class="info-row"><div class="info-label">Dart Brand</div><div class="info-value">Target Darts</div></div>
+                <div class="info-row"><div class="info-label">Walk-on</div><div class="info-value">Simply the Best</div></div>
+                <div class="info-row"><div class="info-label">Style</div><div class="info-value">Front dart, pencil grip</div></div>
+            </div>
+            <div class="highlights-list">
+                <div class="highlights-title">Career Highlights</div>
                 <div class="highlight-item"><div class="highlight-dot"></div><div>16 World Championship titles (1995–2013)</div></div>
                 <div class="highlight-item"><div class="highlight-dot"></div><div>First player to hit a televised nine-dart finish (1990)</div></div>
                 <div class="highlight-item"><div class="highlight-dot"></div><div>Record 85 PDC ranking titles</div></div>
                 <div class="highlight-item"><div class="highlight-dot"></div><div>Premier League Darts champion 6 times</div></div>
             </div>
+            <div class="quote-block"><span>"I just wanted to be the best. Every single day."</span><br><small>-- Phil Taylor</small></div>
+            <div class="fun-fact-block">
+                <div class="fun-fact-label">💡 Did You Know?</div>
+                Phil Taylor started playing darts at age 28 after being given a set by his future sponsor Eric Bristow. Just two years later he won his first World Championship.
+            </div>
+            <p class="player-bio">Phil Taylor is widely regarded as the greatest darts player of all time. Nicknamed "The Power", he dominated the sport for three decades, winning 16 World Championship titles and amassing a record 85 PDC ranking event victories. His consistency, mental strength and competitive drive set a standard that the sport has never seen before or since.</p>
+            <div class="share-row">
+                <button class="share-btn x" onclick="shareX('Today\'s Player of the Day on DartsDaily: Phil Taylor — The Power! 🎯')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn fb" onclick="shareFB()">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn wa" onclick="shareWA('Today\'s Player of the Day on DartsDaily: Phil Taylor — The Power! 🎯')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Share
+                </button>
+            </div>
         </div>
-        <div class="quote-block" id="p-quote"><span>"I just wanted to be the best. Every single day."</span><br><small>-- Phil Taylor</small></div>
-        <div class="fun-fact-block">
-            <div class="fun-fact-label">💡 Did You Know?</div>
-            <div id="p-funfact">Phil Taylor started playing darts at age 28 after being given a set by his future sponsor Eric Bristow. Just two years later he won his first World Championship.</div>
-        </div>
-        <p class="player-bio" id="p-bio">Phil Taylor is widely regarded as the greatest darts player of all time. Nicknamed "The Power", he dominated the sport for three decades, winning 16 World Championship titles and amassing a record 85 PDC ranking event victories. His consistency, mental strength and competitive drive set a standard that the sport has never seen before or since.</p>
-        <div class="share-row">
-            <button class="share-btn x" id="p-share-x" onclick="shareX('Today\'s Player of the Day on DartsDaily: Phil Taylor — The Power! 🎯')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                Share
-            </button>
-            <button class="share-btn fb" onclick="shareFB()">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                Share
-            </button>
-            <button class="share-btn wa" id="p-share-wa" onclick="shareWA('Today\'s Player of the Day on DartsDaily: Phil Taylor — The Power! 🎯')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Share
-            </button>
-        </div>
-    </div>
-</div>
 
-<!-- TRIVIA OF THE DAY -->
-<div class="card">
-    <div class="card-eyebrow">Trivia of the Day</div>
-    <div id="trivia-loading" style="display:none;"></div>
-    <div id="trivia-content">
-        <div class="section-title">Daily Question</div>
-        <div class="section-sub">One question. Do you know your darts?</div>
-        <p class="trivia-q" id="t-question">How many World Championship titles did Phil Taylor win during his career?</p>
-        <div class="trivia-options" id="t-options">
-            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 0, 2)">A) 10</button>
-            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 1, 2)">B) 14</button>
-            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 2, 2)">C) 16</button>
-            <button class="trivia-btn" onclick="checkTriviaAnswer(this, 3, 2)">D) 18</button>
+        <!-- TRIVIA OF THE DAY -->
+        <div class="card">
+            <div class="card-eyebrow">Trivia of the Day</div>
+            <div class="section-title">Daily Question</div>
+            <div class="section-sub">One question. Do you know your darts?</div>
+            <p class="trivia-q">How many World Championship titles did Phil Taylor win during his career?</p>
+            <div class="trivia-options">
+                <button class="trivia-btn" onclick="checkTriviaAnswer(this, 0, 2)">A) 10</button>
+                <button class="trivia-btn" onclick="checkTriviaAnswer(this, 1, 2)">B) 14</button>
+                <button class="trivia-btn" onclick="checkTriviaAnswer(this, 2, 2)">C) 16</button>
+                <button class="trivia-btn" onclick="checkTriviaAnswer(this, 3, 2)">D) 18</button>
+            </div>
+            <div class="trivia-result" id="triviaResult">Phil Taylor won 16 World Championship titles — 2 with the BDO and 14 with the PDC — making him the most decorated darts player of all time.</div>
+            <div class="trivia-footer"><span id="triviaPlayers">1,247</span> people answered today</div>
+            <div class="share-row">
+                <button class="share-btn x" onclick="shareX('Can you answer today\'s darts trivia on DartsDaily? 🎯')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn fb" onclick="shareFB()">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn wa" onclick="shareWA('Can you answer today\'s darts trivia on DartsDaily? 🎯')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Share
+                </button>
+            </div>
         </div>
-        <div class="trivia-result" id="triviaResult"><span id="t-explanation">Phil Taylor won 16 World Championship titles — 2 with the BDO and 14 with the PDC — making him the most decorated darts player of all time.</span></div>
-        <div class="trivia-footer" style="margin-bottom:14px;"><span id="triviaPlayers">1,247</span> people answered today</div>
-        <div class="share-row">
-            <button class="share-btn x" id="t-share-x" onclick="shareX('Can you answer today\'s darts trivia on DartsDaily? 🎯')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                Share
-            </button>
-            <button class="share-btn fb" onclick="shareFB()">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                Share
-            </button>
-            <button class="share-btn wa" id="t-share-wa" onclick="shareWA('Can you answer today\'s darts trivia on DartsDaily? 🎯')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Share
-            </button>
-        </div>
-    </div>
-</div>
 
-<!-- PRODUCT OF THE DAY -->
-<!-- PRODUCT OF THE DAY -->
-<div class="card">
-    <div class="card-eyebrow">Product of the Day</div>
-    <div class="product-badge">Today's Pick</div>
-    <div class="product-visual">
-        <img src="images/products/00001/1.jpg" alt="Winmau Blade X Professional Dartboard" style="width:100%;height:100%;object-fit:contain;padding:10px;">
-    </div>
-    <div class="product-name">Winmau Blade X Professional Dartboard</div>
-    <div class="product-desc">The Official dartboard of the PDC. Engineered for maximum scoring and minimum bounce-outs — built for players who demand the best from the oche.</div>
-    <a href="https://amzn.to/3Nc6E7S" class="btn btn-main" target="_blank" rel="noopener" style="margin-bottom:8px;">View on Amazon</a>
-    <p class="affiliate-note">* Affiliate link — we earn a small commission at no extra cost to you.</p>
-</div>
-
-<!-- STAT OF THE DAY -->
-<div class="card">
-    <div class="card-eyebrow">Stat of the Day</div>
-    <div id="stat-loading" style="display:none;"></div>
-    <div id="stat-content">
-        <div class="stat-display">
-            <div class="stat-number" id="s-number">16</div>
-            <div class="stat-context" id="s-stat">World Championship titles won by <strong>Phil Taylor</strong> — more than any other player in the history of professional darts.</div>
+        <!-- PRODUCT OF THE DAY -->
+        <div class="card">
+            <div class="card-eyebrow">Product of the Day</div>
+            <div class="product-badge">Today's Pick</div>
+            <div class="product-visual">
+                <img src="images/products/00001/1.jpg" alt="Winmau Blade X Professional Dartboard" style="width:100%;height:100%;object-fit:contain;padding:10px;">
+            </div>
+            <div class="product-name">Winmau Blade X Professional Dartboard</div>
+            <div class="product-desc">The Official dartboard of the PDC. Engineered for maximum scoring and minimum bounce-outs — built for players who demand the best from the oche.</div>
+            <a href="https://amzn.to/3Nc6E7S" class="btn btn-main" target="_blank" rel="noopener">View on Amazon</a>
+            <p class="affiliate-note">* Affiliate link — we earn a small commission at no extra cost to you.</p>
         </div>
-        <div class="share-row">
-            <button class="share-btn x" id="s-share-x" onclick="shareX('Did you know? Phil Taylor won 16 World Championship titles! 🎯 DartsDaily')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                Share
-            </button>
-            <button class="share-btn fb" onclick="shareFB()">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                Share
-            </button>
-            <button class="share-btn wa" id="s-share-wa" onclick="shareWA('Did you know? Phil Taylor won 16 World Championship titles! 🎯 DartsDaily')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Share
-            </button>
-        </div>
-    </div>
-</div>
 
-<!-- THIS DAY IN HISTORY -->
-<div class="card">
-    <div class="card-eyebrow">This Day in History</div>
-    <div id="history-loading" style="display:none;"></div>
-    <div id="history-content">
-        <div class="history-year" id="h-year">2007</div>
-        <div class="history-body" id="h-story"><strong>Phil Taylor</strong> defeated Raymond van Barneveld 7–6 in one of the greatest World Championship finals ever played at Alexandra Palace. Van Barneveld came back from 3–0 down to level the match before Taylor held his nerve in a deciding set — a match widely regarded as the finest in darts history.</div>
-        <div class="share-row">
-            <button class="share-btn x" id="h-share-x" onclick="shareX('On this day in darts history — 2007: Taylor vs Van Barneveld, the greatest final ever! 🎯 DartsDaily')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                Share
-            </button>
-            <button class="share-btn fb" onclick="shareFB()">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                Share
-            </button>
-            <button class="share-btn wa" id="h-share-wa" onclick="shareWA('On this day in darts history — 2007: Taylor vs Van Barneveld, the greatest final ever! 🎯 DartsDaily')">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Share
-            </button>
+        <!-- STAT OF THE DAY -->
+        <div class="card">
+            <div class="card-eyebrow">Stat of the Day</div>
+            <div class="stat-display">
+                <div class="stat-number">16</div>
+                <div class="stat-context">World Championship titles won by <strong>Phil Taylor</strong> — more than any other player in the history of professional darts.</div>
+            </div>
+            <div class="share-row">
+                <button class="share-btn x" onclick="shareX('Did you know? Phil Taylor won 16 World Championship titles! 🎯 DartsDaily')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn fb" onclick="shareFB()">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn wa" onclick="shareWA('Did you know? Phil Taylor won 16 World Championship titles! 🎯 DartsDaily')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Share
+                </button>
+            </div>
         </div>
-    </div>
-</div>
 
-<!-- LATEST NEWS -->
-<div class="card">
-    <div class="card-eyebrow">Latest News</div>
-    <div id="news-loading" style="display:none;"></div>
-    <div id="news-content">
-        <div id="news-list">
+        <!-- THIS DAY IN HISTORY -->
+        <div class="card">
+            <div class="card-eyebrow">This Day in History</div>
+            <div class="history-year">2007</div>
+            <div class="history-body"><strong>Phil Taylor</strong> defeated Raymond van Barneveld 7–6 in one of the greatest World Championship finals ever played at Alexandra Palace. Van Barneveld came back from 3–0 down to level the match before Taylor held his nerve in a deciding set — a match widely regarded as the finest in darts history.</div>
+            <div class="share-row">
+                <button class="share-btn x" onclick="shareX('On this day in darts history — 2007: Taylor vs Van Barneveld, the greatest final ever! 🎯 DartsDaily')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn fb" onclick="shareFB()">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Share
+                </button>
+                <button class="share-btn wa" onclick="shareWA('On this day in darts history — 2007: Taylor vs Van Barneveld, the greatest final ever! 🎯 DartsDaily')">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Share
+                </button>
+            </div>
+        </div>
+
+        <!-- LATEST NEWS -->
+        <div class="card">
+            <div class="card-eyebrow">Latest News</div>
             <div class="news-item" style="padding-top:0;">
                 <div class="news-icon">🎯</div>
                 <div>
@@ -372,7 +314,7 @@
             <div class="news-item">
                 <div class="news-icon">🏆</div>
                 <div>
-                    <div class="news-title"><a href="https://talksport.com/darts/4024539/premier-league-luke-littler-revenge-jonny-clayton/" target="_blank" style="color:var(--text);text-decoration:none;">Darts star fears ‘revenge’ after back-to-back wins against Luke Littler</a></div>
+                    <div class="news-title"><a href="https://talksport.com/darts/4024539/premier-league-luke-littler-revenge-jonny-clayton/" target="_blank" style="color:var(--text);text-decoration:none;">Darts star fears 'revenge' after back-to-back wins against Luke Littler</a></div>
                     <div class="news-meta"><span class="news-source">talksport.com</span> &nbsp;·&nbsp; 05/03/2026</div>
                 </div>
             </div>
@@ -398,15 +340,10 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!-- UPCOMING EVENTS -->
-<div class="card full-width">
-    <div class="card-eyebrow">Upcoming Events</div>
-    <div id="events-loading" style="display:none;"></div>
-    <div id="events-content">
-        <div id="events-list">
+        <!-- UPCOMING EVENTS -->
+        <div class="card full-width">
+            <div class="card-eyebrow">Upcoming Events</div>
             <div class="event-item" style="padding-top:0;">
                 <div class="event-date-box"><div class="event-date-day">13</div><div class="event-date-month">Mar</div></div>
                 <div class="event-info">
@@ -448,684 +385,129 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
         <!-- NEWSLETTER -->
         <div class="card full-width">
             <div class="card-eyebrow">Newsletter</div>
             <div class="section-title">Get DartsDaily in your inbox</div>
             <p class="newsletter-desc">Player of the Day, Trivia, Stat and the best gear deal. Free, no spam, unsubscribe anytime.</p>
-
-             
-            <!-- NEW CODE STARTS HERE -->
             <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1772711");</style>
             <style type="text/css">
-            /* LOADER */
-            .ml-form-embedSubmitLoad {
-                display: inline-block;
-                width: 20px;
-                height: 20px;
-            }
-            .g-recaptcha {
-                transform: scale(1);
-                -webkit-transform: scale(1);
-                transform-origin: 0 0;
-                -webkit-transform-origin: 0 0;
-                height: ;
-            }
-            .sr-only {
-                position: absolute;
-                width: 1px;
-                height: 1px;
-                padding: 0;
-                margin: -1px;
-                overflow: hidden;
-                clip: rect(0,0,0,0);
-                border: 0;
-            }
-            .ml-form-embedSubmitLoad:after {
-                content: " ";
-                display: block;
-                width: 11px;
-                height: 11px;
-                margin: 1px;
-                border-radius: 50%;
-                border: 4px solid #fff;
-                border-color: #ffffff #ffffff #ffffff transparent;
-                animation: ml-form-embedSubmitLoad 1.2s linear infinite;
-            }
-            @keyframes ml-form-embedSubmitLoad {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
-            }
-            #mlb2-38186798.ml-form-embedContainer {
-                box-sizing: border-box;
-                display: table;
-                margin: 0 auto;
-                position: static;
-                width: 100% !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer h4,
-            #mlb2-38186798.ml-form-embedContainer p,
-            #mlb2-38186798.ml-form-embedContainer span,
-            #mlb2-38186798.ml-form-embedContainer button {
-            text-transform: none !important;
-            letter-spacing: normal !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper {
-            background-color: #f6f6f6;
-            border-width: 0px;
-            border-color: transparent;
-            border-radius: 4px;
-            border-style: solid;
-            box-sizing: border-box;
-            display: inline-block !important;
-            margin: 0;
-            padding: 0;
-            position: relative;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedPopup,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedDefault { width: 400px; }
+            .ml-form-embedSubmitLoad { display: inline-block; width: 20px; height: 20px; }
+            .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+            .ml-form-embedSubmitLoad:after { content: " "; display: block; width: 11px; height: 11px; margin: 1px; border-radius: 50%; border: 4px solid #fff; border-color: #ffffff #ffffff #ffffff transparent; animation: ml-form-embedSubmitLoad 1.2s linear infinite; }
+            @keyframes ml-form-embedSubmitLoad { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+            #mlb2-38186798.ml-form-embedContainer { box-sizing: border-box; display: table; margin: 0 auto; position: static; width: 100% !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper { background-color: #f6f6f6; border-width: 0px; border-color: transparent; border-radius: 4px; border-style: solid; box-sizing: border-box; display: inline-block !important; margin: 0; padding: 0; position: relative; }
             #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 400px; width: 100%; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-align-left { text-align: left; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-align-center { text-align: center; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-align-default { display: table-cell !important; vertical-align: middle !important; text-align: center !important; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-align-right { text-align: right; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedHeader img {
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
-            height: auto;
-            margin: 0 auto !important;
-            max-width: 100%;
-            width: undefinedpx;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
-            padding: 20px 20px 0 20px;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {
-            padding-bottom: 0;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
-            text-align: left;
-            margin: 0 0 20px 0;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
-            color: #000000;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 30px;
-            font-weight: 400;
-            margin: 0 0 10px 0;
-            text-align: left;
-            word-break: break-word;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
-            color: #000000;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 20px;
-            margin: 0 0 10px 0;
-            text-align: left;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ul,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ul,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol {
-            color: #000000;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol {
-            list-style-type: lower-alpha;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol ol,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol ol {
-            list-style-type: lower-roman;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p a,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p a {
-            color: #000000;
-            text-decoration: underline;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group {
-            text-align: left!important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group label {
-            margin-bottom: 5px;
-            color: #333333;
-            font-size: 14px;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-weight: bold; font-style: normal; text-decoration: none;;
-            display: inline-block;
-            line-height: 20px;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p:last-child,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child {
-            margin: 0;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {
-            margin: 0;
-            width: 100%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
-            margin: 0 0 20px 0;
-            width: 100%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
-            float: left;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
-            margin: 0;
-            padding: 0 0 20px 0;
-            width: 100%;
-            height: auto;
-            float: left;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
-            margin: 0 0 10px 0;
-            width: 100%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
-            margin: 0;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-formfieldHorizintal {
-            margin: 0;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
-            background-color: #ffffff !important;
-            color: #333333 !important;
-            border-color: #cccccc;
-            border-radius: 4px !important;
-            border-style: solid !important;
-            border-width: 1px !important;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px !important;
-            height: auto;
-            line-height: 21px !important;
-            margin-bottom: 0;
-            margin-top: 0;
-            margin-left: 0;
-            margin-right: 0;
-            padding: 10px 10px !important;
-            width: 100% !important;
-            box-sizing: border-box !important;
-            max-width: 100% !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder { color: #333333; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder { color: #333333; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder { color: #333333; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder { color: #333333; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow textarea, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow textarea {
-            background-color: #ffffff !important;
-            color: #333333 !important;
-            border-color: #cccccc;
-            border-radius: 4px !important;
-            border-style: solid !important;
-            border-width: 1px !important;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px !important;
-            height: auto;
-            line-height: 21px !important;
-            margin-bottom: 0;
-            margin-top: 0;
-            padding: 10px 10px !important;
-            width: 100% !important;
-            box-sizing: border-box !important;
-            max-width: 100% !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
-            border-color: #cccccc!important;
-            background-color: #ffffff!important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input.custom-control-input[type="checkbox"]{
-            box-sizing: border-box;
-            padding: 0;
-            position: absolute;
-            z-index: -1;
-            opacity: 0;
-            margin-top: 5px;
-            margin-left: -1.5rem;
-            overflow: visible;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
-            border-radius: 4px!important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::after {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::after {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked~.custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=checkbox]:checked~.label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=checkbox]:checked~.label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]:checked~.label-description::before {
-            border-color: #000000!important;
-            background-color: #000000!important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::after {
-            top: 2px;
-            box-sizing: border-box;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
-            top: 0px!important;
-            box-sizing: border-box!important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
-            top: 0px!important;
-            box-sizing: border-box!important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {
-            top: 0px!important;
-            box-sizing: border-box!important;
-            position: absolute;
-            left: -1.5rem;
-            display: block;
-            width: 1rem;
-            height: 1rem;
-            content: "";
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
-            top: 0px!important;
-            box-sizing: border-box!important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::before {
-            position: absolute;
-            top: 4px;
-            left: -1.5rem;
-            display: block;
-            width: 16px;
-            height: 16px;
-            pointer-events: none;
-            content: "";
-            background-color: #ffffff;
-            border: #adb5bd solid 1px;
-            border-radius: 50%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::after {
-            position: absolute;
-            top: 2px!important;
-            left: -1.5rem;
-            display: block;
-            width: 1rem;
-            height: 1rem;
-            content: "";
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
-            position: absolute;
-            top: 4px;
-            left: -1.5rem;
-            display: block;
-            width: 16px;
-            height: 16px;
-            pointer-events: none;
-            content: "";
-            background-color: #ffffff;
-            border: #adb5bd solid 1px;
-            border-radius: 50%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after {
-            position: absolute;
-            top: 0px!important;
-            left: -1.5rem;
-            display: block;
-            width: 1rem;
-            height: 1rem;
-            content: "";
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
-            position: absolute;
-            top: 0px!important;
-            left: -1.5rem;
-            display: block;
-            width: 1rem;
-            height: 1rem;
-            content: "";
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-radio .custom-control-label::after {
-            background: no-repeat 50%/50% 50%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-checkbox .custom-control-label::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
-            background: no-repeat 50%/50% 50%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-control, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-control {
-            position: relative;
-            display: block;
-            min-height: 1.5rem;
-            padding-left: 1.5rem;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input {
-            position: absolute;
-            z-index: -1;
-            opacity: 0;
-            box-sizing: border-box;
-            padding: 0;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label {
-            color: #000000;
-            font-size: 12px!important;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            line-height: 22px;
-            margin-bottom: 0;
-            position: relative;
-            vertical-align: top;
-            font-style: normal;
-            font-weight: 700;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select, #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select {
-            background-color: #ffffff !important;
-            color: #333333 !important;
-            border-color: #cccccc;
-            border-radius: 4px !important;
-            border-style: solid !important;
-            border-width: 1px !important;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px !important;
-            line-height: 20px !important;
-            margin-bottom: 0;
-            margin-top: 0;
-            padding: 10px 28px 10px 12px !important;
-            width: 100% !important;
-            box-sizing: border-box !important;
-            max-width: 100% !important;
-            height: auto;
-            display: inline-block;
-            vertical-align: middle;
-            background: url('https://assets.mlcdn.com/ml/images/default/dropdown.svg') no-repeat right .75rem center/8px 10px;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow {
-            height: auto;
-            width: 100%;
-            float: left;
-            }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody { padding: 20px 20px 0 20px; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal { padding-bottom: 0; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent { text-align: left; margin: 0 0 20px 0; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form { margin: 0; width: 100%; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm { margin: 0; padding: 0 0 20px 0; width: 100%; height: auto; float: left; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow { height: auto; width: 100%; float: left; }
             .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal { width: 70%; float: left; }
             .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal { width: 30%; float: left; }
-            .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal.labelsOn { padding-top: 25px; }
             .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields { box-sizing: border-box; float: left; padding-right: 10px; }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
-            background-color: #ffffff;
-            color: #333333;
-            border-color: #cccccc;
-            border-radius: 4px;
-            border-style: solid;
-            border-width: 1px;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            line-height: 20px;
-            margin-bottom: 0;
-            margin-top: 0;
-            padding: 10px 10px;
-            width: 100%;
-            box-sizing: border-box;
-            overflow-y: initial;
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input { background-color: #ffffff; color: #333333; border-color: #cccccc; border-radius: 4px; border-style: solid; border-width: 1px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 0; margin-top: 0; padding: 10px 10px; width: 100%; box-sizing: border-box; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button { background-color: #000000 !important; border-color: #000000; border-style: solid; border-width: 1px; border-radius: 4px; box-shadow: none; color: #ffffff !important; cursor: pointer; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px !important; font-weight: 700; line-height: 20px; margin: 0 !important; padding: 10px !important; width: 100%; height: auto; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover { background-color: #333333 !important; border-color: #333333 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit { margin: 0 0 20px 0; float: left; width: 100%; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button { background-color: #000000 !important; border: none !important; border-radius: 4px !important; box-shadow: none !important; color: #ffffff !important; cursor: pointer; font-family: 'Open Sans', Arial, Helvetica, sans-serif !important; font-size: 14px !important; font-weight: 700 !important; line-height: 21px !important; height: auto; padding: 10px !important; width: 100% !important; box-sizing: border-box !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading { display: none; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover { background-color: #333333 !important; }
+            .ml-error input, .ml-error textarea, .ml-error select { border-color: red!important; }
+            .ml-mobileButton-horizontal { display: none; }
+            @media only screen and (max-width: 400px) {
+                .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup { width: 100%!important; }
+                .ml-form-formContent.horozintalForm { float: left!important; }
+                .ml-form-formContent.horozintalForm .ml-form-horizontalRow { height: auto!important; width: 100%!important; float: left!important; }
+                .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal { width: 100%!important; }
+                .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div { padding-right: 0px!important; padding-bottom: 10px; }
+                .ml-form-formContent.horozintalForm .ml-button-horizontal { width: 100%!important; }
+                .ml-form-formContent.horozintalForm .ml-button-horizontal.labelsOn { padding-top: 0px!important; }
+                #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm { padding: 0 0 10px 0 !important; }
+                .ml-hide-horizontal { display: none !important; }
+                .ml-form-formContent.horozintalForm .ml-button-horizontal { display: none!important; }
+                .ml-mobileButton-horizontal { display: inline-block !important; margin-bottom: 20px; width: 100%; }
             }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
-            background-color: #000000 !important;
-            border-color: #000000;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 4px;
-            box-shadow: none;
-            color: #ffffff !important;
-            cursor: pointer;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 14px !important;
-            font-weight: 700;
-            line-height: 20px;
-            margin: 0 !important;
-            padding: 10px !important;
-            width: 100%;
-            height: auto;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
-            background-color: #333333 !important;
-            border-color: #333333 !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type="checkbox"] {
-            box-sizing: border-box;
-            padding: 0;
-            position: absolute;
-            z-index: -1;
-            opacity: 0;
-            margin-top: 5px;
-            margin-left: -1.5rem;
-            overflow: visible;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description {
-            color: #000000;
-            display: block;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            text-align: left;
-            margin-bottom: 0;
-            position: relative;
-            vertical-align: top;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label {
-            font-weight: normal;
-            margin: 0;
-            padding: 0;
-            position: relative;
-            display: block;
-            min-height: 24px;
-            padding-left: 24px;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a {
-            color: #000000;
-            text-decoration: underline;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p {
-            color: #000000 !important;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
-            font-size: 12px !important;
-            font-weight: normal !important;
-            line-height: 18px !important;
-            padding: 0 !important;
-            margin: 0 5px 0 0 !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p:last-child {
-            margin: 0;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
-            margin: 0 0 20px 0;
-            float: left;
-            width: 100%;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
-            background-color: #000000 !important;
-            border: none !important;
-            border-radius: 4px !important;
-            box-shadow: none !important;
-            color: #ffffff !important;
-            cursor: pointer;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
-            font-size: 14px !important;
-            font-weight: 700 !important;
-            line-height: 21px !important;
-            height: auto;
-            padding: 10px !important;
-            width: 100% !important;
-            box-sizing: border-box !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {
-            display: none;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
-            background-color: #333333 !important;
-            }
-            .ml-subscribe-close {
-            width: 30px;
-            height: 30px;
-            background: url('https://assets.mlcdn.com/ml/images/default/modal_close.png') no-repeat;
-            background-size: 30px;
-            cursor: pointer;
-            margin-top: -10px;
-            margin-right: -10px;
-            position: absolute;
-            top: 0;
-            right: 0;
-            }
-            .ml-error input, .ml-error textarea, .ml-error select {
-            border-color: red!important;
-            }
-            .ml-error .custom-checkbox-radio-list {
-            border: 1px solid red !important;
-            border-radius: 4px;
-            padding: 10px;
-            }
-            .ml-error .label-description,
-            .ml-error .label-description p,
-            .ml-error .label-description p a,
-            .ml-error label:first-child {
-            color: #ff0000 !important;
-            }
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p,
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter {
-            color: #ff0000 !important;
-            }
-            @media only screen and (max-width: 400px){
-            .ml-form-embedWrapper.embedDefault, .ml-form-embedWrapper.embedPopup { width: 100%!important; }
-            .ml-form-formContent.horozintalForm { float: left!important; }
-            .ml-form-formContent.horozintalForm .ml-form-horizontalRow { height: auto!important; width: 100%!important; float: left!important; }
-            .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal { width: 100%!important; }
-            .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div { padding-right: 0px!important; padding-bottom: 10px; }
-            .ml-form-formContent.horozintalForm .ml-button-horizontal { width: 100%!important; }
-            .ml-form-formContent.horozintalForm .ml-button-horizontal.labelsOn { padding-top: 0px!important; }
-            }
-                <p class="newsletter-sub">&#128235; Join 3,400+ darts fans -- no spam, ever.</p>
             </style>
             <style type="text/css">
-            .ml-mobileButton-horizontal { display: none; }
-            #mlb2-38186798 .ml-mobileButton-horizontal button {
-            background-color: #000000 !important;
-            border-color: #000000 !important;
-            border-style: solid !important;
-            border-width: 1px !important;
-            border-radius: 4px !important;
-            box-shadow: none !important;
-            color: #ffffff !important;
-            cursor: pointer;
-            font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
-            font-size: 14px !important;
-            font-weight: 700 !important;
-            line-height: 20px !important;
-            padding: 10px !important;
-            width: 100% !important;
-            }
-            @media only screen and (max-width: 400px) {
-            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
-            padding: 0 0 10px 0 !important;
-            }
-            .ml-hide-horizontal { display: none !important; }
-            .ml-form-formContent.horozintalForm .ml-button-horizontal { display: none!important; }
-            .ml-mobileButton-horizontal { display: inline-block !important; margin-bottom: 20px;width:100%; }
-            .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal > div { padding-bottom: 0px !important; }
-            }
-            </style> <div id="mlb2-38186798" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-38186798">
-            <div class="ml-form-align-center ">
-            <div class="ml-form-embedWrapper embedForm">
-            <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
-            <div class="ml-form-embedContent" style=" ">
-            <h4>Get DartsDaily in your inbox</h4>
-            <p>Player of the Day, Trivia, Stat and the best gear deal. Free, no spam, unsubscribe anytime.</p>
-            </div>
-            <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/subscribe" data-code="" method="post" target="_blank">
-            <div class="ml-form-formContent horozintalForm">
-            <div class="ml-form-horizontalRow">
-            <div class="ml-input-horizontal">
-            <div style="width: 100%;" class="horizontal-fields">
-            <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-            <!-- input -->
-            <input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
-            <!-- /input -->
-            </div>
-            </div>
-            </div>
-            <div class="ml-button-horizontal primary ">
-            <button type="submit" class="primary">Subscribe</button>
-            <button disabled="disabled" style="display: none;" type="button" class="loading">
-            <div class="ml-form-embedSubmitLoad"></div>
-            <span class="sr-only">Loading...</span>
-            </button>
-            </div>
-            </div>
-            </div>
-            <!-- Privacy policy -->
-            <!-- /Privacy policy -->
-            <input type="hidden" name="ml-submit" value="1">
-            <div class="ml-mobileButton-horizontal">
-            <button type="submit" class="primary">Subscribe</button>
-            <button disabled="disabled" style="display: none;" type="button" class="loading">
-            <div class="ml-form-embedSubmitLoad"></div>
-            <span class="sr-only">Loading...</span>
-            </button>
-            </div>
-            <input type="hidden" name="anticsrf" value="true">
-            </form>
-            </div>
-            <div class="ml-form-successBody row-success" style="display: none">
-            <div class="ml-form-successContent">
-            <h4>✅ Almost there!</h4>
-            <p>Check your inbox to confirm your subscription 🎯</p>
-            </div>
-            </div>
-            </div>
-            </div>
-            </div> <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b" type="text/javascript"></script>
-            <script>
-            fetch("https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/takel")
-            </script>
- 
-            <!-- NEW CODE ENDS HERE -->
-            <p class="newsletter-sub">&#128235; Join 3,400+ darts fans -- no spam, ever.</p>
-            <style>
-
-                /* ─── MAILERLITE OVERRIDES ─────────────────────────────────── */
-#mlb2-38186798.ml-form-embedContainer { background: transparent !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper { background: transparent !important; border: none !important; width: 100% !important; max-width: 100% !important; display: block !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 100% !important; width: 100% !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-embedBody { padding: 0 !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-embedContent { display: none !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-align-center { text-align: left !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow { display: flex !important; gap: 10px !important; align-items: center !important; width: 100% !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-input-horizontal { flex: 1 !important; width: auto !important; float: none !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal { width: auto !important; float: none !important; flex-shrink: 0 !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-formContent.horozintalForm { padding: 0 !important; margin: 0 !important; float: none !important; }
-#mlb2-38186798.ml-form-embedContainer .horizontal-fields { padding-right: 0 !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; border-radius: 8px !important; border-style: solid !important; border-width: 1px !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; padding: 11px 15px !important; width: 100% !important; box-sizing: border-box !important; transition: border-color 0.15s, background 0.3s !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input:focus { outline: none !important; border-color: var(--accent) !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-webkit-input-placeholder { color: var(--muted) !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-moz-placeholder { color: var(--muted) !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input:-ms-input-placeholder { color: var(--muted) !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary { background: var(--text) !important; color: var(--bg) !important; border: none !important; border-radius: 8px !important; font-family: 'Inter', sans-serif !important; font-size: 0.81rem !important; font-weight: 600 !important; padding: 11px 20px !important; cursor: pointer !important; white-space: nowrap !important; transition: opacity 0.15s !important; width: auto !important; line-height: 1.4 !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary:hover { opacity: 0.85 !important; background: var(--text) !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.loading { display: none !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-mobileButton-horizontal { display: none !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-successBody { padding: 0 !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-successContent h4 { color: var(--green) !important; font-family: 'Inter', sans-serif !important; font-size: 0.9rem !important; font-weight: 600 !important; margin: 0 0 4px 0 !important; }
-#mlb2-38186798.ml-form-embedContainer .ml-form-successContent p { color: var(--muted) !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; margin: 0 !important; }
-body.light #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; }
-body.light #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-webkit-input-placeholder { color: var(--muted) !important; }
-body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary { background: var(--text) !important; color: var(--bg) !important; }
+            #mlb2-38186798.ml-form-embedContainer { background: transparent !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper { background: transparent !important; border: none !important; width: 100% !important; max-width: 100% !important; display: block !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 100% !important; width: 100% !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedBody { padding: 0 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-embedContent { display: none !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-align-center { text-align: left !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow { display: flex !important; gap: 10px !important; align-items: center !important; width: 100% !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-input-horizontal { flex: 1 !important; width: auto !important; float: none !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal { width: auto !important; float: none !important; flex-shrink: 0 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-formContent.horozintalForm { padding: 0 !important; margin: 0 !important; float: none !important; }
+            #mlb2-38186798.ml-form-embedContainer .horizontal-fields { padding-right: 0 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; border-radius: 8px !important; border-style: solid !important; border-width: 1px !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; padding: 11px 15px !important; width: 100% !important; box-sizing: border-box !important; transition: border-color 0.15s, background 0.3s !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input:focus { outline: none !important; border-color: var(--accent) !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-webkit-input-placeholder { color: var(--muted) !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-moz-placeholder { color: var(--muted) !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input:-ms-input-placeholder { color: var(--muted) !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary { background: var(--text) !important; color: var(--bg) !important; border: none !important; border-radius: 8px !important; font-family: 'Inter', sans-serif !important; font-size: 0.81rem !important; font-weight: 600 !important; padding: 11px 20px !important; cursor: pointer !important; white-space: nowrap !important; transition: opacity 0.15s !important; width: auto !important; line-height: 1.4 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary:hover { opacity: 0.85 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.loading { display: none !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-mobileButton-horizontal { display: none !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-successBody { padding: 0 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-successContent h4 { color: var(--green) !important; font-family: 'Inter', sans-serif !important; font-size: 0.9rem !important; font-weight: 600 !important; margin: 0 0 4px 0 !important; }
+            #mlb2-38186798.ml-form-embedContainer .ml-form-successContent p { color: var(--muted) !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; margin: 0 !important; }
             </style>
+            <div id="mlb2-38186798" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-38186798">
+                <div class="ml-form-align-center">
+                    <div class="ml-form-embedWrapper embedForm">
+                        <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
+                            <div class="ml-form-embedContent"></div>
+                            <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/subscribe" data-code="" method="post" target="_blank">
+                                <div class="ml-form-formContent horozintalForm">
+                                    <div class="ml-form-horizontalRow">
+                                        <div class="ml-input-horizontal">
+                                            <div style="width:100%;" class="horizontal-fields">
+                                                <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                                                    <input type="email" class="form-control" name="fields[email]" placeholder="Email" autocomplete="email">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ml-button-horizontal primary">
+                                            <button type="submit" class="primary">Subscribe</button>
+                                            <button disabled="disabled" style="display:none;" type="button" class="loading">
+                                                <div class="ml-form-embedSubmitLoad"></div>
+                                                <span class="sr-only">Loading...</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="ml-submit" value="1">
+                                <div class="ml-mobileButton-horizontal">
+                                    <button type="submit" class="primary">Subscribe</button>
+                                    <button disabled="disabled" style="display:none;" type="button" class="loading">
+                                        <div class="ml-form-embedSubmitLoad"></div>
+                                        <span class="sr-only">Loading...</span>
+                                    </button>
+                                </div>
+                                <input type="hidden" name="anticsrf" value="true">
+                            </form>
+                        </div>
+                        <div class="ml-form-successBody row-success" style="display:none;">
+                            <div class="ml-form-successContent">
+                                <h4>✅ Almost there!</h4>
+                                <p>Check your inbox to confirm your subscription 🎯</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b" type="text/javascript"></script>
+            <script>fetch("https://assets.mailerlite.com/jsonp/2173793/forms/181450237687105130/takel")</script>
+            <p style="font-size:0.7rem;color:var(--muted);margin-top:10px;">&#128235; Join 3,400+ darts fans — no spam, ever.</p>
         </div>
 
     </div>
+</div>
 
 <footer>
     <div class="footer-brand">
@@ -1138,8 +520,6 @@ body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.pr
         <a href="/affiliate.html">Affiliate Disclosure</a>
     </div>
     <p class="footer-copy">© 2026 DartsDaily. All rights reserved. Affiliate links are marked.</p>
-
-
 </footer>
 
 <script>
@@ -1147,19 +527,6 @@ body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.pr
     const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     const now = new Date();
     document.getElementById("currentDate").textContent = days[now.getDay()] + " " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear();
-
-    function updateCountdown() {
-        const n = new Date();
-        const midnight = new Date();
-        midnight.setHours(24, 0, 0, 0);
-        const diff = midnight - n;
-        const h = Math.floor(diff / 3600000);
-        const m = Math.floor((diff % 3600000) / 60000);
-        const s = Math.floor((diff % 60000) / 1000);
-        document.getElementById("countdown").textContent = String(h).padStart(2,"0") + ":" + String(m).padStart(2,"0") + ":" + String(s).padStart(2,"0");
-    }
-    setInterval(updateCountdown, 1000);
-    updateCountdown();
 
     function updateStreak() {
         const today = new Date().toDateString();
@@ -1194,26 +561,21 @@ body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.pr
     function shareFB() { window.open("https://www.facebook.com/sharer/sharer.php?u=" + pageURL, "_blank", "width=600,height=460"); }
     function shareWA(text) { window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text + " " + window.location.href), "_blank"); }
 
-function subscribeNewsletter() {
-    const input = document.getElementById("emailInput");
-    if (!input.value || !input.value.includes("@")) { alert("Please enter a valid email address."); return; }
-    alert("You are subscribed! Welcome to DartsDaily.");
-    input.value = "";
-}
-
-function ml_webform_success_38186798() {
-    var $ = ml_jQuery || jQuery;
-    $('.ml-subscribe-form-38186798 .row-success').show();
-    $('.ml-subscribe-form-38186798 .row-form').hide();
-}
-
-
     let triviaAnswered = false;
-
-
-
-
-
+    function checkTriviaAnswer(btn, selected, correct) {
+        if (triviaAnswered) return;
+        triviaAnswered = true;
+        document.querySelectorAll(".trivia-btn").forEach(function(b) { b.disabled = true; });
+        if (selected === correct) {
+            btn.classList.add("correct");
+        } else {
+            btn.classList.add("wrong");
+            document.querySelectorAll(".trivia-btn")[correct].classList.add("correct");
+        }
+        document.getElementById("triviaResult").style.display = "block";
+        const el = document.getElementById("triviaPlayers");
+        el.textContent = (parseInt(el.textContent.replace(",", "")) + 1).toLocaleString();
+    }
 </script>
 
 </body>
