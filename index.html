@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darts Daily | Your Static Darts Fix</title>
+    <title>Darts Daily | Darts News, Stats & Trivia Every Day</title>
     <meta name="description" content="Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.">
     <link rel="canonical" href="https://www.dartsdaily.net">
     <meta name='impact-site-verification' value='74c5a484-3125-4f75-b76d-f8f1bc22dee6'> <!-- Ticketmaster verification -->
@@ -203,23 +203,7 @@
     </div>
 </header>
 
-<!-- <div class="countdown-bar">
-    <span>Next refresh in</span> 
-    <div class="dot"></div>
-    <span id="countdown">--:--:--</span>
-</div> -->
-
-<!-- <div class="ad-strip">Advertisement -- Replace with Google AdSense leaderboard (728x90)</div> -->
-
-<div class="page-wrapper">
-    <div class="ad-sidebar">
-        <div class="ad-sidebar-unit">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:0.3"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-            <span class="ad-label">Google Ad<br/>160 x 600<br/>Wide Skyscraper</span>
-        </div>
-    </div>
-
-    <div class="container">
+<div class="container">
 
 <!-- PLAYER OF THE DAY -->
 <div class="card">
@@ -489,15 +473,11 @@
             <div class="card-eyebrow">Newsletter</div>
             <div class="section-title">Get DartsDaily in your inbox</div>
             <p class="newsletter-desc">Player of the Day, Trivia, Stat and the best gear deal. Free, no spam, unsubscribe anytime.</p>
-            <!-- <div class="newsletter-form">
-                <input type="email" class="newsletter-input" placeholder="your@email.com" id="emailInput">
-                <button class="btn-newsletter" onclick="subscribeNewsletter()">Subscribe</button>
-            </div> -->
+
              
             <!-- NEW CODE STARTS HERE -->
             <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1772711");</style>
             <style type="text/css">
-            <p class="newsletter-sub">&#128235; Join 3,400+ darts fans -- no spam, ever.</p>
             /* LOADER */
             .ml-form-embedSubmitLoad {
                 display: inline-block;
@@ -1164,16 +1144,6 @@ body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.pr
 
     </div>
 
-    <div class="ad-sidebar">
-        <div class="ad-sidebar-unit">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:0.3"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-            <span class="ad-label">Google Ad<br/>160 x 600<br/>Wide Skyscraper</span>
-        </div>
-    </div>
-</div>
-
-<!-- <div class="ad-strip">Advertisement -- Replace with Google AdSense leaderboard (728x90)</div> -->
-
 <footer>
     <div class="footer-brand">
         <span class="footer-logo">Darts<span style="color:var(--accent)">Daily</span></span>
@@ -1260,187 +1230,9 @@ function ml_webform_success_38186798() {
     $('.ml-subscribe-form-38186798 .row-form').hide();
 }
 
-    const start = new Date(now.getFullYear(), 0, 0);
-    const dayOfYear = Math.floor((now - start) / 86400000);
-
-    async function loadPlayerOfDay() {
-        try {
-            const res = await fetch("players.json");
-            const players = await res.json();
-            const p = players[dayOfYear % players.length];
-            const avatar = document.getElementById("p-avatar");
-            if (p.photo) {
-                avatar.innerHTML = "<img src=\"" + p.photo + "\" alt=\"" + p.name + "\" onerror=\"this.parentElement.textContent='" + (p.flag || "&#127919;") + "'\">"; 
-            } else {
-                avatar.textContent = p.flag || "&#127919;";
-            }
-            const statusClass = p.status === "Active" ? "status-active" : "status-retired";
-            document.getElementById("p-name").innerHTML = p.name + " <span class=\"status-badge " + statusClass + "\">" + p.status + "</span>";
-            document.getElementById("p-nickname").textContent = "\"" + p.nickname + "\"";
-            document.getElementById("p-tags").innerHTML = p.tags.map(function(t) { return "<span class=\"tag\">" + t + "</span>"; }).join("");
-            const infoItems = [
-                { label: "Born", value: p.born },
-                { label: "Hometown", value: p.hometown },
-                { label: "Pro Since", value: p.pro_since },
-                { label: p.retired ? "Retired" : "Status", value: p.retired ? p.retired : "Active" },
-                { label: "Dart Weight", value: p.dart_weight },
-                { label: "Dart Brand", value: p.dart_brand },
-                { label: "Walk-on", value: p.walk_on_music },
-                { label: "Style", value: p.throwing_style }
-            ];
-            document.getElementById("p-info-grid").innerHTML = infoItems.map(function(i) { return "<div class=\"info-row\"><div class=\"info-label\">" + i.label + "</div><div class=\"info-value\">" + i.value + "</div></div>"; }).join("");
-            document.getElementById("p-highlights").innerHTML = p.highlights.map(function(h) { return "<div class=\"highlight-item\"><div class=\"highlight-dot\"></div><div>" + h + "</div></div>"; }).join("");
-            document.getElementById("p-quote").innerHTML = "<span>\"" + p.quote + "\"</span><br><small>-- " + p.name + "</small>";
-            document.getElementById("p-funfact").textContent = p.fun_fact;
-            document.getElementById("p-bio").textContent = p.bio;
-            document.getElementById("p-share-x").onclick = function() { shareX(p.share_text); };
-            document.getElementById("p-share-wa").onclick = function() { shareWA(p.share_text); };
-            document.getElementById("player-loading").style.display = "none";
-            document.getElementById("player-content").style.display = "block";
-        } catch (err) {
-            document.getElementById("player-loading").textContent = "Error loading player data.";
-            console.error(err);
-        }
-    }
-    loadPlayerOfDay();
 
     let triviaAnswered = false;
-    async function loadTriviaOfDay() {
-        try {
-            const res = await fetch("trivia.json");
-            const trivia = await res.json();
-            const t = trivia[dayOfYear % trivia.length];
-            const letters = ["A", "B", "C", "D"];
-            document.getElementById("t-question").textContent = t.question;
-            document.getElementById("t-options").innerHTML = t.options.map(function(option, index) { return "<button class=\"trivia-btn\" onclick=\"checkTriviaAnswer(this, " + index + ", " + t.correct + ")\">" + letters[index] + ") " + option + "</button>"; }).join("");
-            document.getElementById("t-explanation").textContent = t.explanation;
-            document.getElementById("t-share-x").onclick = function() { shareX(t.share_text); };
-            document.getElementById("t-share-wa").onclick = function() { shareWA(t.share_text); };
-            document.getElementById("trivia-loading").style.display = "none";
-            document.getElementById("trivia-content").style.display = "block";
-        } catch (err) {
-            document.getElementById("trivia-loading").textContent = "Error loading trivia.";
-            console.error(err);
-        }
-    }
 
-    function checkTriviaAnswer(btn, selected, correct) {
-        if (triviaAnswered) return;
-        triviaAnswered = true;
-        document.querySelectorAll(".trivia-btn").forEach(function(b) { b.disabled = true; });
-        if (selected === correct) {
-            btn.classList.add("correct");
-        } else {
-            btn.classList.add("wrong");
-            document.querySelectorAll(".trivia-btn")[correct].classList.add("correct");
-        }
-        document.getElementById("triviaResult").style.display = "block";
-        const el = document.getElementById("triviaPlayers");
-        el.textContent = (parseInt(el.textContent.replace(",", "")) + 1).toLocaleString();
-    }
-    loadTriviaOfDay();
-
-    async function loadStatOfDay() {
-        try {
-            const res = await fetch("stats.json");
-            const stats = await res.json();
-            const s = stats[dayOfYear % stats.length];
-            document.getElementById("s-number").textContent = s.number;
-            document.getElementById("s-stat").innerHTML = s.stat;
-            document.getElementById("s-share-x").onclick = function() { shareX(s.share_text); };
-            document.getElementById("s-share-wa").onclick = function() { shareWA(s.share_text); };
-            document.getElementById("stat-loading").style.display = "none";
-            document.getElementById("stat-content").style.display = "block";
-        } catch (err) {
-            document.getElementById("stat-loading").textContent = "Error loading stat.";
-            console.error(err);
-        }
-    }
-    loadStatOfDay();
-
-    async function loadHistoryOfDay() {
-        try {
-            const res = await fetch("history.json");
-            const history = await res.json();
-            const h = history[dayOfYear % history.length];
-            document.getElementById("h-year").textContent = h.year;
-            document.getElementById("h-story").innerHTML = h.story;
-            document.getElementById("h-share-x").onclick = function() { shareX(h.share_text); };
-            document.getElementById("h-share-wa").onclick = function() { shareWA(h.share_text); };
-            document.getElementById("history-loading").style.display = "none";
-            document.getElementById("history-content").style.display = "block";
-        } catch (err) {
-            document.getElementById("history-loading").textContent = "Error loading history.";
-            console.error(err);
-        }
-    }
-    loadHistoryOfDay();
-
-    async function loadLatestNews() {
-        try {
-            const res = await fetch("news.json");
-            const news = await res.json();
-            const latest = news.slice(0, 4);
-            document.getElementById("news-list").innerHTML = latest.map(function(item, index) {
-                //return "<div class=\"news-item\" style=\"" + (index === 0 ? "padding-top:0;" : "") + "\"><div class=\"news-icon\">" + item.icon + "</div><div><div class=\"news-title\"><a href=\"" + item.url + "\" target=\"_blank\" style=\"color:var(--text);text-decoration:none;\">" + item.title + "</a></div><div class=\"news-meta\"><span class=\"news-source\">" + item.source + "</span></div></div></div>";
-                return "<div class=\"news-item\" style=\"" + (index === 0 ? "padding-top:0;" : "") + "\"><div class=\"news-icon\">" + item.icon + "</div><div><div class=\"news-title\"><a href=\"" + item.url + "\" target=\"_blank\" style=\"color:var(--text);text-decoration:none;\">" + item.title + "</a></div><div class=\"news-meta\"><span class=\"news-source\">" + item.source + "</span> &nbsp;&#183;&nbsp; " + item.time + "</div></div></div>";
-            }).join("");
-            document.getElementById("news-loading").style.display = "none";
-            document.getElementById("news-content").style.display = "block";
-        } catch (err) {
-            document.getElementById("news-loading").textContent = "Error loading news.";
-            console.error(err);
-        }
-    }
-    loadLatestNews();
-
-async function loadUpcomingEvents() {
-    try {
-        const res = await fetch('events.json');
-        const events = await res.json();
-
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-
-        const upcoming = events
-            .filter(e => new Date(e.date_iso) >= today)
-            .sort((a, b) => new Date(a.date_iso) - new Date(b.date_iso))
-            .slice(0, 5);
-
-        if (upcoming.length === 0) {
-            document.getElementById('events-loading').textContent = 'No upcoming events found.';
-            return;
-        }
-
-        document.getElementById('events-list').innerHTML = upcoming.map((event, index) => `
-            <div class="event-item" style="${index === 0 ? 'padding-top:0;' : ''}">
-                <div class="event-date-box">
-                    <div class="event-day">${new Date(event.date_iso).getDate()}</div>
-                    <div class="event-month">${new Date(event.date_iso).toLocaleString('en-GB', { month: 'short' }).toUpperCase()}</div>
-                </div>
-                <div class="event-details">
-                    <div class="event-name">${event.name}</div>
-                    <div class="event-meta">
-                        <span class="event-location">${event.icon} ${event.location}</span>
-                        &nbsp;·&nbsp;
-                        <span class="event-date">📅 ${event.date_display}</span>
-                    </div>
-<div class="event-bottom-row">
-    <span class="event-badge">${event.tour}</span>
-</div>
-                </div>
-            </div>
-        `).join('');
-
-        document.getElementById('events-loading').style.display = 'none';
-        document.getElementById('events-content').style.display = 'block';
-
-    } catch (err) {
-        document.getElementById('events-loading').textContent = 'Error loading events.';
-        console.error(err);
-    }
-}
-loadUpcomingEvents();
 
 // ─── MODAL CONTENT ───────────────────────────────────────────
 const modalContent = {
