@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Phil Taylor",
-    "photo": "images/phil-taylor.png",
+    "photo": "images/players/players/phil-taylor.png",
     "nickname": "The Power",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -31,7 +31,7 @@
   {
     "id": 2,
     "name": "Michael van Gerwen",
-    "photo": "images/mvg.png",
+    "photo": "images/players/players/mvg.png",
     "nickname": "Mighty Mike",
     "flag": "🇳🇱",
     "country": "Netherlands",
@@ -60,7 +60,7 @@
   {
     "id": 3,
     "name": "Luke Littler",
-    "photo": "images/luke-littler.png",
+    "photo": "images/players/players/luke-littler.png",
     "nickname": "The Nuke",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -89,7 +89,7 @@
   {
     "id": 4,
     "name": "Fallon Sherrock",
-    "photo": "images/fallon-sherrock.png",
+    "photo": "images/players/players/fallon-sherrock.png",
     "nickname": "The Queen of the Palace",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -118,7 +118,7 @@
   {
     "id": 5,
     "name": "Gary Anderson",
-    "photo": "images/gary-anderson.png",
+    "photo": "images/players/players/gary-anderson.png",
     "nickname": "The Flying Scotsman",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "country": "Scotland",
@@ -147,7 +147,7 @@
   {
     "id": 6,
     "name": "Raymond van Barneveld",
-    "photo": "images/rvb.png",
+    "photo": "images/players/players/rvb.png",
     "nickname": "Barney",
     "flag": "🇳🇱",
     "country": "Netherlands",
@@ -176,7 +176,7 @@
   {
     "id": 7,
     "name": "Peter Wright",
-    "photo": "images/peter-wright.png",
+    "photo": "images/players/peter-wright.png",
     "nickname": "Snakebite",
     "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "country": "Scotland",
@@ -205,7 +205,7 @@
   {
     "id": 8,
     "name": "Eric Bristow",
-    "photo": "images/eric-bristow.png",
+    "photo": "images/players/eric-bristow.png",
     "nickname": "The Crafty Cockney",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -234,7 +234,7 @@
   {
     "id": 9,
     "name": "John Lowe",
-    "photo": "images/john-lowe.png",
+    "photo": "images/players/john-lowe.png",
     "nickname": "Old Stoneface",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -263,7 +263,7 @@
   {
     "id": 10,
     "name": "Adrian Lewis",
-    "photo": "images/adrian-lewis.png",
+    "photo": "images/players/adrian-lewis.png",
     "nickname": "Jackpot",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -292,7 +292,7 @@
   {
     "id": 11,
     "name": "Gerwyn Price",
-    "photo": "images/gerwyn-price.png",
+    "photo": "images/players/gerwyn-price.png",
     "nickname": "The Iceman",
     "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "country": "Wales",
@@ -321,7 +321,7 @@
   {
     "id": 12,
     "name": "Jonny Clayton",
-    "photo": "images/jonny-clayton.png",
+    "photo": "images/players/jonny-clayton.png",
     "nickname": "The Ferret",
     "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "country": "Wales",
@@ -350,7 +350,7 @@
   {
     "id": 13,
     "name": "Jose de Sousa",
-    "photo": "images/jose-de-sousa.png",
+    "photo": "images/players/jose-de-sousa.png",
     "nickname": "The Special One",
     "flag": "🇵🇹",
     "country": "Portugal",
@@ -379,7 +379,7 @@
   {
     "id": 14,
     "name": "Dimitri Van den Bergh",
-    "photo": "images/dimitri-vanden-bergh.png",
+    "photo": "images/players/dimitri-vanden-bergh.png",
     "nickname": "The DreamMaker",
     "flag": "🇧🇪",
     "country": "Belgium",
@@ -408,7 +408,7 @@
   {
     "id": 15,
     "name": "Dave Chisnall",
-    "photo": "images/dave-chisnall.png",
+    "photo": "images/players/dave-chisnall.png",
     "nickname": "Chizzy",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -437,7 +437,7 @@
   {
     "id": 16,
     "name": "Simon Whitlock",
-    "photo": "images/simon-whitlock.png",
+    "photo": "images/players/simon-whitlock.png",
     "nickname": "The Wizard",
     "flag": "🇦🇺",
     "country": "Australia",
@@ -466,7 +466,7 @@
   {
     "id": 17,
     "name": "Mensur Suljovic",
-    "photo": "images/mensur-suljovic.png",
+    "photo": "images/players/mensur-suljovic.png",
     "nickname": "The Gentle",
     "flag": "🇷🇸",
     "country": "Serbia",
@@ -495,7 +495,7 @@
   {
     "id": 18,
     "name": "Glen Durrant",
-    "photo": "images/glen-durrant.png",
+    "photo": "images/players/glen-durrant.png",
     "nickname": "Duzza",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -524,7 +524,7 @@
   {
     "id": 19,
     "name": "Andy Hamilton",
-    "photo": "images/andy-hamilton.jpg",
+    "photo": "images/players/andy-hamilton.jpg",
     "nickname": "The Hammer",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -553,7 +553,7 @@
   {
     "id": 20,
     "name": "Terry Jenkins",
-    "photo": "images/terry-jenkins.png",
+    "photo": "images/players/terry-jenkins.png",
     "nickname": "The Bull",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -582,7 +582,7 @@
   {
     "id": 21,
     "name": "Kevin Painter",
-    "photo": "images/kevin-painter.png",
+    "photo": "images/players/kevin-painter.png",
     "nickname": "The Artist",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -611,7 +611,7 @@
   {
     "id": 22,
     "name": "Mark Webster",
-    "photo": "images/mark-webster.png",
+    "photo": "images/players/mark-webster.png",
     "nickname": "The Spider",
     "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "country": "Wales",
@@ -640,7 +640,7 @@
   {
     "id": 23,
     "name": "Andy Fordham",
-    "photo": "images/andy-fordham.png",
+    "photo": "images/players/andy-fordham.png",
     "nickname": "The Viking",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -669,7 +669,7 @@
   {
     "id": 24,
     "name": "Dennis Priestley",
-    "photo": "images/dennis-priestley.png",
+    "photo": "images/players/dennis-priestley.png",
     "nickname": "The Menace",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -698,7 +698,7 @@
   {
     "id": 25,
     "name": "Rod Harrington",
-    "photo": "images/rod-harrington.jpg",
+    "photo": "images/players/rod-harrington.jpg",
     "nickname": "The Prince of Style",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -727,7 +727,7 @@
   {
     "id": 26,
     "name": "Wayne Mardle",
-    "photo": "images/wayne-mardle.png",
+    "photo": "images/players/wayne-mardle.png",
     "nickname": "Hawaii 501",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -756,7 +756,7 @@
   {
     "id": 27,
     "name": "John Part",
-    "photo": "images/john-part.jpg",
+    "photo": "images/players/john-part.jpg",
     "nickname": "Darth Maple",
     "flag": "🇨🇦",
     "country": "Canada",
@@ -785,7 +785,7 @@
   {
     "id": 28,
     "name": "Tony O'Shea",
-    "photo": "images/tony-oshea.jpeg",
+    "photo": "images/players/tony-oshea.jpeg",
     "nickname": "The Tornado",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -814,7 +814,7 @@
   {
     "id": 29,
     "name": "Martin Adams",
-    "photo": "images/martin-adams.png",
+    "photo": "images/players/martin-adams.png",
     "nickname": "Wolfie",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
@@ -843,7 +843,7 @@
   {
     "id": 30,
     "name": "Scott Waites",
-    "photo": "images/scott-waites.png",
+    "photo": "images/players/scott-waites.png",
     "nickname": "Scotty 2 Hotty",
     "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "country": "England",
