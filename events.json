@@ -6,8 +6,7 @@
     "date_display": "Fri 06 Mar – Sun 08 Mar 2026",
     "date_iso": "2026-03-06",
     "tour": "PDC",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 2,
@@ -25,8 +24,7 @@
     "date_display": "Fri 13 Mar – Sun 15 Mar 2026",
     "date_iso": "2026-03-13",
     "tour": "PDC European Tour",
-    "icon": "🌍",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🌍"
   },
   {
     "id": 4,
@@ -36,7 +34,7 @@
     "date_iso": "2026-03-19",
     "tour": "PDC Premier League",
     "icon": "⭐",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/en1qgj"
   },
   {
     "id": 5,
@@ -45,8 +43,7 @@
     "date_display": "Fri 20 Mar – Sun 22 Mar 2026",
     "date_iso": "2026-03-20",
     "tour": "PDC European Tour",
-    "icon": "🇧🇪",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇧🇪"
   },
   {
     "id": 6,
@@ -56,7 +53,7 @@
     "date_iso": "2026-03-26",
     "tour": "PDC Premier League",
     "icon": "⭐",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/GbKnGk"
   },
   {
     "id": 7,
@@ -65,8 +62,7 @@
     "date_display": "Mon 30 Mar 2026",
     "date_iso": "2026-03-30",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 8,
@@ -75,8 +71,7 @@
     "date_display": "Tue 31 Mar 2026",
     "date_iso": "2026-03-31",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 9,
@@ -86,7 +81,7 @@
     "date_iso": "2026-04-02",
     "tour": "PDC Premier League",
     "icon": "⭐",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/DWyKjy"
   },
   {
     "id": 10,
@@ -95,8 +90,7 @@
     "date_display": "Sat 04 Apr – Mon 06 Apr 2026",
     "date_iso": "2026-04-04",
     "tour": "PDC European Tour",
-    "icon": "🇩🇪",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇩🇪"
   },
   {
     "id": 11,
@@ -105,7 +99,8 @@
     "date_display": "Thu 09 Apr 2026",
     "date_iso": "2026-04-09",
     "tour": "PDC Premier League",
-    "icon": "⭐"
+    "icon": "⭐",
+	"ticket_url": "https://ticketmaster.evyy.net/jRerMn"
   },
   {
     "id": 12,
@@ -173,12 +168,12 @@
   {
     "id": 19,
     "name": "2026 Premier League Night 13",
-    "location": "P & J Live, Aberdeen, Scotland",
+    "location": "P&J Live, Aberdeen, Scotland",
     "date_display": "Thu 30 Apr 2026",
     "date_iso": "2026-04-30",
     "tour": "PDC Premier League",
     "icon": "⭐",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/DWyKD2"
   },
   {
     "id": 20,
@@ -187,8 +182,7 @@
     "date_display": "Mon 04 May 2026",
     "date_iso": "2026-05-04",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 21,
@@ -197,8 +191,7 @@
     "date_display": "Tue 05 May 2026",
     "date_iso": "2026-05-05",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 22,
@@ -208,7 +201,7 @@
     "date_iso": "2026-05-07",
     "tour": "PDC Premier League",
     "icon": "⭐",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/AgPWqR"
   },
   {
     "id": 23,
@@ -217,8 +210,7 @@
     "date_display": "Fri 08 May – Sun 10 May 2026",
     "date_iso": "2026-05-08",
     "tour": "PDC European Tour",
-    "icon": "🇦🇹",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇦🇹"
   },
   {
     "id": 24,
@@ -227,8 +219,7 @@
     "date_display": "Tue 12 May 2026",
     "date_iso": "2026-05-12",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 25,
@@ -237,8 +228,7 @@
     "date_display": "Wed 13 May 2026",
     "date_iso": "2026-05-13",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 26,
@@ -247,8 +237,7 @@
     "date_display": "Thu 14 May 2026",
     "date_iso": "2026-05-14",
     "tour": "PDC Premier League",
-    "icon": "⭐",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "⭐"
   },
   {
     "id": 27,
@@ -257,8 +246,7 @@
     "date_display": "Mon 18 May 2026",
     "date_iso": "2026-05-18",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 28,
@@ -267,8 +255,7 @@
     "date_display": "Tue 19 May 2026",
     "date_iso": "2026-05-19",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 29,
@@ -278,7 +265,7 @@
     "date_iso": "2026-05-21",
     "tour": "PDC Premier League",
     "icon": "⭐",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/yZq2nD"
   },
   {
     "id": 30,
@@ -287,8 +274,7 @@
     "date_display": "Fri 22 May – Sun 24 May 2026",
     "date_iso": "2026-05-22",
     "tour": "PDC European Tour",
-    "icon": "🌍",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🌍"
   },
   {
     "id": 31,
@@ -297,8 +283,7 @@
     "date_display": "Thu 28 May 2026",
     "date_iso": "2026-05-28",
     "tour": "PDC Premier League",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 32,
@@ -307,8 +292,7 @@
     "date_display": "Fri 29 May – Sun 31 May 2026",
     "date_iso": "2026-05-29",
     "tour": "PDC European Tour",
-    "icon": "🌍",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🌍"
   },
   {
     "id": 33,
@@ -317,8 +301,7 @@
     "date_display": "Tue 02 Jun 2026",
     "date_iso": "2026-06-02",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 34,
@@ -327,8 +310,7 @@
     "date_display": "Wed 03 Jun 2026",
     "date_iso": "2026-06-03",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 35,
@@ -337,8 +319,7 @@
     "date_display": "Fri 05 Jun – Sat 06 Jun 2026",
     "date_iso": "2026-06-05",
     "tour": "PDC World Series",
-    "icon": "🇩🇰",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇩🇰"
   },
   {
     "id": 36,
@@ -347,8 +328,7 @@
     "date_display": "Thu 11 Jun – Sun 14 Jun 2026",
     "date_iso": "2026-06-11",
     "tour": "PDC World Cup",
-    "icon": "🌍",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🌍"
   },
   {
     "id": 37,
@@ -357,8 +337,7 @@
     "date_display": "Tue 16 Jun 2026",
     "date_iso": "2026-06-16",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 38,
@@ -367,8 +346,7 @@
     "date_display": "Wed 17 Jun 2026",
     "date_iso": "2026-06-17",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 39,
@@ -377,8 +355,7 @@
     "date_display": "Fri 19 Jun – Sun 21 Jun 2026",
     "date_iso": "2026-06-19",
     "tour": "PDC European Tour",
-    "icon": "🇸🇰",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇸🇰"
   },
   {
     "id": 40,
@@ -388,7 +365,7 @@
     "date_iso": "2026-06-25",
     "tour": "PDC World Series",
     "icon": "🇺🇸",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/JkKJ4a"
   },
   {
     "id": 41,
@@ -397,8 +374,7 @@
     "date_display": "Mon 06 Jul 2026",
     "date_iso": "2026-07-06",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 42,
@@ -407,8 +383,7 @@
     "date_display": "Tue 07 Jul 2026",
     "date_iso": "2026-07-07",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 43,
@@ -417,8 +392,7 @@
     "date_display": "Fri 10 Jul – Sun 12 Jul 2026",
     "date_iso": "2026-07-10",
     "tour": "PDC European Tour",
-    "icon": "🇩🇪",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇩🇪"
   },
   {
     "id": 44,
@@ -427,8 +401,7 @@
     "date_display": "Sat 18 Jul – Sun 26 Jul 2026",
     "date_iso": "2026-07-18",
     "tour": "PDC",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 45,
@@ -437,8 +410,7 @@
     "date_display": "Tue 28 Jul 2026",
     "date_iso": "2026-07-28",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 46,
@@ -447,8 +419,7 @@
     "date_display": "Wed 29 Jul 2026",
     "date_iso": "2026-07-29",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 47,
@@ -458,7 +429,7 @@
     "date_iso": "2026-08-14",
     "tour": "PDC World Series",
     "icon": "🇳🇿",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/bkOObB"
   },
   {
     "id": 48,
@@ -468,7 +439,7 @@
     "date_iso": "2026-08-21",
     "tour": "PDC World Series",
     "icon": "🇦🇺",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "ticket_url": "https://ticketmaster.evyy.net/DWyyVq"
   },
   {
     "id": 49,
@@ -477,8 +448,7 @@
     "date_display": "Tue 25 Aug 2026",
     "date_iso": "2026-08-25",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 50,
@@ -487,8 +457,7 @@
     "date_display": "Wed 26 Aug 2026",
     "date_iso": "2026-08-26",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 51,
@@ -497,8 +466,7 @@
     "date_display": "Fri 28 Aug – Sun 30 Aug 2026",
     "date_iso": "2026-08-28",
     "tour": "PDC European Tour",
-    "icon": "🇭🇺",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇭🇺"
   },
   {
     "id": 52,
@@ -507,8 +475,7 @@
     "date_display": "Fri 04 Sep – Sun 06 Sep 2026",
     "date_iso": "2026-09-04",
     "tour": "PDC European Tour",
-    "icon": "🇨🇿",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇨🇿"
   },
   {
     "id": 53,
@@ -517,8 +484,7 @@
     "date_display": "Fri 11 Sep – Sun 13 Sep 2026",
     "date_iso": "2026-09-11",
     "tour": "PDC European Tour",
-    "icon": "🇧🇪",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇧🇪"
   },
   {
     "id": 54,
@@ -527,8 +493,7 @@
     "date_display": "Thu 17 Sep – Sun 20 Sep 2026",
     "date_iso": "2026-09-17",
     "tour": "PDC World Series",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 55,
@@ -537,8 +502,7 @@
     "date_display": "Tue 22 Sep 2026",
     "date_iso": "2026-09-22",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 56,
@@ -547,8 +511,7 @@
     "date_display": "Wed 23 Sep 2026",
     "date_iso": "2026-09-23",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 57,
@@ -557,8 +520,7 @@
     "date_display": "Mon 28 Sep – Sun 04 Oct 2026",
     "date_iso": "2026-09-28",
     "tour": "PDC",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 58,
@@ -567,8 +529,7 @@
     "date_display": "Fri 09 Oct – Sun 11 Oct 2026",
     "date_iso": "2026-10-09",
     "tour": "PDC European Tour",
-    "icon": "🇨🇭",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇨🇭"
   },
   {
     "id": 59,
@@ -577,8 +538,7 @@
     "date_display": "Fri 16 Oct – Sun 18 Oct 2026",
     "date_iso": "2026-10-16",
     "tour": "PDC European Tour",
-    "icon": "🇳🇱",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🇳🇱"
   },
   {
     "id": 60,
@@ -587,8 +547,7 @@
     "date_display": "Thu 22 Oct – Sun 25 Oct 2026",
     "date_iso": "2026-10-22",
     "tour": "PDC European Tour",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 61,
@@ -597,8 +556,7 @@
     "date_display": "Wed 28 Oct 2026",
     "date_iso": "2026-10-28",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 62,
@@ -607,8 +565,7 @@
     "date_display": "Thu 29 Oct 2026",
     "date_iso": "2026-10-29",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 63,
@@ -617,8 +574,7 @@
     "date_display": "Wed 04 Nov 2026",
     "date_iso": "2026-11-04",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 64,
@@ -627,8 +583,7 @@
     "date_display": "Thu 05 Nov 2026",
     "date_iso": "2026-11-05",
     "tour": "PDC Players Championship",
-    "icon": "🎯",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🎯"
   },
   {
     "id": 65,
@@ -637,8 +592,7 @@
     "date_display": "Sat 14 Nov – Sun 22 Nov 2026",
     "date_iso": "2026-11-14",
     "tour": "PDC",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 66,
@@ -647,8 +601,7 @@
     "date_display": "Fri 27 Nov – Sun 29 Nov 2026",
     "date_iso": "2026-11-27",
     "tour": "PDC Players Championship",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   },
   {
     "id": 67,
@@ -657,7 +610,6 @@
     "date_display": "Thu 10 Dec 2026 – Sun 03 Jan 2027",
     "date_iso": "2026-12-10",
     "tour": "PDC",
-    "icon": "🏆",
-    "ticket_url": "https://YOUR-AFFILIATE-LINK-HERE"
+    "icon": "🏆"
   }
 ]
