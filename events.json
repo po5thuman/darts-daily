@@ -23,6 +23,7 @@
     "location": "Lokhalle, Göttingen, Germany",
     "date_display": "Fri 13 Mar – Sun 15 Mar 2026",
     "date_iso": "2026-03-13",
+	"end_date_iso": "2026-03-22",
     "tour": "PDC European Tour",
     "icon": "🌍"
   },
