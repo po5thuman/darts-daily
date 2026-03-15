@@ -325,12 +325,6 @@
         
         <div class="product-name" id="prod-name"></div>
         <div class="product-desc" id="prod-desc"></div>
-        <div class="product-pricing">
-            <span class="product-price" id="prod-price"></span>
-            <span class="product-old" id="prod-old"></span>
-            <span class="product-discount" id="prod-discount"></span>
-        </div>
-        <div class="product-rating" id="prod-rating"></div>
         <div class="buy-buttons" id="prod-buttons"></div>
         <p class="affiliate-note">* Affiliate links — we earn a small commission at no extra cost to you.</p>
     </div>
@@ -1448,14 +1442,10 @@ async function loadProductOfDay() {
         const products = await res.json();
         const p = products[dayOfYear % products.length];
         
-        // Set product data
+        // Set product data (title and description only)
         document.getElementById("prod-badge").textContent = p.badge;
         document.getElementById("prod-name").textContent = p.name;
         document.getElementById("prod-desc").textContent = p.desc;
-        document.getElementById("prod-price").textContent = p.price;
-        document.getElementById("prod-old").textContent = p.old_price;
-        document.getElementById("prod-discount").textContent = p.discount;
-        document.getElementById("prod-rating").innerHTML = "<span>★★★★★</span> " + p.rating + " / 5 &nbsp;·&nbsp; " + p.reviews + " reviews &nbsp;·&nbsp; " + p.grip + " &nbsp;·&nbsp; " + p.level;
         
         // Set up buttons
         let buttons = "";
