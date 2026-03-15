@@ -146,13 +146,13 @@
   {
     "id": 25,
     "year": "2010",
-    "story": "Phil Taylor won his 16th and final PDC World Championship title, defeating Ted Hankey in the final. It was a record that will likely stand forever — 16 world titles in a single sport.",
+    "story": "Phil Taylor won his 16th and final PDC World Championship title, defeating Michael Van Gerwen in the final. It was a record that will likely stand forever — 16 world titles in a single sport.",
     "share_text": "On this day in 2010: Phil Taylor won his 16th World title. A record that may never be broken. #DartsDaily"
   },
   {
     "id": 26,
     "year": "2016",
-    "story": "Gary Anderson won his second consecutive PDC World Championship title, defeating Gary Warriner in the final. The Flying Scotsman had become back-to-back champion and was playing the best darts of his career.",
+    "story": "Gary Anderson won his second consecutive PDC World Championship title, defeating Adrian Lewis in the final. The Flying Scotsman had become back-to-back champion and was playing the best darts of his career.",
     "share_text": "On this day in 2016: Gary Anderson won back-to-back PDC World titles. The Flying Scotsman at his very best. #DartsDaily"
   },
   {
@@ -178,5 +178,185 @@
     "year": "2023",
     "story": "Michael Smith won his first PDC World Championship title, defeating Michael van Gerwen 7-4 in an emotional final. Bully Boy had been to the final before and lost — this time there was no stopping him.",
     "share_text": "On this day in 2023: Michael Smith finally won the PDC World title after years of near misses. Bully Boy delivered. #DartsDaily"
+  },
+    {
+    "id": 31,
+    "year": "1983",
+    "story": "Keith Deller shocked the world by winning the BDO World Championship as a qualifier, defeating Eric Bristow in the final with a legendary 138 checkout.",
+    "share_text": "On this day in 1983: Keith Deller made history with his underdog BDO World title and iconic 138 finish! #DartsDaily"
+  },
+  {
+    "id": 32,
+    "year": "2001",
+    "story": "Phil Taylor went an astounding 44 successive TV matches unbeaten, establishing a record for domination in televised darts.",
+    "share_text": "On this day in 2001: Phil Taylor's unbeaten TV streak proved his dominance. #DartsDaily"
+  },
+  {
+    "id": 33,
+    "year": "1997",
+    "story": "Les Wallace became the first left-handed player and first Scotsman to win a World Professional Darts Championship, beating Marshall James in the final.",
+    "share_text": "On this day in 1997: Les Wallace became the first Scottish World Champion! #DartsDaily"
+  },
+  {
+    "id": 34,
+    "year": "2012",
+    "story": "Adrian Lewis completed back-to-back PDC World Championships, defeating Andy Hamilton 7-3 in the final to defend his crown.",
+    "share_text": "On this day in 2012: Adrian Lewis defended his PDC crown — back-to-back! #DartsDaily"
+  },
+  {
+    "id": 35,
+    "year": "2016",
+    "story": "Fallon Sherrock made her BDO World Championship debut, as part of a new wave of women changing the face of darts.",
+    "share_text": "On this day in 2016: Fallon Sherrock debuted at the BDO Worlds — a new star for women's darts! #DartsDaily"
+  },
+  {
+    "id": 36,
+    "year": "2000",
+    "story": "Ted Hankey swept the BDO World Championship, defeating Ronnie Baxter 6-0 in the final with one of the fastest title runs ever.",
+    "share_text": "On this day in 2000: Ted Hankey demolished the BDO World final 6-0! #DartsDaily"
+  },
+  {
+    "id": 37,
+    "year": "1989",
+    "story": "Phil Taylor won his first World Championship, defeating his mentor Eric Bristow in the final, signalling the start of an era.",
+    "share_text": "On this day in 1989: Phil Taylor won his first World title — the journey began. #DartsDaily"
+  },
+  {
+    "id": 38,
+    "year": "1990",
+    "story": "Paul Lim hit the first nine-darter ever seen at a World Darts Championship, achieving perfection against Jack McKenna.",
+    "share_text": "On this day in 1990: Paul Lim threw the first ever nine-darter at a World Championship. #DartsDaily"
+  },
+  {
+    "id": 39,
+    "year": "2020",
+    "story": "Dimitri Van den Bergh became the first Belgian winner of a PDC major by claiming the World Matchplay title.",
+    "share_text": "On this day in 2020: Dimitri Van den Bergh won the World Matchplay — Belgium's finest! #DartsDaily"
+  },
+  {
+    "id": 40,
+    "year": "1995",
+    "story": "Dennis Priestley became the first player to win both BDO and PDC World Championships, cementing his legacy as a two-code champion.",
+    "share_text": "On this day in 1995: Dennis Priestley became the first dual-code world champion! #DartsDaily"
+  },
+  {
+    "id": 41,
+    "year": "2018",
+    "story": "Rob Cross, in his debut PDC World Championship, defeated Phil Taylor in the final to win the title and cap a record ‘rookie’ season.",
+    "share_text": "On this day in 2018: Rob Cross stunned the world and Phil Taylor to win the Worlds on debut! #DartsDaily"
+  },
+  {
+    "id": 42,
+    "year": "2002",
+    "story": "John Part ended Phil Taylor's eight-year unbeaten run at the PDC World Championship, beating him in a classic final.",
+    "share_text": "On this day in 2002: John Part ended Phil Taylor's World Championship streak! #DartsDaily"
+  },
+  {
+    "id": 43,
+    "year": "2017",
+    "story": "Lisa Ashton won her third BDO Women's World Championship, reinforcing her status as one of the sport’s greatest female players.",
+    "share_text": "On this day in 2017: Lisa Ashton took her third BDO world title. Women’s darts legend! #DartsDaily"
+  },
+  {
+    "id": 44,
+    "year": "2022",
+    "story": "Australia lifted their first ever PDC World Cup of Darts, with Simon Whitlock and Damon Heta defeating Wales in the final.",
+    "share_text": "On this day in 2022: Australia won their maiden World Cup of Darts! #DartsDaily"
+  },
+  {
+    "id": 45,
+    "year": "1985",
+    "story": "Eric Bristow survived match darts to defeat John Lowe in a tense BDO World final, showcasing his fighting spirit.",
+    "share_text": "On this day in 1985: Bristow's nerve saw off Lowe for his fourth title! #DartsDaily"
+  },
+  {
+    "id": 46,
+    "year": "2019",
+    "story": "Nathan Aspinall won his first televised title at the UK Open, bursting onto the major scene.",
+    "share_text": "On this day in 2019: Nathan Aspinall became a major champ, winning the UK Open! #DartsDaily"
+  },
+  {
+    "id": 47,
+    "year": "2010",
+    "story": "Simon Whitlock reached the PDC World Championship final in his debut year, ultimately losing to Phil Taylor but making his mark.",
+    "share_text": "On this day in 2010: Simon Whitlock reached the Worlds final on debut! #DartsDaily"
+  },
+  {
+    "id": 48,
+    "year": "2006",
+    "story": "Jelle Klaasen became the youngest ever darts World Champion, winning the BDO title at age 21.",
+    "share_text": "On this day in 2006: Jelle Klaasen broke the record as youngest World Champ at 21! #DartsDaily"
+  },
+  {
+    "id": 49,
+    "year": "2018",
+    "story": "Glen Durrant won his third consecutive BDO World title, matching the record for the modern era.",
+    "share_text": "On this day in 2018: Glen Durrant secured three BDO world titles in a row! #DartsDaily"
+  },
+  {
+    "id": 50,
+    "year": "2023",
+    "story": "Beau Greaves became the youngest Women’s WDF World Champion at just 18, dominating the final.",
+    "share_text": "On this day in 2023: Beau Greaves smashed records at 18! #DartsDaily"
+  },
+  {
+    "id": 51,
+    "year": "1999",
+    "story": "Peter Manley earned the nickname 'One Dart' after his famous last-dart double across a string of televised matches.",
+    "share_text": "On this day in 1999: Peter Manley made ‘One Dart’ famous on TV! #DartsDaily"
+  },
+  {
+    "id": 52,
+    "year": "2013",
+    "story": "Michael van Gerwen won his first televised major, the World Grand Prix, signalling the arrival of a new darts powerhouse.",
+    "share_text": "On this day in 2013: MvG’s first major — the World Grand Prix! #DartsDaily"
+  },
+  {
+    "id": 53,
+    "year": "2005",
+    "story": "Raymond van Barneveld became the first player to win the BDO World Championship and the International Darts League in the same year.",
+    "share_text": "On this day in 2005: Barney clinched two major titles in one stellar year. #DartsDaily"
+  },
+  {
+    "id": 54,
+    "year": "2014",
+    "story": "Stephen Bunting won the BDO World Championship and soon after switched to the PDC, becoming an instant contender.",
+    "share_text": "On this day in 2014: Stephen Bunting won BDO worlds, then switched to PDC. #DartsDaily"
+  },
+  {
+    "id": 55,
+    "year": "1982",
+    "story": "Jocky Wilson won the first of his two World Championships, defeating John Lowe in a memorable final.",
+    "share_text": "On this day in 1982: Jocky Wilson became World Champ — a Scottish icon! #DartsDaily"
+  },
+  {
+    "id": 56,
+    "year": "1991",
+    "story": "Dennis Priestley won the BDO World title on his first attempt — a remarkable debut by The Menace.",
+    "share_text": "On this day in 1991: Dennis Priestley took the BDO world title on debut! #DartsDaily"
+  },
+  {
+    "id": 57,
+    "year": "2021",
+    "story": "Dimitri Van den Bergh reached the World Matchplay final for a second consecutive year, confirming his rise among the elite.",
+    "share_text": "On this day in 2021: Dimitri Van den Bergh cemented his Matchplay reputation. #DartsDaily"
+  },
+  {
+    "id": 58,
+    "year": "2015",
+    "story": "Lisa Ashton became the first woman to average over 100 in a televised match, at the BDO World Trophy.",
+    "share_text": "On this day in 2015: Lisa Ashton hit a 100+ average — women’s darts history! #DartsDaily"
+  },
+  {
+    "id": 59,
+    "year": "1981",
+    "story": "John Lowe became the first player to win multiple World Darts Championship titles, collecting his second in four years.",
+    "share_text": "On this day in 1981: John Lowe became darts’ first multi-time World Champ. #DartsDaily"
+  },
+  {
+    "id": 60,
+    "year": "2024",
+    "story": "Luke Humphries completed a ‘major treble’ by winning the Grand Slam, World Grand Prix, and PDC World Championship in a single season.",
+    "share_text": "On this day in 2024: Luke Humphries completed a major treble for the ages! #DartsDaily"
   }
 ]
