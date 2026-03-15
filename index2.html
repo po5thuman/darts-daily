@@ -1045,8 +1045,7 @@
             <!-- NEW CODE ENDS HERE -->
             <p class="newsletter-sub">&#128235; Join 3,400+ darts fans -- no spam, ever.</p>
             <style>
-
-                /* ─── MAILERLITE OVERRIDES ─────────────────────────────────── */
+    /* ─── MAILERLITE OVERRIDES ─────────────────────────────────── */
 #mlb2-38186798.ml-form-embedContainer { background: transparent !important; }
 #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper { background: transparent !important; border: none !important; width: 100% !important; max-width: 100% !important; display: block !important; }
 #mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 100% !important; width: 100% !important; }
@@ -1073,7 +1072,26 @@
 body.light #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; }
 body.light #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-webkit-input-placeholder { color: var(--muted) !important; }
 body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary { background: var(--text) !important; color: var(--bg) !important; }
-            </style>
+
+/* Force submit button to always show on mobile */
+@media only screen and (max-width: 400px) {
+    #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal { 
+        display: block !important; 
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+    #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary {
+        width: 100% !important;
+        display: block !important;
+    }
+    #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow {
+        flex-direction: column !important;
+    }
+    #mlb2-38186798.ml-form-embedContainer .ml-input-horizontal {
+        width: 100% !important;
+    }
+}
+</style>
         </div>
 
     </div>
