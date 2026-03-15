@@ -1,5 +1,37 @@
 [
   {
+    "id": 18,
+    "icon": "🏅",
+    "title": "LIVE European Darts Trophy Saturday evening | Michael van Gerwen trounced despite 107 average",
+    "source": "dartsnews.com",
+    "time": "14/03/2026",
+    "url": "https://dartsnews.com/pdc/live-european-darts-trophy-saturday-evening-van-gerwen-van-veen-bunting-price-cullen-in-action"
+  },
+  {
+    "id": 17,
+    "icon": "🏅",
+    "title": "Limping Jonny Clayton surges clear after victory in Nottingham",
+    "source": "rte.ie",
+    "time": "13/03/2026",
+    "url": "https://www.rte.ie/sport/darts/2026/0312/1563168-limping-clayton-surges-clear-after-victory-over-humphries/"
+  },
+  {
+    "id": 16,
+    "icon": "🏅",
+    "title": "Preview Premier League Darts Night Six: Price-Littler, Van Gerwen-Clayton headline in Nottingham",
+    "source": "dartsnews.co",
+    "time": "11/03/2026",
+    "url": "https://dartsnews.com/pdc/preview-premier-league-darts-night-six-price-littler-van-gerwen-clayton-headline-in-nottingham"
+  },
+  {
+    "id": 15,
+    "icon": "🎯",
+    "title": "Luke Littler warns rivals he is back to his best after UK Open victory",
+    "source": "skysports.com",
+    "time": "10/03/2026",
+    "url": "https://www.skysports.com/darts/news/12040/13518332/luke-littler-warns-rivals-he-is-back-to-his-best-after-uk-open-victory"
+  },
+  {
     "id": 14,
     "icon": "📊",
     "title": "Luke Littler retains UK Open crown with victory over James Wade at Minehead",
