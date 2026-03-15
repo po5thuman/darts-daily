@@ -6,8 +6,8 @@
     <title>Darts Daily | Your Daily Darts Fix</title>
     <meta name="description" content="Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.">
     <link rel="canonical" href="https://www.dartsdaily.net">
-    <meta name='impact-site-verification' value='74c5a484-3125-4f75-b76d-f8f1bc22dee6'> <!-- Ticketmaster verification -->
-    <script src="https://analytics.ahrefs.com/analytics.js" data-key="zZziyd8CYNIL2MTuqqc39w" async></script> <!-- ahrefs verification -->
+    <meta name='impact-site-verification' value='74c5a484-3125-4f75-b76d-f8f1bc22dee6'>
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="zZziyd8CYNIL2MTuqqc39w" async></script>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
@@ -177,6 +177,20 @@
         #modal-box::-webkit-scrollbar-thumb:hover { background: var(--accent); }
         @media (max-width: 600px) { #modal-box { padding: 28px 20px; max-height: 85vh; } }
 
+        /* Product Image Carousel */
+        .product-visual-carousel { position: relative; width: 100%; overflow: hidden; margin-bottom: 1rem; }
+        .carousel-container { overflow: hidden; width: 100%; position: relative; }
+        .carousel-track { display: flex; transition: transform 0.3s ease-in-out; touch-action: pan-y pinch-zoom; }
+        .carousel-track img { width: 100%; flex-shrink: 0; object-fit: contain; padding: 10px; user-select: none; -webkit-user-drag: none; }
+        .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: white; border: none; font-size: 2rem; padding: 0.5rem 1rem; cursor: pointer; z-index: 10; border-radius: 4px; transition: background 0.2s; }
+        .carousel-btn:hover { background: rgba(0, 0, 0, 0.8); }
+        .carousel-prev { left: 10px; }
+        .carousel-next { right: 10px; }
+        .carousel-dots { display: flex; justify-content: center; gap: 8px; margin-top: 10px; }
+        .carousel-dot { width: 10px; height: 10px; border-radius: 50%; background: #ccc; cursor: pointer; transition: background 0.3s; }
+        .carousel-dot.active { background: var(--accent, #e74c3c); }
+        @media (max-width: 768px) { .carousel-btn { display: none; } }
+        
     </style>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <!-- MailerLite Universal -->
@@ -296,12 +310,19 @@
     <div id="product-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's product...</div>
     <div id="product-content" style="display:none;">
         <div class="product-badge" id="prod-badge">Today's Pick</div>
-    <div class="product-visual" style="position:relative;">
-        <button class="prod-gallery-btn" id="prod-prev" style="position:absolute;left:0;top:50%;transform:translateY(-50%);z-index:2;display:none;">&#8678;</button>
-        <img id="prod-image" src="" alt="" style="width:100%;height:100%;object-fit:contain;padding:10px;">
-        <button class="prod-gallery-btn" id="prod-next" style="position:absolute;right:0;top:50%;transform:translateY(-50%);z-index:2;display:none;">&#8680;</button>
-        <div id="prod-gallery-indicator" style="text-align:center;color:#aaa;padding:4px 0 0 0;font-size:0.93em;"></div>
-    </div>
+        
+        <!-- IMAGE CAROUSEL -->
+        <div class="product-visual-carousel">
+            <button class="carousel-btn carousel-prev" id="carousel-prev">‹</button>
+            <div class="carousel-container" id="carousel-container">
+                <div class="carousel-track" id="carousel-track">
+                    <!-- Images will be inserted here dynamically -->
+                </div>
+            </div>
+            <button class="carousel-btn carousel-next" id="carousel-next">›</button>
+            <div class="carousel-dots" id="carousel-dots"></div>
+        </div>
+        
         <div class="product-name" id="prod-name"></div>
         <div class="product-desc" id="prod-desc"></div>
         <div class="product-pricing">
@@ -1416,58 +1437,27 @@ document.addEventListener("keydown", function(e) {
 });
 
 // ─── PRODUCT OF THE DAY ──────────────────────────────────────
+let currentImageIndex = 0;
+let productImages = [];
+let touchStartX = 0;
+let touchEndX = 0;
+
 async function loadProductOfDay() {
     try {
         const res = await fetch("products.json");
         const products = await res.json();
         const p = products[dayOfYear % products.length];
-
+        
+        // Set product data
         document.getElementById("prod-badge").textContent = p.badge;
-
-        // Carousel logic
-        let currentImage = 0;
-        const prodImage = document.getElementById("prod-image");
-        const prevBtn = document.getElementById("prod-prev");
-        const nextBtn = document.getElementById("prod-next");
-        const indicator = document.getElementById("prod-gallery-indicator");
-
-        function updateGallery() {
-            prodImage.src = p.images[currentImage];
-            prodImage.alt = p.name + " image " + (currentImage + 1);
-            indicator.textContent = (currentImage + 1) + " / " + p.images.length;
-            // Hide/show buttons if only 1 image
-            prevBtn.style.display = p.images.length > 1 ? "" : "none";
-            nextBtn.style.display = p.images.length > 1 ? "" : "none";
-        }
-        prevBtn.onclick = function(e) {
-            e.preventDefault();
-            currentImage = (currentImage - 1 + p.images.length) % p.images.length;
-            updateGallery();
-        }
-        nextBtn.onclick = function(e) {
-            e.preventDefault();
-            currentImage = (currentImage + 1) % p.images.length;
-            updateGallery();
-        }
-        // Swipe support for touch devices
-        let startX = null;
-        prodImage.addEventListener('touchstart', function(e) { if (e.touches.length === 1) startX = e.touches[0].clientX; });
-        prodImage.addEventListener('touchend', function(e) {
-            if(startX === null) return;
-            let endX = e.changedTouches[0].clientX;
-            if(endX - startX > 30) prevBtn.click();
-            else if(startX - endX > 30) nextBtn.click();
-            startX = null;
-        });
-
-        updateGallery();
-
         document.getElementById("prod-name").textContent = p.name;
         document.getElementById("prod-desc").textContent = p.desc;
         document.getElementById("prod-price").textContent = p.price;
         document.getElementById("prod-old").textContent = p.old_price;
         document.getElementById("prod-discount").textContent = p.discount;
         document.getElementById("prod-rating").innerHTML = "<span>★★★★★</span> " + p.rating + " / 5 &nbsp;·&nbsp; " + p.reviews + " reviews &nbsp;·&nbsp; " + p.grip + " &nbsp;·&nbsp; " + p.level;
+        
+        // Set up buttons
         let buttons = "";
         if (p.darts_corner_url) {
             buttons += "<a href=\"" + p.darts_corner_url + "\" class=\"btn btn-main\" target=\"_blank\" rel=\"noopener\">Darts Corner</a>";
@@ -1476,6 +1466,12 @@ async function loadProductOfDay() {
             buttons += "<a href=\"" + p.amazon_url + "\" class=\"btn btn-outline\" target=\"_blank\" rel=\"noopener\">Amazon</a>";
         }
         document.getElementById("prod-buttons").innerHTML = buttons;
+        
+        // Set up image carousel
+        productImages = p.images;
+        currentImageIndex = 0;
+        initCarousel();
+        
         document.getElementById("product-loading").style.display = "none";
         document.getElementById("product-content").style.display = "block";
     } catch (err) {
@@ -1483,6 +1479,93 @@ async function loadProductOfDay() {
         console.error(err);
     }
 }
+
+function initCarousel() {
+    const track = document.getElementById("carousel-track");
+    const dotsContainer = document.getElementById("carousel-dots");
+    
+    // Clear previous content
+    track.innerHTML = "";
+    dotsContainer.innerHTML = "";
+    
+    // Add images to track
+    productImages.forEach((imgSrc, index) => {
+        const img = document.createElement("img");
+        img.src = imgSrc;
+        img.alt = "Product image " + (index + 1);
+        track.appendChild(img);
+        
+        // Add dot
+        const dot = document.createElement("span");
+        dot.className = "carousel-dot" + (index === 0 ? " active" : "");
+        dot.addEventListener("click", () => goToSlide(index));
+        dotsContainer.appendChild(dot);
+    });
+    
+    // Add event listeners
+    document.getElementById("carousel-prev").addEventListener("click", prevSlide);
+    document.getElementById("carousel-next").addEventListener("click", nextSlide);
+    
+    // Add touch/swipe support
+    const container = document.getElementById("carousel-container");
+    container.addEventListener("touchstart", handleTouchStart, false);
+    container.addEventListener("touchend", handleTouchEnd, false);
+    
+    // Mouse drag support (optional)
+    container.addEventListener("mousedown", handleTouchStart, false);
+    container.addEventListener("mouseup", handleTouchEnd, false);
+}
+
+function goToSlide(index) {
+    currentImageIndex = index;
+    updateCarousel();
+}
+
+function nextSlide() {
+    currentImageIndex = (currentImageIndex + 1) % productImages.length;
+    updateCarousel();
+}
+
+function prevSlide() {
+    currentImageIndex = (currentImageIndex - 1 + productImages.length) % productImages.length;
+    updateCarousel();
+}
+
+function updateCarousel() {
+    const track = document.getElementById("carousel-track");
+    const dots = document.querySelectorAll(".carousel-dot");
+    
+    // Move track
+    track.style.transform = `translateX(-${currentImageIndex * 100}%)`;
+    
+    // Update dots
+    dots.forEach((dot, index) => {
+        dot.classList.toggle("active", index === currentImageIndex);
+    });
+}
+
+function handleTouchStart(e) {
+    touchStartX = e.type.includes("mouse") ? e.clientX : e.touches[0].clientX;
+}
+
+function handleTouchEnd(e) {
+    touchEndX = e.type.includes("mouse") ? e.clientX : e.changedTouches[0].clientX;
+    handleSwipe();
+}
+
+function handleSwipe() {
+    const swipeThreshold = 50;
+    const diff = touchStartX - touchEndX;
+    
+    if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+            nextSlide();
+        } else {
+            prevSlide();
+        }
+    }
+}
+
 loadProductOfDay();
     
 </script>
