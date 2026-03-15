@@ -176,7 +176,7 @@
         #modal-box::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
         #modal-box::-webkit-scrollbar-thumb:hover { background: var(--accent); }
         @media (max-width: 600px) { #modal-box { padding: 28px 20px; max-height: 85vh; } }
-
+        .event-ongoing-badge { display: inline-block; margin-left: 8px; padding: 2px 8px; background: #e74c3c; color: white; font-size: 0.7rem; font-weight: 600; border-radius: 3px; text-transform: uppercase; vertical-align: middle; }
         /* Product Image Carousel */
         .product-visual-carousel { position: relative; width: 100%; overflow: hidden; margin-bottom: 1rem; }
         .carousel-container { overflow: hidden; width: 100%; position: relative; }
@@ -1312,28 +1312,49 @@ async function loadUpcomingEvents() {
     try {
         const res = await fetch('events.json');
         const events = await res.json();
-
         const today = new Date();
         today.setHours(0, 0, 0, 0);
-
+        
         const upcoming = events
-            .filter(e => new Date(e.date_iso) >= today)
+            .filter(e => {
+                const startDate = new Date(e.date_iso);
+                startDate.setHours(0, 0, 0, 0);
+                // Include if event starts today or later, OR if it has an end_date that's today or later
+                if (e.end_date_iso) {
+                    const endDate = new Date(e.end_date_iso);
+                    endDate.setHours(0, 0, 0, 0);
+                    return endDate >= today;
+                }
+                return startDate >= today;
+            })
             .sort((a, b) => new Date(a.date_iso) - new Date(b.date_iso))
             .slice(0, 5);
-
+            
         if (upcoming.length === 0) {
             document.getElementById('events-loading').textContent = 'No upcoming events found.';
             return;
         }
-
-        document.getElementById('events-list').innerHTML = upcoming.map((event, index) => `
+        
+        document.getElementById('events-list').innerHTML = upcoming.map((event, index) => {
+            const startDate = new Date(event.date_iso);
+            startDate.setHours(0, 0, 0, 0);
+            const endDate = event.end_date_iso ? new Date(event.end_date_iso) : null;
+            if (endDate) endDate.setHours(0, 0, 0, 0);
+            
+            // Check if event is ongoing
+            const isOngoing = startDate <= today && (!endDate || endDate >= today);
+            
+            return `
             <div class="event-item" style="${index === 0 ? 'padding-top:0;' : ''}">
                 <div class="event-date-box">
-                    <div class="event-day">${new Date(event.date_iso).getDate()}</div>
-                    <div class="event-month">${new Date(event.date_iso).toLocaleString('en-GB', { month: 'short' }).toUpperCase()}</div>
+                    <div class="event-day">${startDate.getDate()}</div>
+                    <div class="event-month">${startDate.toLocaleString('en-GB', { month: 'short' }).toUpperCase()}</div>
                 </div>
                 <div class="event-details">
-                    <div class="event-name">${event.name}</div>
+                    <div class="event-name">
+                        ${event.name}
+                        ${isOngoing ? '<span class="event-ongoing-badge">ON-GOING</span>' : ''}
+                    </div>
                     <div class="event-meta">
                         <span class="event-location">${event.icon} ${event.location}</span>
                         &nbsp;·&nbsp;
@@ -1348,11 +1369,10 @@ async function loadUpcomingEvents() {
                     </div>
                 </div>
             </div>
-        `).join('');
-
+        `}).join('');
+        
         document.getElementById('events-loading').style.display = 'none';
         document.getElementById('events-content').style.display = 'block';
-
     } catch (err) {
         document.getElementById('events-loading').textContent = 'Error loading events.';
         console.error(err);
