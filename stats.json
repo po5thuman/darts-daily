@@ -92,8 +92,8 @@
   {
     "id": 16,
     "number": "£500,000",
-    "stat": "The PDC World Championship at Alexandra Palace now offers a total prize fund of £500,000 — compared to just £8,000 when the tournament began in 1994.",
-    "share_text": "The PDC World Championship prize fund has grown from £8,000 in 1994 to £500,000 today. Darts has come a long way. #DartsDaily"
+    "stat": "The PDC World Championship at Alexandra Palace now offers a total prize fund of £2,000,000 — compared to just £8,000 when the tournament began in 1994.",
+    "share_text": "The PDC World Championship prize fund has grown from £8,000 in 1994 to £2,000,000 today. Darts has come a long way. #DartsDaily"
   },
   {
     "id": 17,
@@ -110,8 +110,8 @@
   {
     "id": 19,
     "number": "6",
-    "stat": "Phil Taylor won 6 consecutive PDC World Championship titles between 1995 and 2002 — a run of dominance that has never been matched in the sport.",
-    "share_text": "Phil Taylor won 6 consecutive World titles between 1995 and 2002. The most dominant run in darts history. #DartsDaily"
+    "stat": "Phil Taylor won 6 PDC World Championship titles between 1995 and 2002 — a run of dominance that has never been matched in the sport.",
+    "share_text": "Phil Taylor won 6 World titles between 1995 and 2002. The most dominant run in darts history. #DartsDaily"
   },
   {
     "id": 20,
@@ -152,8 +152,8 @@
   {
     "id": 26,
     "number": "53",
-    "stat": "Tony O'Shea reached the BDO World Championship final at the age of 53 — making him one of the oldest finalists in the history of any World Darts Championship.",
-    "share_text": "Tony O'Shea reached the BDO World Championship final at age 53. Proof that darts has no age limit. #DartsDaily"
+    "stat": "Tony O'Shea reached the BDO World Championship final at the age of 51 — making him one of the oldest finalists in the history of any World Darts Championship.",
+    "share_text": "Tony O'Shea reached the BDO World Championship final at age 51. Proof that darts has no age limit. #DartsDaily"
   },
   {
     "id": 27,
@@ -178,5 +178,185 @@
     "number": "147",
     "stat": "A maximum break in snooker is called 147. The darts equivalent — a nine-dart finish — is statistically far rarer to hit under professional match pressure.",
     "share_text": "A nine-dart finish in darts is statistically rarer under match pressure than a 147 in snooker. Mind blowing. #DartsDaily"
+  },
+    {
+    "id": 31,
+    "number": "100+",
+    "stat": "Michael van Gerwen has thrown more than 100 televised 100+ averages in his career — an all-time record for elite scoring.",
+    "share_text": "MvG has more 100+ averages on TV than any player ever! #DartsDaily"
+  },
+  {
+    "id": 32,
+    "number": "41",
+    "stat": "Phil Taylor holds the record for most televised major darts titles, with 41 to his name.",
+    "share_text": "Phil Taylor: 41 major televised titles. Unmatched dominance! #DartsDaily"
+  },
+  {
+    "id": 33,
+    "number": "17 years",
+    "stat": "James Wade spent 17 consecutive years ranked in the PDC Top 10 — a testament to his enduring consistency.",
+    "share_text": "James Wade was in the PDC top 10 for an amazing 17 years running. #DartsDaily"
+  },
+  {
+    "id": 34,
+    "number": "16",
+    "stat": "16 different nationalities were represented at the 2024 PDC World Championship, underlining the sport's global growth.",
+    "share_text": "16 nations played at the 2024 Worlds — darts goes global! #DartsDaily"
+  },
+  {
+    "id": 35,
+    "number": "24g",
+    "stat": "The average dart weight among top PDC professionals is between 22 and 24 grams.",
+    "share_text": "Pros average 22–24g for dart weight — heavier than you might think! #DartsDaily"
+  },
+  {
+    "id": 36,
+    "number": "2010",
+    "stat": "The 'double start' format, where legs must begin on a double, is unique to the World Grand Prix, first held in 1998 and famously won twice by James Wade.",
+    "share_text": "Double start? Unique to the World Grand Prix — tough for even top pros! #DartsDaily"
+  },
+  {
+    "id": 37,
+    "number": "491",
+    "stat": "Phil Taylor has won a record 491 PDC ranking events — a testament to his total dominance.",
+    "share_text": "Taylor won 491 PDC ranking events. Just wow. #DartsDaily"
+  },
+  {
+    "id": 38,
+    "number": "17",
+    "stat": "Fallon Sherrock set a Women's Series record with 17 event wins between 2021 and 2024.",
+    "share_text": "Fallon Sherrock: 17 Women's Series darts event wins! Trailblazer. #DartsDaily"
+  },
+  {
+    "id": 39,
+    "number": "9",
+    "stat": "Nine nations have contested the final of the PDC World Cup of Darts since its inception in 2010.",
+    "share_text": "Nine nations have made the World Cup of Darts final since 2010. #DartsDaily"
+  },
+  {
+    "id": 40,
+    "number": "27",
+    "stat": "Gary Anderson has reached 27 televised major finals across BDO and PDC darts, among the most by any player.",
+    "share_text": "Gary Anderson: 27 major finals — a living legend! #DartsDaily"
+  },
+  {
+    "id": 41,
+    "number": "6",
+    "stat": "Six different players have thrown a nine-dart finish at the PDC World Championship as of 2024.",
+    "share_text": "Six players have hit nine-darters at Ally Pally! #DartsDaily"
+  },
+  {
+    "id": 42,
+    "number": "77",
+    "stat": "Raymond van Barneveld has appeared in 77 major PDC events — more than any other Netherlands-born player.",
+    "share_text": "Barney has played 77 major events — Dutch darting royalty! #DartsDaily"
+  },
+  {
+    "id": 43,
+    "number": "180",
+    "stat": "A record 901 maximum 180s were hit at the 2023/24 PDC World Darts Championship, smashing previous tournament records.",
+    "share_text": "Worlds record: 901 180s hit at the 2023/24 PDC Champs! #DartsDaily"
+  },
+  {
+    "id": 44,
+    "number": "50+",
+    "stat": "Three darts in the bullseye (all inner bulls) scores 150 — a rare but possible feat!",
+    "share_text": "Three inner bulls in one visit? 150 points! #DartsDaily"
+  },
+  {
+    "id": 45,
+    "number": "96",
+    "stat": "The PDC main tour is limited to 128 professional tour card holders each season — a mark of elite status in the game.",
+    "share_text": "128 pros hold PDC Tour Cards each year. The elite! #DartsDaily"
+  },
+  {
+    "id": 46,
+    "number": "19",
+    "stat": "Michael Smith holds the record for most 180s in a single World Championship final with 19 (2023).",
+    "share_text": "Michael Smith: 19 180s in a single World final! #DartsDaily"
+  },
+  {
+    "id": 47,
+    "number": "2007",
+    "stat": "Raymond van Barneveld’s 2007 World Final win over Phil Taylor (7-6) is widely considered the greatest darts match ever.",
+    "share_text": "Barney v Taylor 2007 — greatest darts match? #DartsDaily"
+  },
+  {
+    "id": 48,
+    "number": "14",
+    "stat": "There are 14 possible checkouts between 170 and 161 (the highest possible finishes) in a game of 501.",
+    "share_text": "There are 14 different ways to finish from 170 to 161 in darts! #DartsDaily"
+  },
+  {
+    "id": 49,
+    "number": "2014",
+    "stat": "The first PDC World Youth Championship was held in 2010 and won by Arron Monk.",
+    "share_text": "Arron Monk won the first PDC World Youth crown in 2010. #DartsDaily"
+  },
+  {
+    "id": 50,
+    "number": "3",
+    "stat": "Three players have won world titles in both the BDO and PDC: Phil Taylor, Raymond van Barneveld and John Part.",
+    "share_text": "Only Taylor, Part & Barney have won both BDO & PDC world titles. #DartsDaily"
+  },
+  {
+    "id": 51,
+    "number": "5000+",
+    "stat": "There are now over 5,000 officially registered professional and amateur darts leagues worldwide.",
+    "share_text": "Over 5,000 recognized darts leagues worldwide! #DartsDaily"
+  },
+  {
+    "id": 52,
+    "number": "212",
+    "stat": "The record for most legs in a single World Matchplay final is 40. The 2018 final between Gary Anderson and Mensur Suljovic ended 21-19.",
+    "share_text": "2018 World Matchplay final: 40 legs played — a marathon! #DartsDaily"
+  },
+  {
+    "id": 53,
+    "number": "2022",
+    "stat": "Australia won the World Cup of Darts for the first time in 2022 with Damon Heta and Simon Whitlock.",
+    "share_text": "Australia: 2022 World Cup winners (Heta & Whitlock)! #DartsDaily"
+  },
+  {
+    "id": 54,
+    "number": "30+",
+    "stat": "Over 30 different players have hit a televised nine-darter in PDC events.",
+    "share_text": "Over 30 players have hit televised PDC nine-darters! #DartsDaily"
+  },
+  {
+    "id": 55,
+    "number": "24",
+    "stat": "24 is the number of points needed if a player requires double 12 to finish a 501 game.",
+    "share_text": "D12 is for glory: 24 to finish! #DartsDaily"
+  },
+  {
+    "id": 56,
+    "number": "500+",
+    "stat": "Over 500 players have entered Q-School (PDC qualifying school) in some years, demonstrating the sport's popularity.",
+    "share_text": "Q-School can have 500+ hopefuls chasing PDC dreams! #DartsDaily"
+  },
+  {
+    "id": 57,
+    "number": "14th",
+    "stat": "Beau Greaves became the youngest-ever WDF Women's World Champion at age 18, winning the title on her debut.",
+    "share_text": "Beau Greaves: World champ at just 18! #DartsDaily"
+  },
+  {
+    "id": 58,
+    "number": "20",
+    "stat": "A perfect 'Shanghai' on 20s is single 20, treble 20, double 20 — totaling 120 points in one visit.",
+    "share_text": "Ever hit a Shanghai on 20s? 120 points! #DartsDaily"
+  },
+  {
+    "id": 59,
+    "number": "128",
+    "stat": "The PDC Pro Tour is restricted to 128 tour card holders every year, making it one of the toughest circuits in sports.",
+    "share_text": "Just 128 tour card holders play the PDC Pro Tour each season. #DartsDaily"
+  },
+  {
+    "id": 60,
+    "number": "5",
+    "stat": "The only players to win the PDC World Championship and World Matchplay in the same season are Phil Taylor, Michael van Gerwen, and Peter Wright.",
+    "share_text": "Only Taylor, MvG, and Wright have done the 'big double' in one season! #DartsDaily"
   }
 ]
