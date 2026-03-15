@@ -238,5 +238,245 @@
     "correct": 2,
     "explanation": "Jonny Clayton — The Ferret — worked as a plasterer before turning professional at darts. He went on to win the Premier League and Grand Slam of Darts in the same year he went full time.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+    {
+    "id": 31,
+    "question": "Which player famously wore flamboyant Hawaiian shirts and was known as Hawaii 501?",
+    "options": ["Wayne Mardle", "Paul Lim", "John Part", "Simon Whitlock"],
+    "correct": 0,
+    "explanation": "Wayne Mardle was famous for his colourful Hawaiian shirts and lively walk-on, earning him the nickname Hawaii 501.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Who remembers Hawaii 501? #DartsDaily"
+  },
+  {
+    "id": 32,
+    "question": "Which country did Mensur Suljovic represent before Austria?",
+    "options": ["Hungary", "Serbia", "Slovenia", "Bosnia"],
+    "correct": 1,
+    "explanation": "Mensur Suljovic was born in Serbia but represents Austria in international darts.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Know your darts geography? #DartsDaily"
+  },
+  {
+    "id": 33,
+    "question": "What is the standard height from the floor to the bullseye on a dartboard?",
+    "options": ["1.68m", "1.73m", "1.78m", "1.83m"],
+    "correct": 1,
+    "explanation": "The correct height from the floor to the bullseye is 1.73 metres.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Bulls up? #DartsDaily"
+  },
+  {
+    "id": 34,
+    "question": "Which player hit two televised nine-darters in the same tournament for the first time?",
+    "options": ["Raymond van Barneveld", "Phil Taylor", "Gary Anderson", "Adrian Lewis"],
+    "correct": 1,
+    "explanation": "Phil Taylor hit two nine-darters at the 2010 Premier League, a first in a single televised event.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Double nine-darter legend! #DartsDaily"
+  },
+  {
+    "id": 35,
+    "question": "What is the largest possible score with three darts?",
+    "options": ["180", "177", "167", "170"],
+    "correct": 0,
+    "explanation": "The largest possible score with three darts is 180, hitting three triple 20s.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! 180! #DartsDaily"
+  },
+  {
+    "id": 36,
+    "question": "Who was the first player to win both the BDO and PDC World Championships?",
+    "options": ["John Part", "Raymond van Barneveld", "Dennis Priestley", "Phil Taylor"],
+    "correct": 1,
+    "explanation": "Raymond van Barneveld was the first to win both the BDO and PDC World titles.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Double world champ? #DartsDaily"
+  },
+  {
+    "id": 37,
+    "question": "Who holds the record for the most World Matchplay titles?",
+    "options": ["Phil Taylor", "Michael van Gerwen", "Gary Anderson", "Peter Wright"],
+    "correct": 0,
+    "explanation": "Phil Taylor won 16 World Matchplay titles, far more than any other player in history.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Blackpool legend? #DartsDaily"
+  },
+  {
+    "id": 38,
+    "question": "In which year was the first women's PDC World Championship held?",
+    "options": ["2000", "2001", "2010", "2019"],
+    "correct": 2,
+    "explanation": "The first and only PDC Women's World Championship was held in 2010.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Women's darts milestone! #DartsDaily"
+  },
+  {
+    "id": 39,
+    "question": "Which player is nicknamed 'The Wizard'?",
+    "options": ["Simon Whitlock", "Steve Beaton", "Terry Jenkins", "Mark Webster"],
+    "correct": 0,
+    "explanation": "Simon Whitlock is known as The Wizard due to his iconic look and Australian background.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Spotted the Wizard? #DartsDaily"
+  },
+  {
+    "id": 40,
+    "question": "What was the maiden name of PDC before it became the Professional Darts Corporation?",
+    "options": ["World Darts Organisation", "Darts World Federation", "World Darts Council", "Professional International Darts"],
+    "correct": 2,
+    "explanation": "The PDC was originally founded as the World Darts Council (WDC) in 1992.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Darts history buff? #DartsDaily"
+  },
+  {
+    "id": 41,
+    "question": "Which player was known as 'The Artist'?",
+    "options": ["Kevin Painter", "Alan Warriner", "Simon Whitlock", "Mark Webster"],
+    "correct": 0,
+    "explanation": "Kevin Painter is nicknamed The Artist, famous for his distinctive walk-on and aggressive game.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Can you name The Artist? #DartsDaily"
+  },
+  {
+    "id": 42,
+    "question": "Who was the youngest female qualifier for the PDC World Championship?",
+    "options": ["Beau Greaves", "Fallon Sherrock", "Anastasia Dobromyslova", "Mikuru Suzuki"],
+    "correct": 0,
+    "explanation": "Beau Greaves qualified for the PDC World Championship at age 18.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Wonderkid alert! #DartsDaily"
+  },
+  {
+    "id": 43,
+    "question": "What is the standard diameter of a dartboard?",
+    "options": ["13.5 inches", "15.5 inches", "17.75 inches", "18 inches"],
+    "correct": 2,
+    "explanation": "The standard dartboard has a diameter of 17.75 inches (451 mm).",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Boards and numbers! #DartsDaily"
+  },
+  {
+    "id": 44,
+    "question": "Which dart player is known as 'The Bronzed Adonis'?",
+    "options": ["Steve Beaton", "Dennis Priestley", "Peter Wright", "John Lowe"],
+    "correct": 0,
+    "explanation": "Steve Beaton is famed as 'The Bronzed Adonis' for his tan and timeless style.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Flash player style! #DartsDaily"
+  },
+  {
+    "id": 45,
+    "question": "What double do players typically try to leave for a two-dart 40 checkout?",
+    "options": ["Double 10", "Double 20", "Double 16", "Double 18"],
+    "correct": 2,
+    "explanation": "Double 16 is the most popular double finish for a 40 checkout.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Finishing with style? #DartsDaily"
+  },
+  {
+    "id": 46,
+    "question": "Which non-European country won the PDC World Cup of Darts for the first time in 2019?",
+    "options": ["Canada", "USA", "Japan", "Australia"],
+    "correct": 3,
+    "explanation": "Australia, represented by Simon Whitlock and Damon Heta, won the World Cup in 2019.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! World Cup history! #DartsDaily"
+  },
+  {
+    "id": 47,
+    "question": "Who was the first player to average over 110 in a televised match?",
+    "options": ["Phil Taylor", "Michael van Gerwen", "Gary Anderson", "John Part"],
+    "correct": 0,
+    "explanation": "Phil Taylor was the first player to average over 110 during a televised match.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Monster averages! #DartsDaily"
+  },
+  {
+    "id": 48,
+    "question": "What is the term for three darts in the treble 19?",
+    "options": ["A Shanghai", "A Ton-57", "A Maximum", "A Treble Set"],
+    "correct": 1,
+    "explanation": "A score of 57 (three treble 19s) is often called a Ton-57.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Triple 19s! #DartsDaily"
+  },
+  {
+    "id": 49,
+    "question": "Which country is John Michael, 'The Deadly Rose,' from?",
+    "options": ["Italy", "Greece", "Cyprus", "Malta"],
+    "correct": 1,
+    "explanation": "John Michael, known as The Deadly Rose, hails from Greece.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! International darts! #DartsDaily"
+  },
+  {
+    "id": 50,
+    "question": "Who is known as 'Duzza'?",
+    "options": ["Glen Durrant", "Simon Whitlock", "Jamie Hughes", "Chris Dobey"],
+    "correct": 0,
+    "explanation": "Glen Durrant is nicknamed Duzza, winning three BDO world titles before moving to PDC.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Duzza time! #DartsDaily"
+  },
+  {
+    "id": 51,
+    "question": "Which darting venue is associated with the World Matchplay?",
+    "options": ["Winter Gardens", "Alexandra Palace", "Circus Tavern", "O2 Arena"],
+    "correct": 0,
+    "explanation": "The famous Winter Gardens in Blackpool has hosted the World Matchplay since 1994.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Blackpool classic! #DartsDaily"
+  },
+  {
+    "id": 52,
+    "question": "What is the nickname of Dutch star Dirk van Duijvenbode?",
+    "options": ["The Giant", "Aubergenius", "Mighty Mike", "The Bullet"],
+    "correct": 1,
+    "explanation": "Dirk van Duijvenbode is known as Aubergenius, thanks to his day job on an aubergine farm.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Aubergenius! #DartsDaily"
+  },
+  {
+    "id": 53,
+    "question": "Which of these is a valid ‘Shanghai’ finish?",
+    "options": ["T20, D20, 20","T18, D18, 18","T16, D16, 16","All of the above"],
+    "correct": 3,
+    "explanation": "A Shanghai finish consists of Single, Treble and Double of the same number, so all options are valid.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Shanghai finish expert! #DartsDaily"
+  },
+  {
+    "id": 54,
+    "question": "Which famous dart player is known as 'The Iceman'?",
+    "options": ["Gary Anderson", "Gerwyn Price", "Michael Smith", "James Wade"],
+    "correct": 1,
+    "explanation": "Gerwyn Price is known as 'The Iceman' for his cool, intense persona and celebrations.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Cool under pressure! #DartsDaily"
+  },
+  {
+    "id": 55,
+    "question": "Who won the Grand Slam of Darts in 2020?",
+    "options": ["Gerwyn Price", "Glen Durrant", "Jose de Sousa", "Simon Whitlock"],
+    "correct": 2,
+    "explanation": "Jose de Sousa made history as the first Portuguese Grand Slam champion in 2020.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Slam champion! #DartsDaily"
+  },
+  {
+    "id": 56,
+    "question": "Which English player is nicknamed 'The Asp'?",
+    "options": ["Nathan Aspinall", "Wayne Jones", "Gary Anderson", "Ryan Searle"],
+    "correct": 0,
+    "explanation": "Nathan Aspinall is nicknamed 'The Asp' and is known for his Premier League and UK Open wins.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Venom in the darts! #DartsDaily"
+  },
+  {
+    "id": 57,
+    "question": "For which country does Madars Razma play?",
+    "options": ["Lithuania", "Estonia", "Latvia", "Russia"],
+    "correct": 2,
+    "explanation": "Madars Razma is the top professional darts player from Latvia.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Northern stars! #DartsDaily"
+  },
+  {
+    "id": 58,
+    "question": "Which of these darts legends is NOT English?",
+    "options": ["John Lowe", "Eric Bristow", "Raymond van Barneveld", "Phil Taylor"],
+    "correct": 2,
+    "explanation": "Raymond van Barneveld is Dutch; the other legends listed are English.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Darting nations! #DartsDaily"
+  },
+  {
+    "id": 59,
+    "question": "Which professional is known for using some of the heaviest darts (34g) in the PDC?",
+    "options": ["Peter Wright", "Ryan Searle", "James Wade", "Rob Cross"],
+    "correct": 1,
+    "explanation": "Ryan Searle is famous for using 34 gram darts, heavier than nearly everyone on the tour.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Heavy metal darts! #DartsDaily"
+  },
+  {
+    "id": 60,
+    "question": "Who was the first Dutch player to win the World Darts Championship?",
+    "options": ["Jelle Klaasen", "Roland Scholten", "Raymond van Barneveld", "Michael van Gerwen"],
+    "correct": 2,
+    "explanation": "Raymond van Barneveld was the first Dutchman to win a world title, winning in 1998 (BDO).",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Dutch darts history! #DartsDaily"
   }
 ]
