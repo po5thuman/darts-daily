@@ -296,9 +296,12 @@
     <div id="product-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's product...</div>
     <div id="product-content" style="display:none;">
         <div class="product-badge" id="prod-badge">Today's Pick</div>
-        <div class="product-visual">
-            <img id="prod-image" src="" alt="" style="width:100%;height:100%;object-fit:contain;padding:10px;">
-        </div>
+    <div class="product-visual" style="position:relative;">
+        <button class="prod-gallery-btn" id="prod-prev" style="position:absolute;left:0;top:50%;transform:translateY(-50%);z-index:2;display:none;">&#8678;</button>
+        <img id="prod-image" src="" alt="" style="width:100%;height:100%;object-fit:contain;padding:10px;">
+        <button class="prod-gallery-btn" id="prod-next" style="position:absolute;right:0;top:50%;transform:translateY(-50%);z-index:2;display:none;">&#8680;</button>
+        <div id="prod-gallery-indicator" style="text-align:center;color:#aaa;padding:4px 0 0 0;font-size:0.93em;"></div>
+    </div>
         <div class="product-name" id="prod-name"></div>
         <div class="product-desc" id="prod-desc"></div>
         <div class="product-pricing">
@@ -1420,15 +1423,51 @@ async function loadProductOfDay() {
         const p = products[dayOfYear % products.length];
 
         document.getElementById("prod-badge").textContent = p.badge;
-        document.getElementById("prod-image").src = p.images[0];
-        document.getElementById("prod-image").alt = p.name;
+
+        // Carousel logic
+        let currentImage = 0;
+        const prodImage = document.getElementById("prod-image");
+        const prevBtn = document.getElementById("prod-prev");
+        const nextBtn = document.getElementById("prod-next");
+        const indicator = document.getElementById("prod-gallery-indicator");
+
+        function updateGallery() {
+            prodImage.src = p.images[currentImage];
+            prodImage.alt = p.name + " image " + (currentImage + 1);
+            indicator.textContent = (currentImage + 1) + " / " + p.images.length;
+            // Hide/show buttons if only 1 image
+            prevBtn.style.display = p.images.length > 1 ? "" : "none";
+            nextBtn.style.display = p.images.length > 1 ? "" : "none";
+        }
+        prevBtn.onclick = function(e) {
+            e.preventDefault();
+            currentImage = (currentImage - 1 + p.images.length) % p.images.length;
+            updateGallery();
+        }
+        nextBtn.onclick = function(e) {
+            e.preventDefault();
+            currentImage = (currentImage + 1) % p.images.length;
+            updateGallery();
+        }
+        // Swipe support for touch devices
+        let startX = null;
+        prodImage.addEventListener('touchstart', function(e) { if (e.touches.length === 1) startX = e.touches[0].clientX; });
+        prodImage.addEventListener('touchend', function(e) {
+            if(startX === null) return;
+            let endX = e.changedTouches[0].clientX;
+            if(endX - startX > 30) prevBtn.click();
+            else if(startX - endX > 30) nextBtn.click();
+            startX = null;
+        });
+
+        updateGallery();
+
         document.getElementById("prod-name").textContent = p.name;
         document.getElementById("prod-desc").textContent = p.desc;
         document.getElementById("prod-price").textContent = p.price;
         document.getElementById("prod-old").textContent = p.old_price;
         document.getElementById("prod-discount").textContent = p.discount;
         document.getElementById("prod-rating").innerHTML = "<span>★★★★★</span> " + p.rating + " / 5 &nbsp;·&nbsp; " + p.reviews + " reviews &nbsp;·&nbsp; " + p.grip + " &nbsp;·&nbsp; " + p.level;
-
         let buttons = "";
         if (p.darts_corner_url) {
             buttons += "<a href=\"" + p.darts_corner_url + "\" class=\"btn btn-main\" target=\"_blank\" rel=\"noopener\">Darts Corner</a>";
@@ -1437,10 +1476,8 @@ async function loadProductOfDay() {
             buttons += "<a href=\"" + p.amazon_url + "\" class=\"btn btn-outline\" target=\"_blank\" rel=\"noopener\">Amazon</a>";
         }
         document.getElementById("prod-buttons").innerHTML = buttons;
-
         document.getElementById("product-loading").style.display = "none";
         document.getElementById("product-content").style.display = "block";
-
     } catch (err) {
         document.getElementById("product-loading").textContent = "Error loading product.";
         console.error(err);
