@@ -23,7 +23,7 @@
     "location": "Lokhalle, Göttingen, Germany",
     "date_display": "Fri 13 Mar – Sun 15 Mar 2026",
     "date_iso": "2026-03-13",
-	"end_date_iso": "2026-03-22",
+	"end_date_iso": "2026-03-15",
     "tour": "PDC European Tour",
     "icon": "🌍"
   },
@@ -43,6 +43,7 @@
     "location": "Oktoberhallen, Wieze, Belgium",
     "date_display": "Fri 20 Mar – Sun 22 Mar 2026",
     "date_iso": "2026-03-20",
+	"end_date_iso": "2026-03-22",
     "tour": "PDC European Tour",
     "icon": "🇧🇪"
   },
@@ -90,6 +91,7 @@
     "location": "Zenith, Munich, Germany",
     "date_display": "Sat 04 Apr – Mon 06 Apr 2026",
     "date_iso": "2026-04-04",
+	"end_date_iso": "2026-04-06",
     "tour": "PDC European Tour",
     "icon": "🇩🇪"
   },
@@ -136,6 +138,7 @@
     "location": "Glaspalast, Sindelfingen, Germany",
     "date_display": "Fri 17 Apr – Sun 19 Apr 2026",
     "date_iso": "2026-04-17",
+	"end_date_iso": "2026-04-19",
     "tour": "PDC European Tour",
     "icon": "🇩🇪"
   },
@@ -210,6 +213,7 @@
     "location": "Stadthalle, Austria",
     "date_display": "Fri 08 May – Sun 10 May 2026",
     "date_iso": "2026-05-08",
+	"end_date_iso": "2026-05-10",
     "tour": "PDC European Tour",
     "icon": "🇦🇹"
   },
@@ -274,6 +278,7 @@
     "location": "WT Energiesysteme Arena, Germany",
     "date_display": "Fri 22 May – Sun 24 May 2026",
     "date_iso": "2026-05-22",
+	"end_date_iso": "2026-05-24",
     "tour": "PDC European Tour",
     "icon": "🌍"
   },
@@ -292,6 +297,7 @@
     "location": "Wunderino Arena Europaplatz, Germany",
     "date_display": "Fri 29 May – Sun 31 May 2026",
     "date_iso": "2026-05-29",
+	"end_date_iso": "2026-05-31",
     "tour": "PDC European Tour",
     "icon": "🌍"
   },
@@ -319,6 +325,7 @@
     "location": "Forum, Copenhagen, Denmark",
     "date_display": "Fri 05 Jun – Sat 06 Jun 2026",
     "date_iso": "2026-06-05",
+	"end_date_iso": "2026-06-06",
     "tour": "PDC World Series",
     "icon": "🇩🇰"
   },
@@ -328,6 +335,7 @@
     "location": "Eissporthalle Frankfurt, Germany",
     "date_display": "Thu 11 Jun – Sun 14 Jun 2026",
     "date_iso": "2026-06-11",
+	"end_date_iso": "2026-06-14",
     "tour": "PDC World Cup",
     "icon": "🌍"
   },
@@ -355,6 +363,7 @@
     "location": "Incheba Expo, Slovakia",
     "date_display": "Fri 19 Jun – Sun 21 Jun 2026",
     "date_iso": "2026-06-19",
+	"end_date_iso": "2026-06-21",
     "tour": "PDC European Tour",
     "icon": "🇸🇰"
   },
@@ -364,6 +373,7 @@
     "location": "Madison Square Garden, New York, USA",
     "date_display": "Thu 25 Jun – Fri 26 Jun 2026",
     "date_iso": "2026-06-25",
+	"end_date_iso": "2026-06-26",
     "tour": "PDC World Series",
     "icon": "🇺🇸",
     "ticket_url": "https://ticketmaster.evyy.net/JkKJ4a"
@@ -392,6 +402,7 @@
     "location": "Ostermann-Arena, Leverkusen, Germany",
     "date_display": "Fri 10 Jul – Sun 12 Jul 2026",
     "date_iso": "2026-07-10",
+	"end_date_iso": "2026-07-12",
     "tour": "PDC European Tour",
     "icon": "🇩🇪"
   },
@@ -401,6 +412,7 @@
     "location": "Winter Gardens, Blackpool, England",
     "date_display": "Sat 18 Jul – Sun 26 Jul 2026",
     "date_iso": "2026-07-18",
+	"end_date_iso": "2026-07-26",
     "tour": "PDC",
     "icon": "🏆"
   },
@@ -428,6 +440,7 @@
     "location": "Spark Arena, New Zealand",
     "date_display": "Fri 14 Aug – Sat 15 Aug 2026",
     "date_iso": "2026-08-14",
+	"end_date_iso": "2026-08-15",
     "tour": "PDC World Series",
     "icon": "🇳🇿",
     "ticket_url": "https://ticketmaster.evyy.net/bkOObB"
@@ -438,6 +451,7 @@
     "location": "WIN Entertainment Centre, Wollongong, Australia",
     "date_display": "Fri 21 Aug – Sat 22 Aug 2026",
     "date_iso": "2026-08-21",
+	"end_date_iso": "2026-08-22",
     "tour": "PDC World Series",
     "icon": "🇦🇺",
     "ticket_url": "https://ticketmaster.evyy.net/DWyyVq"
@@ -466,6 +480,7 @@
     "location": "SYMA Dome, Hungary",
     "date_display": "Fri 28 Aug – Sun 30 Aug 2026",
     "date_iso": "2026-08-28",
+	"end_date_iso": "2026-08-30",
     "tour": "PDC European Tour",
     "icon": "🇭🇺"
   },
@@ -475,6 +490,7 @@
     "location": "PVA Expo, Prague, Czech Republic",
     "date_display": "Fri 04 Sep – Sun 06 Sep 2026",
     "date_iso": "2026-09-04",
+	"end_date_iso": "2026-09-04",
     "tour": "PDC European Tour",
     "icon": "🇨🇿"
   },
@@ -484,6 +500,7 @@
     "location": "Antwerp Xpo, Belgium",
     "date_display": "Fri 11 Sep – Sun 13 Sep 2026",
     "date_iso": "2026-09-11",
+	"end_date_iso": "2026-09-13",
     "tour": "PDC European Tour",
     "icon": "🇧🇪"
   },
@@ -493,6 +510,7 @@
     "location": "AFAS Live, Amsterdam, Netherlands",
     "date_display": "Thu 17 Sep – Sun 20 Sep 2026",
     "date_iso": "2026-09-17",
+	"end_date_iso": "2026-09-20",
     "tour": "PDC World Series",
     "icon": "🏆"
   },
@@ -520,6 +538,7 @@
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Mon 28 Sep – Sun 04 Oct 2026",
     "date_iso": "2026-09-28",
+	"end_date_iso": "2026-09-28",
     "tour": "PDC",
     "icon": "🏆"
   },
@@ -529,6 +548,7 @@
     "location": "St. Jakobshalle, Switzerland",
     "date_display": "Fri 09 Oct – Sun 11 Oct 2026",
     "date_iso": "2026-10-09",
+	"end_date_iso": "2026-10-11",
     "tour": "PDC European Tour",
     "icon": "🇨🇭"
   },
@@ -538,6 +558,7 @@
     "location": "MECC, Maastricht, Netherlands",
     "date_display": "Fri 16 Oct – Sun 18 Oct 2026",
     "date_iso": "2026-10-16",
+	"end_date_iso": "2026-10-18",
     "tour": "PDC European Tour",
     "icon": "🇳🇱"
   },
@@ -547,6 +568,7 @@
     "location": "Westfalenhalle, Dortmund, Germany",
     "date_display": "Thu 22 Oct – Sun 25 Oct 2026",
     "date_iso": "2026-10-22",
+	"end_date_iso": "2026-10-25",
     "tour": "PDC European Tour",
     "icon": "🏆"
   },
@@ -592,6 +614,7 @@
     "location": "Aldersley Leisure Village, Wolverhampton, England",
     "date_display": "Sat 14 Nov – Sun 22 Nov 2026",
     "date_iso": "2026-11-14",
+	"end_date_iso": "2026-11-22",
     "tour": "PDC",
     "icon": "🏆"
   },
@@ -610,6 +633,7 @@
     "location": "Alexandra Palace, London, England",
     "date_display": "Thu 10 Dec 2026 – Sun 03 Jan 2027",
     "date_iso": "2026-12-10",
+	"end_date_iso": "2027-01-03",
     "tour": "PDC",
     "icon": "🏆"
   }
