@@ -288,6 +288,8 @@ async function loadStatOfDay() {
         
         document.getElementById("s-number").textContent = s.number;
         document.getElementById("s-stat").innerHTML = s.stat;
+        
+        // All 6 share buttons
         document.getElementById("s-share-x").onclick = () => shareX(s.share_text);
         document.getElementById("s-share-wa").onclick = () => shareWA(s.share_text);
         document.getElementById("s-share-reddit").onclick = () => shareReddit(s.share_text);
@@ -301,8 +303,6 @@ async function loadStatOfDay() {
         console.error(err);
     }
 }
-
-loadStatOfDay();
 
 // ════════════════════════════════════════════════════════════════
 // HISTORY OF THE DAY
