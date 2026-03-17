@@ -215,7 +215,7 @@
     "date_iso": "2026-05-08",
 	"end_date_iso": "2026-05-10",
     "tour": "PDC European Tour",
-    "icon": "🇦🇹"
+    "icon": "AT"
   },
   {
     "id": 24,
@@ -327,7 +327,7 @@
     "date_iso": "2026-06-05",
 	"end_date_iso": "2026-06-06",
     "tour": "PDC World Series",
-    "icon": "🇩🇰"
+    "icon": "DK"
   },
   {
     "id": 36,
@@ -365,7 +365,7 @@
     "date_iso": "2026-06-19",
 	"end_date_iso": "2026-06-21",
     "tour": "PDC European Tour",
-    "icon": "🇸🇰"
+    "icon": "SK"
   },
   {
     "id": 40,
@@ -442,7 +442,7 @@
     "date_iso": "2026-08-14",
 	"end_date_iso": "2026-08-15",
     "tour": "PDC World Series",
-    "icon": "🇳🇿",
+    "icon": "NZ",
     "ticket_url": "https://ticketmaster.evyy.net/bkOObB"
   },
   {
@@ -453,7 +453,7 @@
     "date_iso": "2026-08-21",
 	"end_date_iso": "2026-08-22",
     "tour": "PDC World Series",
-    "icon": "🇦🇺",
+    "icon": "AU",
     "ticket_url": "https://ticketmaster.evyy.net/DWyyVq"
   },
   {
@@ -482,7 +482,7 @@
     "date_iso": "2026-08-28",
 	"end_date_iso": "2026-08-30",
     "tour": "PDC European Tour",
-    "icon": "🇭🇺"
+    "icon": "HU"
   },
   {
     "id": 52,
@@ -492,7 +492,7 @@
     "date_iso": "2026-09-04",
 	"end_date_iso": "2026-09-04",
     "tour": "PDC European Tour",
-    "icon": "🇨🇿"
+    "icon": "CZ"
   },
   {
     "id": 53,
@@ -550,7 +550,7 @@
     "date_iso": "2026-10-09",
 	"end_date_iso": "2026-10-11",
     "tour": "PDC European Tour",
-    "icon": "🇨🇭"
+    "icon": "CH"
   },
   {
     "id": 59,
