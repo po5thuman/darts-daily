@@ -464,7 +464,73 @@
             #mlb2-38186798.ml-form-embedContainer .ml-form-successBody { padding: 0 !important; }
             #mlb2-38186798.ml-form-embedContainer .ml-form-successContent h4 { color: var(--green) !important; font-family: 'Inter', sans-serif !important; font-size: 0.9rem !important; font-weight: 600 !important; margin: 0 0 4px 0 !important; }
             #mlb2-38186798.ml-form-embedContainer .ml-form-successContent p { color: var(--muted) !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; margin: 0 !important; }
+                /* Force submit button to always show on mobile */
+                    @media only screen and (max-width: 400px) {
+                        #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal { 
+                            display: block !important; 
+                            width: 100% !important;
+                            margin-top: 10px !important;
+                        }
+                        #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary {
+                            width: 100% !important;
+                            display: block !important;
+                        }
+                        #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow {
+                            flex-direction: column !important;
+                        }
+                        #mlb2-38186798.ml-form-embedContainer .ml-input-horizontal {
+                            width: 100% !important;
+                        }
+                    }
             </style>
+            <style>
+    /* ─── MAILERLITE OVERRIDES ─────────────────────────────────── */
+#mlb2-38186798.ml-form-embedContainer { background: transparent !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper { background: transparent !important; border: none !important; width: 100% !important; max-width: 100% !important; display: block !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-embedWrapper.embedForm { max-width: 100% !important; width: 100% !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-embedBody { padding: 0 !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-embedContent { display: none !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-align-center { text-align: left !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow { display: flex !important; gap: 10px !important; align-items: center !important; width: 100% !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-input-horizontal { flex: 1 !important; width: auto !important; float: none !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal { width: auto !important; float: none !important; flex-shrink: 0 !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-formContent.horozintalForm { padding: 0 !important; margin: 0 !important; float: none !important; }
+#mlb2-38186798.ml-form-embedContainer .horizontal-fields { padding-right: 0 !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; border-radius: 8px !important; border-style: solid !important; border-width: 1px !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; padding: 11px 15px !important; width: 100% !important; box-sizing: border-box !important; transition: border-color 0.15s, background 0.3s !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input:focus { outline: none !important; border-color: var(--accent) !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-webkit-input-placeholder { color: var(--muted) !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-moz-placeholder { color: var(--muted) !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input:-ms-input-placeholder { color: var(--muted) !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary { background: var(--text) !important; color: var(--bg) !important; border: none !important; border-radius: 8px !important; font-family: 'Inter', sans-serif !important; font-size: 0.81rem !important; font-weight: 600 !important; padding: 11px 20px !important; cursor: pointer !important; white-space: nowrap !important; transition: opacity 0.15s !important; width: auto !important; line-height: 1.4 !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary:hover { opacity: 0.85 !important; background: var(--text) !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.loading { display: none !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-mobileButton-horizontal { display: none !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-successBody { padding: 0 !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-successContent h4 { color: var(--green) !important; font-family: 'Inter', sans-serif !important; font-size: 0.9rem !important; font-weight: 600 !important; margin: 0 0 4px 0 !important; }
+#mlb2-38186798.ml-form-embedContainer .ml-form-successContent p { color: var(--muted) !important; font-family: 'Inter', sans-serif !important; font-size: 0.83rem !important; margin: 0 !important; }
+body.light #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input { background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border) !important; }
+body.light #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow input::-webkit-input-placeholder { color: var(--muted) !important; }
+body.light #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary { background: var(--text) !important; color: var(--bg) !important; }
+
+/* Force submit button to always show on mobile */
+@media only screen and (max-width: 400px) {
+    #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal { 
+        display: block !important; 
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+    #mlb2-38186798.ml-form-embedContainer .ml-button-horizontal button.primary {
+        width: 100% !important;
+        display: block !important;
+    }
+    #mlb2-38186798.ml-form-embedContainer .ml-form-horizontalRow {
+        flex-direction: column !important;
+    }
+    #mlb2-38186798.ml-form-embedContainer .ml-input-horizontal {
+        width: 100% !important;
+    }
+}
+</style>
             <div id="mlb2-38186798" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-38186798">
                 <div class="ml-form-align-center">
                     <div class="ml-form-embedWrapper embedForm">
