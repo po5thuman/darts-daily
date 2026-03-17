@@ -184,6 +184,7 @@
         #modal-box::-webkit-scrollbar-thumb:hover { background: var(--accent); }
         @media (max-width: 600px) { #modal-box { padding: 28px 20px; max-height: 85vh; } }
         .event-ongoing-badge { display: inline-block; margin-left: 8px; padding: 2px 8px; background: #e74c3c; color: white; font-size: 0.7rem; font-weight: 600; border-radius: 3px; text-transform: uppercase; vertical-align: middle; }
+        .flag-icon {width: 20px; height: 15px; vertical-align: middle; margin-right: 6px; border-radius: 2px; object-fit: cover; display: inline-block; }
         /* Product Image Carousel */
         .product-visual-carousel { position: relative; width: 100%; overflow: hidden; margin-bottom: 1rem; }
         .carousel-container { overflow: hidden; width: 100%; position: relative; }
@@ -1381,7 +1382,7 @@ async function loadUpcomingEvents() {
                         ${isOngoing ? '<span class="event-ongoing-badge">ON-GOING</span>' : ''}
                     </div>
                     <div class="event-meta">
-                        <span class="event-location">${event.icon} ${event.location}</span>
+                        <span class="event-location"><img src="https://flagcdn.com/20x15/${event.icon.toLowerCase()}.png" alt="${event.icon}" class="flag-icon"> ${event.location}</span>
                         &nbsp;·&nbsp;
                         <span class="event-date">📅 ${event.date_display}</span>
                     </div>
