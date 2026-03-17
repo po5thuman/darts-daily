@@ -477,59 +477,163 @@ body.light .toggle-track {
 }
 
 /* ════════════════════════════════════════════════════════════════ */
-/* SHARE BUTTONS                                                     */
+/* SHARE BUTTONS - REFINED VERSION                                  */
 /* ════════════════════════════════════════════════════════════════ */
 .share-row {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    margin-top: 4px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+    margin-top: 16px;
 }
 
 .share-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    background: transparent;
+    justify-content: center;
+    gap: 5px;
+    background: var(--surface2);
     border: 1px solid var(--border);
     color: var(--muted);
-    padding: 7px 13px;
-    border-radius: 6px;
-    font-size: 0.73rem;
-    font-weight: 500;
+    padding: 9px 8px;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    font-weight: 600;
     font-family: "Inter", sans-serif;
     cursor: pointer;
-    transition: all 0.15s;
+    transition: all 0.2s ease;
     text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.share-btn svg {
+    flex-shrink: 0;
+    opacity: 0.8;
+    transition: opacity 0.2s;
 }
 
 .share-btn:hover {
-    border-color: var(--text);
-    color: var(--text);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.share-btn:hover svg {
+    opacity: 1;
+}
+
+.share-btn:active {
+    transform: translateY(0);
+}
+
+/* X (Twitter) */
 .share-btn.x:hover {
-    border-color: #fff;
-    color: #fff;
-    background: #000;
-}
-
-.share-btn.fb:hover {
-    border-color: #1877f2;
-    color: #1877f2;
-    background: rgba(24,119,242,0.08);
-}
-
-.share-btn.wa:hover {
-    border-color: #25d366;
-    color: #25d366;
-    background: rgba(37,211,102,0.08);
+    background: #000000;
+    border-color: #000000;
+    color: #ffffff;
 }
 
 body.light .share-btn.x:hover {
-    border-color: #000;
-    color: #fff;
-    background: #000;
+    background: #000000;
+    border-color: #000000;
+    color: #ffffff;
+}
+
+/* Facebook */
+.share-btn.fb:hover {
+    background: #1877f2;
+    border-color: #1877f2;
+    color: #ffffff;
+}
+
+/* WhatsApp */
+.share-btn.wa:hover {
+    background: #25d366;
+    border-color: #25d366;
+    color: #ffffff;
+}
+
+/* Reddit */
+.share-btn.reddit:hover {
+    background: #ff4500;
+    border-color: #ff4500;
+    color: #ffffff;
+}
+
+/* Telegram */
+.share-btn.telegram:hover {
+    background: #0088cc;
+    border-color: #0088cc;
+    color: #ffffff;
+}
+
+/* Copy Link */
+.share-btn.copy:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+}
+
+.share-btn.copy.copied {
+    background: var(--green);
+    border-color: var(--green);
+    color: #ffffff;
+    animation: pulse 0.3s ease;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Icon-only mode for mobile */
+@media (max-width: 768px) {
+    .share-row {
+        grid-template-columns: repeat(6, 1fr);
+        gap: 5px;
+    }
+    
+    .share-btn {
+        padding: 10px 6px;
+        font-size: 0;
+        min-width: auto;
+    }
+    
+    .share-btn svg {
+        margin: 0;
+    }
+    
+    /* Show tooltip on hover for mobile */
+    .share-btn::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-4px);
+        background: var(--text);
+        color: var(--bg);
+        padding: 4px 8px;
+        border-radius: 4px;
+        font-size: 0.65rem;
+        white-space: nowrap;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+    
+    .share-btn:hover::after {
+        opacity: 1;
+        transform: translateX(-50%) translateY(-8px);
+    }
+}
+
+/* Extra small screens - stack to 3 columns */
+@media (max-width: 480px) {
+    .share-row {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
 }
 
 /* ════════════════════════════════════════════════════════════════ */
