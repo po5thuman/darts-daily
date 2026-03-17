@@ -1381,7 +1381,7 @@ async function loadUpcomingEvents() {
                         ${isOngoing ? '<span class="event-ongoing-badge">ON-GOING</span>' : ''}
                     </div>
                     <div class="event-meta">
-                        <span class="event-location"><img src="https://flagcdn.com/24x18/${event.icon.toLowerCase()}.png" alt="${event.icon}" class="flag-icon"> ${event.location}</span>
+                        <span class="event-location">${event.icon} ${event.location}</span>
                         &nbsp;·&nbsp;
                         <span class="event-date">📅 ${event.date_display}</span>
                     </div>
