@@ -318,7 +318,6 @@
     <div id="product-loading" style="color:var(--muted);font-size:0.85rem;">Loading today's product...</div>
     <div id="product-content" style="display:none;">
         <div class="product-badge" id="prod-badge">Today's Pick</div>
-        
         <!-- IMAGE CAROUSEL -->
         <div class="product-visual-carousel">
             <button class="carousel-btn carousel-prev" id="carousel-prev">‹</button>
@@ -330,8 +329,11 @@
             <button class="carousel-btn carousel-next" id="carousel-next">›</button>
             <div class="carousel-dots" id="carousel-dots"></div>
         </div>
-        
         <div class="product-name" id="prod-name"></div>
+        
+        <!-- NEW RATING SECTION -->
+        <div id="prod-rating" style="margin: 4px 0 8px 0; font-size: 0.9rem; display: flex; align-items: center; gap: 5px;"></div>
+        
         <div class="product-desc" id="prod-desc"></div>
         <div class="buy-buttons" id="prod-buttons"></div>
         <p class="affiliate-note">* Affiliate links — we earn a small commission at no extra cost to you.</p>
@@ -1487,12 +1489,25 @@ async function loadProductOfDay() {
         const res = await fetch("products.json");
         const products = await res.json();
         const p = products[dayOfYear % products.length];
-        
-        // Set product data (title and description only)
+
+        // Set product data
         document.getElementById("prod-badge").textContent = p.badge;
         document.getElementById("prod-name").textContent = p.name;
         document.getElementById("prod-desc").textContent = p.desc;
-        
+
+        // --- NEW: Display Rating and Reviews ---
+        const ratingContainer = document.getElementById("prod-rating");
+        if (p.rating && p.reviews) {
+            ratingContainer.innerHTML = `
+                <span style="color: #ffa41c;">★ ${p.rating}</span>
+                <span style="color: var(--muted); font-size: 0.85rem; font-weight: 400;">(${p.reviews} reviews)</span>
+            `;
+            ratingContainer.style.display = "flex";
+        } else {
+            ratingContainer.style.display = "none";
+        }
+        // ---------------------------------------
+
         // Set up buttons
         let buttons = "";
         if (p.darts_corner_url) {
@@ -1502,12 +1517,12 @@ async function loadProductOfDay() {
             buttons += "<a href=\"" + p.amazon_url + "\" class=\"btn btn-outline\" target=\"_blank\" rel=\"noopener\">See Item</a>";
         }
         document.getElementById("prod-buttons").innerHTML = buttons;
-        
+
         // Set up image carousel
         productImages = p.images;
         currentImageIndex = 0;
         initCarousel();
-        
+
         document.getElementById("product-loading").style.display = "none";
         document.getElementById("product-content").style.display = "block";
     } catch (err) {
