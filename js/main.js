@@ -87,6 +87,70 @@ function shareWA(text) {
 }
 
 // ════════════════════════════════════════════════════════════════
+// ADDITIONAL SHARE FUNCTIONS
+// ════════════════════════════════════════════════════════════════
+function shareReddit(text) {
+    window.open("https://reddit.com/submit?url=" + pageURL + "&title=" + encodeURIComponent(text), "_blank", "width=600,height=460");
+}
+
+function shareTelegram(text) {
+    window.open("https://t.me/share/url?url=" + pageURL + "&text=" + encodeURIComponent(text), "_blank", "width=600,height=460");
+}
+
+function copyLink(button) {
+    const url = window.location.href;
+    
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+            showCopyFeedback(button);
+        }).catch(err => {
+            console.error('Failed to copy:', err);
+            fallbackCopyTextToClipboard(url, button);
+        });
+    } else {
+        fallbackCopyTextToClipboard(url, button);
+    }
+}
+
+function fallbackCopyTextToClipboard(text, button) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.width = "2em";
+    textArea.style.height = "2em";
+    textArea.style.padding = "0";
+    textArea.style.border = "none";
+    textArea.style.outline = "none";
+    textArea.style.boxShadow = "none";
+    textArea.style.background = "transparent";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    try {
+        document.execCommand('copy');
+        showCopyFeedback(button);
+    } catch (err) {
+        console.error('Fallback: Failed to copy', err);
+    }
+    
+    document.body.removeChild(textArea);
+}
+
+function showCopyFeedback(button) {
+    const originalText = button.innerHTML;
+    button.classList.add('copied');
+    button.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Copied!';
+    
+    setTimeout(() => {
+        button.classList.remove('copied');
+        button.innerHTML = originalText;
+    }, 2000);
+}
+
+// ════════════════════════════════════════════════════════════════
 // MAILERLITE SUCCESS CALLBACK
 // ════════════════════════════════════════════════════════════════
 function ml_webform_success_38186798() {
@@ -147,6 +211,9 @@ async function loadPlayerOfDay() {
         
         document.getElementById("p-share-x").onclick = () => shareX(p.share_text);
         document.getElementById("p-share-wa").onclick = () => shareWA(p.share_text);
+        document.getElementById("p-share-reddit").onclick = () => shareReddit(p.share_text);
+        document.getElementById("p-share-telegram").onclick = () => shareTelegram(p.share_text);
+        document.getElementById("p-share-copy").onclick = function() { copyLink(this); };
         
         document.getElementById("player-loading").style.display = "none";
         document.getElementById("player-content").style.display = "block";
@@ -178,6 +245,9 @@ async function loadTriviaOfDay() {
         document.getElementById("t-explanation").textContent = t.explanation;
         document.getElementById("t-share-x").onclick = () => shareX(t.share_text);
         document.getElementById("t-share-wa").onclick = () => shareWA(t.share_text);
+        document.getElementById("t-share-reddit").onclick = () => shareReddit(t.share_text);
+        document.getElementById("t-share-telegram").onclick = () => shareTelegram(t.share_text);
+        document.getElementById("t-share-copy").onclick = function() { copyLink(this); };
         
         document.getElementById("trivia-loading").style.display = "none";
         document.getElementById("trivia-content").style.display = "block";
@@ -220,6 +290,9 @@ async function loadStatOfDay() {
         document.getElementById("s-stat").innerHTML = s.stat;
         document.getElementById("s-share-x").onclick = () => shareX(s.share_text);
         document.getElementById("s-share-wa").onclick = () => shareWA(s.share_text);
+        document.getElementById("s-share-reddit").onclick = () => shareReddit(s.share_text);
+        document.getElementById("s-share-telegram").onclick = () => shareTelegram(s.share_text);
+        document.getElementById("s-share-copy").onclick = function() { copyLink(this); };
         
         document.getElementById("stat-loading").style.display = "none";
         document.getElementById("stat-content").style.display = "block";
@@ -244,6 +317,9 @@ async function loadHistoryOfDay() {
         document.getElementById("h-story").innerHTML = h.story;
         document.getElementById("h-share-x").onclick = () => shareX(h.share_text);
         document.getElementById("h-share-wa").onclick = () => shareWA(h.share_text);
+        document.getElementById("h-share-reddit").onclick = () => shareReddit(h.share_text);
+        document.getElementById("h-share-telegram").onclick = () => shareTelegram(h.share_text);
+        document.getElementById("h-share-copy").onclick = function() { copyLink(this); };
         
         document.getElementById("history-loading").style.display = "none";
         document.getElementById("history-content").style.display = "block";
@@ -473,6 +549,13 @@ async function loadProductOfDay() {
         productImages = p.images;
         currentImageIndex = 0;
         initCarousel();
+
+        // Product share buttons
+        document.getElementById("prod-share-x").onclick = () => shareX("Check out today's deal: " + p.name + " on Darts Daily!");
+        document.getElementById("prod-share-wa").onclick = () => shareWA("Check out today's deal: " + p.name + " on Darts Daily!");
+        document.getElementById("prod-share-reddit").onclick = () => shareReddit("Today's Darts Deal: " + p.name);
+        document.getElementById("prod-share-telegram").onclick = () => shareTelegram("Check out today's deal: " + p.name);
+        document.getElementById("prod-share-copy").onclick = function() { copyLink(this); };
         
         document.getElementById("product-loading").style.display = "none";
         document.getElementById("product-content").style.display = "block";
