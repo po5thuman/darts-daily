@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "badge": "Today's Pick",
-    "name": "Winmau Blade X Professional Dartboard",
-    "desc": "The Most Advanced Dartboard in the World and the New Official Dartboard of the PDC.",
+    "badge": "#1 Best Seller",
+    "name": "Winmau Blade 6 Professional PDC Official Tournament Dartboard",
+    "desc": "As the official tournament dartboard of the PDC, the Winmau Blade 6 features ultra-thin Density Control™ wiring to maximize scoring potential and minimize bounce-outs. The high-density, self-healing sisal construction ensures exceptional durability, while the Rota-Lock leveling system allows for a perfectly secure and aligned setup on any wall. This professional-grade board delivers the ultimate combination of precision and longevity for competitive players.",
     "rating": "4.7 / 5",
     "reviews": "5,299 +",
     "amazon_url": "https://amzn.to/3Nc6E7S",
@@ -15,5 +15,203 @@
       "images/products/00001/5.jpg"
     ],
     "share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+  {
+	"id": 2,
+	"badge": "Beginner Friendly",
+	"name": "IgnatGames Professional Steel Tip Dart Set",
+	"desc": "Elevate your game with this 6-dart set featuring 20g knurled brass barrels and durable aluminum shafts for maximum precision. The kit includes 16 customizable GlideXPro flights and professional maintenance tools to keep your gear in top shape. All items are housed in a premium magnetic gift case, making it the perfect choice for players of all skill levels.",
+	"rating": "4.7 / 5",
+	"reviews": "12,580 +",
+	"amazon_url": "https://amzn.to/4brwyg3",
+	"images": [
+		"images/products/00002/1.jpg",
+		"images/products/00002/2.jpg",
+		"images/products/00002/3.jpg",
+		"images/products/00002/4.jpg",
+		"images/products/00002/5.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 3,
+	"badge": "Pro Choice",
+	"name": "Target Darts Luke Littler Edge 95% Tungsten Swiss Point Set",
+	"desc": "Developed with World Champion Luke Littler, these 95% tungsten barrels feature a durable DLC blue coating and the patented Swiss Fire Point system for effortless customization. The kit includes integrated K-Flex flights for a consistent 90-degree throw and a premium Takoma wallet for professional storage. This 'The Nuke' player edition is precision-engineered to deliver elite performance and striking iridescent style.",
+	"rating": "4.8 / 5",
+	"reviews": "49 +",
+	"amazon_url": "https://amzn.to/4lBlqSH",
+	"images": [
+		"images/products/00003/1.jpg",
+		"images/products/00003/2.jpg",
+		"images/products/00003/3.jpg",
+		"images/products/00003/4.jpg",
+		"images/products/00003/5.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 4,
+	"badge": "Fan Favourite",
+	"name": "Target Darts Luke Littler Gen 1 Prodigy 90% Tungsten Swiss Point Set",
+	"desc": "Celebrate the rise of 'The Nuke' with these stunning 90% tungsten barrels featuring gold accents and advanced Pixel grip technology. The set includes Swiss Point DX laser-etched points for superior board entry and integrated purple K-Flex flights for a perfect 90-degree flight path. Complete with a premium gold tool and storage tin, this player edition kit offers elite stability and precision for every throw.",
+	"rating": "4.5 / 5",
+	"reviews": "289 +",
+	"amazon_url": "https://amzn.to/4cRVnnM",
+	"images": [
+		"images/products/00004/1.jpg",
+		"images/products/00004/2.jpg",
+		"images/products/00004/3.jpg",
+		"images/products/00004/4.jpg",
+		"images/products/00004/5.jpg",
+		"images/products/00004/6.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 5,
+	"badge": "Premium Pick",
+	"name": "Harrows Wolfram Infinity 97% Tungsten Steel Tip Dart Set",
+	"desc": "Crafted from high-grade 97% tungsten, these darts feature a slim tapered barrel with a CNC-machined intense grip for a precise and consistent release. The striking black titanium nitride and vivid red metallic coating offer superior durability and a bold professional look. Each set comes complete with Supergrip Fusion shafts and Prime Wolfram Infinity flights to ensure peak aerodynamic performance.",
+	"rating": "4.3 / 5",
+	"reviews": "194 +",
+	"amazon_url": "https://amzn.to/3ND3rP3",
+	"images": [
+		"images/products/00005/1.jpg",
+		"images/products/00005/2.jpg",
+		"images/products/00005/3.jpg",
+		"images/products/00005/4.jpg",
+		"images/products/00005/5.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 6,
+	"badge": "Best Seller",
+	"name": "Red Dragon Javelin Original Tungsten Dart Set",
+	"desc": "The Red Dragon Javelin series features precision-crafted tungsten barrels with a slim, streamlined profile for superior balance and accuracy. These darts are equipped with TRX shafts and durable Hardcore flights to ensure a stable trajectory and tighter groupings on every throw. An ergonomic grip provides a secure hold and enhanced control, making this set a reliable choice for players of all skill levels.",
+	"rating": "4.2 / 5",
+	"reviews": "4,413 +",
+	"amazon_url": "https://amzn.to/3NHQvaz",
+	"images": [
+		"images/products/00006/1.jpg",
+		"images/products/00006/2.jpg",
+		"images/products/00006/3.jpg",
+		"images/products/00006/4.jpg",
+		"images/products/00006/5.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 7,
+	"badge": "Hot Deal",
+	"name": "Target Darts Hydro 90% Tungsten Steel Tip Swiss Point Dart Set",
+	"desc": "Engineered for fluid motion and a seamless throw, these 90% tungsten barrels feature finely milled radial grooves and contoured cuts for maximum tactile control. The set includes the patented Swiss Point system for effortless point changes and durable Pro Grip Tag shafts with high-performance Pro Ultra No. 6 flights. Designed with a streamlined straight barrel profile, this professional kit offers elite precision and a modern aesthetic for serious players.",
+	"rating": "4.5 / 5",
+	"reviews": "338 +",
+	"amazon_url": "https://amzn.to/4dwHAmK",
+	"images": [
+		"images/products/00007/1.jpg",
+		"images/products/00007/2.jpg",
+		"images/products/00007/3.jpg",
+		"images/products/00007/4.jpg",
+		"images/products/00007/5.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 8,
+	"badge": "Top Rated",
+	"name": "Target Darts Nathan Aspinall 95K Player Edition 95% Tungsten Dart Set",
+	"desc": "Crafted in collaboration with Nathan Aspinall, these front-loaded 95% tungsten barrels feature a multi-textured grip sequence and a striking black and red performance coating. The set is equipped with the Swiss Storm Point system for a seamless transition and K-Flex integrated flights to ensure consistent 90-degree alignment. Designed to reflect 'The Asp's' dynamic style, this professional kit delivers elite control and high-performance accuracy.",
+	"rating": "4.8 / 5",
+	"reviews": "101 +",
+	"amazon_url": "https://amzn.to/4bsNW3V",
+	"images": [
+		"images/products/00008/1.jpg",
+		"images/products/00008/2.jpg",
+		"images/products/00008/3.jpg",
+		"images/products/00008/4.jpg",
+		"images/products/00008/5.jpg",
+		"images/products/00008/6.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 9,
+	"badge": "Special Edition",
+	"name": "Target Darts Star Wars Darth Vader 95% Tungsten Steel Tip Dart Set",
+	"desc": "Harness the dark side with these 95% tungsten barrels featuring exclusive Darth Vader engravings and a high-performance black PVD coating for superior grip. The set comes equipped with seamless Swiss Storm points and integrated K-Flex flights in red and black for ultimate aerodynamic stability and reduced bounce-outs. Complete with a premium Darth Vader Takoma wallet and a Swiss Point keyring tool, this official collaboration combines iconic style with professional-grade engineering.",
+	"rating": "4.7 / 5",
+	"reviews": "34 +",
+	"amazon_url": "https://amzn.to/4cRuArQ",
+	"images": [
+		"images/products/00009/1.jpg",
+		"images/products/00009/2.jpg",
+		"images/products/00009/3.jpg",
+		"images/products/00009/4.jpg",
+		"images/products/00009/5.jpg",
+		"images/products/00009/6.jpg",
+		"images/products/00009/7.jpg",
+		"images/products/00009/8.jpg",
+		"images/products/00009/9.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 10,
+	"badge": "Special Edition",
+	"name": "Target Darts Star Wars TIE Fighter 90% Tungsten Steel Tip Dart Set",
+	"desc": "Enter the Empire’s fleet with these precision-milled 90% tungsten bullet barrels, designed with a compact profile for a smooth release and consistent grip. The set features laser-etched Onyx Swiss Storm points for a seamless barrel-to-point transition and official Star Wars Pro Grip shafts with TIE Fighter Pro Ultra flights. Combining Imperial-inspired aesthetics with elite engineering, this official collaboration is built for stability and high-performance accuracy.",
+	"rating": "4.7 / 5",
+	"reviews": "82 +",
+	"amazon_url": "https://amzn.to/4uzRgmA",
+	"images": [
+		"images/products/00010/1.jpg",
+		"images/products/00010/2.jpg",
+		"images/products/00010/3.jpg",
+		"images/products/00010/4.jpg",
+		"images/products/00010/5.jpg",
+		"images/products/00010/6.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+    {
+	"id": 11,
+	"badge": "Special Edition",
+	"name": "Target Darts Star Wars X-Wing 90% Tungsten Steel Tip Dart Set",
+	"desc": "Take flight with the Rebel Alliance using these 90% tungsten radial barrels, precision-milled with grooves for a balanced feel and consistent grip. The set includes patented silver GRD Swiss Points with laser-etched board grip and official Star Wars Pro Grip shafts with detailed X-Wing artwork flights. Combining iconic starship design with world-class engineering, this official collaboration is built for elite accuracy and aerodynamic stability.",
+	"rating": "4.6 / 5",
+	"reviews": "92 +",
+	"amazon_url": "https://amzn.to/4uAbUTF",
+	"images": [
+		"images/products/00011/1.jpg",
+		"images/products/00011/2.jpg",
+		"images/products/00011/3.jpg",
+		"images/products/00011/4.jpg",
+		"images/products/00011/5.jpg",
+		"images/products/00011/6.jpg"
+	],
+	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+  },
+  {
+  	"id": 12,
+  	"badge": "Great Value",
+  	"name": "CUESOUL Swift Series 98% Tungsten Super Slim Steel Tip Dart Set",
+  	"desc": "Boasting an industry-leading 98% tungsten composition, these super-slim barrels are precision-engineered for maximum durability and elite-level grouping. This comprehensive kit includes 12 pattern flights, nylon shafts, and aluminum flight savers, all housed in a premium carrying case with essential maintenance tools. Backed by a 12-month warranty, this set combines striking craftsmanship with the professional-grade consistency needed to elevate your game.",
+  	"rating": "4.6 / 5",
+  	"reviews": "747 +",
+  	"amazon_url": "https://amzn.to/3NlQskK",
+  	"images": [
+  		"images/products/00012/1.jpg",
+  		"images/products/00012/2.jpg",
+  		"images/products/00012/3.jpg",
+  		"images/products/00012/4.jpg",
+  		"images/products/00012/5.jpg",
+  		"images/products/00012/6.jpg",
+  		"images/products/00012/7.jpg",
+  		"images/products/00012/8.jpg"
+  	],
+  	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
   }
 ]
