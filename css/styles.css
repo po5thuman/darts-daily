@@ -100,10 +100,10 @@ body.light .share-btn.x:hover { background: #000000; border-color: #000000; colo
 
 /* PRODUCT SECTION */
 .product-badge { display: inline-block; font-size: 0.65rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(200,169,110,0.3); padding: 4px 12px; border-radius: 6px; margin-bottom: 16px; }
-.product-visual-carousel { position: relative; width: 100%; overflow: hidden; margin-bottom: 20px; border-radius: 12px; background: var(--surface2); }
-.carousel-container { overflow: hidden; width: 100%; position: relative; }
+.product-visual-carousel { position: relative; width: 100%; overflow: visible; margin-bottom: 40px; border-radius: 12px; background: var(--surface2); }
+.carousel-container { overflow: hidden; width: 100%; position: relative; min-height: 300px; }
 .carousel-track { display: flex; transition: transform 0.3s ease-in-out; touch-action: pan-y pinch-zoom; }
-.carousel-track img { width: 100%; flex-shrink: 0; object-fit: contain; padding: 20px; user-select: none; -webkit-user-drag: none; }
+.carousel-track img { width: 100%; flex-shrink: 0; object-fit: contain; padding: 10px; user-select: none; -webkit-user-drag: none; }
 .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0, 0, 0, 0.6); color: white; border: none; font-size: 2rem; padding: 12px 16px; cursor: pointer; z-index: 10; border-radius: 8px; transition: all 0.2s; }
 .carousel-btn:hover { background: rgba(0, 0, 0, 0.85); }
 .carousel-prev { left: 16px; }
