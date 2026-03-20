@@ -93,7 +93,8 @@
     "date_iso": "2026-04-04",
 	"end_date_iso": "2026-04-06",
     "tour": "PDC European Tour",
-    "icon": "DE"
+    "icon": "DE",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/German-Darts-Grand-Prix-Tickets"
   },
   {
     "id": 11,
