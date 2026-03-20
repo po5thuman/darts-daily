@@ -408,7 +408,7 @@ async function loadUpcomingEvents() {
                     <div class="event-details">
                         <div class="event-name">
                             ${event.name}
-                            ${isOngoing ? '<span class="event-ongoing-badge">ON-GOING</span>' : ''}
+                            ${isOngoing ? '<span class="event-ongoing-badge">TODAY</span>' : ''}
                         </div>
                         <div class="event-meta">
                             <span class="event-location">
