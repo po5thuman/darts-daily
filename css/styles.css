@@ -100,7 +100,7 @@ body.light .share-btn.x:hover { background: #000000; border-color: #000000; colo
 
 /* PRODUCT SECTION */
 .product-badge { display: inline-block; font-size: 0.65rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(200,169,110,0.3); padding: 4px 12px; border-radius: 6px; margin-bottom: 16px; }
-.product-visual-carousel { position: relative; width: 100%; overflow: visible; margin-bottom: 40px; border-radius: 12px; background: var(--surface2); }
+.product-visual-carousel { position: relative; width: 100%; overflow: visible; margin-bottom: 16px; border-radius: 12px; background: transparent; }
 .carousel-container { overflow: hidden; width: 100%; position: relative; min-height: 300px; }
 .carousel-track { display: flex; transition: transform 0.3s ease-in-out; touch-action: pan-y pinch-zoom; }
 .carousel-track img { width: 100%; flex-shrink: 0; object-fit: contain; padding: 2px 10px 15px 10px; user-select: none; -webkit-user-drag: none; }
@@ -108,7 +108,7 @@ body.light .share-btn.x:hover { background: #000000; border-color: #000000; colo
 .carousel-btn:hover { background: rgba(0, 0, 0, 0.85); }
 .carousel-prev { left: 16px; }
 .carousel-next { right: 16px; }
-.carousel-dots { display: flex; justify-content: center; gap: 10px; margin-top: 16px; }
+.carousel-dots { display: flex; justify-content: center; gap: 10px; margin-top: 16px; margin-bottom: 20px; }
 .carousel-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--border); cursor: pointer; transition: all 0.3s; }
 .carousel-dot.active { background: var(--accent); transform: scale(1.2); }
 .product-name { font-size: 1.1rem; font-weight: 800; margin-bottom: 8px; letter-spacing: -0.5px; }
