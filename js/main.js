@@ -373,24 +373,33 @@ async function loadUpcomingEvents() {
     const eventsLoading = document.getElementById("events-loading");
     
     try {
-        const response = await fetch("events.json");
-        let allEvents = await response.json();
-        
-        // Filter out past events
+        const res = await fetch('events.json');
+        const events = await res.json();
         const today = new Date();
         today.setHours(0, 0, 0, 0);
         
-        eventsData = allEvents.filter(event => {
-            const eventDate = new Date(event.date_iso);
-            eventDate.setHours(0, 0, 0, 0);
-            return eventDate >= today;
-        });
+        eventsData = events
+            .filter(e => {
+                const startDate = new Date(e.date_iso);
+                startDate.setHours(0, 0, 0, 0);
+                if (e.end_date_iso) {
+                    const endDate = new Date(e.end_date_iso);
+                    endDate.setHours(0, 0, 0, 0);
+                    return endDate >= today;
+                }
+                return startDate >= today;
+            })
+            .sort((a, b) => new Date(a.date_iso) - new Date(b.date_iso));
+        
+        if (eventsData.length === 0) {
+            eventsLoading.textContent = 'No upcoming events found.';
+            return;
+        }
         
         displayEventsPage(1);
-        eventsLoading.style.display = "none";
-        eventsContent.style.display = "block";
+        eventsLoading.style.display = 'none';
+        eventsContent.style.display = 'block';
         
-        // Add event listeners for pagination
         document.getElementById("events-prev").addEventListener("click", () => {
             if (currentEventPage > 1) {
                 displayEventsPage(currentEventPage - 1);
@@ -403,9 +412,9 @@ async function loadUpcomingEvents() {
                 displayEventsPage(currentEventPage + 1);
             }
         });
-    } catch (error) {
-        console.error("Error loading events:", error);
-        eventsLoading.innerHTML = "Failed to load events";
+    } catch (err) {
+        eventsLoading.textContent = 'Error loading events.';
+        console.error(err);
     }
 }
 
@@ -414,69 +423,57 @@ function displayEventsPage(pageNumber) {
     const startIndex = (pageNumber - 1) * eventsPerPage;
     const endIndex = startIndex + eventsPerPage;
     const pageEvents = eventsData.slice(startIndex, endIndex);
-    const eventsList = document.getElementById("events-list");
-    eventsList.innerHTML = "";
-    
+    const eventsList = document.getElementById('events-list');
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     
-    pageEvents.forEach(event => {
-        const eventCard = document.createElement("div");
-        eventCard.className = "event-item";
-        const dateObj = new Date(event.date_iso);
-        dateObj.setHours(0, 0, 0, 0);
-        const day = dateObj.getDate();
-        const month = dateObj.toLocaleString('en-US', { month: 'short' }).toUpperCase();
+    eventsList.innerHTML = pageEvents.map((event, index) => {
+        const startDate = new Date(event.date_iso);
+        startDate.setHours(0, 0, 0, 0);
+        const endDate = event.end_date_iso ? new Date(event.end_date_iso) : null;
+        if (endDate) endDate.setHours(0, 0, 0, 0);
+        const isOngoing = startDate <= today && (!endDate || endDate >= today);
         
-        // Check if event is today or during the event dates
-        let isToday = false;
-        const eventEndDate = event.end_date_iso ? new Date(event.end_date_iso) : dateObj;
-        eventEndDate.setHours(0, 0, 0, 0);
-        
-        if (today >= dateObj && today <= eventEndDate) {
-            isToday = true;
-        }
-        
-        const todayBadge = isToday ? `<span class="event-ongoing-badge">TODAY</span>` : "";
-        
-        let ticketButton = "";
-        if (event.ticket_url) {
-            ticketButton = `<a href="${event.ticket_url}" target="_blank" class="ticket-btn">💳 Buy Tickets</a>`;
-        }
-        
-        eventCard.innerHTML = `
-            <div class="event-date-box">
-                <div class="event-date-day">${day}</div>
-                <div class="event-date-month">${month}</div>
-            </div>
-            <div>
-                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
-                    <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--text); margin: 0;">${event.name}</h3>
-                    ${todayBadge}
+        return `
+            <div class="event-item" style="${index === 0 ? 'padding-top:0;' : ''}">
+                <div class="event-date-box">
+                    <div class="event-date-day">${startDate.getDate()}</div>
+                    <div class="event-date-month">${startDate.toLocaleString('en-GB', { month: 'short' }).toUpperCase()}</div>
                 </div>
-                <p style="font-size: 0.75rem; color: var(--muted); margin: 0 0 8px 0; display: flex; align-items: center; gap: 8px;">
-                    <span>${event.icon}</span>
-                    <span>${event.location}</span>
-                    <span style="color: var(--muted);">·</span>
-                    <span>📅 ${event.date_display}</span>
-                </p>
-                <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
-                    <span class="event-badge">${event.tour}</span>
-                    ${ticketButton}
+                <div class="event-details">
+                    <div class="event-name">
+                        ${event.name}
+                        ${isOngoing ? '<span class="event-ongoing-badge">TODAY</span>' : ''}
+                    </div>
+                    <div class="event-meta">
+                        <span class="event-location">
+                            <img src="https://flagcdn.com/20x15/${event.icon.toLowerCase()}.png" alt="${event.icon}" class="flag-icon">
+                            ${event.location}
+                        </span>
+                        &nbsp;·&nbsp;
+                        <span class="event-date">📅 ${event.date_display}</span>
+                    </div>
+                    <div class="event-bottom-row">
+                        <span class="event-badge">${event.tour}</span>
+                        ${event.ticket_url ? `
+                            <a href="${event.ticket_url}" target="_blank" rel="noopener noreferrer" class="ticket-btn">
+                                🎟️ Buy Tickets
+                            </a>
+                        ` : ''}
+                    </div>
                 </div>
             </div>
         `;
-        eventsList.appendChild(eventCard);
-    });
+    }).join('');
     
-    // Update pagination info
     const totalPages = Math.ceil(eventsData.length / eventsPerPage);
     document.getElementById("events-page-info").textContent = `Page ${pageNumber} of ${totalPages}`;
     
-    // Disable/enable buttons
     document.getElementById("events-prev").disabled = pageNumber === 1;
     document.getElementById("events-next").disabled = pageNumber === totalPages;
 }
+
+loadUpcomingEvents();
 // ════════════════════════════════════════════════════════════════
 // MODAL FUNCTIONS
 // ════════════════════════════════════════════════════════════════
