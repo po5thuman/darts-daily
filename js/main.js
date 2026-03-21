@@ -414,23 +414,22 @@ function displayEventsPage(pageNumber) {
         const month = dateObj.toLocaleString('en-US', { month: 'short' }).toUpperCase();
         let ticketButton = "";
         if (event.ticket_url) {
-            ticketButton = `<a href="${event.ticket_url}" target="_blank" class="event-btn buy-tickets">💳 Buy Tickets</a>`;
+            ticketButton = `<a href="${event.ticket_url}" target="_blank" class="ticket-btn">💳 Buy Tickets</a>`;
         }
         eventCard.innerHTML = `
             <div class="event-date-box">
-                <div class="event-day">${day}</div>
-                <div class="event-month">${month}</div>
+                <div class="event-date-day">${day}</div>
+                <div class="event-date-month">${month}</div>
             </div>
-            <div class="event-details">
-                <h3 class="event-title">${event.name}</h3>
-                <p class="event-info">
-                    <span class="event-flag">${event.icon}</span>
-                    ${event.location}
-                    <span class="event-separator">·</span>
-                    <span class="event-dates">${event.date_display}</span>
-                </p>
-                <div class="event-tags">
-                    <span class="event-tag">${event.tour}</span>
+            <div class="event-info">
+                <div class="event-name">${event.name}</div>
+                <div class="event-meta">
+                    <span>${event.icon}</span>
+                    <span>${event.location}</span>
+                    <span>${event.date_display}</span>
+                </div>
+                <div class="event-bottom-row">
+                    <span class="event-badge">${event.tour}</span>
                     ${ticketButton}
                 </div>
             </div>
