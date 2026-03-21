@@ -374,7 +374,17 @@ async function loadUpcomingEvents() {
     
     try {
         const response = await fetch("events.json");
-        eventsData = await response.json();
+        let allEvents = await response.json();
+        
+        // Filter out past events
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        
+        eventsData = allEvents.filter(event => {
+            const eventDate = new Date(event.date_iso);
+            eventDate.setHours(0, 0, 0, 0);
+            return eventDate >= today;
+        });
         
         displayEventsPage(1);
         eventsLoading.style.display = "none";
@@ -406,23 +416,34 @@ function displayEventsPage(pageNumber) {
     const pageEvents = eventsData.slice(startIndex, endIndex);
     const eventsList = document.getElementById("events-list");
     eventsList.innerHTML = "";
+    
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    
     pageEvents.forEach(event => {
         const eventCard = document.createElement("div");
         eventCard.className = "event-item";
         const dateObj = new Date(event.date_iso);
+        dateObj.setHours(0, 0, 0, 0);
         const day = dateObj.getDate();
         const month = dateObj.toLocaleString('en-US', { month: 'short' }).toUpperCase();
+        
+        // Check if event is today
+        const isToday = dateObj.getTime() === today.getTime();
+        const todayBadge = isToday ? `<span class="event-ongoing-badge">TODAY</span>` : "";
+        
         let ticketButton = "";
         if (event.ticket_url) {
             ticketButton = `<a href="${event.ticket_url}" target="_blank" class="ticket-btn">💳 Buy Tickets</a>`;
         }
+        
         eventCard.innerHTML = `
             <div class="event-date-box">
                 <div class="event-date-day">${day}</div>
                 <div class="event-date-month">${month}</div>
             </div>
             <div class="event-info">
-                <div class="event-name">${event.name}</div>
+                <div class="event-name">${event.name} ${todayBadge}</div>
                 <div class="event-meta">
                     <span>${event.icon}</span>
                     <span>${event.location}</span>
@@ -436,14 +457,15 @@ function displayEventsPage(pageNumber) {
         `;
         eventsList.appendChild(eventCard);
     });
+    
     // Update pagination info
     const totalPages = Math.ceil(eventsData.length / eventsPerPage);
     document.getElementById("events-page-info").textContent = `Page ${pageNumber} of ${totalPages}`;
+    
     // Disable/enable buttons
     document.getElementById("events-prev").disabled = pageNumber === 1;
     document.getElementById("events-next").disabled = pageNumber === totalPages;
 }
-
 // ════════════════════════════════════════════════════════════════
 // MODAL FUNCTIONS
 // ════════════════════════════════════════════════════════════════
