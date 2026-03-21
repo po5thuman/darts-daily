@@ -404,23 +404,18 @@ function displayEventsPage(pageNumber) {
     const startIndex = (pageNumber - 1) * eventsPerPage;
     const endIndex = startIndex + eventsPerPage;
     const pageEvents = eventsData.slice(startIndex, endIndex);
-    
     const eventsList = document.getElementById("events-list");
     eventsList.innerHTML = "";
-    
     pageEvents.forEach(event => {
         const eventCard = document.createElement("div");
         eventCard.className = "event-item";
-        
-        const dateObj = new Date(event.date);
+        const dateObj = new Date(event.date_iso);
         const day = dateObj.getDate();
         const month = dateObj.toLocaleString('en-US', { month: 'short' }).toUpperCase();
-        
         let ticketButton = "";
-        if (event.ticketLink) {
-            ticketButton = `<a href="${event.ticketLink}" target="_blank" class="event-btn buy-tickets">💳 Buy Tickets</a>`;
+        if (event.ticket_url) {
+            ticketButton = `<a href="${event.ticket_url}" target="_blank" class="event-btn buy-tickets">💳 Buy Tickets</a>`;
         }
-        
         eventCard.innerHTML = `
             <div class="event-date-box">
                 <div class="event-day">${day}</div>
@@ -429,10 +424,10 @@ function displayEventsPage(pageNumber) {
             <div class="event-details">
                 <h3 class="event-title">${event.name}</h3>
                 <p class="event-info">
-                    <span class="event-flag">${event.flag}</span>
-                    ${event.venue}
+                    <span class="event-flag">${event.icon}</span>
+                    ${event.location}
                     <span class="event-separator">·</span>
-                    <span class="event-dates">${event.dateRange}</span>
+                    <span class="event-dates">${event.date_display}</span>
                 </p>
                 <div class="event-tags">
                     <span class="event-tag">${event.tour}</span>
@@ -442,17 +437,12 @@ function displayEventsPage(pageNumber) {
         `;
         eventsList.appendChild(eventCard);
     });
-    
     // Update pagination info
     const totalPages = Math.ceil(eventsData.length / eventsPerPage);
     document.getElementById("events-page-info").textContent = `Page ${pageNumber} of ${totalPages}`;
-    
     // Disable/enable buttons
     document.getElementById("events-prev").disabled = pageNumber === 1;
     document.getElementById("events-next").disabled = pageNumber === totalPages;
-    
-    // Scroll to events section
-    document.querySelector(".card.full-width").scrollIntoView({ behavior: "smooth" });
 }
 
 // ════════════════════════════════════════════════════════════════
