@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "2026 UK Open",
+    "name": "UK Open",
     "location": "Butlins, Minehead, England",
     "date_display": "Fri 06 Mar – Sun 08 Mar 2026",
     "date_iso": "2026-03-06",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "2026 Premier League Night 6",
+    "name": "Premier League Night 6",
     "location": "Motorpoint Arena, Nottingham, England",
     "date_display": "Thu 12 Mar 2026",
     "date_iso": "2026-03-12",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "name": "2026 ET2 - European Darts Trophy",
+    "name": "ET2 - European Darts Trophy",
     "location": "Lokhalle, Göttingen, Germany",
     "date_display": "Fri 13 Mar – Sun 15 Mar 2026",
     "date_iso": "2026-03-13",
@@ -29,7 +29,7 @@
   },
   {
     "id": 4,
-    "name": "2026 Premier League Night 7",
+    "name": "Premier League Night 7",
     "location": "3Arena, Dublin, Ireland",
     "date_display": "Thu 19 Mar 2026",
     "date_iso": "2026-03-19",
@@ -39,7 +39,7 @@
   },
   {
     "id": 5,
-    "name": "2026 ET3 - Belgian Darts Open",
+    "name": "ET3 - Belgian Darts Open",
     "location": "Oktoberhallen, Wieze, Belgium",
     "date_display": "Fri 20 Mar – Sun 22 Mar 2026",
     "date_iso": "2026-03-20",
@@ -49,7 +49,7 @@
   },
   {
     "id": 6,
-    "name": "2026 Premier League Night 8",
+    "name": "Premier League Night 8",
     "location": "Uber Arena, Berlin, Germany",
     "date_display": "Thu 26 Mar 2026",
     "date_iso": "2026-03-26",
@@ -59,7 +59,7 @@
   },
   {
     "id": 7,
-    "name": "2026 Players Championship 7",
+    "name": "Players Championship 7",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Mon 30 Mar 2026",
     "date_iso": "2026-03-30",
@@ -68,7 +68,7 @@
   },
   {
     "id": 8,
-    "name": "2026 Players Championship 8",
+    "name": "Players Championship 8",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Tue 31 Mar 2026",
     "date_iso": "2026-03-31",
@@ -77,7 +77,7 @@
   },
   {
     "id": 9,
-    "name": "2026 Premier League Night 9",
+    "name": "Premier League Night 9",
     "location": "AO Arena, Manchester, England",
     "date_display": "Thu 02 Apr 2026",
     "date_iso": "2026-04-02",
@@ -87,7 +87,7 @@
   },
   {
     "id": 10,
-    "name": "2026 ET4 - German Darts Grand Prix",
+    "name": "ET4 - German Darts Grand Prix",
     "location": "Zenith, Munich, Germany",
     "date_display": "Sat 04 Apr – Mon 06 Apr 2026",
     "date_iso": "2026-04-04",
@@ -98,7 +98,7 @@
   },
   {
     "id": 11,
-    "name": "2026 Premier League Night 10",
+    "name": "Premier League Night 10",
     "location": "Brighton Centre, Brighton, England",
     "date_display": "Thu 09 Apr 2026",
     "date_iso": "2026-04-09",
@@ -108,7 +108,7 @@
   },
   {
     "id": 12,
-    "name": "2026 Players Championship 9",
+    "name": "Players Championship 9",
     "location": "Robin Park Tennis Centre, Wigan, England",
     "date_display": "Mon 13 Apr 2026",
     "date_iso": "2026-04-13",
@@ -117,7 +117,7 @@
   },
   {
     "id": 13,
-    "name": "2026 Players Championship 10",
+    "name": "Players Championship 10",
     "location": "Robin Park Tennis Centre, Wigan, England",
     "date_display": "Tue 14 Apr 2026",
     "date_iso": "2026-04-14",
@@ -126,7 +126,7 @@
   },
   {
     "id": 14,
-    "name": "2026 Premier League Night 11",
+    "name": "Premier League Night 11",
     "location": "Ahoy Arena, Rotterdam, Netherlands",
     "date_display": "Thu 16 Apr 2026",
     "date_iso": "2026-04-16",
@@ -135,7 +135,7 @@
   },
   {
     "id": 15,
-    "name": "2026 ET5 - European Darts Grand Prix",
+    "name": "ET5 - European Darts Grand Prix",
     "location": "Glaspalast, Sindelfingen, Germany",
     "date_display": "Fri 17 Apr – Sun 19 Apr 2026",
     "date_iso": "2026-04-17",
@@ -145,7 +145,7 @@
   },
   {
     "id": 16,
-    "name": "2026 Premier League Night 12",
+    "name": "Premier League Night 12",
     "location": "M&S Bank Arena, Liverpool, England",
     "date_display": "Thu 23 Apr 2026",
     "date_iso": "2026-04-23",
@@ -154,7 +154,7 @@
   },
   {
     "id": 17,
-    "name": "2026 Players Championship 11",
+    "name": "Players Championship 11",
     "location": "Arena MK, Milton Keynes, England",
     "date_display": "Mon 27 Apr 2026",
     "date_iso": "2026-04-27",
@@ -163,7 +163,7 @@
   },
   {
     "id": 18,
-    "name": "2026 Players Championship 12",
+    "name": "Players Championship 12",
     "location": "Arena MK, Milton Keynes, England",
     "date_display": "Tue 28 Apr 2026",
     "date_iso": "2026-04-28",
@@ -172,7 +172,7 @@
   },
   {
     "id": 19,
-    "name": "2026 Premier League Night 13",
+    "name": "Premier League Night 13",
     "location": "P&J Live, Aberdeen, Scotland",
     "date_display": "Thu 30 Apr 2026",
     "date_iso": "2026-04-30",
@@ -182,7 +182,7 @@
   },
   {
     "id": 20,
-    "name": "2026 Players Championship 13",
+    "name": "Players Championship 13",
     "location": "Halle 39, Hildesheim, Germany",
     "date_display": "Mon 04 May 2026",
     "date_iso": "2026-05-04",
@@ -191,7 +191,7 @@
   },
   {
     "id": 21,
-    "name": "2026 Players Championship 14",
+    "name": "Players Championship 14",
     "location": "Halle 39, Hildesheim, Germany",
     "date_display": "Tue 05 May 2026",
     "date_iso": "2026-05-05",
@@ -200,7 +200,7 @@
   },
   {
     "id": 22,
-    "name": "2026 Premier League Night 14",
+    "name": "Premier League Night 14",
     "location": "First Direct Arena, Leeds, England",
     "date_display": "Thu 07 May 2026",
     "date_iso": "2026-05-07",
@@ -210,7 +210,7 @@
   },
   {
     "id": 23,
-    "name": "2026 ET6 - Austrian Darts Open",
+    "name": "ET6 - Austrian Darts Open",
     "location": "Stadthalle, Austria",
     "date_display": "Fri 08 May – Sun 10 May 2026",
     "date_iso": "2026-05-08",
@@ -220,7 +220,7 @@
   },
   {
     "id": 24,
-    "name": "2026 Players Championship 15",
+    "name": "Players Championship 15",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Tue 12 May 2026",
     "date_iso": "2026-05-12",
@@ -229,7 +229,7 @@
   },
   {
     "id": 25,
-    "name": "2026 Players Championship 16",
+    "name": "Players Championship 16",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Wed 13 May 2026",
     "date_iso": "2026-05-13",
@@ -238,7 +238,7 @@
   },
   {
     "id": 26,
-    "name": "2026 Premier League Night 15",
+    "name": "Premier League Night 15",
     "location": "Utilita Arena, Birmingham, England",
     "date_display": "Thu 14 May 2026",
     "date_iso": "2026-05-14",
@@ -247,7 +247,7 @@
   },
   {
     "id": 27,
-    "name": "2026 Players Championship 17",
+    "name": "Players Championship 17",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Mon 18 May 2026",
     "date_iso": "2026-05-18",
@@ -256,7 +256,7 @@
   },
   {
     "id": 28,
-    "name": "2026 Players Championship 18",
+    "name": "Players Championship 18",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Tue 19 May 2026",
     "date_iso": "2026-05-19",
@@ -265,7 +265,7 @@
   },
   {
     "id": 29,
-    "name": "2026 Premier League Night 16",
+    "name": "Premier League Night 16",
     "location": "Utilita Arena, Sheffield, England",
     "date_display": "Thu 21 May 2026",
     "date_iso": "2026-05-21",
@@ -275,7 +275,7 @@
   },
   {
     "id": 30,
-    "name": "2026 ET7 - International Darts Open",
+    "name": "ET7 - International Darts Open",
     "location": "WT Energiesysteme Arena, Germany",
     "date_display": "Fri 22 May – Sun 24 May 2026",
     "date_iso": "2026-05-22",
@@ -285,7 +285,7 @@
   },
   {
     "id": 31,
-    "name": "2026 Premier League Finals",
+    "name": "Premier League Finals",
     "location": "The O2, London, England",
     "date_display": "Thu 28 May 2026",
     "date_iso": "2026-05-28",
@@ -294,7 +294,7 @@
   },
   {
     "id": 32,
-    "name": "2026 ET8 - Baltic Sea Darts Open",
+    "name": "ET8 - Baltic Sea Darts Open",
     "location": "Wunderino Arena Europaplatz, Germany",
     "date_display": "Fri 29 May – Sun 31 May 2026",
     "date_iso": "2026-05-29",
@@ -304,7 +304,7 @@
   },
   {
     "id": 33,
-    "name": "2026 Players Championship 19",
+    "name": "Players Championship 19",
     "location": "Arena MK, Milton Keynes, England",
     "date_display": "Tue 02 Jun 2026",
     "date_iso": "2026-06-02",
@@ -313,7 +313,7 @@
   },
   {
     "id": 34,
-    "name": "2026 Players Championship 20",
+    "name": "Players Championship 20",
     "location": "Arena MK, Milton Keynes, England",
     "date_display": "Wed 03 Jun 2026",
     "date_iso": "2026-06-03",
@@ -322,7 +322,7 @@
   },
   {
     "id": 35,
-    "name": "2026 Nordic Darts Masters",
+    "name": "Nordic Darts Masters",
     "location": "Forum, Copenhagen, Denmark",
     "date_display": "Fri 05 Jun – Sat 06 Jun 2026",
     "date_iso": "2026-06-05",
@@ -332,7 +332,7 @@
   },
   {
     "id": 36,
-    "name": "2026 World Cup of Darts",
+    "name": "World Cup of Darts",
     "location": "Eissporthalle Frankfurt, Germany",
     "date_display": "Thu 11 Jun – Sun 14 Jun 2026",
     "date_iso": "2026-06-11",
@@ -342,7 +342,7 @@
   },
   {
     "id": 37,
-    "name": "2026 Players Championship 21",
+    "name": "Players Championship 21",
     "location": "Robin Park Tennis Centre, Wigan, England",
     "date_display": "Tue 16 Jun 2026",
     "date_iso": "2026-06-16",
@@ -351,7 +351,7 @@
   },
   {
     "id": 38,
-    "name": "2026 Players Championship 22",
+    "name": "Players Championship 22",
     "location": "Robin Park Tennis Centre, Wigan, England",
     "date_display": "Wed 17 Jun 2026",
     "date_iso": "2026-06-17",
@@ -360,7 +360,7 @@
   },
   {
     "id": 39,
-    "name": "2026 ET9 - Slovak Darts Open",
+    "name": "ET9 - Slovak Darts Open",
     "location": "Incheba Expo, Slovakia",
     "date_display": "Fri 19 Jun – Sun 21 Jun 2026",
     "date_iso": "2026-06-19",
@@ -370,7 +370,7 @@
   },
   {
     "id": 40,
-    "name": "2026 US Darts Masters",
+    "name": "US Darts Masters",
     "location": "Madison Square Garden, New York, USA",
     "date_display": "Thu 25 Jun – Fri 26 Jun 2026",
     "date_iso": "2026-06-25",
@@ -381,7 +381,7 @@
   },
   {
     "id": 41,
-    "name": "2026 Players Championship 23",
+    "name": "Players Championship 23",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Mon 06 Jul 2026",
     "date_iso": "2026-07-06",
@@ -390,7 +390,7 @@
   },
   {
     "id": 42,
-    "name": "2026 Players Championship 24",
+    "name": "Players Championship 24",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Tue 07 Jul 2026",
     "date_iso": "2026-07-07",
@@ -399,7 +399,7 @@
   },
   {
     "id": 43,
-    "name": "2026 ET10 - European Darts Open",
+    "name": "ET10 - European Darts Open",
     "location": "Ostermann-Arena, Leverkusen, Germany",
     "date_display": "Fri 10 Jul – Sun 12 Jul 2026",
     "date_iso": "2026-07-10",
@@ -409,7 +409,7 @@
   },
   {
     "id": 44,
-    "name": "2026 World Matchplay",
+    "name": "World Matchplay",
     "location": "Winter Gardens, Blackpool, England",
     "date_display": "Sat 18 Jul – Sun 26 Jul 2026",
     "date_iso": "2026-07-18",
@@ -419,7 +419,7 @@
   },
   {
     "id": 45,
-    "name": "2026 Players Championship 25",
+    "name": "Players Championship 25",
     "location": "Halle 39, Hildesheim, Germany",
     "date_display": "Tue 28 Jul 2026",
     "date_iso": "2026-07-28",
@@ -428,7 +428,7 @@
   },
   {
     "id": 46,
-    "name": "2026 Players Championship 26",
+    "name": "Players Championship 26",
     "location": "Halle 39, Hildesheim, Germany",
     "date_display": "Wed 29 Jul 2026",
     "date_iso": "2026-07-29",
@@ -437,7 +437,7 @@
   },
   {
     "id": 47,
-    "name": "2026 New Zealand Darts Masters",
+    "name": "New Zealand Darts Masters",
     "location": "Spark Arena, New Zealand",
     "date_display": "Fri 14 Aug – Sat 15 Aug 2026",
     "date_iso": "2026-08-14",
@@ -448,7 +448,7 @@
   },
   {
     "id": 48,
-    "name": "2026 Australian Darts Masters",
+    "name": "Australian Darts Masters",
     "location": "WIN Entertainment Centre, Wollongong, Australia",
     "date_display": "Fri 21 Aug – Sat 22 Aug 2026",
     "date_iso": "2026-08-21",
@@ -459,7 +459,7 @@
   },
   {
     "id": 49,
-    "name": "2026 Players Championship 27",
+    "name": "Players Championship 27",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Tue 25 Aug 2026",
     "date_iso": "2026-08-25",
@@ -468,7 +468,7 @@
   },
   {
     "id": 50,
-    "name": "2026 Players Championship 28",
+    "name": "Players Championship 28",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Wed 26 Aug 2026",
     "date_iso": "2026-08-26",
@@ -477,7 +477,7 @@
   },
   {
     "id": 51,
-    "name": "2026 ET11 - Hungarian Darts Trophy",
+    "name": "ET11 - Hungarian Darts Trophy",
     "location": "SYMA Dome, Hungary",
     "date_display": "Fri 28 Aug – Sun 30 Aug 2026",
     "date_iso": "2026-08-28",
@@ -487,7 +487,7 @@
   },
   {
     "id": 52,
-    "name": "2026 ET12 - Czech Darts Open",
+    "name": "ET12 - Czech Darts Open",
     "location": "PVA Expo, Prague, Czech Republic",
     "date_display": "Fri 04 Sep – Sun 06 Sep 2026",
     "date_iso": "2026-09-04",
@@ -497,7 +497,7 @@
   },
   {
     "id": 53,
-    "name": "2026 ET13 - Flanders Darts Trophy",
+    "name": "ET13 - Flanders Darts Trophy",
     "location": "Antwerp Xpo, Belgium",
     "date_display": "Fri 11 Sep – Sun 13 Sep 2026",
     "date_iso": "2026-09-11",
@@ -507,7 +507,7 @@
   },
   {
     "id": 54,
-    "name": "2026 World Series of Darts Finals",
+    "name": "World Series of Darts Finals",
     "location": "AFAS Live, Amsterdam, Netherlands",
     "date_display": "Thu 17 Sep – Sun 20 Sep 2026",
     "date_iso": "2026-09-17",
@@ -517,7 +517,7 @@
   },
   {
     "id": 55,
-    "name": "2026 Players Championship 29",
+    "name": "Players Championship 29",
     "location": "Fleetwood, England",
     "date_display": "Tue 22 Sep 2026",
     "date_iso": "2026-09-22",
@@ -526,7 +526,7 @@
   },
   {
     "id": 56,
-    "name": "2026 Players Championship 30",
+    "name": "Players Championship 30",
     "location": "Fleetwood, England",
     "date_display": "Wed 23 Sep 2026",
     "date_iso": "2026-09-23",
@@ -535,7 +535,7 @@
   },
   {
     "id": 57,
-    "name": "2026 World Grand Prix",
+    "name": "World Grand Prix",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Mon 28 Sep – Sun 04 Oct 2026",
     "date_iso": "2026-09-28",
@@ -545,7 +545,7 @@
   },
   {
     "id": 58,
-    "name": "2026 ET14 - Swiss Darts Trophy",
+    "name": "ET14 - Swiss Darts Trophy",
     "location": "St. Jakobshalle, Switzerland",
     "date_display": "Fri 09 Oct – Sun 11 Oct 2026",
     "date_iso": "2026-10-09",
@@ -555,7 +555,7 @@
   },
   {
     "id": 59,
-    "name": "2026 ET15 - Dutch Darts Championship",
+    "name": "ET15 - Dutch Darts Championship",
     "location": "MECC, Maastricht, Netherlands",
     "date_display": "Fri 16 Oct – Sun 18 Oct 2026",
     "date_iso": "2026-10-16",
@@ -565,7 +565,7 @@
   },
   {
     "id": 60,
-    "name": "2026 European Championship",
+    "name": "European Championship",
     "location": "Westfalenhalle, Dortmund, Germany",
     "date_display": "Thu 22 Oct – Sun 25 Oct 2026",
     "date_iso": "2026-10-22",
@@ -575,7 +575,7 @@
   },
   {
     "id": 61,
-    "name": "2026 Players Championship 31",
+    "name": "Players Championship 31",
     "location": "Fleetwood, England",
     "date_display": "Wed 28 Oct 2026",
     "date_iso": "2026-10-28",
@@ -584,7 +584,7 @@
   },
   {
     "id": 62,
-    "name": "2026 Players Championship 32",
+    "name": "Players Championship 32",
     "location": "Fleetwood, England",
     "date_display": "Thu 29 Oct 2026",
     "date_iso": "2026-10-29",
@@ -593,7 +593,7 @@
   },
   {
     "id": 63,
-    "name": "2026 Players Championship 33",
+    "name": "Players Championship 33",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Wed 04 Nov 2026",
     "date_iso": "2026-11-04",
@@ -602,7 +602,7 @@
   },
   {
     "id": 64,
-    "name": "2026 Players Championship 34",
+    "name": "Players Championship 34",
     "location": "Mattioli Arena, Leicester, England",
     "date_display": "Thu 05 Nov 2026",
     "date_iso": "2026-11-05",
@@ -611,7 +611,7 @@
   },
   {
     "id": 65,
-    "name": "2026 Grand Slam of Darts",
+    "name": "Grand Slam of Darts",
     "location": "Aldersley Leisure Village, Wolverhampton, England",
     "date_display": "Sat 14 Nov – Sun 22 Nov 2026",
     "date_iso": "2026-11-14",
@@ -621,7 +621,7 @@
   },
   {
     "id": 66,
-    "name": "2026 Players Championship Finals",
+    "name": "Players Championship Finals",
     "location": "Butlins, Minehead, England",
     "date_display": "Fri 27 Nov – Sun 29 Nov 2026",
     "date_iso": "2026-11-27",
@@ -630,7 +630,7 @@
   },
   {
     "id": 67,
-    "name": "2027 World Championship",
+    "name": "World Championship",
     "location": "Alexandra Palace, London, England",
     "date_display": "Thu 10 Dec 2026 – Sun 03 Jan 2027",
     "date_iso": "2026-12-10",
