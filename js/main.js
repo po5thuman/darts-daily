@@ -428,8 +428,15 @@ function displayEventsPage(pageNumber) {
         const day = dateObj.getDate();
         const month = dateObj.toLocaleString('en-US', { month: 'short' }).toUpperCase();
         
-        // Check if event is today
-        const isToday = dateObj.getTime() === today.getTime();
+        // Check if event is today or during the event dates
+        let isToday = false;
+        const eventEndDate = event.end_date_iso ? new Date(event.end_date_iso) : dateObj;
+        eventEndDate.setHours(0, 0, 0, 0);
+        
+        if (today >= dateObj && today <= eventEndDate) {
+            isToday = true;
+        }
+        
         const todayBadge = isToday ? `<span class="event-ongoing-badge">TODAY</span>` : "";
         
         let ticketButton = "";
@@ -442,11 +449,15 @@ function displayEventsPage(pageNumber) {
                 <div class="event-date-day">${day}</div>
                 <div class="event-date-month">${month}</div>
             </div>
-            <div class="event-info">
-                <div class="event-name">${event.name} ${todayBadge}</div>
+            <div style="flex: 1;">
+                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+                    <h3 class="event-name">${event.name}</h3>
+                    ${todayBadge}
+                </div>
                 <div class="event-meta">
-                    <span>${event.icon}</span>
+                    <span class="event-flag">${event.icon}</span>
                     <span>${event.location}</span>
+                    <span class="event-separator">·</span>
                     <span>${event.date_display}</span>
                 </div>
                 <div class="event-bottom-row">
