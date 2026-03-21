@@ -449,18 +449,18 @@ function displayEventsPage(pageNumber) {
                 <div class="event-date-day">${day}</div>
                 <div class="event-date-month">${month}</div>
             </div>
-            <div style="flex: 1;">
-                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
-                    <h3 class="event-name">${event.name}</h3>
+            <div>
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                    <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--text); margin: 0;">${event.name}</h3>
                     ${todayBadge}
                 </div>
-                <div class="event-meta">
-                    <span class="event-flag">${event.icon}</span>
+                <p style="font-size: 0.75rem; color: var(--muted); margin: 0 0 8px 0; display: flex; align-items: center; gap: 8px;">
+                    <span>${event.icon}</span>
                     <span>${event.location}</span>
-                    <span class="event-separator">·</span>
-                    <span>${event.date_display}</span>
-                </div>
-                <div class="event-bottom-row">
+                    <span style="color: var(--muted);">·</span>
+                    <span>📅 ${event.date_display}</span>
+                </p>
+                <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
                     <span class="event-badge">${event.tour}</span>
                     ${ticketButton}
                 </div>
