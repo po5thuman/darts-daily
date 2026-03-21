@@ -658,3 +658,4 @@ function handleSwipe() {
 }
 
 loadProductOfDay();
+loadUpcomingEvents();
