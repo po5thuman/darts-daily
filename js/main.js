@@ -373,7 +373,7 @@ async function loadUpcomingEvents() {
     const eventsLoading = document.getElementById("events-loading");
     
     try {
-        const response = await fetch("data/events.json");
+        const response = await fetch("events.json");
         eventsData = await response.json();
         
         displayEventsPage(1);
