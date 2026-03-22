@@ -338,9 +338,9 @@ loadHistoryOfDay();
 async function loadLatestNews() {
     try {
         const sources = [
-            { name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/darts/rss.xml', icon: '📺' },
-            { name: 'The Guardian', url: 'https://www.theguardian.com/sport/darts/rss', icon: '📰' },
-            { name: 'talkSPORT', url: 'https://www.talksport.com/rss/darts', icon: '🎙️' }
+            { name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/darts/rss.xml', icon: '🎯' },
+            { name: 'The Guardian', url: 'https://www.theguardian.com/sport/darts/rss', icon: '🌏' },
+            { name: 'PDC Official', url: 'https://www.pdc.tv/rss.xml', icon: '📢' }
         ];
         
         let allNews = [];
