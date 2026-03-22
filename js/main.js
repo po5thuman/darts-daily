@@ -337,17 +337,44 @@ loadHistoryOfDay();
 // ════════════════════════════════════════════════════════════════
 async function loadLatestNews() {
     try {
-        // BBC Sport Darts RSS feed (converted to JSON)
-        const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://feeds.bbci.co.uk/sport/darts/rss.xml');
-        const data = await response.json();
+        const sources = [
+            { name: 'BBC Sport', url: 'https://feeds.bbci.co.uk/sport/darts/rss.xml', icon: '📺' },
+            { name: 'The Guardian', url: 'https://www.theguardian.com/sport/darts/rss', icon: '📰' }
+        ];
         
-        const latest = data.items.slice(0, 6);
+        let allNews = [];
+        
+        for (let source of sources) {
+            try {
+                const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(source.url)}`);
+                const data = await response.json();
+                
+                if (data.items) {
+                    data.items.forEach(item => {
+                        allNews.push({
+                            title: item.title,
+                            link: item.link,
+                            source: source.name,
+                            date: new Date(item.pubDate),
+                            dateStr: new Date(item.pubDate).toLocaleDateString('en-GB', {day: 'numeric', month: '2-digit', year: 'numeric'}),
+                            icon: source.icon
+                        });
+                    });
+                }
+            } catch (e) {
+                console.warn(`Error fetching from ${source.name}`);
+            }
+        }
+        
+        // Sort by date (newest first) and get latest 6
+        const latest = allNews.sort((a, b) => b.date - a.date).slice(0, 6);
+        
         document.getElementById("news-list").innerHTML = latest.map((item, index) =>
             `<div class="news-item" style="${index === 0 ? 'padding-top:0;' : ''}">
-                <div class="news-icon">🎯</div>
+                <div class="news-icon">${item.icon}</div>
                 <div>
                     <div class="news-title"><a href="${item.link}" target="_blank" style="color:var(--text);text-decoration:none;">${item.title}</a></div>
-                    <div class="news-meta"><span class="news-source">BBC Sport</span> &nbsp;·&nbsp; ${new Date(item.pubDate).toLocaleDateString('en-GB', {day: 'numeric', month: '2-digit', year: 'numeric'})}</div>
+                    <div class="news-meta"><span class="news-source">${item.source}</span> &nbsp;·&nbsp; ${item.dateStr}</div>
                 </div>
             </div>`
         ).join("");
