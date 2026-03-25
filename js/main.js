@@ -400,13 +400,11 @@ const eventsPerPage = 5;
 async function loadUpcomingEvents() {
     const eventsContent = document.getElementById("events-content");
     const eventsLoading = document.getElementById("events-loading");
-    
     try {
         const res = await fetch('events.json');
         const events = await res.json();
         const today = new Date();
         today.setHours(0, 0, 0, 0);
-        
         eventsData = events
             .filter(e => {
                 const startDate = new Date(e.date_iso);
@@ -419,28 +417,13 @@ async function loadUpcomingEvents() {
                 return startDate >= today;
             })
             .sort((a, b) => new Date(a.date_iso) - new Date(b.date_iso));
-        
         if (eventsData.length === 0) {
             eventsLoading.textContent = 'No upcoming events found.';
             return;
         }
-        
         displayEventsPage(1);
         eventsLoading.style.display = 'none';
         eventsContent.style.display = 'block';
-        
-        document.getElementById("events-prev").addEventListener("click", () => {
-            if (currentEventPage > 1) {
-                displayEventsPage(currentEventPage - 1);
-            }
-        });
-        
-        document.getElementById("events-next").addEventListener("click", () => {
-            const totalPages = Math.ceil(eventsData.length / eventsPerPage);
-            if (currentEventPage < totalPages) {
-                displayEventsPage(currentEventPage + 1);
-            }
-        });
     } catch (err) {
         eventsLoading.textContent = 'Error loading events.';
         console.error(err);
@@ -455,14 +438,12 @@ function displayEventsPage(pageNumber) {
     const eventsList = document.getElementById('events-list');
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    
     eventsList.innerHTML = pageEvents.map((event, index) => {
         const startDate = new Date(event.date_iso);
         startDate.setHours(0, 0, 0, 0);
         const endDate = event.end_date_iso ? new Date(event.end_date_iso) : null;
         if (endDate) endDate.setHours(0, 0, 0, 0);
         const isOngoing = startDate <= today && (!endDate || endDate >= today);
-        
         return `
             <div class="event-item" style="${index === 0 ? 'padding-top:0;' : ''}">
                 <div class="event-date-box">
@@ -494,13 +475,25 @@ function displayEventsPage(pageNumber) {
             </div>
         `;
     }).join('');
-    
     const totalPages = Math.ceil(eventsData.length / eventsPerPage);
     document.getElementById("events-page-info").textContent = `Page ${pageNumber} of ${totalPages}`;
-    
     document.getElementById("events-prev").disabled = pageNumber === 1;
     document.getElementById("events-next").disabled = pageNumber === totalPages;
 }
+
+// Add event listeners ONCE, outside the loading function
+document.getElementById("events-prev").addEventListener("click", () => {
+    if (currentEventPage > 1) {
+        displayEventsPage(currentEventPage - 1);
+    }
+});
+
+document.getElementById("events-next").addEventListener("click", () => {
+    const totalPages = Math.ceil(eventsData.length / eventsPerPage);
+    if (currentEventPage < totalPages) {
+        displayEventsPage(currentEventPage + 1);
+    }
+});
 
 loadUpcomingEvents();
 // ════════════════════════════════════════════════════════════════
