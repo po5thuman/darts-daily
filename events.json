@@ -131,7 +131,8 @@
     "date_display": "Thu 16 Apr 2026",
     "date_iso": "2026-04-16",
     "tour": "PDC Premier League",
-    "icon": "NL"
+    "icon": "NL",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/BetMGM-Premier-League-Darts-Tickets"
   },
   {
     "id": 15,
@@ -141,7 +142,8 @@
     "date_iso": "2026-04-17",
 	"end_date_iso": "2026-04-19",
     "tour": "PDC European Tour",
-    "icon": "DE"
+    "icon": "DE",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/German-Darts-Grand-Prix-Tickets"
   },
   {
     "id": 16,
@@ -150,7 +152,8 @@
     "date_display": "Thu 23 Apr 2026",
     "date_iso": "2026-04-23",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG"
+    "icon": "GB-ENG",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/BetMGM-Premier-League-Darts-Tickets"
   },
   {
     "id": 17,
@@ -216,7 +219,8 @@
     "date_iso": "2026-05-08",
 	"end_date_iso": "2026-05-10",
     "tour": "PDC European Tour",
-    "icon": "AT"
+    "icon": "AT",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Austrian-Darts-Open-Tickets"
   },
   {
     "id": 24,
@@ -243,7 +247,8 @@
     "date_display": "Thu 14 May 2026",
     "date_iso": "2026-05-14",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG"
+    "icon": "GB-ENG",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/BetMGM-Premier-League-Darts-Tickets"
   },
   {
     "id": 27,
@@ -281,7 +286,8 @@
     "date_iso": "2026-05-22",
 	"end_date_iso": "2026-05-24",
     "tour": "PDC European Tour",
-    "icon": "DE"
+    "icon": "DE",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/International-Darts-Open-Tickets"
   },
   {
     "id": 31,
@@ -290,7 +296,8 @@
     "date_display": "Thu 28 May 2026",
     "date_iso": "2026-05-28",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG"
+    "icon": "GB-ENG",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/BetMGM-Premier-League-Darts-Tickets"
   },
   {
     "id": 32,
@@ -300,7 +307,8 @@
     "date_iso": "2026-05-29",
 	"end_date_iso": "2026-05-31",
     "tour": "PDC European Tour",
-    "icon": "DE"
+    "icon": "DE",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Baltic-Sea-Darts-Tickets"
   },
   {
     "id": 33,
@@ -328,7 +336,8 @@
     "date_iso": "2026-06-05",
 	"end_date_iso": "2026-06-06",
     "tour": "PDC World Series",
-    "icon": "DK"
+    "icon": "DK",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Nordic-Darts-Masters-Tickets"
   },
   {
     "id": 36,
@@ -338,7 +347,8 @@
     "date_iso": "2026-06-11",
 	"end_date_iso": "2026-06-14",
     "tour": "PDC World Cup",
-    "icon": "DE"
+    "icon": "DE",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/PDC-World-Cup-of-Darts-Tickets"
   },
   {
     "id": 37,
@@ -366,7 +376,8 @@
     "date_iso": "2026-06-19",
 	"end_date_iso": "2026-06-21",
     "tour": "PDC European Tour",
-    "icon": "SK"
+    "icon": "SK",
+	"ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Nike-Slovak-Darts-Open-Tickets"
   },
   {
     "id": 40,
@@ -405,7 +416,8 @@
     "date_iso": "2026-07-10",
 	"end_date_iso": "2026-07-12",
     "tour": "PDC European Tour",
-    "icon": "DE"
+    "icon": "DE",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/European-Darts-Open-Tickets"
   },
   {
     "id": 44,
@@ -415,7 +427,8 @@
     "date_iso": "2026-07-18",
 	"end_date_iso": "2026-07-26",
     "tour": "PDC",
-    "icon": "GB-ENG"
+    "icon": "GB-ENG",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Betfred-World-Matchplay-Tickets"
   },
   {
     "id": 45,
@@ -483,7 +496,8 @@
     "date_iso": "2026-08-28",
 	"end_date_iso": "2026-08-30",
     "tour": "PDC European Tour",
-    "icon": "HU"
+    "icon": "HU",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Hungarian-Darts-Trophy-Tickets"
   },
   {
     "id": 52,
@@ -493,7 +507,8 @@
     "date_iso": "2026-09-04",
 	"end_date_iso": "2026-09-04",
     "tour": "PDC European Tour",
-    "icon": "CZ"
+    "icon": "CZ",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Czech-Darts-Open-Tickets"
   },
   {
     "id": 53,
@@ -513,7 +528,8 @@
     "date_iso": "2026-09-17",
 	"end_date_iso": "2026-09-20",
     "tour": "PDC World Series",
-    "icon": "NL"
+    "icon": "NL",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/World-Series-of-Darts-Tickets"
   },
   {
     "id": 55,
@@ -551,7 +567,8 @@
     "date_iso": "2026-10-09",
 	"end_date_iso": "2026-10-11",
     "tour": "PDC European Tour",
-    "icon": "CH"
+    "icon": "CH",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Swiss-Darts-Trophy-Tickets"
   },
   {
     "id": 59,
@@ -561,7 +578,8 @@
     "date_iso": "2026-10-16",
 	"end_date_iso": "2026-10-18",
     "tour": "PDC European Tour",
-    "icon": "NL"
+    "icon": "NL",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/Dutch-Darts-Championship-Tickets"
   },
   {
     "id": 60,
@@ -571,7 +589,8 @@
     "date_iso": "2026-10-22",
 	"end_date_iso": "2026-10-25",
     "tour": "PDC European Tour",
-    "icon": "DE"
+    "icon": "DE",
+    "ticket_url": "https://www.viagogo.com/Sports-Tickets/Other-Sports/Darts/European-Darts-Championship-Tickets"
   },
   {
     "id": 61,
