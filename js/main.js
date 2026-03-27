@@ -542,6 +542,12 @@ const modalContent = {
         <p>We only recommend products and services that we believe are relevant and useful to darts fans. Affiliate commissions help keep Darts Daily free and allow us to continue providing daily darts content.</p>
         <p>All affiliate links on this site are clearly marked in line with Amazon Associates and ASA guidelines.</p>
         <p>Thank you for supporting Darts Daily. 🎯</p>
+    `,
+    workWithUs: `
+        <span class="modal-emoji">🤝</span>
+        <h2>Work With Us</h2>
+        <p>We'd love to collaborate! Whether you're interested in advertising, sponsorships, or any partnership opportunities with Darts Daily, we'd be thrilled to hear from you.</p>
+        <p>Drop us a line at <a href="mailto:dartsdaily@outlook.com">dartsdaily@outlook.com</a> and let's make something great together!</p>
     `
 };
 
