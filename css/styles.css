@@ -190,6 +190,9 @@ footer { border-top: 1px solid var(--border); padding: 40px 24px; text-align: ce
 .header-social { position: absolute; top: 15px; right: 15px; }
 .header-social a { padding: 8px 12px; background-color: #e4405f; color: white; border-radius: 5px; text-decoration: none; font-size: 14px; transition: opacity 0.3s; }
 .header-social a:hover { opacity: 0.8; }
+.social-links { display: flex; gap: 15px; margin-top: 20px; justify-content: center; }
+.social-icon { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background-color: #f0f0f0; color: #333; transition: all 0.3s ease; }
+.social-icon:hover { background-color: #c8a96e; color: white; transform: scale(1.1); }
 
 /* MODAL */
 #modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.90); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(8px); }
