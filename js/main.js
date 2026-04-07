@@ -36,8 +36,8 @@ updateCountdown();
 // ════════════════════════════════════════════════════════════════
 function updateStreak() {
     const today = new Date().toDateString();
-    const lastVisit = localStorage.getItem("dartsDailyLastVisit");
-    let streak = parseInt(localStorage.getItem("dartsDailyStreak") || "0");
+    const lastVisit = localStorage.getItem("180@dartsdaily.netLastVisit");
+    let streak = parseInt(localStorage.getItem("180@dartsdaily.netStreak") || "0");
     
     if (lastVisit !== today) {
         const yesterday = new Date();
@@ -512,11 +512,11 @@ const modalContent = {
         <h2>Contact</h2>
         <p>We'd love to hear from you! Whether you have a suggestion, spotted something wrong or just want to talk darts — get in touch.</p>
         <h3>Email</h3>
-        <p><a href="mailto:dartsdaily@outlook.com">dartsdaily@outlook.com</a></p>
+        <p><a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a></p>
         <h3>Response Time</h3>
         <p>We aim to respond to all messages within 48 hours.</p>
         <h3>News Tips</h3>
-        <p>Got a darts story or tip you think we should cover? Send it over to <a href="mailto:dartsdaily@outlook.com">dartsdaily@outlook.com</a> and we'll take a look.</p>
+        <p>Got a darts story or tip you think we should cover? Send it over to <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a> and we'll take a look.</p>
     `,
     privacy: `
         <span class="modal-emoji">🔒</span>
@@ -532,7 +532,7 @@ const modalContent = {
         <h3>4. Affiliate Links</h3>
         <p>Some links on this site are affiliate links. This means we may earn a small commission if you make a purchase through them, at no extra cost to you. See our Affiliate Disclosure for more details.</p>
         <h3>5. Contact</h3>
-        <p>If you have any questions about this privacy policy please contact us at <a href="mailto:dartsdaily@outlook.com">dartsdaily@outlook.com</a></p>
+        <p>If you have any questions about this privacy policy please contact us at <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a></p>
     `,
     affiliate: `
         <span class="modal-emoji">💰</span>
@@ -547,7 +547,7 @@ const modalContent = {
         <span class="modal-emoji">🤝</span>
         <h2>Work With Us</h2>
         <p>We'd love to collaborate! Whether you're interested in advertising, sponsorships, or any partnership opportunities with Darts Daily, we'd be thrilled to hear from you.</p>
-        <p>Drop us a line at <a href="mailto:dartsdaily@outlook.com">dartsdaily@outlook.com</a> and let's make something great together!</p>
+        <p>Drop us a line at <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a> and let's make something great together!</p>
     `
 };
 
