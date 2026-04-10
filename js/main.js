@@ -74,7 +74,7 @@ function toggleTheme() {
 // ════════════════════════════════════════════════════════════════
 // CACHE BUSTER
 // ════════════════════════════════════════════════════════════════
-const cacheBuster = encodeURIComponent(new Date().toDateString());
+const cacheBuster = new Date().toISOString().slice(0, 10);
 // ════════════════════════════════════════════════════════════════
 // SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
