@@ -79,7 +79,16 @@ function shareX(text) {
 }
 
 function shareFB() {
-    window.open("https://www.facebook.com/sharer/sharer.php?u=" + pageURL, "_blank", "width=600,height=460");
+    if (window.FB) {
+        FB.ui({
+            method: 'share',
+            href: window.location.href,
+            hashtag: '#DartsDaily',
+        }, function(){});
+    } else {
+        // Fallback if SDK not loaded
+        window.open("https://www.facebook.com/sharer/sharer.php?u=" + pageURL, "_blank", "width=600,height=460");
+    }
 }
 
 function shareWA(text) {
