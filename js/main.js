@@ -79,16 +79,13 @@ function shareX(text) {
 }
 
 function shareFB() {
-    if (window.FB) {
-        FB.ui({
-            method: 'share',
-            href: window.location.href,
-            hashtag: '#DartsDaily',
-        }, function(){});
-    } else {
-        // Fallback if SDK not loaded
-        window.open("https://www.facebook.com/sharer/sharer.php?u=" + pageURL, "_blank", "width=600,height=460");
-    }
+    const text = "Check out Darts Daily — your daily hub for everything professional darts! 🎯";
+    const url = window.location.href;
+    window.open(
+        "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url) + "&quote=" + encodeURIComponent(text),
+        "_blank",
+        "width=600,height=460"
+    );
 }
 
 function shareWA(text) {
