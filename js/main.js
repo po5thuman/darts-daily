@@ -2,6 +2,7 @@
 // MAILERLITE FETCH
 // ════════════════════════════════════════════════════════════════
 fetch("https://assets.mailerlite.com/jsonp/2250599/forms/184084225168770566/takel");
+
 // ════════════════════════════════════════════════════════════════
 // DATE & TIME
 // ════════════════════════════════════════════════════════════════
@@ -10,6 +11,7 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 const now = new Date();
 document.getElementById("currentDate").textContent =
     days[now.getDay()] + " " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear();
+
 // ════════════════════════════════════════════════════════════════
 // COUNTDOWN TIMER
 // ════════════════════════════════════════════════════════════════
@@ -26,6 +28,7 @@ function updateCountdown() {
 }
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
 // ════════════════════════════════════════════════════════════════
 // AUTO-REFRESH AT MIDNIGHT
 // ════════════════════════════════════════════════════════════════
@@ -39,6 +42,7 @@ function scheduleRefresh() {
     }, msUntilMidnight + 1000);
 }
 scheduleRefresh();
+
 // ════════════════════════════════════════════════════════════════
 // STREAK COUNTER
 // ════════════════════════════════════════════════════════════════
@@ -56,6 +60,7 @@ function updateStreak() {
     document.getElementById("streakCount").textContent = streak;
 }
 updateStreak();
+
 // ════════════════════════════════════════════════════════════════
 // THEME TOGGLE
 // ════════════════════════════════════════════════════════════════
@@ -71,10 +76,7 @@ function toggleTheme() {
         document.getElementById("themeLabel").textContent = "Light";
     }
 })();
-// ════════════════════════════════════════════════════════════════
-// CACHE BUSTER
-// ════════════════════════════════════════════════════════════════
-// const cacheBuster = Date.now();
+
 // ════════════════════════════════════════════════════════════════
 // SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
@@ -83,20 +85,19 @@ function shareX(text) {
     window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text) + "&url=" + pageURL, "_blank", "width=550,height=420");
 }
 function shareFB(customText) {
-    if (window.FB) {
-        FB.ui({
-            method: 'share',
-            href: window.location.href,
-            quote: customText || "Check out Darts Daily!",
-            hashtag: '#DartsDaily',
-        }, function(){});
-    } else {
-        alert('Facebook share is loading. Please try again.');
-    }
+    var url = encodeURIComponent(window.location.href);
+    var text = encodeURIComponent(customText || "Check out Darts Daily!");
+    window.open(
+        "https://www.facebook.com/sharer/sharer.php?u=" + url + "&quote=" + text,
+        "_blank",
+        "width=600,height=460"
+    );
 }
+
 function shareWA(text) {
     window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text + " " + window.location.href), "_blank");
 }
+
 // ════════════════════════════════════════════════════════════════
 // ADDITIONAL SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
@@ -152,6 +153,7 @@ function showCopyFeedback(button) {
         button.innerHTML = originalText;
     }, 2000);
 }
+
 // ════════════════════════════════════════════════════════════════
 // MAILERLITE SUCCESS CALLBACK
 // ════════════════════════════════════════════════════════════════
@@ -160,11 +162,13 @@ function ml_webform_success_39547690() {
     $('.ml-subscribe-form-39547690 .row-success').show();
     $('.ml-subscribe-form-39547690 .row-form').hide();
 }
+
 // ════════════════════════════════════════════════════════════════
 // DAY OF YEAR CALCULATION
 // ════════════════════════════════════════════════════════════════
 const start = new Date(now.getFullYear(), 0, 0);
 const dayOfYear = Math.floor((now - start) / 86400000);
+
 // ════════════════════════════════════════════════════════════════
 // PLAYER OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -216,6 +220,7 @@ async function loadPlayerOfDay() {
     }
 }
 loadPlayerOfDay();
+
 // ════════════════════════════════════════════════════════════════
 // TRIVIA OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -259,6 +264,7 @@ function checkTriviaAnswer(btn, selected, correct) {
     el.textContent = (parseInt(el.textContent.replace(",", "")) + 1).toLocaleString();
 }
 loadTriviaOfDay();
+
 // ════════════════════════════════════════════════════════════════
 // STAT OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -283,6 +289,7 @@ async function loadStatOfDay() {
     }
 }
 loadStatOfDay();
+
 // ════════════════════════════════════════════════════════════════
 // HISTORY OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -307,6 +314,7 @@ async function loadHistoryOfDay() {
     }
 }
 loadHistoryOfDay();
+
 // ════════════════════════════════════════════════════════════════
 // LATEST NEWS
 // ════════════════════════════════════════════════════════════════
@@ -356,6 +364,7 @@ async function loadLatestNews() {
     }
 }
 loadLatestNews();
+
 // ════════════════════════════════════════════════════════════════
 // UPCOMING EVENTS
 // ════════════════════════════════════════════════════════════════
@@ -456,6 +465,7 @@ document.getElementById("events-next").addEventListener("click", () => {
     }
 });
 loadUpcomingEvents();
+
 // ════════════════════════════════════════════════════════════════
 // MODAL FUNCTIONS
 // ════════════════════════════════════════════════════════════════
@@ -522,6 +532,7 @@ function closeModal() {
 document.addEventListener("keydown", function(e) {
     if (e.key === "Escape") closeModal();
 });
+
 // ════════════════════════════════════════════════════════════════
 // PRODUCT CAROUSEL
 // ════════════════════════════════════════════════════════════════
