@@ -74,7 +74,7 @@ function toggleTheme() {
 // ════════════════════════════════════════════════════════════════
 // CACHE BUSTER
 // ════════════════════════════════════════════════════════════════
-const cacheBuster = new Date().toISOString().slice(0, 10);
+// const cacheBuster = Date.now();
 // ════════════════════════════════════════════════════════════════
 // SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
@@ -170,7 +170,7 @@ const dayOfYear = Math.floor((now - start) / 86400000);
 // ════════════════════════════════════════════════════════════════
 async function loadPlayerOfDay() {
     try {
-        const res = await fetch("players.json?v=" + cacheBuster);
+        const res = await fetch("players.json");
         const players = await res.json();
         const p = players[dayOfYear % players.length];
         const avatar = document.getElementById("p-avatar");
@@ -222,7 +222,7 @@ loadPlayerOfDay();
 let triviaAnswered = false;
 async function loadTriviaOfDay() {
     try {
-        const res = await fetch("trivia.json?v=" + cacheBuster);
+        const res = await fetch("trivia.json");
         const trivia = await res.json();
         const t = trivia[dayOfYear % trivia.length];
         const letters = ["A", "B", "C", "D"];
@@ -264,7 +264,7 @@ loadTriviaOfDay();
 // ════════════════════════════════════════════════════════════════
 async function loadStatOfDay() {
     try {
-        const res = await fetch("stats.json?v=" + cacheBuster);
+        const res = await fetch("stats.json");
         const stats = await res.json();
         const s = stats[dayOfYear % stats.length];
         document.getElementById("s-number").textContent = s.number;
@@ -288,7 +288,7 @@ loadStatOfDay();
 // ════════════════════════════════════════════════════════════════
 async function loadHistoryOfDay() {
     try {
-        const res = await fetch("history.json?v=" + cacheBuster);
+        const res = await fetch("history.json");
         const history = await res.json();
         const h = history[dayOfYear % history.length];
         document.getElementById("h-year").textContent = h.year;
@@ -366,7 +366,7 @@ async function loadUpcomingEvents() {
     const eventsContent = document.getElementById("events-content");
     const eventsLoading = document.getElementById("events-loading");
     try {
-        const res = await fetch("events.json?v=" + cacheBuster);
+        const res = await fetch("events.json");
         const events = await res.json();
         const today = new Date();
         today.setHours(0, 0, 0, 0);
@@ -531,7 +531,7 @@ let touchStartX = 0;
 let touchEndX = 0;
 async function loadProductOfDay() {
     try {
-        const res = await fetch("products.json?v=" + cacheBuster);
+        const res = await fetch("products.json");
         const products = await res.json();
         const p = products[dayOfYear % products.length];
         document.getElementById("prod-badge").textContent = p.badge;
