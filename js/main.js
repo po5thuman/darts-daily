@@ -2,17 +2,14 @@
 // MAILERLITE FETCH
 // ════════════════════════════════════════════════════════════════
 fetch("https://assets.mailerlite.com/jsonp/2250599/forms/184084225168770566/takel");
-
 // ════════════════════════════════════════════════════════════════
 // DATE & TIME
 // ════════════════════════════════════════════════════════════════
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const now = new Date();
-
-document.getElementById("currentDate").textContent = 
+document.getElementById("currentDate").textContent =
     days[now.getDay()] + " " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear();
-
 // ════════════════════════════════════════════════════════════════
 // COUNTDOWN TIMER
 // ════════════════════════════════════════════════════════════════
@@ -24,21 +21,31 @@ function updateCountdown() {
     const h = Math.floor(diff / 3600000);
     const m = Math.floor((diff % 3600000) / 60000);
     const s = Math.floor((diff % 60000) / 1000);
-    document.getElementById("countdown").textContent = 
+    document.getElementById("countdown").textContent =
         String(h).padStart(2, "0") + ":" + String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
 }
-
 setInterval(updateCountdown, 1000);
 updateCountdown();
-
+// ════════════════════════════════════════════════════════════════
+// AUTO-REFRESH AT MIDNIGHT
+// ════════════════════════════════════════════════════════════════
+function scheduleRefresh() {
+    const now = new Date();
+    const midnight = new Date();
+    midnight.setHours(24, 0, 0, 0);
+    const msUntilMidnight = midnight - now;
+    setTimeout(() => {
+        window.location.reload();
+    }, msUntilMidnight + 1000);
+}
+scheduleRefresh();
 // ════════════════════════════════════════════════════════════════
 // STREAK COUNTER
 // ════════════════════════════════════════════════════════════════
 function updateStreak() {
     const today = new Date().toDateString();
-    const lastVisit = localStorage.getItem("180@dartsdaily.netLastVisit");
-    let streak = parseInt(localStorage.getItem("180@dartsdaily.netStreak") || "0");
-    
+    const lastVisit = localStorage.getItem("dartsDailyLastVisit");
+    let streak = parseInt(localStorage.getItem("dartsDailyStreak") || "0");
     if (lastVisit !== today) {
         const yesterday = new Date();
         yesterday.setDate(yesterday.getDate() - 1);
@@ -46,12 +53,9 @@ function updateStreak() {
         localStorage.setItem("dartsDailyStreak", streak);
         localStorage.setItem("dartsDailyLastVisit", today);
     }
-    
     document.getElementById("streakCount").textContent = streak;
 }
-
 updateStreak();
-
 // ════════════════════════════════════════════════════════════════
 // THEME TOGGLE
 // ════════════════════════════════════════════════════════════════
@@ -60,7 +64,6 @@ function toggleTheme() {
     document.getElementById("themeLabel").textContent = isLight ? "Light" : "Dark";
     localStorage.setItem("dartsDailyTheme", isLight ? "light" : "dark");
 }
-
 (function() {
     const saved = localStorage.getItem("dartsDailyTheme");
     if (saved === "light") {
@@ -68,44 +71,43 @@ function toggleTheme() {
         document.getElementById("themeLabel").textContent = "Light";
     }
 })();
-
+// ════════════════════════════════════════════════════════════════
+// CACHE BUSTER
+// ════════════════════════════════════════════════════════════════
+const cacheBuster = encodeURIComponent(new Date().toDateString());
 // ════════════════════════════════════════════════════════════════
 // SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
 const pageURL = encodeURIComponent(window.location.href);
-
 function shareX(text) {
     window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text) + "&url=" + pageURL, "_blank", "width=550,height=420");
 }
-
-function shareFB() {
-    const text = "Check out Darts Daily — your daily hub for everything professional darts! 🎯";
-    const url = window.location.href;
-    window.open(
-        "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url) + "&quote=" + encodeURIComponent(text),
-        "_blank",
-        "width=600,height=460"
-    );
+function shareFB(customText) {
+    if (window.FB) {
+        FB.ui({
+            method: 'share',
+            href: window.location.href,
+            quote: customText || "Check out Darts Daily!",
+            hashtag: '#DartsDaily',
+        }, function(){});
+    } else {
+        alert('Facebook share is loading. Please try again.');
+    }
 }
-
 function shareWA(text) {
     window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text + " " + window.location.href), "_blank");
 }
-
 // ════════════════════════════════════════════════════════════════
 // ADDITIONAL SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
 function shareReddit(text) {
     window.open("https://reddit.com/submit?url=" + pageURL + "&title=" + encodeURIComponent(text), "_blank", "width=600,height=460");
 }
-
 function shareTelegram(text) {
     window.open("https://t.me/share/url?url=" + pageURL + "&text=" + encodeURIComponent(text), "_blank", "width=600,height=460");
 }
-
 function copyLink(button) {
     const url = window.location.href;
-    
     if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(url).then(() => {
             showCopyFeedback(button);
@@ -117,7 +119,6 @@ function copyLink(button) {
         fallbackCopyTextToClipboard(url, button);
     }
 }
-
 function fallbackCopyTextToClipboard(text, button) {
     const textArea = document.createElement("textarea");
     textArea.value = text;
@@ -134,28 +135,23 @@ function fallbackCopyTextToClipboard(text, button) {
     document.body.appendChild(textArea);
     textArea.focus();
     textArea.select();
-    
     try {
         document.execCommand('copy');
         showCopyFeedback(button);
     } catch (err) {
         console.error('Fallback: Failed to copy', err);
     }
-    
     document.body.removeChild(textArea);
 }
-
 function showCopyFeedback(button) {
     const originalText = button.innerHTML;
     button.classList.add('copied');
     button.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Copied!';
-    
     setTimeout(() => {
         button.classList.remove('copied');
         button.innerHTML = originalText;
     }, 2000);
 }
-
 // ════════════════════════════════════════════════════════════════
 // MAILERLITE SUCCESS CALLBACK
 // ════════════════════════════════════════════════════════════════
@@ -164,34 +160,29 @@ function ml_webform_success_39547690() {
     $('.ml-subscribe-form-39547690 .row-success').show();
     $('.ml-subscribe-form-39547690 .row-form').hide();
 }
-
 // ════════════════════════════════════════════════════════════════
 // DAY OF YEAR CALCULATION
 // ════════════════════════════════════════════════════════════════
 const start = new Date(now.getFullYear(), 0, 0);
 const dayOfYear = Math.floor((now - start) / 86400000);
-
 // ════════════════════════════════════════════════════════════════
 // PLAYER OF THE DAY
 // ════════════════════════════════════════════════════════════════
 async function loadPlayerOfDay() {
     try {
-        const res = await fetch("players.json");
+        const res = await fetch("players.json?v=" + cacheBuster);
         const players = await res.json();
         const p = players[dayOfYear % players.length];
-        
         const avatar = document.getElementById("p-avatar");
         if (p.photo) {
             avatar.innerHTML = "<img src=\"" + p.photo + "\" alt=\"" + p.name + "\" onerror=\"this.parentElement.textContent='" + (p.flag || "🎯") + "'\">";
         } else {
             avatar.textContent = p.flag || "🎯";
         }
-        
         const statusClass = p.status === "Active" ? "status-active" : "status-retired";
         document.getElementById("p-name").innerHTML = p.name + " <span class=\"status-badge " + statusClass + "\">" + p.status + "</span>";
         document.getElementById("p-nickname").textContent = "\"" + p.nickname + "\"";
         document.getElementById("p-tags").innerHTML = p.tags.map(t => "<span class=\"tag\">" + t + "</span>").join("");
-        
         const infoItems = [
             { label: "Born", value: p.born },
             { label: "Hometown", value: p.hometown },
@@ -202,25 +193,21 @@ async function loadPlayerOfDay() {
             { label: "Walk-on", value: p.walk_on_music },
             { label: "Style", value: p.throwing_style }
         ];
-        
-        document.getElementById("p-info-grid").innerHTML = infoItems.map(i => 
+        document.getElementById("p-info-grid").innerHTML = infoItems.map(i =>
             "<div class=\"info-row\"><div class=\"info-label\">" + i.label + "</div><div class=\"info-value\">" + i.value + "</div></div>"
         ).join("");
-        
-        document.getElementById("p-highlights").innerHTML = p.highlights.map(h => 
+        document.getElementById("p-highlights").innerHTML = p.highlights.map(h =>
             "<div class=\"highlight-item\"><div class=\"highlight-dot\"></div><div>" + h + "</div></div>"
         ).join("");
-        
         document.getElementById("p-quote").innerHTML = "<span>\"" + p.quote + "\"</span><br><small>-- " + p.name + "</small>";
         document.getElementById("p-funfact").textContent = p.fun_fact;
         document.getElementById("p-bio").textContent = p.bio;
-        
         document.getElementById("p-share-x").onclick = () => shareX(p.share_text);
+        document.getElementById("p-share-fb").onclick = () => shareFB("🎯 Player of the Day: " + p.name + " — " + p.nickname + ". Check out their full profile on Darts Daily!");
         document.getElementById("p-share-wa").onclick = () => shareWA(p.share_text);
         document.getElementById("p-share-reddit").onclick = () => shareReddit(p.share_text);
         document.getElementById("p-share-telegram").onclick = () => shareTelegram(p.share_text);
         document.getElementById("p-share-copy").onclick = function() { copyLink(this); };
-        
         document.getElementById("player-loading").style.display = "none";
         document.getElementById("player-content").style.display = "block";
     } catch (err) {
@@ -228,33 +215,28 @@ async function loadPlayerOfDay() {
         console.error(err);
     }
 }
-
 loadPlayerOfDay();
-
 // ════════════════════════════════════════════════════════════════
 // TRIVIA OF THE DAY
 // ════════════════════════════════════════════════════════════════
 let triviaAnswered = false;
-
 async function loadTriviaOfDay() {
     try {
-        const res = await fetch("trivia.json");
+        const res = await fetch("trivia.json?v=" + cacheBuster);
         const trivia = await res.json();
         const t = trivia[dayOfYear % trivia.length];
         const letters = ["A", "B", "C", "D"];
-        
         document.getElementById("t-question").textContent = t.question;
-        document.getElementById("t-options").innerHTML = t.options.map((option, index) => 
+        document.getElementById("t-options").innerHTML = t.options.map((option, index) =>
             "<button class=\"trivia-btn\" onclick=\"checkTriviaAnswer(this, " + index + ", " + t.correct + ")\">" + letters[index] + ") " + option + "</button>"
         ).join("");
-        
         document.getElementById("t-explanation").textContent = t.explanation;
         document.getElementById("t-share-x").onclick = () => shareX(t.share_text);
+        document.getElementById("t-share-fb").onclick = () => shareFB("🧠 Trivia of the Day: " + t.question + " — Can you get it right? Test your darts knowledge on Darts Daily!");
         document.getElementById("t-share-wa").onclick = () => shareWA(t.share_text);
         document.getElementById("t-share-reddit").onclick = () => shareReddit(t.share_text);
         document.getElementById("t-share-telegram").onclick = () => shareTelegram(t.share_text);
         document.getElementById("t-share-copy").onclick = function() { copyLink(this); };
-        
         document.getElementById("trivia-loading").style.display = "none";
         document.getElementById("trivia-content").style.display = "block";
     } catch (err) {
@@ -262,46 +244,37 @@ async function loadTriviaOfDay() {
         console.error(err);
     }
 }
-
 function checkTriviaAnswer(btn, selected, correct) {
     if (triviaAnswered) return;
     triviaAnswered = true;
-    
     document.querySelectorAll(".trivia-btn").forEach(b => b.disabled = true);
-    
     if (selected === correct) {
         btn.classList.add("correct");
     } else {
         btn.classList.add("wrong");
         document.querySelectorAll(".trivia-btn")[correct].classList.add("correct");
     }
-    
     document.getElementById("triviaResult").style.display = "block";
     const el = document.getElementById("triviaPlayers");
     el.textContent = (parseInt(el.textContent.replace(",", "")) + 1).toLocaleString();
 }
-
 loadTriviaOfDay();
-
 // ════════════════════════════════════════════════════════════════
 // STAT OF THE DAY
 // ════════════════════════════════════════════════════════════════
 async function loadStatOfDay() {
     try {
-        const res = await fetch("stats.json");
+        const res = await fetch("stats.json?v=" + cacheBuster);
         const stats = await res.json();
         const s = stats[dayOfYear % stats.length];
-        
         document.getElementById("s-number").textContent = s.number;
         document.getElementById("s-stat").innerHTML = s.stat;
-        
-        // All 6 share buttons
         document.getElementById("s-share-x").onclick = () => shareX(s.share_text);
+        document.getElementById("s-share-fb").onclick = () => shareFB("📊 Stat of the Day: " + s.number + " — " + s.share_text + " on Darts Daily!");
         document.getElementById("s-share-wa").onclick = () => shareWA(s.share_text);
         document.getElementById("s-share-reddit").onclick = () => shareReddit(s.share_text);
         document.getElementById("s-share-telegram").onclick = () => shareTelegram(s.share_text);
         document.getElementById("s-share-copy").onclick = function() { copyLink(this); };
-        
         document.getElementById("stat-loading").style.display = "none";
         document.getElementById("stat-content").style.display = "block";
     } catch (err) {
@@ -309,25 +282,23 @@ async function loadStatOfDay() {
         console.error(err);
     }
 }
-
 loadStatOfDay();
 // ════════════════════════════════════════════════════════════════
 // HISTORY OF THE DAY
 // ════════════════════════════════════════════════════════════════
 async function loadHistoryOfDay() {
     try {
-        const res = await fetch("history.json");
+        const res = await fetch("history.json?v=" + cacheBuster);
         const history = await res.json();
         const h = history[dayOfYear % history.length];
-        
         document.getElementById("h-year").textContent = h.year;
         document.getElementById("h-story").innerHTML = h.story;
         document.getElementById("h-share-x").onclick = () => shareX(h.share_text);
+        document.getElementById("h-share-fb").onclick = () => shareFB("📅 This Day in Darts History (" + h.year + "): " + h.share_text);
         document.getElementById("h-share-wa").onclick = () => shareWA(h.share_text);
         document.getElementById("h-share-reddit").onclick = () => shareReddit(h.share_text);
         document.getElementById("h-share-telegram").onclick = () => shareTelegram(h.share_text);
         document.getElementById("h-share-copy").onclick = function() { copyLink(this); };
-        
         document.getElementById("history-loading").style.display = "none";
         document.getElementById("history-content").style.display = "block";
     } catch (err) {
@@ -335,9 +306,7 @@ async function loadHistoryOfDay() {
         console.error(err);
     }
 }
-
 loadHistoryOfDay();
-
 // ════════════════════════════════════════════════════════════════
 // LATEST NEWS
 // ════════════════════════════════════════════════════════════════
@@ -348,14 +317,11 @@ async function loadLatestNews() {
             { name: 'The Guardian', url: 'https://www.theguardian.com/sport/darts/rss', icon: '🌏' },
             { name: 'PDC Official', url: 'https://www.pdc.tv/rss.xml', icon: '📢' }
         ];
-        
         let allNews = [];
-        
         for (let source of sources) {
             try {
                 const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(source.url)}`);
                 const data = await response.json();
-                
                 if (data.items) {
                     data.items.forEach(item => {
                         allNews.push({
@@ -372,10 +338,7 @@ async function loadLatestNews() {
                 console.warn(`Error fetching from ${source.name}`);
             }
         }
-        
-        // Sort by date (newest first) and get latest 6
         const latest = allNews.sort((a, b) => b.date - a.date).slice(0, 6);
-        
         document.getElementById("news-list").innerHTML = latest.map((item, index) =>
             `<div class="news-item" style="${index === 0 ? 'padding-top:0;' : ''}">
                 <div class="news-icon">${item.icon}</div>
@@ -385,7 +348,6 @@ async function loadLatestNews() {
                 </div>
             </div>`
         ).join("");
-        
         document.getElementById("news-loading").style.display = "none";
         document.getElementById("news-content").style.display = "block";
     } catch (err) {
@@ -393,21 +355,18 @@ async function loadLatestNews() {
         console.error(err);
     }
 }
-
 loadLatestNews();
-
 // ════════════════════════════════════════════════════════════════
 // UPCOMING EVENTS
 // ════════════════════════════════════════════════════════════════
 let eventsData = [];
 let currentEventPage = 1;
 const eventsPerPage = 5;
-
 async function loadUpcomingEvents() {
     const eventsContent = document.getElementById("events-content");
     const eventsLoading = document.getElementById("events-loading");
     try {
-        const res = await fetch('events.json');
+        const res = await fetch("events.json?v=" + cacheBuster);
         const events = await res.json();
         const today = new Date();
         today.setHours(0, 0, 0, 0);
@@ -435,7 +394,6 @@ async function loadUpcomingEvents() {
         console.error(err);
     }
 }
-
 function displayEventsPage(pageNumber) {
     currentEventPage = pageNumber;
     const startIndex = (pageNumber - 1) * eventsPerPage;
@@ -486,21 +444,17 @@ function displayEventsPage(pageNumber) {
     document.getElementById("events-prev").disabled = pageNumber === 1;
     document.getElementById("events-next").disabled = pageNumber === totalPages;
 }
-
-// Add event listeners ONCE, outside the loading function
 document.getElementById("events-prev").addEventListener("click", () => {
     if (currentEventPage > 1) {
         displayEventsPage(currentEventPage - 1);
     }
 });
-
 document.getElementById("events-next").addEventListener("click", () => {
     const totalPages = Math.ceil(eventsData.length / eventsPerPage);
     if (currentEventPage < totalPages) {
         displayEventsPage(currentEventPage + 1);
     }
 });
-
 loadUpcomingEvents();
 // ════════════════════════════════════════════════════════════════
 // MODAL FUNCTIONS
@@ -556,22 +510,18 @@ const modalContent = {
         <p>Drop us a line at <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a> and let's make something great together!</p>
     `
 };
-
 function openModal(type) {
     document.getElementById("modal-content").innerHTML = modalContent[type];
     document.getElementById("modal-overlay").classList.add("active");
     document.body.style.overflow = "hidden";
 }
-
 function closeModal() {
     document.getElementById("modal-overlay").classList.remove("active");
     document.body.style.overflow = "";
 }
-
 document.addEventListener("keydown", function(e) {
     if (e.key === "Escape") closeModal();
 });
-
 // ════════════════════════════════════════════════════════════════
 // PRODUCT CAROUSEL
 // ════════════════════════════════════════════════════════════════
@@ -579,17 +529,14 @@ let currentImageIndex = 0;
 let productImages = [];
 let touchStartX = 0;
 let touchEndX = 0;
-
 async function loadProductOfDay() {
     try {
-        const res = await fetch("products.json");
+        const res = await fetch("products.json?v=" + cacheBuster);
         const products = await res.json();
         const p = products[dayOfYear % products.length];
-        
         document.getElementById("prod-badge").textContent = p.badge;
         document.getElementById("prod-name").textContent = p.name;
         document.getElementById("prod-desc").textContent = p.desc;
-        
         const ratingContainer = document.getElementById("prod-rating");
         if (p.rating && p.reviews) {
             const starPercentage = (p.rating / 5) * 100;
@@ -604,7 +551,6 @@ async function loadProductOfDay() {
         } else {
             ratingContainer.style.display = "none";
         }
-        
         let buttons = "";
         if (p.darts_corner_url) {
             buttons += "<a href=\"" + p.darts_corner_url + "\" class=\"btn btn-main\" target=\"_blank\" rel=\"noopener\">Darts Corner</a>";
@@ -613,18 +559,15 @@ async function loadProductOfDay() {
             buttons += "<a href=\"" + p.amazon_url + "\" class=\"btn btn-outline\" target=\"_blank\" rel=\"noopener\">View Today's Deal</a>";
         }
         document.getElementById("prod-buttons").innerHTML = buttons;
-        
         productImages = p.images;
         currentImageIndex = 0;
         initCarousel();
-
-        // Product share buttons
         document.getElementById("prod-share-x").onclick = () => shareX("Check out today's deal: " + p.name + " on Darts Daily!");
+        document.getElementById("prod-share-fb").onclick = () => shareFB("🛍️ Product of the Day: " + p.name + " — Check out today's top darts deal on Darts Daily!");
         document.getElementById("prod-share-wa").onclick = () => shareWA("Check out today's deal: " + p.name + " on Darts Daily!");
         document.getElementById("prod-share-reddit").onclick = () => shareReddit("Today's Darts Deal: " + p.name);
         document.getElementById("prod-share-telegram").onclick = () => shareTelegram("Check out today's deal: " + p.name);
         document.getElementById("prod-share-copy").onclick = function() { copyLink(this); };
-        
         document.getElementById("product-loading").style.display = "none";
         document.getElementById("product-content").style.display = "block";
     } catch (err) {
@@ -632,75 +575,59 @@ async function loadProductOfDay() {
         console.error(err);
     }
 }
-
 function initCarousel() {
     const track = document.getElementById("carousel-track");
     const dotsContainer = document.getElementById("carousel-dots");
-    
     track.innerHTML = "";
     dotsContainer.innerHTML = "";
-    
     productImages.forEach((imgSrc, index) => {
         const img = document.createElement("img");
         img.src = imgSrc;
         img.alt = "Product image " + (index + 1);
         track.appendChild(img);
-        
         const dot = document.createElement("span");
         dot.className = "carousel-dot" + (index === 0 ? " active" : "");
         dot.addEventListener("click", () => goToSlide(index));
         dotsContainer.appendChild(dot);
     });
-    
     document.getElementById("carousel-prev").addEventListener("click", prevSlide);
     document.getElementById("carousel-next").addEventListener("click", nextSlide);
-    
     const container = document.getElementById("carousel-container");
     container.addEventListener("touchstart", handleTouchStart, false);
     container.addEventListener("touchend", handleTouchEnd, false);
     container.addEventListener("mousedown", handleTouchStart, false);
     container.addEventListener("mouseup", handleTouchEnd, false);
 }
-
 function goToSlide(index) {
     currentImageIndex = index;
     updateCarousel();
 }
-
 function nextSlide() {
     currentImageIndex = (currentImageIndex + 1) % productImages.length;
     updateCarousel();
 }
-
 function prevSlide() {
     currentImageIndex = (currentImageIndex - 1 + productImages.length) % productImages.length;
     updateCarousel();
 }
-
 function updateCarousel() {
     const track = document.getElementById("carousel-track");
     const dots = document.querySelectorAll(".carousel-dot");
-    
     track.style.transform = `translateX(-${currentImageIndex * 100}%)`;
-    
     dots.forEach((dot, index) => {
         dot.classList.toggle("active", index === currentImageIndex);
     });
 }
-
 function handleTouchStart(e) {
     touchStartX = e.type.includes("mouse") ? e.clientX : e.touches[0].clientX;
 }
-
 function handleTouchEnd(e) {
     touchEndX = e.type.includes("mouse") ? e.clientX : e.changedTouches[0].clientX;
     handleSwipe();
 }
-
 function handleSwipe() {
     const swipeThreshold = 50;
     const diff = touchStartX - touchEndX;
-    
     if (Math.abs(diff) > swipeThreshold) {
         if (diff > 0) {
             nextSlide();
@@ -709,6 +636,4 @@ function handleSwipe() {
         }
     }
 }
-
 loadProductOfDay();
-loadUpcomingEvents();
