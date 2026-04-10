@@ -86,9 +86,8 @@ function shareX(text) {
 }
 function shareFB(customText) {
     var url = encodeURIComponent(window.location.href);
-    var text = encodeURIComponent(customText || "Check out Darts Daily!");
     window.open(
-        "https://www.facebook.com/sharer/sharer.php?u=" + url + "&quote=" + text,
+        "https://www.facebook.com/sharer/sharer.php?u=" + url,
         "_blank",
         "width=600,height=460"
     );
