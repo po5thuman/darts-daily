@@ -143,3 +143,25 @@
 /* GUIDE RESPONSIVE */
 @media (max-width: 768px) { .guide-hero h1 { font-size: 1.6rem; } .quick-answer-grid { grid-template-columns: 1fr; gap: 12px; } .quick-answer-value { font-size: 1.5rem; } .related-guides { grid-template-columns: 1fr; } .guides-grid { grid-template-columns: 1fr; } .guide-wrapper { padding: 24px 16px 40px; } .guide-cta { padding: 28px 20px; } .setup-step { gap: 14px; } .setup-step-number { width: 34px; height: 34px; font-size: 0.85rem; } }
 @media (max-width: 480px) { .guide-hero h1 { font-size: 1.4rem; } .guide-section h2 { font-size: 1.2rem; } .breadcrumbs { padding: 10px 16px; font-size: 0.7rem; } .guide-meta { flex-wrap: wrap; gap: 6px; } .key-measurement { flex
+/* REVIEW COMPONENTS */
+.review-verdict { margin-bottom: 16px; }
+.review-verdict-badge { display: inline-block; font-size: 0.7rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; background: var(--accent); color: #000; padding: 6px 14px; border-radius: 8px; }
+.review-score-box { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.review-score { font-size: 2.5rem; font-weight: 900; color: var(--accent); letter-spacing: -2px; line-height: 1; }
+.review-score span { font-size: 1rem; font-weight: 600; color: var(--muted); }
+.review-score-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); }
+/* PROS & CONS */
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+.pros, .cons { background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.pros { border-top: 3px solid var(--green); }
+.cons { border-top: 3px solid var(--red); }
+.pros-title, .cons-title { font-size: 0.75rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px; }
+.pros-title { color: var(--green); }
+.cons-title { color: var(--red); }
+.pros ul, .cons ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.pros ul li, .cons ul li { font-size: 0.85rem; color: var(--muted); line-height: 1.6; padding-left: 20px; position: relative; }
+.pros ul li::before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+.cons ul li::before { content: "✗"; position: absolute; left: 0; color: var(--red); font-weight: 700; }
+.pros ul li strong, .cons ul li strong { color: var(--text); }
+/* RESPONSIVE PROS/CONS */
+@media (max-width: 480px) { .pros-cons { grid-template-columns: 1fr; } }
