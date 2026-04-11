@@ -1,8 +1,4 @@
 // ════════════════════════════════════════════════════════════════
-// MAILERLITE FETCH
-// ════════════════════════════════════════════════════════════════
-fetch("https://assets.mailerlite.com/jsonp/2250599/forms/184084225168770566/takel");
-// ════════════════════════════════════════════════════════════════
 // DATE & TIME (UTC)
 // ════════════════════════════════════════════════════════════════
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -158,14 +154,6 @@ function showCopyFeedback(button) {
         button.classList.remove('copied');
         button.innerHTML = originalText;
     }, 2000);
-}
-// ════════════════════════════════════════════════════════════════
-// MAILERLITE SUCCESS CALLBACK
-// ════════════════════════════════════════════════════════════════
-function ml_webform_success_39547690() {
-    var $ = ml_jQuery || jQuery;
-    $('.ml-subscribe-form-39547690 .row-success').show();
-    $('.ml-subscribe-form-39547690 .row-form').hide();
 }
 // ════════════════════════════════════════════════════════════════
 // DAY OF YEAR CALCULATION (UTC)
