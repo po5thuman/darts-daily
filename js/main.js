@@ -2,24 +2,21 @@
 // MAILERLITE FETCH
 // ════════════════════════════════════════════════════════════════
 fetch("https://assets.mailerlite.com/jsonp/2250599/forms/184084225168770566/takel");
-
 // ════════════════════════════════════════════════════════════════
-// DATE & TIME
+// DATE & TIME (UTC)
 // ════════════════════════════════════════════════════════════════
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const now = new Date();
 document.getElementById("currentDate").textContent =
-    days[now.getDay()] + " " + now.getDate() + " " + months[now.getMonth()] + " " + now.getFullYear();
-
+    days[now.getUTCDay()] + " " + now.getUTCDate() + " " + months[now.getUTCMonth()] + " " + now.getUTCFullYear();
 // ════════════════════════════════════════════════════════════════
-// COUNTDOWN TIMER
+// COUNTDOWN TIMER (UTC)
 // ════════════════════════════════════════════════════════════════
 function updateCountdown() {
     const n = new Date();
-    const midnight = new Date();
-    midnight.setHours(24, 0, 0, 0);
-    const diff = midnight - n;
+    const midnightUTC = Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate() + 1, 0, 0, 0);
+    const diff = midnightUTC - n.getTime();
     const h = Math.floor(diff / 3600000);
     const m = Math.floor((diff % 3600000) / 60000);
     const s = Math.floor((diff % 60000) / 1000);
@@ -28,39 +25,52 @@ function updateCountdown() {
 }
 setInterval(updateCountdown, 1000);
 updateCountdown();
-
 // ════════════════════════════════════════════════════════════════
-// AUTO-REFRESH AT MIDNIGHT
+// AUTO-REFRESH AT MIDNIGHT (UTC)
 // ════════════════════════════════════════════════════════════════
 function scheduleRefresh() {
-    const now = new Date();
-    const midnight = new Date();
-    midnight.setHours(24, 0, 0, 0);
-    const msUntilMidnight = midnight - now;
+    const n = new Date();
+    const midnightUTC = Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate() + 1, 0, 0, 0);
+    const msUntilMidnight = midnightUTC - n.getTime();
     setTimeout(() => {
-        window.location.reload();
-    }, msUntilMidnight + 1000);
+        window.location.href = window.location.href.split('?')[0] + '?refresh=' + Date.now();
+    }, msUntilMidnight + 2000);
 }
 scheduleRefresh();
 
+// Fallback: check every 30 seconds if the UTC day has changed
+const pageLoadUTCDate = new Date().getUTCDate();
+setInterval(function() {
+    const currentUTCDate = new Date().getUTCDate();
+    if (currentUTCDate !== pageLoadUTCDate) {
+        window.location.href = window.location.href.split('?')[0] + '?refresh=' + Date.now();
+    }
+}, 30000);
 // ════════════════════════════════════════════════════════════════
-// STREAK COUNTER
+// STREAK COUNTER (UTC)
 // ════════════════════════════════════════════════════════════════
+function getUTCDateString() {
+    const n = new Date();
+    return n.getUTCFullYear() + "-" + String(n.getUTCMonth() + 1).padStart(2, "0") + "-" + String(n.getUTCDate()).padStart(2, "0");
+}
+function getYesterdayUTCDateString() {
+    const n = new Date();
+    n.setUTCDate(n.getUTCDate() - 1);
+    return n.getUTCFullYear() + "-" + String(n.getUTCMonth() + 1).padStart(2, "0") + "-" + String(n.getUTCDate()).padStart(2, "0");
+}
 function updateStreak() {
-    const today = new Date().toDateString();
+    const today = getUTCDateString();
     const lastVisit = localStorage.getItem("dartsDailyLastVisit");
     let streak = parseInt(localStorage.getItem("dartsDailyStreak") || "0");
     if (lastVisit !== today) {
-        const yesterday = new Date();
-        yesterday.setDate(yesterday.getDate() - 1);
-        streak = (lastVisit === yesterday.toDateString()) ? streak + 1 : 1;
+        const yesterday = getYesterdayUTCDateString();
+        streak = (lastVisit === yesterday) ? streak + 1 : 1;
         localStorage.setItem("dartsDailyStreak", streak);
         localStorage.setItem("dartsDailyLastVisit", today);
     }
     document.getElementById("streakCount").textContent = streak;
 }
 updateStreak();
-
 // ════════════════════════════════════════════════════════════════
 // THEME TOGGLE
 // ════════════════════════════════════════════════════════════════
@@ -76,7 +86,6 @@ function toggleTheme() {
         document.getElementById("themeLabel").textContent = "Light";
     }
 })();
-
 // ════════════════════════════════════════════════════════════════
 // SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
@@ -92,11 +101,9 @@ function shareFB(customText) {
         "width=600,height=460"
     );
 }
-
 function shareWA(text) {
     window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text + " " + window.location.href), "_blank");
 }
-
 // ════════════════════════════════════════════════════════════════
 // ADDITIONAL SHARE FUNCTIONS
 // ════════════════════════════════════════════════════════════════
@@ -152,7 +159,6 @@ function showCopyFeedback(button) {
         button.innerHTML = originalText;
     }, 2000);
 }
-
 // ════════════════════════════════════════════════════════════════
 // MAILERLITE SUCCESS CALLBACK
 // ════════════════════════════════════════════════════════════════
@@ -161,13 +167,17 @@ function ml_webform_success_39547690() {
     $('.ml-subscribe-form-39547690 .row-success').show();
     $('.ml-subscribe-form-39547690 .row-form').hide();
 }
-
 // ════════════════════════════════════════════════════════════════
-// DAY OF YEAR CALCULATION
+// DAY OF YEAR CALCULATION (UTC)
 // ════════════════════════════════════════════════════════════════
-const start = new Date(now.getFullYear(), 0, 0);
-const dayOfYear = Math.floor((now - start) / 86400000);
-
+function getDayOfYear() {
+    const n = new Date();
+    const start = Date.UTC(n.getUTCFullYear(), 0, 1);
+    const today = Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate());
+    const oneDay = 1000 * 60 * 60 * 24;
+    return Math.floor((today - start) / oneDay);
+}
+const dayOfYear = getDayOfYear();
 // ════════════════════════════════════════════════════════════════
 // PLAYER OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -219,7 +229,6 @@ async function loadPlayerOfDay() {
     }
 }
 loadPlayerOfDay();
-
 // ════════════════════════════════════════════════════════════════
 // TRIVIA OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -263,7 +272,6 @@ function checkTriviaAnswer(btn, selected, correct) {
     el.textContent = (parseInt(el.textContent.replace(",", "")) + 1).toLocaleString();
 }
 loadTriviaOfDay();
-
 // ════════════════════════════════════════════════════════════════
 // STAT OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -288,7 +296,6 @@ async function loadStatOfDay() {
     }
 }
 loadStatOfDay();
-
 // ════════════════════════════════════════════════════════════════
 // HISTORY OF THE DAY
 // ════════════════════════════════════════════════════════════════
@@ -313,7 +320,6 @@ async function loadHistoryOfDay() {
     }
 }
 loadHistoryOfDay();
-
 // ════════════════════════════════════════════════════════════════
 // LATEST NEWS
 // ════════════════════════════════════════════════════════════════
@@ -363,7 +369,6 @@ async function loadLatestNews() {
     }
 }
 loadLatestNews();
-
 // ════════════════════════════════════════════════════════════════
 // UPCOMING EVENTS
 // ════════════════════════════════════════════════════════════════
@@ -464,7 +469,6 @@ document.getElementById("events-next").addEventListener("click", () => {
     }
 });
 loadUpcomingEvents();
-
 // ════════════════════════════════════════════════════════════════
 // MODAL FUNCTIONS
 // ════════════════════════════════════════════════════════════════
@@ -531,7 +535,6 @@ function closeModal() {
 document.addEventListener("keydown", function(e) {
     if (e.key === "Escape") closeModal();
 });
-
 // ════════════════════════════════════════════════════════════════
 // PRODUCT CAROUSEL
 // ════════════════════════════════════════════════════════════════
