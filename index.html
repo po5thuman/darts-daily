@@ -39,10 +39,14 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest" />
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/guide.css">
 </head>
 <body>
     <header>
-        <div class="logo">Darts<span>Daily</span></div>
+        <div class="header-left">
+            <a href="/" class="logo">Darts<span>Daily</span></a>
+            <a href="/guides/" class="nav-link">Guides</a>
+        </div>
         <div class="header-right">
             <span class="date-text" id="currentDate"></span>
             <span class="streak-pill">🔥 <span id="streakCount">1</span> day streak</span>
@@ -359,6 +363,36 @@
                     </div>
                 </div>
             </div>
+            <!-- GUIDES & HOW-TOS -->
+            <div class="card full-width">
+                <div class="card-eyebrow">Guides & How-Tos</div>
+                <div class="section-title">Learn the Game</div>
+                <p class="newsletter-desc">Expert guides covering dart board setup, measurements, scoring, rules and equipment.</p>
+                <div class="guides-preview-list">
+                    <a href="/guides/dart-board-distance-and-height" class="guides-preview-item">
+                        <span class="guides-preview-icon">📏</span>
+                        <div>
+                            <div class="guides-preview-title">Dart Board Distance & Height — Official Setup Guide</div>
+                            <div class="guides-preview-desc">Official measurements, step-by-step setup and the diagonal method explained.</div>
+                        </div>
+                    </a>
+                    <div class="guides-preview-item" style="opacity:0.5; cursor:default;">
+                        <span class="guides-preview-icon">📊</span>
+                        <div>
+                            <div class="guides-preview-title">How to Score Darts</div>
+                            <div class="guides-preview-desc">Complete scoring guide for beginners — coming soon</div>
+                        </div>
+                    </div>
+                    <div class="guides-preview-item" style="opacity:0.5; cursor:default;">
+                        <span class="guides-preview-icon">🎯</span>
+                        <div>
+                            <div class="guides-preview-title">Best Dart Boards 2026</div>
+                            <div class="guides-preview-desc">Top picks reviewed and compared — coming soon</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/guides/" class="guides-view-all">View All Guides →</a>
+            </div>
             <!-- NEWSLETTER -->
             <div class="card full-width">
                 <div class="card-eyebrow">Newsletter</div>
@@ -382,6 +416,7 @@
     </div>
     <footer>
         <div class="footer-links">
+            <a href="/guides/">Guides</a>
             <a href="javascript:void(0)" onclick="openModal('about')">About</a>
             <a href="javascript:void(0)" onclick="openModal('contact')">Contact</a>
             <a href="javascript:void(0)" onclick="openModal('privacy')">Privacy Policy</a>
