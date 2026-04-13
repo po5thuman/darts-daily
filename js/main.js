@@ -33,7 +33,6 @@ function scheduleRefresh() {
     }, msUntilMidnight + 2000);
 }
 scheduleRefresh();
-
 // Fallback: check every 30 seconds if the UTC day has changed
 const pageLoadUTCDate = new Date().getUTCDate();
 setInterval(function() {
@@ -100,9 +99,6 @@ function shareFB(customText) {
 function shareWA(text) {
     window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(text + " " + window.location.href), "_blank");
 }
-// ════════════════════════════════════════════════════════════════
-// ADDITIONAL SHARE FUNCTIONS
-// ════════════════════════════════════════════════════════════════
 function shareReddit(text) {
     window.open("https://reddit.com/submit?url=" + pageURL + "&title=" + encodeURIComponent(text), "_blank", "width=600,height=460");
 }
@@ -457,72 +453,6 @@ document.getElementById("events-next").addEventListener("click", () => {
     }
 });
 loadUpcomingEvents();
-// ════════════════════════════════════════════════════════════════
-// MODAL FUNCTIONS
-// ════════════════════════════════════════════════════════════════
-const modalContent = {
-    about: `
-        <span class="modal-emoji">🎯</span>
-        <h2>About Darts Daily</h2>
-        <p>Darts Daily is your daily hub for everything professional darts. Built by a darts fan, for darts fans.</p>
-        <p>We cover the full PDC calendar — from the Premier League and European Tour to the World Championship — bringing you the latest news, tournament dates, player profiles, daily stats and trivia all in one place.</p>
-        <p>Whether you're looking for upcoming events near you, want to brush up on your darts knowledge or simply stay up to date with the latest from the oche — Darts Daily has you covered, every day.</p>
-    `,
-    contact: `
-        <span class="modal-emoji">✉️</span>
-        <h2>Contact</h2>
-        <p>We'd love to hear from you! Whether you have a suggestion, spotted something wrong or just want to talk darts — get in touch.</p>
-        <h3>Email</h3>
-        <p><a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a></p>
-        <h3>Response Time</h3>
-        <p>We aim to respond to all messages within 48 hours.</p>
-        <h3>News Tips</h3>
-        <p>Got a darts story or tip you think we should cover? Send it over to <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a> and we'll take a look.</p>
-    `,
-    privacy: `
-        <span class="modal-emoji">🔒</span>
-        <h2>Privacy Policy</h2>
-        <p style="color:var(--muted);font-size:0.8rem;">Last updated: April 2026</p>
-        <p>At Darts Daily (dartsdaily.net) we take your privacy seriously. This policy explains what data we collect and how we use it.</p>
-        <h3>1. Information We Collect</h3>
-        <p>Darts Daily uses Google Analytics to collect anonymous data about how visitors use our site. This includes pages visited, time spent on site and general location (country level). No personally identifiable information is collected.</p>
-        <h3>2. Cookies</h3>
-        <p>We use cookies solely for Google Analytics purposes. These cookies help us understand how our audience uses the site so we can improve the experience. You can disable cookies at any time through your browser settings.</p>
-        <h3>3. Third Party Links</h3>
-        <p>Darts Daily contains links to third party websites including Amazon and ticket providers. We are not responsible for the privacy practices of these external sites.</p>
-        <h3>4. Affiliate Links</h3>
-        <p>Some links on this site are affiliate links. This means we may earn a small commission if you make a purchase through them, at no extra cost to you. See our Affiliate Disclosure for more details.</p>
-        <h3>5. Contact</h3>
-        <p>If you have any questions about this privacy policy please contact us at <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a></p>
-    `,
-    affiliate: `
-        <span class="modal-emoji">💰</span>
-        <h2>Affiliate Disclosure</h2>
-        <p>Darts Daily participates in affiliate marketing programmes including the Amazon Associates Programme.</p>
-        <p>This means that some links on this site are affiliate links. If you click one of these links and make a purchase, we may earn a small commission — at absolutely no extra cost to you.</p>
-        <p>We only recommend products and services that we believe are relevant and useful to darts fans. Affiliate commissions help keep Darts Daily free and allow us to continue providing daily darts content.</p>
-        <p>All affiliate links on this site are clearly marked in line with Amazon Associates and ASA guidelines.</p>
-        <p>Thank you for supporting Darts Daily. 🎯</p>
-    `,
-    workWithUs: `
-        <span class="modal-emoji">🤝</span>
-        <h2>Work With Us</h2>
-        <p>We'd love to collaborate! Whether you're interested in advertising, sponsorships, or any partnership opportunities with Darts Daily, we'd be thrilled to hear from you.</p>
-        <p>Drop us a line at <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a> and let's make something great together!</p>
-    `
-};
-function openModal(type) {
-    document.getElementById("modal-content").innerHTML = modalContent[type];
-    document.getElementById("modal-overlay").classList.add("active");
-    document.body.style.overflow = "hidden";
-}
-function closeModal() {
-    document.getElementById("modal-overlay").classList.remove("active");
-    document.body.style.overflow = "";
-}
-document.addEventListener("keydown", function(e) {
-    if (e.key === "Escape") closeModal();
-});
 // ════════════════════════════════════════════════════════════════
 // PRODUCT CAROUSEL
 // ════════════════════════════════════════════════════════════════
