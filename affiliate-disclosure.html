@@ -234,4 +234,11 @@
         }
         (function() {
             const saved = localStorage.getItem("dartsDailyTheme");
-            if (saved === "light
+            if (saved === "light") {
+                document.body.classList.add("light");
+                document.getElementById("themeLabel").textContent = "Light";
+            }
+        })();
+    </script>
+</body>
+</html>
