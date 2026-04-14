@@ -41,6 +41,39 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/guide.css">
+    <!-- Schema Markup — Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Darts Daily",
+        "url": "https://www.dartsdaily.net",
+        "logo": "https://www.dartsdaily.net/images/og-image.jpg",
+        "description": "Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.",
+        "sameAs": [
+            "https://www.instagram.com/_dartsdaily_/",
+            "https://www.facebook.com/dartsdaily"
+        ]
+    }
+    </script>
+    <!-- Schema Markup — WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Darts Daily",
+        "url": "https://www.dartsdaily.net",
+        "description": "Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Darts Daily",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.dartsdaily.net/images/og-image.jpg"
+            }
+        }
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -424,6 +457,22 @@
             </div>
         </div>
     </div>
+
+    <noscript>
+        <div style="padding:40px 20px; max-width:800px; margin:0 auto;">
+            <h2>Welcome to Darts Daily</h2>
+            <p>Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.</p>
+            <h3>Our Guides</h3>
+            <ul>
+                <li><a href="/guides/dart-board-distance-and-height">Dart Board Distance & Height — Official Setup Guide</a></li>
+                <li><a href="/guides/how-to-score-darts">How to Score Darts — Complete Beginner's Guide</a></li>
+                <li><a href="/guides/best-dart-boards">7 Best Dart Boards 2026 — Expert Tested & Reviewed</a></li>
+                <li><a href="/guides/pdc-order-of-merit">PDC Order of Merit 2026 — Rankings & How It Works</a></li>
+            </ul>
+            <p>Please enable JavaScript to see daily player profiles, live events and trivia.</p>
+        </div>
+    </noscript>
+    
     <footer>
         <div class="footer-links">
             <a href="/">Home</a>
