@@ -1,0 +1,27 @@
+# Darts Daily
+> Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.
+
+## About
+Darts Daily is a darts website covering daily player profiles, stats, trivia, live events, news and expert guides. We cover the PDC tour, major events and everything darts.
+
+## Website
+- URL: https://www.dartsdaily.net
+- Language: English
+
+## Guides
+- [Dart Board Distance & Height](https://www.dartsdaily.net/guides/dart-board-distance-and-height): Official measurements and step-by-step setup guide for dart board height (5ft 8in) and throwing distance (7ft 9¼in).
+- [How to Score Darts](https://www.dartsdaily.net/guides/how-to-score-darts): Complete scoring guide covering 501, 301, Cricket, checkout charts and scoring tips for beginners.
+- [Best Dart Boards 2026](https://www.dartsdaily.net/guides/best-dart-boards): Top dartboards reviewed and compared including Winmau Blade 6, Target Aspar, ONE80 and budget options.
+- [PDC Order of Merit 2026](https://www.dartsdaily.net/guides/pdc-order-of-merit): Current top 32 rankings, how the ranking system works, prize money breakdown and qualification explained.
+
+## Pages
+- [Home](https://www.dartsdaily.net/)
+- [Guides](https://www.dartsdaily.net/guides/)
+- [About](https://www.dartsdaily.net/about)
+- [Contact](https://www.dartsdaily.net/contact)
+- [Privacy Policy](https://www.dartsdaily.net/privacy)
+- [Affiliate Disclosure](https://www.dartsdaily.net/affiliate-disclosure)
+
+## Social
+- [Instagram](https://www.instagram.com/_dartsdaily_/)
+- [Facebook](https://www.facebook.com/dartsdaily)
