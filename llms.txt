@@ -13,6 +13,7 @@ Darts Daily is a darts website covering daily player profiles, stats, trivia, li
 - [How to Score Darts](https://www.dartsdaily.net/guides/how-to-score-darts): Complete scoring guide covering 501, 301, Cricket, checkout charts and scoring tips for beginners.
 - [Best Dart Boards 2026](https://www.dartsdaily.net/guides/best-dart-boards): Top dartboards reviewed and compared including Winmau Blade 6, Target Aspar, ONE80 and budget options.
 - [PDC Order of Merit 2026](https://www.dartsdaily.net/guides/pdc-order-of-merit): Current top 32 rankings, how the ranking system works, prize money breakdown and qualification explained.
+- [Best Electronic Dart Boards 2026](https://www.dartsdaily.net/guides/best-electronic-dart-boards): The 7 best electronic and smart dart boards reviewed. Gran Board 3, GRANBOARD Dash, Arachnid Cricket Pro, Viper Ion and more compared.
 
 ## Pages
 - [Home](https://www.dartsdaily.net/)
