@@ -1,216 +1,895 @@
 [
-  {
-    "id": 1,
-    "badge": "#1 Best Seller",
-    "name": "Winmau Blade 6 Professional PDC Official Tournament Dartboard",
-    "desc": "As the official tournament dartboard of the PDC, the Winmau Blade 6 features ultra-thin Density Control™ wiring to maximize scoring potential and minimize bounce-outs. The high-density, self-healing sisal construction ensures exceptional durability, while the Rota-Lock leveling system allows for a perfectly secure and aligned setup on any wall. This professional-grade board delivers the ultimate combination of precision and longevity for competitive players.",
-    "rating": 4.7,
-    "reviews": 5299,
-    "amazon_url": "https://amzn.to/3Nc6E7S",
-    "images": [
-      "images/products/00001/1.jpg",
-      "images/products/00001/2.jpg",
-      "images/products/00001/3.jpg",
-      "images/products/00001/4.jpg",
-      "images/products/00001/5.jpg"
-    ],
-    "share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-  {
-	"id": 2,
-	"badge": "Beginner Friendly",
-	"name": "IgnatGames Professional Steel Tip Dart Set",
-	"desc": "Elevate your game with this 6-dart set featuring 20g knurled brass barrels and durable aluminum shafts for maximum precision. The kit includes 16 customizable GlideXPro flights and professional maintenance tools to keep your gear in top shape. All items are housed in a premium magnetic gift case, making it the perfect choice for players of all skill levels.",
-	"rating": 4.7,
-	"reviews": 12580,
-	"amazon_url": "https://amzn.to/4brwyg3",
-	"images": [
-		"images/products/00002/1.jpg",
-		"images/products/00002/2.jpg",
-		"images/products/00002/3.jpg",
-		"images/products/00002/4.jpg",
-		"images/products/00002/5.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 3,
-	"badge": "Pro Choice",
-	"name": "Target Darts Luke Littler Edge 95% Tungsten Swiss Point Set",
-	"desc": "Developed with World Champion Luke Littler, these 95% tungsten barrels feature a durable DLC blue coating and the patented Swiss Fire Point system for effortless customization. The kit includes integrated K-Flex flights for a consistent 90-degree throw and a premium Takoma wallet for professional storage. This 'The Nuke' player edition is precision-engineered to deliver elite performance and striking iridescent style.",
-	"rating": 4.8,
-	"reviews": 49,
-	"amazon_url": "https://amzn.to/4lBlqSH",
-	"images": [
-		"images/products/00003/1.jpg",
-		"images/products/00003/2.jpg",
-		"images/products/00003/3.jpg",
-		"images/products/00003/4.jpg",
-		"images/products/00003/5.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 4,
-	"badge": "Fan Favourite",
-	"name": "Target Darts Luke Littler Gen 1 Prodigy 90% Tungsten Swiss Point Set",
-	"desc": "Celebrate the rise of 'The Nuke' with these stunning 90% tungsten barrels featuring gold accents and advanced Pixel grip technology. The set includes Swiss Point DX laser-etched points for superior board entry and integrated purple K-Flex flights for a perfect 90-degree flight path. Complete with a premium gold tool and storage tin, this player edition kit offers elite stability and precision for every throw.",
-	"rating": 4.5,
-	"reviews": 289,
-	"amazon_url": "https://amzn.to/4cRVnnM",
-	"images": [
-		"images/products/00004/1.jpg",
-		"images/products/00004/2.jpg",
-		"images/products/00004/3.jpg",
-		"images/products/00004/4.jpg",
-		"images/products/00004/5.jpg",
-		"images/products/00004/6.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 5,
-	"badge": "Premium Pick",
-	"name": "Harrows Wolfram Infinity 97% Tungsten Steel Tip Dart Set",
-	"desc": "Crafted from high-grade 97% tungsten, these darts feature a slim tapered barrel with a CNC-machined intense grip for a precise and consistent release. The striking black titanium nitride and vivid red metallic coating offer superior durability and a bold professional look. Each set comes complete with Supergrip Fusion shafts and Prime Wolfram Infinity flights to ensure peak aerodynamic performance.",
-	"rating": 4.3,
-	"reviews": 194,
-	"amazon_url": "https://amzn.to/3ND3rP3",
-	"images": [
-		"images/products/00005/1.jpg",
-		"images/products/00005/2.jpg",
-		"images/products/00005/3.jpg",
-		"images/products/00005/4.jpg",
-		"images/products/00005/5.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 6,
-	"badge": "Best Seller",
-	"name": "Red Dragon Javelin Original Tungsten Dart Set",
-	"desc": "The Red Dragon Javelin series features precision-crafted tungsten barrels with a slim, streamlined profile for superior balance and accuracy. These darts are equipped with TRX shafts and durable Hardcore flights to ensure a stable trajectory and tighter groupings on every throw. An ergonomic grip provides a secure hold and enhanced control, making this set a reliable choice for players of all skill levels.",
-	"rating": 4.2,
-	"reviews": 4413,
-	"amazon_url": "https://amzn.to/3NHQvaz",
-	"images": [
-		"images/products/00006/1.jpg",
-		"images/products/00006/2.jpg",
-		"images/products/00006/3.jpg",
-		"images/products/00006/4.jpg",
-		"images/products/00006/5.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 7,
-	"badge": "Hot Deal",
-	"name": "Target Darts Hydro 90% Tungsten Steel Tip Swiss Point Dart Set",
-	"desc": "Engineered for fluid motion and a seamless throw, these 90% tungsten barrels feature finely milled radial grooves and contoured cuts for maximum tactile control. The set includes the patented Swiss Point system for effortless point changes and durable Pro Grip Tag shafts with high-performance Pro Ultra No. 6 flights. Designed with a streamlined straight barrel profile, this professional kit offers elite precision and a modern aesthetic for serious players.",
-	"rating": 4.5,
-	"reviews": 338,
-	"amazon_url": "https://amzn.to/4dwHAmK",
-	"images": [
-		"images/products/00007/1.jpg",
-		"images/products/00007/2.jpg",
-		"images/products/00007/3.jpg",
-		"images/products/00007/4.jpg",
-		"images/products/00007/5.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 8,
-	"badge": "Top Rated",
-	"name": "Target Darts Nathan Aspinall 95K Player Edition 95% Tungsten Dart Set",
-	"desc": "Crafted in collaboration with Nathan Aspinall, these front-loaded 95% tungsten barrels feature a multi-textured grip sequence and a striking black and red performance coating. The set is equipped with the Swiss Storm Point system for a seamless transition and K-Flex integrated flights to ensure consistent 90-degree alignment. Designed to reflect 'The Asp's' dynamic style, this professional kit delivers elite control and high-performance accuracy.",
-	"rating": 4.8,
-	"reviews": 101,
-	"amazon_url": "https://amzn.to/4bsNW3V",
-	"images": [
-		"images/products/00008/1.jpg",
-		"images/products/00008/2.jpg",
-		"images/products/00008/3.jpg",
-		"images/products/00008/4.jpg",
-		"images/products/00008/5.jpg",
-		"images/products/00008/6.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 9,
-	"badge": "Special Edition",
-	"name": "Target Darts Star Wars Darth Vader 95% Tungsten Steel Tip Dart Set",
-	"desc": "Harness the dark side with these 95% tungsten barrels featuring exclusive Darth Vader engravings and a high-performance black PVD coating for superior grip. The set comes equipped with seamless Swiss Storm points and integrated K-Flex flights in red and black for ultimate aerodynamic stability and reduced bounce-outs. Complete with a premium Darth Vader Takoma wallet and a Swiss Point keyring tool, this official collaboration combines iconic style with professional-grade engineering.",
-	"rating": 4.7,
-	"reviews": 34,
-	"amazon_url": "https://amzn.to/4cRuArQ",
-	"images": [
-		"images/products/00009/1.jpg",
-		"images/products/00009/2.jpg",
-		"images/products/00009/3.jpg",
-		"images/products/00009/4.jpg",
-		"images/products/00009/5.jpg",
-		"images/products/00009/6.jpg",
-		"images/products/00009/7.jpg",
-		"images/products/00009/8.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 10,
-	"badge": "Special Edition",
-	"name": "Target Darts Star Wars TIE Fighter 90% Tungsten Steel Tip Dart Set",
-	"desc": "Enter the Empire’s fleet with these precision-milled 90% tungsten bullet barrels, designed with a compact profile for a smooth release and consistent grip. The set features laser-etched Onyx Swiss Storm points for a seamless barrel-to-point transition and official Star Wars Pro Grip shafts with TIE Fighter Pro Ultra flights. Combining Imperial-inspired aesthetics with elite engineering, this official collaboration is built for stability and high-performance accuracy.",
-	"rating": 4.7,
-	"reviews": 82,
-	"amazon_url": "https://amzn.to/4uzRgmA",
-	"images": [
-		"images/products/00010/1.jpg",
-		"images/products/00010/2.jpg",
-		"images/products/00010/3.jpg",
-		"images/products/00010/4.jpg",
-		"images/products/00010/5.jpg",
-		"images/products/00010/6.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-    {
-	"id": 11,
-	"badge": "Special Edition",
-	"name": "Target Darts Star Wars X-Wing 90% Tungsten Steel Tip Dart Set",
-	"desc": "Take flight with the Rebel Alliance using these 90% tungsten radial barrels, precision-milled with grooves for a balanced feel and consistent grip. The set includes patented silver GRD Swiss Points with laser-etched board grip and official Star Wars Pro Grip shafts with detailed X-Wing artwork flights. Combining iconic starship design with world-class engineering, this official collaboration is built for elite accuracy and aerodynamic stability.",
-	"rating": 4.6,
-	"reviews": 92,
-	"amazon_url": "https://amzn.to/4uAbUTF",
-	"images": [
-		"images/products/00011/1.jpg",
-		"images/products/00011/2.jpg",
-		"images/products/00011/3.jpg",
-		"images/products/00011/4.jpg",
-		"images/products/00011/5.jpg",
-		"images/products/00011/6.jpg"
-	],
-	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  },
-  {
-  	"id": 12,
-  	"badge": "Great Value",
-  	"name": "CUESOUL Swift Series 98% Tungsten Super Slim Steel Tip Dart Set",
-  	"desc": "Boasting an industry-leading 98% tungsten composition, these super-slim barrels are precision-engineered for maximum durability and elite-level grouping. This comprehensive kit includes 12 pattern flights, nylon shafts, and aluminum flight savers, all housed in a premium carrying case with essential maintenance tools. Backed by a 12-month warranty, this set combines striking craftsmanship with the professional-grade consistency needed to elevate your game.",
-  	"rating": 4.6,
-  	"reviews": 747,
-  	"amazon_url": "https://amzn.to/3NlQskK",
-  	"images": [
-  		"images/products/00012/1.jpg",
-  		"images/products/00012/2.jpg",
-  		"images/products/00012/3.jpg",
-  		"images/products/00012/4.jpg",
-  		"images/products/00012/5.jpg",
-  		"images/products/00012/6.jpg",
-  		"images/products/00012/7.jpg",
-  		"images/products/00012/8.jpg"
-  	],
-  	"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
-  }
+	{
+		"id": 1,
+		"badge": "#1 Best Seller",
+		"name": "Winmau Blade 6 Professional PDC Official Tournament Dartboard",
+		"desc": "As the official tournament dartboard of the PDC, the Winmau Blade 6 features ultra-thin Density Control™ wiring to maximize scoring potential and minimize bounce-outs. The high-density, self-healing sisal construction ensures exceptional durability, while the Rota-Lock leveling system allows for a perfectly secure and aligned setup on any wall. This professional-grade board delivers the ultimate combination of precision and longevity for competitive players.",
+		"rating": 4.7,
+		"reviews": 5299,
+		"amazon_url": "https://amzn.to/3Nc6E7S",
+		"images": [
+		"images/products/00001/1.jpg",
+		"images/products/00001/2.jpg",
+		"images/products/00001/3.jpg",
+		"images/products/00001/4.jpg",
+		"images/products/00001/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 2,
+		"badge": "Beginner Friendly",
+		"name": "IgnatGames Professional Steel Tip Dart Set",
+		"desc": "Elevate your game with this 6-dart set featuring 20g knurled brass barrels and durable aluminum shafts for maximum precision. The kit includes 16 customizable GlideXPro flights and professional maintenance tools to keep your gear in top shape. All items are housed in a premium magnetic gift case, making it the perfect choice for players of all skill levels.",
+		"rating": 4.7,
+		"reviews": 12580,
+		"amazon_url": "https://amzn.to/4brwyg3",
+		"images": [
+			"images/products/00002/1.jpg",
+			"images/products/00002/2.jpg",
+			"images/products/00002/3.jpg",
+			"images/products/00002/4.jpg",
+			"images/products/00002/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 3,
+		"badge": "Pro Choice",
+		"name": "Target Darts Luke Littler Edge 95% Tungsten Swiss Point Set",
+		"desc": "Developed with World Champion Luke Littler, these 95% tungsten barrels feature a durable DLC blue coating and the patented Swiss Fire Point system for effortless customization. The kit includes integrated K-Flex flights for a consistent 90-degree throw and a premium Takoma wallet for professional storage. This 'The Nuke' player edition is precision-engineered to deliver elite performance and striking iridescent style.",
+		"rating": 4.8,
+		"reviews": 49,
+		"amazon_url": "https://amzn.to/4lBlqSH",
+		"images": [
+			"images/products/00003/1.jpg",
+			"images/products/00003/2.jpg",
+			"images/products/00003/3.jpg",
+			"images/products/00003/4.jpg",
+			"images/products/00003/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 4,
+		"badge": "Fan Favourite",
+		"name": "Target Darts Luke Littler Gen 1 Prodigy 90% Tungsten Swiss Point Set",
+		"desc": "Celebrate the rise of 'The Nuke' with these stunning 90% tungsten barrels featuring gold accents and advanced Pixel grip technology. The set includes Swiss Point DX laser-etched points for superior board entry and integrated purple K-Flex flights for a perfect 90-degree flight path. Complete with a premium gold tool and storage tin, this player edition kit offers elite stability and precision for every throw.",
+		"rating": 4.5,
+		"reviews": 289,
+		"amazon_url": "https://amzn.to/4cRVnnM",
+		"images": [
+			"images/products/00004/1.jpg",
+			"images/products/00004/2.jpg",
+			"images/products/00004/3.jpg",
+			"images/products/00004/4.jpg",
+			"images/products/00004/5.jpg",
+			"images/products/00004/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 5,
+		"badge": "Premium Pick",
+		"name": "Harrows Wolfram Infinity 97% Tungsten Steel Tip Dart Set",
+		"desc": "Crafted from high-grade 97% tungsten, these darts feature a slim tapered barrel with a CNC-machined intense grip for a precise and consistent release. The striking black titanium nitride and vivid red metallic coating offer superior durability and a bold professional look. Each set comes complete with Supergrip Fusion shafts and Prime Wolfram Infinity flights to ensure peak aerodynamic performance.",
+		"rating": 4.3,
+		"reviews": 194,
+		"amazon_url": "https://amzn.to/3ND3rP3",
+		"images": [
+			"images/products/00005/1.jpg",
+			"images/products/00005/2.jpg",
+			"images/products/00005/3.jpg",
+			"images/products/00005/4.jpg",
+			"images/products/00005/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 6,
+		"badge": "Best Seller",
+		"name": "Red Dragon Javelin Original Tungsten Dart Set",
+		"desc": "The Red Dragon Javelin series features precision-crafted tungsten barrels with a slim, streamlined profile for superior balance and accuracy. These darts are equipped with TRX shafts and durable Hardcore flights to ensure a stable trajectory and tighter groupings on every throw. An ergonomic grip provides a secure hold and enhanced control, making this set a reliable choice for players of all skill levels.",
+		"rating": 4.2,
+		"reviews": 4413,
+		"amazon_url": "https://amzn.to/3NHQvaz",
+		"images": [
+			"images/products/00006/1.jpg",
+			"images/products/00006/2.jpg",
+			"images/products/00006/3.jpg",
+			"images/products/00006/4.jpg",
+			"images/products/00006/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 7,
+		"badge": "Hot Deal",
+		"name": "Target Darts Hydro 90% Tungsten Steel Tip Swiss Point Dart Set",
+		"desc": "Engineered for fluid motion and a seamless throw, these 90% tungsten barrels feature finely milled radial grooves and contoured cuts for maximum tactile control. The set includes the patented Swiss Point system for effortless point changes and durable Pro Grip Tag shafts with high-performance Pro Ultra No. 6 flights. Designed with a streamlined straight barrel profile, this professional kit offers elite precision and a modern aesthetic for serious players.",
+		"rating": 4.5,
+		"reviews": 338,
+		"amazon_url": "https://amzn.to/4dwHAmK",
+		"images": [
+			"images/products/00007/1.jpg",
+			"images/products/00007/2.jpg",
+			"images/products/00007/3.jpg",
+			"images/products/00007/4.jpg",
+			"images/products/00007/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 8,
+		"badge": "Top Rated",
+		"name": "Target Darts Nathan Aspinall 95K Player Edition 95% Tungsten Dart Set",
+		"desc": "Crafted in collaboration with Nathan Aspinall, these front-loaded 95% tungsten barrels feature a multi-textured grip sequence and a striking black and red performance coating. The set is equipped with the Swiss Storm Point system for a seamless transition and K-Flex integrated flights to ensure consistent 90-degree alignment. Designed to reflect 'The Asp's' dynamic style, this professional kit delivers elite control and high-performance accuracy.",
+		"rating": 4.8,
+		"reviews": 101,
+		"amazon_url": "https://amzn.to/4bsNW3V",
+		"images": [
+			"images/products/00008/1.jpg",
+			"images/products/00008/2.jpg",
+			"images/products/00008/3.jpg",
+			"images/products/00008/4.jpg",
+			"images/products/00008/5.jpg",
+			"images/products/00008/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 9,
+		"badge": "Special Edition",
+		"name": "Target Darts Star Wars Darth Vader 95% Tungsten Steel Tip Dart Set",
+		"desc": "Harness the dark side with these 95% tungsten barrels featuring exclusive Darth Vader engravings and a high-performance black PVD coating for superior grip. The set comes equipped with seamless Swiss Storm points and integrated K-Flex flights in red and black for ultimate aerodynamic stability and reduced bounce-outs. Complete with a premium Darth Vader Takoma wallet and a Swiss Point keyring tool, this official collaboration combines iconic style with professional-grade engineering.",
+		"rating": 4.7,
+		"reviews": 34,
+		"amazon_url": "https://amzn.to/4cRuArQ",
+		"images": [
+			"images/products/00009/1.jpg",
+			"images/products/00009/2.jpg",
+			"images/products/00009/3.jpg",
+			"images/products/00009/4.jpg",
+			"images/products/00009/5.jpg",
+			"images/products/00009/6.jpg",
+			"images/products/00009/7.jpg",
+			"images/products/00009/8.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 10,
+		"badge": "Special Edition",
+		"name": "Target Darts Star Wars TIE Fighter 90% Tungsten Steel Tip Dart Set",
+		"desc": "Enter the Empire’s fleet with these precision-milled 90% tungsten bullet barrels, designed with a compact profile for a smooth release and consistent grip. The set features laser-etched Onyx Swiss Storm points for a seamless barrel-to-point transition and official Star Wars Pro Grip shafts with TIE Fighter Pro Ultra flights. Combining Imperial-inspired aesthetics with elite engineering, this official collaboration is built for stability and high-performance accuracy.",
+		"rating": 4.7,
+		"reviews": 82,
+		"amazon_url": "https://amzn.to/4uzRgmA",
+		"images": [
+			"images/products/00010/1.jpg",
+			"images/products/00010/2.jpg",
+			"images/products/00010/3.jpg",
+			"images/products/00010/4.jpg",
+			"images/products/00010/5.jpg",
+			"images/products/00010/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+		{
+		"id": 11,
+		"badge": "Special Edition",
+		"name": "Target Darts Star Wars X-Wing 90% Tungsten Steel Tip Dart Set",
+		"desc": "Take flight with the Rebel Alliance using these 90% tungsten radial barrels, precision-milled with grooves for a balanced feel and consistent grip. The set includes patented silver GRD Swiss Points with laser-etched board grip and official Star Wars Pro Grip shafts with detailed X-Wing artwork flights. Combining iconic starship design with world-class engineering, this official collaboration is built for elite accuracy and aerodynamic stability.",
+		"rating": 4.6,
+		"reviews": 92,
+		"amazon_url": "https://amzn.to/4uAbUTF",
+		"images": [
+			"images/products/00011/1.jpg",
+			"images/products/00011/2.jpg",
+			"images/products/00011/3.jpg",
+			"images/products/00011/4.jpg",
+			"images/products/00011/5.jpg",
+			"images/products/00011/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 12,
+		"badge": "Great Value",
+		"name": "CUESOUL Swift Series 98% Tungsten Super Slim Steel Tip Dart Set",
+		"desc": "Boasting an industry-leading 98% tungsten composition, these super-slim barrels are precision-engineered for maximum durability and elite-level grouping. This comprehensive kit includes 12 pattern flights, nylon shafts, and aluminum flight savers, all housed in a premium carrying case with essential maintenance tools. Backed by a 12-month warranty, this set combines striking craftsmanship with the professional-grade consistency needed to elevate your game.",
+		"rating": 4.6,
+		"reviews": 747,
+		"amazon_url": "https://amzn.to/3NlQskK",
+		"images": [
+			"images/products/00012/1.jpg",
+			"images/products/00012/2.jpg",
+			"images/products/00012/3.jpg",
+			"images/products/00012/4.jpg",
+			"images/products/00012/5.jpg",
+			"images/products/00012/6.jpg",
+			"images/products/00012/7.jpg",
+			"images/products/00012/8.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 13,
+		"badge": "New Release",
+		"name": "Shot! Ritchie Edhouse Steel Tip Dart Set",
+		"desc": "Experience professional performance from day one with the Shot! Ritchie Edhouse Steel Tip Dart Set, featuring high-quality 90% tungsten barrels handcrafted in New Zealand for a slim profile and stable balance. Precision-machined with clearly defined grip zones, these darts provide a secure, confidence-building hand position that helps all skill levels achieve consistent releases and improve accuracy. Each comprehensive set comes ready to play straight out of the box with tough shafts and No. 6 100 Micron flights designed for maximum lift and flight stability. Backed by Shot Darts' commitment to quality since 1970, this durable set includes a lifetime barrel warranty, making it an excellent investment for yourself or a perfect gift.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Tungsten-Handcrafted-Professional-Dartboard/dp/B0GRSBHK6M?dib=eyJ2IjoiMSJ9.um2k6OhMJHu--uV7M04df-vV1-cHv_scmcD-ZlHrH65rnMAXr5VzlG-9kxjrzhXWdgk-wcORB3kQP_TFycw1n3vDDhNQU6kDxjGRqmMUr68O9BxnWkHgnkw8seX3QYt8FFpm2BSZkygAbMNqRtnN_HB3uPzx8euPF1Iv7fQCtcq6NUWYBIuqXu_-Za6zPxVJWuFzqL1RVDwJauFyjq3esxVR0t8NWJiNXBOV043VwCjhmFjJla2VplIAztWFtvE7sqQ7MnqbKTn6dw8So3O-Yfa2l0KibKd3tU_wIYRQ87A.nQ3hnnMSItaCmY20oYvk6nSdfVl671n5BYf1OwREFpY&dib_tag=se&keywords=Shot%21%2BRitchie%2BEdhouse%2BSteel%2BTip%2BDart%2BSet-90%25%2BTungsten%2BBarrels%2BHandcrafted%2BProfessional%2BDart%2BSet&nsdOptOutParam=true&qid=1776250509&sr=8-6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=eaa60b706799b0e3a626580725e53fc3&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00013/1.jpg",
+			"images/products/00013/2.jpg",
+			"images/products/00013/3.jpg",
+			"images/products/00013/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 14,
+		"badge": "New Release",
+		"name": "Shot! Alchemy Volta Steel Tip Dart Set",
+		"desc": "Experience professional performance with the Shot! Alchemy Volta Steel Tip Dart Set, featuring hand-matched 90% tungsten barrels precision-machined in New Zealand to a tight tolerance of ±0.05gm for unparalleled consistency. The distinct barrel design offers clearly defined grip zones that act as natural reference points, ensuring repeatable hand placement and a predictable, controlled release. This complete set includes durable shafts and uniquely designed No. 6 100 Micron flights to provide maximum lift and stability for tighter groupings. Built for regular league and tournament play, all Shot tungsten dart barrels are backed by a lifetime warranty.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Handcrafted-Professional-Electronic-Dartboard/dp/B0GRSHTQ1H?dib=eyJ2IjoiMSJ9.LnPzkHeYkeLnRo0UaAYiiusvWufVAguIWCfd8IXiS2xgHw-a1HSrsqM6ZbLctkYhz49Xg-6kfpHSZsWeCH3qCfLKIdZ48STegO26VUrJK2Ebtg--J4wK3Y0lXuhHsmklmX3l8Gh7FIoI7W4RBqmruYLZXUY_ZC1T8C-OaaQdaY8Lj5yMIn5FePRGGlb9k6kmfXZEd4wDlaShyxA4ZQcEMiUV-AhUALzbjMkePEKuJJSC24uPdL1XAw2YdL6qvAj5RNMbVJLwB56ZAlTed-kO3kE8G60TXHMmyB8YyorpFgk.fppgdtjvGLl2DBY_oIPaEOCvg0kUjadRb9lUoGLo6SY&dib_tag=se&keywords=Shot%21+Alchemy+Volta+Steel+Tip+Dart+Set-90%25+Tungsten+Barrels+Handcrafted+Professional+Dart+Set&nsdOptOutParam=true&qid=1776250536&sr=8-6&linkCode=ll2&tag=amazon10ac2-20&linkId=23bd60dd6bae5b49d120f2717189b732&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00014/1.jpg",
+			"images/products/00014/2.jpg",
+			"images/products/00014/3.jpg",
+			"images/products/00014/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 15,
+		"badge": "New Release",
+		"name": "Shot! Alchemy Mythril Steel Tip Dart Set",
+		"desc": "Experience professional-grade performance from your very first throw with the Shot! Alchemy Mythril Steel Tip Dart Set, featuring high-quality 90% tungsten barrels handcrafted in New Zealand. Designed for players of all skill levels, the precision-machined barrels offer a slim profile and defined grip zones for a secure, consistent hand position and repeatable release. Engineered for smooth aerodynamics and controlled flight, this set helps beginners build confidence quickly and improve accuracy for tighter groupings. This complete set includes durable shafts and No. 6 100 Micron flights, with all tungsten barrels backed by Shot Darts' lifetime warranty.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Tungsten-Handcrafted-Professional-Dartboard/dp/B0GRSRBSZ6?dib=eyJ2IjoiMSJ9.9G3tbFZR_9dwa6o-dzNrq1JbY8dBwPERfH1VoCqwGcpgHw-a1HSrsqM6ZbLctkYhAU2IpxkSbY4Smd2yM3Coyq9SMnCYcef8UprA08v9yI0pmV12tjyjBkgLKcY_nRmVCO5X_2ot_Kxdq6GEmTYz0hyVGWhymmzqNQZbla6Ec4Ig7QDmA1TMdx-QgxPvkOvHM0qKXHh4iR1Cg5nhMdjz5uPD4dGhxiL26_Ul_K85lsaC24uPdL1XAw2YdL6qvAj57CIEx511-ID9o8cUYifaH-8Rc4LweGA5J0QSZvkLt18.W5sGIXqEdn3KOhSNXTanH-0oyBM26ygw6SPBiAJzswA&dib_tag=se&keywords=Shot%21%2BAlchemy%2BMythril%2BSteel%2BTip%2BDart%2BSet-90%25%2BTungsten%2BBarrels%2BHandcrafted%2BProfessional%2BDart%2BSet&nsdOptOutParam=true&qid=1776250460&sr=8-3&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=9dc97f5fa3c232e4365f546bbecfe459&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00015/1.jpg",
+			"images/products/00015/2.jpg",
+			"images/products/00015/3.jpg",
+			"images/products/00015/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 16,
+		"badge": "New Release",
+		"name": "Shot! Darts Steel Tip, Birds of Prey Kestrel",
+		"desc": "Achieve unparalleled performance with the handcrafted Birds of Prey Kestrel darts, made in New Zealand with center-balanced 90% tungsten barrels and backed by a lifetime guarantee. Precision-engineered for maximum aerodynamics and pinpoint accuracy, these arrows incorporate distinct grip zones designed to support your mastery of every throw, ensuring tight groupings and enhanced scoring potential. Each barrel is meticulously hand-weighted to a tight tolerance of +/-0.05gm, allowing for the consistent, reliable outcomes you demand on your bristle board. Complete with range-themed flights and durable shafts, this high-performance set is a ready-to-play investment back by decades of Shot dedication—what new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Birds-Kestrel-Steel-Darts/dp/B0CJQT2822?dib=eyJ2IjoiMSJ9.DzwNkjD24dZtVv6ULJv_3CZUNM5GjhJZhuefnH8XAH4o8hArpeKjaMBSRa4j9EXA49M1HUDkkQkaZzUZcBVyBmUJumOeCSD6VPxdbiD4IQJg3ni8iOp2YKLo8MKUs7XCWdYXTk3_DPiYoLras7M0w-N98y7R9l1xb3gyvXXF4FclerqVHc9uIClr_7QJ3aQbcxEOPyLjuCp2OH9Gj0tPvLXsPeYLnJAh1SwzngucqU6BsXqwUlvyLRn02OkSgD8R3Ek5QfS_MPUmhAoVOrGyUJPQh74YkE-ZLXPr84jvjnw.LZlVhjRn9YdWZlUu0ul3N6fHzWya-PomPxq7mk4wZnE&dib_tag=se&keywords=shot%2Bdarts%2Bsteel%2Btip&qid=1776253906&sr=8-7&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=ce004a08b54c998fcf2b9ec1d41a7d0e&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00016/1.jpg",
+			"images/products/00016/2.jpg",
+			"images/products/00016/3.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 17,
+		"badge": "New Release",
+		"name": "Shot! Alchemy Auro Steel Tip Dart Set",
+		"desc": "Achieve professional results with the Shot! Alchemy Auro Steel Tip Dart Set, featuring hand-matched 95% tungsten barrels precision-machined in New Zealand to a tight tolerance of ±0.05gm for ultimate weight and balance consistency. The barrels are designed with clearly defined grip zones that act as natural reference points, supporting repeatable hand placement and a controlled release for tighter groupings. This high-performance set is ready for league and tournament play right out of the box, complete with tough shafts and uniquely designed No. 6 100 Micron flights. Backed by Shot Darts' promise since 1970, all tungsten barrels include a lifetime warranty, ensuring long-term durability and confidence in every throw.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Tungsten-Handcrafted-Professional-Dartboard/dp/B0GRSBX4BR?dib=eyJ2IjoiMSJ9.22N_z6cWD8sETGtmw6Re29bIkwmYPHwPQFc2JPC3Iyf9x3S4EM897LXAf0y5TuPFf0HrjKhDFyBtwll2JxljsLqPvRLiu0oUo8Wzr_GU3U85me5P3OqRRkSA_FVPFR3jWlY0IJdpVF2j4zwnWvQSN6PATT5Jcxktn_L_skpN7foFISmbJe1ob8_EBEIER8LZhRKLtZDptg35ZYYxpjtNXCUV-AhUALzbjMkePEKuJJQsmPkF5vr0tWDukc0KhxY72AuW_aMFtDAMyNga5dgZdUE8G60TXHMmyB8YyorpFgk.f-ckUu71TbFN8sLWSAnIaZszQQ4y70nn83aL4yqDzbo&dib_tag=se&keywords=Shot%21%2BAlchemy%2BAuro%2BSteel%2BTip%2BDart%2BSet-95%25%2BTungsten%2BBarrels%2BTungsten%2BBarrels%2BHandcrafted%2BProfessional%2BDart%2BSet&nsdOptOutParam=true&qid=1776250720&sr=8-1&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=b44da83f1da4da5f2bc640604d37603b&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00017/1.jpg",
+			"images/products/00017/2.jpg",
+			"images/products/00017/3.jpg",
+			"images/products/00017/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 18,
+		"badge": "New Release",
+		"name": "Shot! Future Knights St George Steel Tip Dart Set",
+		"desc": "Achieve masterful performance with the Shot! Future Knights St George Steel Tip Dart Set, featuring premium 95% tungsten barrels handcrafted in New Zealand. Designed for all skill levels, from beginners to professionals, these darts incorporate clearly defined grip zones that serve as fixed reference points for a more consistent throw. Engineered using cutting-edge CAD software for maximum aerodynamics and pinpoint accuracy, this set helps players improve their targeting for tighter groupings on the board. Each match-weighted set comes complete with uniquely designed flights and durable shafts, and the tungsten barrels are backed by a lifetime guarantee.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://amzn.to/4tOE6RG",
+		"images": [
+			"images/products/00018/1.jpg",
+			"images/products/00018/2.jpg",
+			"images/products/00018/3.jpg",
+			"images/products/00018/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 19,
+		"badge": "New Release",
+		"name": "Shot! Pro Series Carl Sneyd Steel Tip Darts Set",
+		"desc": "Experience professional-grade performance with the Shot! Pro Series Carl Sneyd Steel Tip Darts Set, featuring handcrafted 90% tungsten barrels made in New Zealand. Engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels feature clearly defined grip zones that act as fixed reference points, providing a secure feel for beginners and the high-scoring consistency professionals demand. This complete set includes durable shafts and individually designed flights that match the unique range theme, making it an excellent gift and a ready-to-play choice for players of all skill levels.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://amzn.to/48LRf5K",
+		"images": [
+			"images/products/00019/1.jpg",
+			"images/products/00019/2.jpg",
+			"images/products/00019/3.jpg",
+			"images/products/00019/4.jpg",
+			"images/products/00019/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 20,
+		"badge": "New Release",
+		"name": "Shot! Pro Series Charlie Murphy Steel Tip Darts Set",
+		"desc": "Experience professional performance with the Shot! Pro Series Charlie Murphy Steel Tip Darts Set, featuring handcrafted 90% tungsten barrels made in New Zealand. Engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts offer pinpoint accuracy and maximum aerodynamics for consistent scoring and tight groupings. Designed for all skill levels, the barrels include clearly defined grip zones that act as natural reference points, providing a secure feel for beginners and the high-scoring consistency professional players demand. This complete set includes individually designed flights and durable shafts so you are ready to play right away.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://amzn.to/4csOO9i",
+		"images": [
+			"images/products/00020/1.jpg",
+			"images/products/00020/2.jpg",
+			"images/products/00020/3.jpg",
+			"images/products/00020/4.jpg",
+			"images/products/00020/5.jpg",
+			"images/products/00020/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 21,
+		"badge": "New Release",
+		"name": "Shot! Pro Series Bradley Brooks Gen 2 Steel Tip Darts Set",
+		"desc": "Achieve professional results with the Shot! Pro Series Bradley Brooks Gen 2 Steel Tip Darts Set, featuring handcrafted 90% tungsten barrels made in New Zealand. Engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts offer pinpoint accuracy and maximum aerodynamics for consistent scoring and tight groupings. Designed for all skill levels, the barrels include clearly defined grip zones that act as natural reference points, providing a secure feel for beginners and the high-scoring consistency professional players demand. This complete set includes individually designed flights and durable shafts, making it ready to play right away and a perfect gift.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://amzn.to/4tnnctx",
+		"images": [
+			"images/products/00021/1.jpg",
+			"images/products/00021/2.jpg",
+			"images/products/00021/3.jpg",
+			"images/products/00021/4.jpg",
+			"images/products/00021/5.jpg",
+			"images/products/00021/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 22,
+		"badge": "New Release",
+		"name": "Shot! Pro Series Nicole Regnaud Steel Tip Darts Set",
+		"desc": "Experience professional-grade performance with the Shot! Pro Series Nicole Regnaud Steel Tip Darts Set, featuring handcrafted 90% tungsten barrels made in New Zealand. Engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for maximum aerodynamics and pinpoint accuracy. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for beginners and the high-scoring consistency professional players demand. This complete set includes individually designed flights and durable shafts, making it ready to play right away and a perfect gift for any darts enthusiast.",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://amzn.to/426lJM7",
+		"images": [
+			"images/products/00022/1.jpg",
+			"images/products/00022/2.jpg",
+			"images/products/00022/3.jpg",
+			"images/products/00022/4.jpg",
+			"images/products/00022/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 23,
+		"badge": "New Release",
+		"name": "Shot! Badlands Tova Steel Tip Dart Set",
+		"desc": "Prepare to unlock professional-grade accuracy with the Shot! Badlands Tova Steel Tip Dart Set, featuring hand-weighted 90% tungsten barrels made in New Zealand and engineered using advanced CAD software for maximum aerodynamics and tight grouping. These precision-machined barrels incorporate clearly defined grip zones that act as natural reference points, providing a level of consistency and control you have to feel to believe. Complete with durable shafts and individually designed range-themed flights that set you apart from the competition, this set is a ready-to-play investment back by a lifetime guarantee. Are you ready to refine every throw and master your game?",
+		"rating": 5,
+		"reviews": 4,
+		"amazon_url": "https://amzn.to/4mr2y96",
+		"images": [
+			"images/products/00023/1.jpg",
+			"images/products/00023/2.jpg",
+			"images/products/00023/3.jpg",
+			"images/products/00023/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 24,
+		"badge": "New Release",
+		"name": "Shot! Celt Merlin Steel Tip Dart Set",
+		"desc": "Experience a new standard of accuracy with the Shot! Celt Merlin Steel Tip Dart Set, handcrafted in New Zealand with ultra-premium 95% tungsten barrels for an exceptionally refined and balanced feel. The precision-machined barrels incorporate clearly defined grip zones that act as natural reference points, supporting a consistent, repeatable throw and tighter grouping on the board. Engineered using advanced CAD software and rigorous testing, this match-weighted set is ready for competition right out of the box, complete with durable shafts and range-themed flights. Backed by Shot Darts' commitment to performance and a lifetime barrel warranty, this set is an essential upgrade for players looking to dominate the game. Are you ready to discover the magic?",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://amzn.to/4tHiVkm",
+		"images": [
+			"images/products/00024/1.jpg",
+			"images/products/00024/2.jpg",
+			"images/products/00024/3.jpg",
+			"images/products/00024/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 25,
+		"badge": "New Release",
+		"name": "Shot! Badlands Rustin Steel Tip Dart Set",
+		"desc": "Achieve unparalleled consistency and master your game with the Shot! Badlands Rustin Steel Tip Dart Set, handcrafted in New Zealand with premium 90% tungsten barrels and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and rigorous testing, these darts are match-weighted to a tight tolerance of +/-0.05gm for pinpoint accuracy and tighter groupings on the board. The barrels feature clearly defined grip zones that act as fixed reference points, providing a secure feel for players of all skill levels. Complete with durable shafts and range-themed flights designed to set you apart from the competition, this high-performance set is a ready-to-play investment. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://amzn.to/4myxnJc",
+		"images": [
+			"images/products/00025/1.jpg",
+			"images/products/00025/2.jpg",
+			"images/products/00025/3.jpg",
+			"images/products/00025/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 26,
+		"badge": "New Release",
+		"name": "Shot! Gnarly Smasha Steel Tip Dart Set",
+		"desc": "Prepare to redefine your accuracy with the Shot! Gnarly Smasha Steel Tip Dart Set, handcrafted in New Zealand with premium 90% tungsten barrels and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 1,
+		"amazon_url": "https://amzn.to/3QqIwzH",
+		"images": [
+			"images/products/00026/1.jpg",
+			"images/products/00026/2.jpg",
+			"images/products/00026/3.jpg",
+			"images/products/00026/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 27,
+		"badge": "New Release",
+		"name": "Shot! Badlands The Sheriff Steel Tip Dart Set",
+		"desc": "Prepare to redefine your accuracy with the Shot! Badlands The Sheriff Steel Tip Dart Set, handcrafted in New Zealand with premium 90% tungsten barrels and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for maximum aerodynamics and pinpoint accuracy. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Badlands-Handcrafted-Professional-Dartboard/dp/B0FV56SRXL?crid=POHJRF350BDQ&dib=eyJ2IjoiMSJ9.hNK0DggTLWpePF_TFvViPQBHy9ThiR18BzaF6b611sjDTUEytT7q0jfoveyNm4wx6uuleDLthSle5Vl8FR4sKXB7mLZb_faomLdkHor5j9TPOmFKZzamzwUwlnMI1vtdboi99lPMmjaWAphsIeet29Efoq9TUThfYB6uyiX7ju6ISGRcWhzJmNT3AnYJ3gf2rNymOXFjXSRiNjzNJNVStIpLp8k02McNOld0i-pxh5LRatzr-keWPo05UgrS2PUmjNq4R47-Wz8VEdYc2Jkt_u8Rc4LweGA5J0QSZvkLt18.irPIy36IZ256wrkIPWhsdEiP3WdiaijQ-31xsBo9kyE&dib_tag=se&keywords=Shot%21%2BBadlands%2BThe%2BSheriff%2BSteel%2BTip%2BDart%2BSet&nsdOptOutParam=true&qid=1776250912&sprefix=shot%2Bbadlands%2Bthe%2Bsheriff%2Bsteel%2Btip%2Bdart%2Bset%2Caps%2C240&sr=8-3&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=42f60e21f8333490f10a1204067a3642&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00027/1.jpg",
+			"images/products/00027/2.jpg",
+			"images/products/00027/3.jpg",
+			"images/products/00027/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 28,
+		"badge": "New Release",
+		"name": "Shot! Pro Series Barbora Hospodarska Steel Tip Darts Set",
+		"desc": "Prepare to redefine your accuracy with the Shot! Pro Series Barbora Hospodarska Steel Tip Darts Set, handcrafted in New Zealand with premium 90% tungsten barrels and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Hospodarska-Handcrafted-Professional-Dartboard/dp/B0FG1VCV3F?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.um2k6OhMJHu--uV7M04df71u83fiQAKi-KQFFBswS2jVvICko8AuFZp-HCw0OGhML2VC0C5s8Vjju5zDoYR86vCU1zyrohSQ-9OraswwD-ZQ_h3eknjJQ3CtHmjr2VjmqkRPr-n34QhG1toKcGR3anGrke7NqZqYuvS5v_1q1MBw1ZMoYiK3O-r5jGouTjn8nEwSGY8xBBNiMvI0dfK6INje-iFrRTkF6gy1_S9GOE6wWU09Enh89bFgEsPLI_D60U7SrYC6hpb019j5pmdbMzfNQx6Vh1js5ecF-kn7bsE.d_FvACEu-TGyqA4nKnZMdf6_1PMvKe49DStS3FpEUa4&dib_tag=se&keywords=darts&qid=1776247595&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-36&linkCode=ll2&tag=amazon10ac2-20&linkId=b47340c99e19510846c62e6f24125804&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00028/1.jpg",
+			"images/products/00028/2.jpg",
+			"images/products/00028/3.jpg",
+			"images/products/00028/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 29,
+		"badge": "New Release",
+		"name": "Shot! Pro Series Mindaugas Barauskas Steel Tip Dart Set",
+		"desc": "Prepare to redefine your control with the Shot Pro Series-Mindaugas Barauskas Steel Tip Dart Set, featuring high-quality 90% tungsten barrels designed for maximum grip, ultimate control, and consistency. These missile-shaped darts possess a smooth tapered nose for reduced deflection and tight groupings, while precision axial cuts provide a solid reference point ideal for generating spin on your throw. The aggressive alternating ring grips and clever axial milling reach Shot's highest grip level at 5/5, ensuring maximum traction for players who command absolute control. Are you ready to command a higher grip level on your game?",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Shot-Pro-Mindaugas-Barauskas-Darts/dp/B0988BM76Y?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.um2k6OhMJHu--uV7M04df71u83fiQAKi-KQFFBswS2jVvICko8AuFZp-HCw0OGhML2VC0C5s8Vjju5zDoYR86vCU1zyrohSQ-9OraswwD-ZQ_h3eknjJQ3CtHmjr2VjmqkRPr-n34QhG1toKcGR3anGrke7NqZqYuvS5v_1q1MBw1ZMoYiK3O-r5jGouTjn8nEwSGY8xBBNiMvI0dfK6INje-iFrRTkF6gy1_S9GOE6wWU09Enh89bFgEsPLI_D60U7SrYC6hpb019j5pmdbMzfNQx6Vh1js5ecF-kn7bsE.d_FvACEu-TGyqA4nKnZMdf6_1PMvKe49DStS3FpEUa4&dib_tag=se&keywords=darts&qid=1776247595&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-38&linkCode=ll2&tag=amazon10ac2-20&linkId=8e0432294bfe434fcab7085d378b113d&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00029/1.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 30,
+		"badge": "Beginner Friendly",
+		"name": "Shot! Darts Steel Tip, Zen Satori",
+		"desc": "Achieve unparalleled performance with the Shot Darts Steel Tip, Zen Satori 90% Tungsten Darts Set, featuring centre-balanced barrels handcrafted in New Zealand for maximum aerodynamics and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these professional-grade darts are designed for pinpoint targeting and tighter groupings. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 4.6,
+		"reviews": 29,
+		"amazon_url": "https://www.amazon.com/Shot-Satori-Weighted-90-Tungsten-Barrels/dp/B01KEG3OCA?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.K2UcwKVivKK7TmjM3TpAf08qm5lIirxGk-taC_Bl0WORn2Gct85i8TWd6ILXAxbvFs-tnShezYuYavhqf1btOuxb4BpEallr2tl1peufGyDoCHn-G_Pv_YtGrQQVl91BF4Jse-KPH7C-gPpI27_Qbm4CPmhHw5I37Xct0H9dGk14PJgEtmvTL8o702qKoMy3mmp4Y-8kQqc0z9FVg6AnD5YwujRqFGA4MT-anonBvGpAwYE-pU9rZPDVnwyXBUuO.QJupePjn6lDcS_sMpiOcY-z2S5W1jSG8c11CSWtLhvw&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-112&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=9a5771c4f46682e415e932d88bc91add&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00030/1.jpg",
+			"images/products/00030/2.jpg",
+			"images/products/00030/3.jpg",
+			"images/products/00030/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 31,
+		"badge": "Pro Choice",
+		"name": "Shot! Future Knights Hachette 90% Tungsten Pro Steel Tip Darts Set",
+		"desc": "Prepare to redefine your accuracy with the Shot! Future Knights Hachette 90% Tungsten Pro Steel Tip Darts Set, handcrafted in New Zealand and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these rear-weighted darts are designed for maximum aerodynamics and pinpoint targeting. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and individually designed range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 0,
+		"amazon_url": "https://www.amazon.com/Knights-Hachette-Tungsten-Professional-Dartboard/dp/B0F17TJQ5P?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.um2k6OhMJHu--uV7M04df71u83fiQAKi-KQFFBswS2jVvICko8AuFZp-HCw0OGhML2VC0C5s8Vjju5zDoYR86vCU1zyrohSQ-9OraswwD-ZQ_h3eknjJQ3CtHmjr2VjmqkRPr-n34QhG1toKcGR3anGrke7NqZqYuvS5v_1q1MBw1ZMoYiK3O-r5jGouTjn8nEwSGY8xBBNiMvI0dfK6INje-iFrRTkF6gy1_S9GOE6wWU09Enh89bFgEsPLI_D60U7SrYC6hpb019j5pmdbMzfNQx6Vh1js5ecF-kn7bsE.d_FvACEu-TGyqA4nKnZMdf6_1PMvKe49DStS3FpEUa4&dib_tag=se&keywords=darts&qid=1776247595&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-44&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=eab7ee07b884cbbfba8f88f3a3b3c3c7&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00031/1.jpg",
+			"images/products/00031/2.jpg",
+			"images/products/00031/3.jpg",
+			"images/products/00031/4.jpg",
+			"images/products/00031/5.jpg",
+			"images/products/00031/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 32,
+		"badge": "Fan Favourite",
+		"name": "Shot! Darts Future Knights Iron Soul Steel Tip Dart Set",
+		"desc": "Prepare to redefine your accuracy with the Shot! Future Knights Iron Soul Steel Tip Dart Set, handcrafted in New Zealand with premium 90% tungsten barrels and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 4,
+		"amazon_url": "https://www.amazon.com/Knights-Ironsoul-Tungsten-Professional-Dartboard/dp/B0F17R1H97?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.um2k6OhMJHu--uV7M04df71u83fiQAKi-KQFFBswS2jVvICko8AuFZp-HCw0OGhML2VC0C5s8Vjju5zDoYR86vCU1zyrohSQ-9OraswwD-ZQ_h3eknjJQ3CtHmjr2VjmqkRPr-n34QhG1toKcGR3anGrke7NqZqYuvS5v_1q1MBw1ZMoYiK3O-r5jGouTjn8nEwSGY8xBBNiMvI0dfK6INje-iFrRTkF6gy1_S9GOE6wWU09Enh89bFgEsPLI_D60U7SrYC6hpb019j5pmdbMzfNQx6Vh1js5ecF-kn7bsE.d_FvACEu-TGyqA4nKnZMdf6_1PMvKe49DStS3FpEUa4&dib_tag=se&keywords=darts&qid=1776247595&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-43&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=8596440a1b4e158accfdbcd7c3498aa4&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00032/1.jpg",
+			"images/products/00032/2.jpg",
+			"images/products/00032/3.jpg",
+			"images/products/00032/4.jpg",
+			"images/products/00032/5.jpg",
+			"images/products/00032/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 33,
+		"badge": "Premium Pick",
+		"name": "Shot! Darts Future Knights Dreadheart Steel Tip Dart Set",
+		"desc": "Prepare to redefine your accuracy with the Shot! Future Knights Dreadheart Steel Tip Dart Set, handcrafted in New Zealand with premium 90% tungsten barrels and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 4.8,
+		"reviews": 7,
+		"amazon_url": "https://www.amazon.com/Knights-Dreadheart-Tungsten-Professional-Dartboard/dp/B0F184GX7Q?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.um2k6OhMJHu--uV7M04df71u83fiQAKi-KQFFBswS2jVvICko8AuFZp-HCw0OGhML2VC0C5s8Vjju5zDoYR86vCU1zyrohSQ-9OraswwD-ZQ_h3eknjJQ3CtHmjr2VjmqkRPr-n34QhG1toKcGR3anGrke7NqZqYuvS5v_1q1MBw1ZMoYiK3O-r5jGouTjn8nEwSGY8xBBNiMvI0dfK6INje-iFrRTkF6gy1_S9GOE6wWU09Enh89bFgEsPLI_D60U7SrYC6hpb019j5pmdbMzfNQx6Vh1js5ecF-kn7bsE.d_FvACEu-TGyqA4nKnZMdf6_1PMvKe49DStS3FpEUa4&dib_tag=se&keywords=darts&qid=1776247595&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-46&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=5bd7d2f4d7b52eeedd5e9b318d589a23&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00033/1.jpg",
+			"images/products/00033/2.jpg",
+			"images/products/00033/3.jpg",
+			"images/products/00033/4.jpg",
+			"images/products/00033/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 34,
+		"badge": "Best Seller",
+		"name": "Shot! Gnarly Shredda Soft Tip Darts Set",
+		"desc": "Prepare to redefine your accuracy with the Shot! Gnarly Shredda Soft Tip Darts Set, featuring premium 90% tungsten centre-weighted barrels handcrafted in New Zealand and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint aerodynamics and tight groupings. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this high-performance set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 3,
+		"amazon_url": "https://www.amazon.com/Shot-Tungsten-Weighted-26gm-Professional-Dartboard/dp/B0DMQDPYHR?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-52&xpid=EeLcD14BKMav6&linkCode=ll2&tag=amazon10ac2-20&linkId=4e80b4e074208291d88b180ffa7a2080&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00034/1.jpg",
+			"images/products/00034/2.jpg",
+			"images/products/00034/3.jpg",
+			"images/products/00034/4.jpg",
+			"images/products/00034/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 35,
+		"badge": "Hot Deal",
+		"name": "Shot! Darts Warrior Taiaha 90% Tungsten Steel tip Barrels",
+		"desc": "Achieve unparalleled performance with the Shot! Darts Warrior Taiaha 90% Tungsten Steel Tip Darts Set, featuring balanced barrels handcrafted in New Zealand for maximum aerodynamics and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these professional-grade darts are designed for pinpoint targeting and tighter groupings. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 4.5,
+		"reviews": 14,
+		"amazon_url": "https://www.amazon.com/Shot-Tungsten-Aerodynamics-Handcrafted-Professional/dp/B0DK15LM98?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-53&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=2a8436d51434f97e591c3ebc6a993b92&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00035/1.jpg",
+			"images/products/00035/2.jpg",
+			"images/products/00035/3.jpg",
+			"images/products/00035/4.jpg",
+			"images/products/00035/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 36,
+		"badge": "Top Rated",
+		"name": "Shot! Darts Warrior Awe 90% Tungsten Steel tip Barrels",
+		"desc": "Achieve unparalleled performance with the Shot! Darts Warrior Awe 90% Tungsten Steel Tip Darts Set, featuring balanced barrels handcrafted in New Zealand for maximum aerodynamics and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these professional-grade darts are designed for pinpoint targeting and tighter groupings. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 4,
+		"reviews": 3,
+		"amazon_url": "https://www.amazon.com/Shot-Tungsten-Aerodynamics-Handcrafted-Professional/dp/B0DK14X5PL?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-54&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=b65bd3882e8c92fd2a209f12e722f2c0&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00036/1.jpg",
+			"images/products/00036/2.jpg",
+			"images/products/00036/3.jpg",
+			"images/products/00036/4.jpg",
+			"images/products/00036/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 37,
+		"badge": "Beginner Friendly",
+		"name": "Shot! Darts Viking Wolf Steel Tip Dart Set",
+		"desc": "Achieve unparalleled consistency and master your game with the Shot! Darts Viking Wolf 90% Tungsten Steel Tip Dart Set, handcrafted in New Zealand and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this high-performance set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 4.4,
+		"reviews": 10,
+		"amazon_url": "https://www.amazon.com/Shot-Set-90-Tungsten-Barrels-Professional/dp/B0D97R9CJ9?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-61&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=28d10546697f6acc6b480ab5ac2ef4c4&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00037/1.jpg",
+			"images/products/00037/2.jpg",
+			"images/products/00037/3.jpg",
+			"images/products/00037/4.jpg",
+			"images/products/00037/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 38,
+		"badge": "Pro Choice",
+		"name": "Shot! Darts Tribal Weapon Java Steel Tip Dart Set",
+		"desc": "Achieve unparalleled consistency and master your game with the Shot! Darts Tribal Weapon Java 90% Tungsten Steel Tip Dart Set, handcrafted in New Zealand and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this high-performance set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 5,
+		"reviews": 6,
+		"amazon_url": "https://www.amazon.com/Shot-Set-90-Tungsten-Barrels-Professional/dp/B0D97S93HQ?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-60&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=fd89271337634412c4c996e2cc1def54&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00038/1.jpg",
+			"images/products/00038/2.jpg",
+			"images/products/00038/3.jpg",
+			"images/products/00038/4.jpg",
+			"images/products/00038/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 39,
+		"badge": "Fan Favourite",
+		"name": "Shot! Darts AI Cyberpunk",
+		"desc": "Prepare to redefine your accuracy with the handcrafted Shot! Darts AI Cyberpunk 90% Tungsten Steel Tip Set, backed by a lifetime guarantee. Precision-engineered in New Zealand using advanced CAD software and hand-match-weighted to +/-0.05gm, these darts are built for maximum aerodynamics. Defined grip zones provide a secure reference point, ensuring high scoring potential for players of all skill levels. What new high scores are waiting to be revealed in your game?",
+		"rating": 4.4,
+		"reviews": 8,
+		"amazon_url": "https://www.amazon.com/Shot-Cyberpunk-Tungsten-Throwing-Professional/dp/B0CVGLNY4Q?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-64&xpid=EeLcD14BKMav6&linkCode=ll2&tag=amazon10ac2-20&linkId=4767e78a0dd194b7b7e533dc63d15ab0&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00039/1.jpg",
+			"images/products/00039/2.jpg",
+			"images/products/00039/3.jpg",
+			"images/products/00039/4.jpg",
+			"images/products/00039/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 40,
+		"badge": "Premium Pick",
+		"name": "Shot! Darts AI Mecha",
+		"desc": "Achieve unparalleled consistency with the Shot! Darts AI Mecha 90% Tungsten Steel Tip Set, meticulously handcrafted in New Zealand. Engineered for maximum aerodynamics and tight grouping, these darts are match-weighted to a tolerance of +/-0.05gm for pinpoint accuracy. The barrels feature clearly defined grip zones that act as natural reference points for a reliable and repeatable throw. Complete with range-themed flights and durable shafts, this set is an excellent gift or a powerful upgrade for your game.",
+		"rating": 4.8,
+		"reviews": 8,
+		"amazon_url": "https://www.amazon.com/Shot-Darts-Tungsten-Throwing-Professional/dp/B0CVH1NMVS?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=darts%2Caps%2C255&sr=8-65&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=7429655cbd5a463a99a2297bf5709814&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00040/1.jpg",
+			"images/products/00040/2.jpg",
+			"images/products/00040/3.jpg",
+			"images/products/00040/4.jpg",
+			"images/products/00040/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 41,
+		"badge": "Best Seller",
+		"name": "Shot! Darts AI Replicant Steel Tip",
+		"desc": "Achieve a new dimension of control with the Shot! Darts AI Replicant 90% Tungsten Steel Tip Darts Set, featuring center-weighted barrels handcrafted in New Zealand and backed by a lifetime guarantee. Precision-engineered for optimum aerodynamics and tight grouping, these professional-grade darts are hand-match-weighted to a tight tolerance of +/-0.05gm for pinpoint accuracy. The distinct grip zones provide fixed reference points throughout the barrel, allowing for consistent, high-scoring throws. Complete with uniquely designed flights and durable shafts, this set is an exceptional choice for all skill levels. What new high scores are waiting to be revealed in your game?",
+		"rating": 4.3,
+		"reviews": 4,
+		"amazon_url": "https://www.amazon.com/Shot-Replicant-Tungsten-Weighted-Professional/dp/B0CVH1VT53?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-67&xpid=EeLcD14BKMav6&linkCode=ll2&tag=amazon10ac2-20&linkId=7d8cf04481d1f8da0a6c46c3ce2311a5&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00041/1.jpg",
+			"images/products/00041/2.jpg",
+			"images/products/00041/3.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 42,
+		"badge": "Hot Deal",
+		"name": "Shot! Darts Steel Tip Michael Smith Achieve Match",
+		"desc": "Refine your game with the Shot! Darts Michael Smith Achieve Match 90% Tungsten Steel Tip Darts Set, handcrafted to the exact specifications of the \"Bully Boy\" himself in New Zealand. Engineered using advanced CAD software and rigorous testing, these center-weighted darts are match-weighted to a tight tolerance of +/-0.05gm for pinpoint accuracy and tighter groupings. The barrels feature a ringed grip and vertical milling with red milling cuts for a secure and responsive feel, contributing to consistent throws. With range-themed flights and a red/black PCT coating, this professional-grade set is a ready-to-play investment that sets you apart. What new milestones can you achieve with these darts in hand?",
+		"rating": 4.6,
+		"reviews": 96,
+		"amazon_url": "https://www.amazon.com/Shot-Tungsten-Weighted-Handcrafted-Professional/dp/B0CB2ZYFPM?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-77&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=060fbb35479e70bf1841028746ff2e1d&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00042/1.jpg",
+			"images/products/00042/2.jpg",
+			"images/products/00042/3.jpg",
+			"images/products/00042/4.jpg",
+			"images/products/00042/5.jpg",
+			"images/products/00042/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 43,
+		"badge": "Top Rated",
+		"name": "Shot! Darts Steel Tip Celt Cernunnos",
+		"desc": "Achieve unprecedented consistency with the Shot! Darts Celt Cernunnos 90% Tungsten Steel Tip Darts Set, featuring front-weighted barrels handcrafted in New Zealand and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these darts are designed for pinpoint aerodynamics and tighter groupings. The barrels incorporate clearly defined grip zones that act as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with durable shafts and range-themed flights that set you apart from the competition, this high-performance set is ready to play right away and makes an excellent gift. What new high scores are waiting to be revealed in your game?",
+		"rating": 4.6,
+		"reviews": 26,
+		"amazon_url": "https://www.amazon.com/Shot-Cernunnos-Tungsten-Throwing-Professional/dp/B0BLTGN2FS?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-89&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=4eb3ae025fe229db6bd2caddcec8b1a4&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00043/1.jpg",
+			"images/products/00043/2.jpg",
+			"images/products/00043/3.jpg",
+			"images/products/00043/4.jpg",
+			"images/products/00043/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 44,
+		"badge": "Beginner Friendly",
+		"name": "Shot! Darts Steel Tip, Celt Druid",
+		"desc": "Refine every throw and master your game with the Shot! Darts Celt Druid 90% Tungsten Steel Tip Darts Set, featuring center-weighted barrels meticulously handcrafted in New Zealand and backed by a lifetime guarantee. Precision-engineered using advanced CAD software and hand-match-weighted to a tight tolerance of +/-0.05gm, these professional-grade darts are designed for pinpoint accuracy and maximum aerodynamics. The barrels incorporate clearly defined grip zones that serve as natural reference points, providing a secure feel for players of all skill levels and supporting high scoring potential. Complete with uniquely designed range-themed flights and durable shafts, this high-performance set is a ready-to-play investment. Are you ready to refine every throw and master your game?",
+		"rating": 4.7,
+		"reviews": 8,
+		"amazon_url": "https://www.amazon.com/Shot-Darts-Tungsten-Throwing-Professional/dp/B09L7F8VJL?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-92&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=02e4b6b334f3783007c64e7ff1a2a664&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00044/1.jpg",
+			"images/products/00044/2.jpg",
+			"images/products/00044/3.jpg",
+			"images/products/00044/4.jpg",
+			"images/products/00044/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 45,
+		"badge": "Pro Choice",
+		"name": "Shot! Darts Steel Tip, Viking Raven",
+		"desc": "Embark on your conquest with the handcrafted Viking Raven dart set, made in New Zealand with center-balanced 90% tungsten barrels for unparalleled control. These arrows feature a potent dual grip designed to support your mastery of every throw, ensuring tight groupings and enhanced visual appeal that set you apart from the competition. Each barrel is hand-weighted to a precision tolerance of +/-0.05gm, allowing for the consistent, high-scoring outcomes you demand on your bristle board. Complete with range-themed flights and durable shafts, this high-performance set is a ready-to-play investment back by Shot's lifetime tungsten promise. Are you ready to command a higher grip level on your game?",
+		"rating": 4.6,
+		"reviews": 49,
+		"amazon_url": "https://www.amazon.com/Shot-Warrior-Tungsten-Throwing-Professional/dp/B01KUDS602?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-93&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=35fffeb94a4b11d814d6f6406eb7f4a5&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00045/1.jpg",
+			"images/products/00045/2.jpg",
+			"images/products/00045/3.jpg",
+			"images/products/00045/4.jpg",
+			"images/products/00045/5.jpg",
+			"images/products/00045/6.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 46,
+		"badge": "Fan Favourite",
+		"name": "Shot! Darts Steel Tip, Roman Empire Legion",
+		"desc": "March your game forward with the Roman Empire Legion, front-balanced 90% tungsten darts precision-machined for absolute targeting dominance. These arrows incorporate clearly defined grip zones that act as natural reference points, supporting a stable, predictable, and repeatable throw for tighter groupings. Made in New Zealand using advanced CAD software and hand-match-weighted to +/-0.05gm, each dart runs the gauntlet to ensure pinpoint accuracy and maximum aerodynamics. Backed by Shot's 100% satisfaction promise and lifetime tungsten barrel guarantee, this impressive design refines every throw and refines your legacy as a master of the board. What territory will your throws capture today?",
+		"rating": 4.2,
+		"reviews": 33,
+		"amazon_url": "https://www.amazon.com/Shot-Empire-Weighted-Tungsten-Barrels/dp/B084M8NCXM?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.io28T0oQLz88yRtNzC3aAYKXEDNg0Oslt_S9g1Wrc6-jORbT3tilJgujChKlad_F4QNGBtynlqXYYGuxWm84xjqNoQgq_Nqkh1BBkA0u8tOwjdhIO-D2uk1HPOUc3zmLeKJu25phZQ1qNvtgkOCe9oVe58CeKdwVsloRHze4xvKtXcHOGkd4B8pXKEPqjCl7Sbe1jr0vIL4WGE95drpqPBC8bS_5wshb7jyr3EgFCfja3ku2KqSDwnX1nQ_U6X9zNAGPH6_24ob2yzEkQGp30YAHo3BhbI5fVgpcBH1pIRs.65FXRZj_M86bMPXznY_X5X0vpD2ru7PUOFt-9VlHlmw&dib_tag=se&keywords=darts&qid=1776247842&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-96&xpid=EeLcD14BKMav6&linkCode=ll2&tag=amazon10ac2-20&linkId=97b150e83b39ff51de380070d8c74f68&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00046/1.jpg",
+			"images/products/00046/2.jpg",
+			"images/products/00046/3.jpg",
+			"images/products/00046/4.jpg",
+			"images/products/00046/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 47,
+		"badge": "Beginner Friendly",
+		"name": "Shot! Darts Steel Tip, Tribal Weapon 4",
+		"desc": "Achieve a new dimension of control with the handcrafted Tribal Weapon 4 set, featuring center-balanced 90% tungsten barrels made in New Zealand. This professional-grade set leverages advanced CAD software and rigorous testing to ensure pinpoint aerodynamics and the exceptionally high scoring potential you expect from premium darts. Each barrel incorporates distinct grip zones contributing to consistent, reliable, and repeatable throws, supporting all skill levels from novices to seasoned pros. Meticulously matched weighted by hand to +/-0.05gm and backed by a lifetime barrel guarantee, this set is ready to redefine your accuracy—what new heights will you reach?",
+		"rating": 4.5,
+		"reviews": 77,
+		"amazon_url": "https://www.amazon.com/Shot-Darts-Tribal-Weapon-Metal/dp/B07RNQC7W1?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.bZxgM5lUhthwpgrITCB0S0BPsW8oghMf5JrqLS8bBwVX8CBYTOFPDhx015hC0Gnb7hdrnha6qmXK497ejQnkASnY8MhWi4Z14Vlk5Co6rm5B-VoI9chI7Ww8GMo_xHzjNb5inTPRYxbr9kbyqMUStw.VfRpfSi8E-qUR7l9mrf_oKh7sdqkh30Y91wMcsRpLZo&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-100&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=68b1018c0cfca57eb7a91f7588a26af8&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00047/1.jpg",
+			"images/products/00047/2.jpg",
+			"images/products/00047/3.jpg",
+			"images/products/00047/4.jpg",
+			"images/products/00047/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 48,
+		"badge": "Pro Choice",
+		"name": "Shot! Darts Steel Tip, Birds of Prey Kite",
+		"desc": "Dominate the skies with the Birds of Prey Kite, featuring front-weighted 80% tungsten barrels handcrafted in New Zealand for those demanding maximum targeting authority. Meticulously engineered using cutting-edge CAD software and match-weighted to a tight +/-0.05gm, these darts offer the pinpoint accuracy needed for tight groupings and refined performance. The barrels incorporate clearly defined grip zones serving as consistent, secure reference points, enhancing predictability for both novices and professional players. Backed by a lifetime barrel guarantee and complete with uniquely designed range-themed flights and durable shafts, this high-performance set is a ready-to-play upgrade that can redefine your consistency—what targets are waiting to be claimed in your game?",
+		"rating": 4.6,
+		"reviews": 59,
+		"amazon_url": "https://www.amazon.com/Shot-Set-Front-Weighted-Tungsten-Barrels/dp/B07HDXPNMN?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.bZxgM5lUhthwpgrITCB0S0BPsW8oghMf5JrqLS8bBwVX8CBYTOFPDhx015hC0Gnb7hdrnha6qmXK497ejQnkASnY8MhWi4Z14Vlk5Co6rm5B-VoI9chI7Ww8GMo_xHzjNb5inTPRYxbr9kbyqMUStw.VfRpfSi8E-qUR7l9mrf_oKh7sdqkh30Y91wMcsRpLZo&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-105&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=065c18c3e3d1d5460cb6cfda3c028e56&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00048/1.jpg",
+			"images/products/00048/2.jpg",
+			"images/products/00048/3.jpg",
+			"images/products/00048/4.jpg",
+			"images/products/00048/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 49,
+		"badge": "Fan Favourite",
+		"name": "Shot! Darts Steel Tip, Warrior Tipu",
+		"desc": "Achieve unprecedented targeting domination with the handcrafted Warrior Tipu set, featuring front-weighted 80% tungsten barrels meticulously made in New Zealand for maximum aerodynamics. Designed with a secure, dependable, and highly predictable grip, these darts support high scoring potential for all skill levels from novices to seasoned professionals. Meticulously hand-match-weighted to +/-0.05gm and backed by a lifetime guarantee, each barrel is engineered to refine your throw and refine your consistency with every turn. Complete with uniquely designed range-themed flights and durable shafts, this ready-to-play investment is a powerful choice—are you ready to command absolute authority on the board?",
+		"rating": 4.5,
+		"reviews": 50,
+		"amazon_url": "https://www.amazon.com/Shot-Warrior-Weighted-Tungsten-Barrels/dp/B07HDWTJTQ?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.K2UcwKVivKK7TmjM3TpAf08qm5lIirxGk-taC_Bl0WORn2Gct85i8TWd6ILXAxbvFs-tnShezYuYavhqf1btOuxb4BpEallr2tl1peufGyDoCHn-G_Pv_YtGrQQVl91BF4Jse-KPH7C-gPpI27_Qbm4CPmhHw5I37Xct0H9dGk14PJgEtmvTL8o702qKoMy3mmp4Y-8kQqc0z9FVg6AnD5YwujRqFGA4MT-anonBvGpAwYE-pU9rZPDVnwyXBUuO.QJupePjn6lDcS_sMpiOcY-z2S5W1jSG8c11CSWtLhvw&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-97&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=65a88794c497d4ec62bb87b46f96704f&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00049/1.jpg",
+			"images/products/00049/2.jpg",
+			"images/products/00049/3.jpg",
+			"images/products/00049/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 50,
+		"badge": "Premium Pick",
+		"name": "Shot! Warrior Hautoa",
+		"desc": "Embark on your journey to mastery with the handcrafted Warrior Hautoa set, made in New Zealand with 80% tungsten barrels for an exceptionally balanced and refined feel. Precision-engineered using advanced CAD software and rigorous testing, these darts are match-weighted to a tight +/-0.05gm tolerance to support pinpoint accuracy. The barrels incorporate clearly defined grip zones that act as natural reference points, enhancing consistent, predictable, and repeatable throws for both novices and professional players. Backed by Shot's 100% satisfaction promise and lifetime guarantee, this high-performance set is a ready-to-play upgrade back by decades of dedication—are you ready to command authority on the board?",
+		"rating": 4.4,
+		"reviews": 39,
+		"amazon_url": "https://www.amazon.com/Shot-Warrior-Set-Centre-Weighted-Tungsten/dp/B07HDVL19Z?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.K2UcwKVivKK7TmjM3TpAf08qm5lIirxGk-taC_Bl0WORn2Gct85i8TWd6ILXAxbvFs-tnShezYuYavhqf1btOuxb4BpEallr2tl1peufGyDoCHn-G_Pv_YtGrQQVl91BF4Jse-KPH7C-gPpI27_Qbm4CPmhHw5I37Xct0H9dGk14PJgEtmvTL8o702qKoMy3mmp4Y-8kQqc0z9FVg6AnD5YwujRqFGA4MT-anonBvGpAwYE-pU9rZPDVnwyXBUuO.QJupePjn6lDcS_sMpiOcY-z2S5W1jSG8c11CSWtLhvw&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-99&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=f807f0a4f4b46cb9016177e7c216621a&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00050/1.jpg",
+			"images/products/00050/2.jpg",
+			"images/products/00050/3.jpg",
+			"images/products/00050/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 51,
+		"badge": "Best Seller",
+		"name": "Shot! Darts Steel Tip, Birds of Prey Falcon",
+		"desc": "Dominate the bristle board with the Birds of Prey Falcon, featuring front-weighted 90% tungsten barrels handcrafted in New Zealand for those demanding maximum targeting dominance. Meticulously engineered using advanced CAD software and match-weighted to a tight tolerance of +/-0.05gm, these darts offer the pinpoint accuracy needed for tight groupings and refined performance. The barrels incorporate clearly defined grip zones that act as natural, consistent reference points, supporting predictable throws for players of all skill levels. Complete with uniquely designed range-themed flights and durable shafts, this professional-grade set is a ready-to-play investment back by a lifetime guarantee—what targets are waiting to be claimed in your game?",
+		"rating": 4.2,
+		"reviews": 53,
+		"amazon_url": "https://www.amazon.com/Shot-Falcon-Steel-Set-Front-Weighted-90-Tungsten/dp/B07519LZ49?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.K2UcwKVivKK7TmjM3TpAf08qm5lIirxGk-taC_Bl0WORn2Gct85i8TWd6ILXAxbvFs-tnShezYuYavhqf1btOuxb4BpEallr2tl1peufGyDoCHn-G_Pv_YtGrQQVl91BF4Jse-KPH7C-gPpI27_Qbm4CPmhHw5I37Xct0H9dGk14PJgEtmvTL8o702qKoMy3mmp4Y-8kQqc0z9FVg6AnD5YwujRqFGA4MT-anonBvGpAwYE-pU9rZPDVnwyXBUuO.QJupePjn6lDcS_sMpiOcY-z2S5W1jSG8c11CSWtLhvw&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-100&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=5c0df361806856b2ae257e4fd1bcd18d&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00051/1.jpg",
+			"images/products/00051/2.jpg",
+			"images/products/00051/3.jpg",
+			"images/products/00051/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 52,
+		"badge": "Hot Deal",
+		"name": "Shot! Zen Jutsu",
+		"desc": "Achieve unprecedented targeting authority with the handcrafted Zen Jutsu set, featuring 80% tungsten barrels made in New Zealand for an exceptionally smooth and highly controllable throw. Precision-engineered using cutting-edge CAD software and match-weighted to a precision tolerance of +/-0.05gm, these darts support pinpoint accuracy for tight groupings and enhanced performance. The barrels incorporate clearly defined grip zones that serve as natural reference points, ensuring consistent and predictable throws for all skill levels from novices to seasoned professional players. Complete with range-themed flights and durable shafts, this high-performance set is a powerful choice—are you ready to command a higher grip level on your game?",
+		"rating": 4.5,
+		"reviews": 24,
+		"amazon_url": "https://www.amazon.com/Shot-Darts-Weighted-Tungsten-Barrels/dp/B01KENULQA?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.K2UcwKVivKK7TmjM3TpAf08qm5lIirxGk-taC_Bl0WORn2Gct85i8TWd6ILXAxbvFs-tnShezYuYavhqf1btOuxb4BpEallr2tl1peufGyDoCHn-G_Pv_YtGrQQVl91BF4Jse-KPH7C-gPpI27_Qbm4CPmhHw5I37Xct0H9dGk14PJgEtmvTL8o702qKoMy3mmp4Y-8kQqc0z9FVg6AnD5YwujRqFGA4MT-anonBvGpAwYE-pU9rZPDVnwyXBUuO.QJupePjn6lDcS_sMpiOcY-z2S5W1jSG8c11CSWtLhvw&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-105&xpid=EeLcD14BKMav6&linkCode=ll2&tag=amazon10ac2-20&linkId=64aeb49881de1a772694a79a8dee19cf&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00052/1.jpg",
+			"images/products/00052/2.jpg",
+			"images/products/00052/3.jpg",
+			"images/products/00052/4.jpg",
+			"images/products/00052/5.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	},
+	{
+		"id": 53,
+		"badge": "Top Rated",
+		"name": "Shot! Darts Warrior Kapene Steel Tip Dart Set",
+		"desc": "Achieve unparalleled performance with the handcrafted Warrior Kapene set, made in New Zealand with center-balanced 90% tungsten barrels designed for maximum aerodynamics. Engineered to refine your throw and refine your consistency, these arrows incorporate precision-cut distinct grip zones that act as natural reference points for consistent, high-scoring throws. Each barrel is meticulously hand-weighted to a tight +/-0.05gm tolerance and backed by a lifetime guarantee, ensuring pinpoint accuracy and predictable outcomes on your bristle board. Complete with range-themed flights and durable shafts, this professional-grade set is a ready-to-play choice back by decades of dedication—what milestones can you achieve with these darts in hand?",
+		"rating": 4.3,
+		"reviews": 67,
+		"amazon_url": "https://www.amazon.com/Shot-Tribal-Weapon-Tungsten-Barrels/dp/B01KUDSEUE?crid=3THEA1WB3QF6V&dib=eyJ2IjoiMSJ9.K2UcwKVivKK7TmjM3TpAf08qm5lIirxGk-taC_Bl0WORn2Gct85i8TWd6ILXAxbvFs-tnShezYuYavhqf1btOuxb4BpEallr2tl1peufGyDoCHn-G_Pv_YtGrQQVl91BF4Jse-KPH7C-gPpI27_Qbm4CPmhHw5I37Xct0H9dGk14PJgEtmvTL8o702qKoMy3mmp4Y-8kQqc0z9FVg6AnD5YwujRqFGA4MT-anonBvGpAwYE-pU9rZPDVnwyXBUuO.QJupePjn6lDcS_sMpiOcY-z2S5W1jSG8c11CSWtLhvw&dib_tag=se&keywords=darts&qid=1776247915&refinements=p_36%3A5000-29000%2Cp_123%3A240938&rnid=85457740011&sprefix=darts%2Caps%2C255&sr=8-104&xpid=EeLcD14BKMav6&th=1&linkCode=ll2&tag=amazon10ac2-20&linkId=4aecbb76739e90d966ff663169e9e5ed&language=en_US&ref_=as_li_ss_tl",
+		"images": [
+			"images/products/00053/1.jpg",
+			"images/products/00053/2.jpg",
+			"images/products/00053/3.jpg",
+			"images/products/00053/4.jpg"
+		],
+		"share_text": "Check out today's darts deal on DartsDaily.net! 🎯"
+	}
 ]
