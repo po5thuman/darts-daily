@@ -165,3 +165,7 @@
 .pros ul li strong, .cons ul li strong { color: var(--text); }
 /* RESPONSIVE PROS/CONS */
 @media (max-width: 480px) { .pros-cons { grid-template-columns: 1fr; } }
+.guide-product-review-specs{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin:20px 0 24px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;}
+.guide-product-review-specs .spec-item{font-size:0.92rem;color:var(--text-secondary);padding:4px 0;}
+.guide-product-review-specs .spec-item strong{color:var(--text);}
+@media(max-width:600px){.guide-product-review-specs{grid-template-columns:1fr;gap:4px;}}
