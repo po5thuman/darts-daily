@@ -12,6 +12,7 @@ Darts Daily is a darts resource covering equipment reviews, setup guides, scorin
 ## Setup & Rules
 - [Dart Board Distance & Height Guide](https://dartsdaily.net/guides/dart-board-distance-and-height): Official measurements for setting up a dartboard — bullseye height of 5ft 8in (1.73m), throwing distance of 7ft 9.25in (2.37m) for steel tip and 8ft (2.44m) for soft tip. Includes diagonal check method, wheelchair measurements and setup diagrams.
 - [How to Score Darts — Complete Guide](https://dartsdaily.net/guides/how-to-score-darts): Complete guide to darts scoring covering board layout, segment values, 501 rules, checkout charts, Cricket scoring and common game variations. Explains doubles, trebles, bullseye scoring and finishing strategies.
+- [Darts Rules — How to Play Darts](https://dartsdaily.net/guides/darts-rules): Complete beginner's guide to darts rules covering 501, 301, Cricket, Around the Clock, Killer, Shanghai and Halve-It. Includes dartboard layout explanation, scoring segments, common checkouts, bust rules, Cricket scoreboard format and darts etiquette.
 
 ## Rankings
 - [PDC Order of Merit 2026](https://dartsdaily.net/guides/pdc-order-of-merit): Current PDC rankings showing the top players, how the Order of Merit ranking system works, prize money distribution across tournaments and the two-year rolling ranking period.
