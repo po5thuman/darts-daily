@@ -985,13 +985,6 @@
         <p class="footer-text">© 2026 DartsDaily. All rights reserved.</p>
     </footer>
 
-    <div id="modal-overlay" onclick="closeModal()">
-        <div id="modal-box" onclick="event.stopPropagation()">
-            <button id="modal-close" onclick="closeModal()">✕</button>
-            <div id="modal-content"></div>
-        </div>
-    </div>
-
     <script>
         function toggleTheme() {
             const isLight = document.body.classList.toggle("light");
@@ -1005,23 +998,6 @@
                 document.getElementById("themeLabel").textContent = "Light";
             }
         })();
-        const modalContent = {
-            about: '<span class="modal-emoji">🎯</span><h2>About Darts Daily</h2><p>Darts Daily is your daily hub for everything professional darts. Built by a darts fan, for darts fans.</p>',
-            contact: '<span class="modal-emoji">✉️</span><h2>Contact</h2><p>We\'d love to hear from you!</p><h3>Email</h3><p><a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a></p>',
-            privacy: '<span class="modal-emoji">🔒</span><h2>Privacy Policy</h2><p>At Darts Daily we take your privacy seriously. We use Google Analytics to collect anonymous usage data.</p>',
-            affiliate: '<span class="modal-emoji">💰</span><h2>Affiliate Disclosure</h2><p>Some links on this site are affiliate links. We may earn a small commission at no extra cost to you.</p>',
-            workWithUs: '<span class="modal-emoji">🤝</span><h2>Work With Us</h2><p>Drop us a line at <a href="mailto:180@dartsdaily.net">180@dartsdaily.net</a></p>'
-        };
-        function openModal(type) {
-            document.getElementById("modal-content").innerHTML = modalContent[type];
-            document.getElementById("modal-overlay").classList.add("active");
-            document.body.style.overflow = "hidden";
-        }
-        function closeModal() {
-            document.getElementById("modal-overlay").classList.remove("active");
-            document.body.style.overflow = "";
-        }
-        document.addEventListener("keydown", function(e) { if (e.key === "Escape") closeModal(); });
     </script>
 </body>
 </html>
