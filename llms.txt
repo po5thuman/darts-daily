@@ -1,28 +1,24 @@
 # Darts Daily
-> Your daily hub for darts news, live events, player stats and trivia. Covering the PDC tour from around the world.
+> Expert darts guides, product reviews and everything you need to know about darts.
 
 ## About
-Darts Daily is a darts website covering daily player profiles, stats, trivia, live events, news and expert guides. We cover the PDC tour, major events and everything darts.
+Darts Daily is a darts resource covering equipment reviews, setup guides, scoring rules and professional rankings. We help beginners and experienced players find the right gear and improve their game.
 
-## Website
-- URL: https://www.dartsdaily.net
-- Language: English
+## Buying Guides
+- [7 Best Dart Boards 2026](https://dartsdaily.net/guides/best-dart-boards): Comprehensive guide to the best bristle dartboards including the Winmau Blade 6, Blade 6 Dual Core, Blade 6 Triple Core, ONE80 Gladiator 3+, Viper Shot King, Unicorn Eclipse Pro 2 and Target ARC. Covers sisal construction, wiring systems, number ring rotation and setup tips.
+- [7 Best Electronic Dart Boards 2026](https://dartsdaily.net/guides/best-electronic-dart-boards): Guide to the best electronic dartboards with automatic scoring and app connectivity. Features the Gran Board 3, Viper Solar Blast, Arachnid Cricket Pro 800 and more. Covers soft tip vs steel tip, Bluetooth connectivity and online multiplayer.
+- [7 Best Darts for Beginners 2026](https://dartsdaily.net/guides/best-darts-for-beginners): Guide to the best tungsten darts for beginners covering the Target Hydro, Winmau Joe Cullen Special Edition, Red Dragon Javelin, Red Dragon Peter Wright Snakebite 3, Target Nathan Aspinall, Winmau MvG Aspire and Viper Blitz. Includes buying guide covering tungsten percentages, weight selection, grip patterns and essential accessories.
 
-## Guides
-- [Dart Board Distance & Height](https://www.dartsdaily.net/guides/dart-board-distance-and-height): Official measurements and step-by-step setup guide for dart board height (5ft 8in) and throwing distance (7ft 9¼in).
-- [How to Score Darts](https://www.dartsdaily.net/guides/how-to-score-darts): Complete scoring guide covering 501, 301, Cricket, checkout charts and scoring tips for beginners.
-- [Best Dart Boards 2026](https://www.dartsdaily.net/guides/best-dart-boards): Top dartboards reviewed and compared including Winmau Blade 6, Target Aspar, ONE80 and budget options.
-- [PDC Order of Merit 2026](https://www.dartsdaily.net/guides/pdc-order-of-merit): Current top 32 rankings, how the ranking system works, prize money breakdown and qualification explained.
-- [Best Electronic Dart Boards 2026](https://www.dartsdaily.net/guides/best-electronic-dart-boards): The 7 best electronic and smart dart boards reviewed. Gran Board 3, GRANBOARD Dash, Arachnid Cricket Pro, Viper Ion and more compared.
+## Setup & Rules
+- [Dart Board Distance & Height Guide](https://dartsdaily.net/guides/dart-board-distance-and-height): Official measurements for setting up a dartboard — bullseye height of 5ft 8in (1.73m), throwing distance of 7ft 9.25in (2.37m) for steel tip and 8ft (2.44m) for soft tip. Includes diagonal check method, wheelchair measurements and setup diagrams.
+- [How to Score Darts — Complete Guide](https://dartsdaily.net/guides/how-to-score-darts): Complete guide to darts scoring covering board layout, segment values, 501 rules, checkout charts, Cricket scoring and common game variations. Explains doubles, trebles, bullseye scoring and finishing strategies.
 
-## Pages
-- [Home](https://www.dartsdaily.net/)
-- [Guides](https://www.dartsdaily.net/guides/)
-- [About](https://www.dartsdaily.net/about)
-- [Contact](https://www.dartsdaily.net/contact)
-- [Privacy Policy](https://www.dartsdaily.net/privacy)
-- [Affiliate Disclosure](https://www.dartsdaily.net/affiliate-disclosure)
+## Rankings
+- [PDC Order of Merit 2026](https://dartsdaily.net/guides/pdc-order-of-merit): Current PDC rankings showing the top players, how the Order of Merit ranking system works, prize money distribution across tournaments and the two-year rolling ranking period.
 
-## Social
-- [Instagram](https://www.instagram.com/_dartsdaily_/)
-- [Facebook](https://www.facebook.com/dartsdaily)
+## Products
+- [Darts Products](https://dartsdaily.net/products): Curated collection of 53 darts products including dartboards, darts sets, flights, shafts, cases, lighting, mats and accessories from brands like Winmau, Target, Red Dragon, Shot, Viper and Unicorn.
+
+## Contact
+- Website: https://dartsdaily.net
+- Contact: https://dartsdaily.net/contact
