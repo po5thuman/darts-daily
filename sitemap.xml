@@ -1,69 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.dartsdaily.net/</loc>
-        <lastmod>2026-04-12</lastmod>
+        <loc>https://dartsdaily.net/</loc>
+        <lastmod>2026-04-16</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/about</loc>
-        <lastmod>2026-04-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <loc>https://dartsdaily.net/guides</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/contact</loc>
-        <lastmod>2026-04-12</lastmod>
+        <loc>https://dartsdaily.net/guides/best-dart-boards</loc>
+        <lastmod>2026-04-16</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/privacy</loc>
-        <lastmod>2026-04-12</lastmod>
+        <loc>https://dartsdaily.net/guides/best-electronic-dart-boards</loc>
+        <lastmod>2026-04-16</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/affiliate-disclosure</loc>
-        <lastmod>2026-04-12</lastmod>
+        <loc>https://dartsdaily.net/guides/best-darts-for-beginners</loc>
+        <lastmod>2026-04-16</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
+        <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/guides/</loc>
-        <lastmod>2026-04-12</lastmod>
+        <loc>https://dartsdaily.net/guides/dart-board-distance-and-height</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dartsdaily.net/guides/how-to-score-darts</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://dartsdaily.net/guides/pdc-order-of-merit</loc>
+        <lastmod>2026-04-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/guides/dart-board-distance-and-height</loc>
-        <lastmod>2026-04-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://dartsdaily.net/products</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/guides/how-to-score-darts</loc>
-        <lastmod>2026-04-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://dartsdaily.net/privacy-policy</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/guides/best-dart-boards</loc>
-        <lastmod>2026-04-12</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://dartsdaily.net/affiliate-disclaimer</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://www.dartsdaily.net/guides/pdc-order-of-merit</loc>
-        <lastmod>2026-04-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.dartsdaily.net/guides/best-electronic-dart-boards</loc>
-        <lastmod>2026-04-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://dartsdaily.net/contact</loc>
+        <lastmod>2026-04-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
 </urlset>
