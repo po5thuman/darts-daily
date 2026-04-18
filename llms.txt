@@ -9,6 +9,9 @@ Darts Daily is a darts resource covering equipment reviews, setup guides, scorin
 - [7 Best Electronic Dart Boards 2026](https://dartsdaily.net/guides/best-electronic-dart-boards): Guide to the best electronic dartboards with automatic scoring and app connectivity. Features the Gran Board 3, Viper Solar Blast, Arachnid Cricket Pro 800 and more. Covers soft tip vs steel tip, Bluetooth connectivity and online multiplayer.
 - [7 Best Darts for Beginners 2026](https://dartsdaily.net/guides/best-darts-for-beginners): Guide to the best tungsten darts for beginners covering the Target Hydro, Winmau Joe Cullen Special Edition, Red Dragon Javelin, Red Dragon Peter Wright Snakebite 3, Target Nathan Aspinall, Winmau MvG Aspire and Viper Blitz. Includes buying guide covering tungsten percentages, weight selection, grip patterns and essential accessories.
 
+## Downloads
+- [Downloads — Free PDC Draw Brackets](https://dartsdaily.net/downloads/): Free interactive draw brackets for every PDC European Tour and major tournament. Download the Excel file, enter match results as you watch and the bracket automatically updates through every round to the final. All players pre-filled from the official PDC draw. Works in Microsoft Excel and Google Sheets. New bracket released for every event.
+
 ## Setup & Rules
 - [Dart Board Distance & Height Guide](https://dartsdaily.net/guides/dart-board-distance-and-height): Official measurements for setting up a dartboard — bullseye height of 5ft 8in (1.73m), throwing distance of 7ft 9.25in (2.37m) for steel tip and 8ft (2.44m) for soft tip. Includes diagonal check method, wheelchair measurements and setup diagrams.
 - [How to Score Darts — Complete Guide](https://dartsdaily.net/guides/how-to-score-darts): Complete guide to darts scoring covering board layout, segment values, 501 rules, checkout charts, Cricket scoring and common game variations. Explains doubles, trebles, bullseye scoring and finishing strategies.
