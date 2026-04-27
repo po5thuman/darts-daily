@@ -194,6 +194,6 @@ body.light .carousel-dot.active { background: #333; }
 .product-card h3 { margin-top: 0; font-size: 1.25rem; }
 .product-card .product-meta { display: flex; flex-wrap: wrap; gap: 12px; margin: 10px 0 16px; font-size: 0.88rem; color: var(--muted); }
 .product-card .product-meta span { background: var(--bg); padding: 4px 12px; border-radius: 8px; border: 1px solid var(--border); }
-.product-card .product-cta { display: inline-block; margin-top: 16px; padding: 12px 28px; background: var(--accent); color: #fff; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s; }
+.product-card .product-cta { display: block; margin: 16px auto 0; padding: 12px 28px; background: var(--accent); color: #fff; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s; text-align: center; max-width: 280px; }
 .product-card .product-cta:hover { opacity: 0.85; }
 @media (max-width: 600px) { .product-gallery { grid-template-columns: repeat(2, 1fr); } .product-gallery img { height: 140px; } }                                                                                                                                                                                                                                
