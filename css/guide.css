@@ -142,7 +142,7 @@
 .guides-view-all:hover { text-decoration: underline; }
 /* GUIDE RESPONSIVE */
 @media (max-width: 768px) { .guide-hero h1 { font-size: 1.6rem; } .quick-answer-grid { grid-template-columns: 1fr; gap: 12px; } .quick-answer-value { font-size: 1.5rem; } .related-guides { grid-template-columns: 1fr; } .guides-grid { grid-template-columns: 1fr; } .guide-wrapper { padding: 24px 16px 40px; } .guide-cta { padding: 28px 20px; } .setup-step { gap: 14px; } .setup-step-number { width: 34px; height: 34px; font-size: 0.85rem; } }
-@media (max-width: 480px) { .guide-hero h1 { font-size: 1.4rem; } .guide-section h2 { font-size: 1.2rem; } .breadcrumbs { padding: 10px 16px; font-size: 0.7rem; } .guide-meta { flex-wrap: wrap; gap: 6px; } .key-measurement { flex
+@media (max-width: 480px) { .guide-hero h1 { font-size: 1.4rem; } .guide-section h2 { font-size: 1.2rem; } .breadcrumbs { padding: 10px 16px; font-size: 0.7rem; } .guide-meta { flex-wrap: wrap; gap: 6px; } .key-measurement { flex-direction: column; } }
 /* REVIEW COMPONENTS */
 .review-verdict { margin-bottom: 16px; }
 .review-verdict-badge { display: inline-block; font-size: 0.7rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; background: var(--accent); color: #000; padding: 6px 14px; border-radius: 8px; }
