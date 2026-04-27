@@ -37,77 +37,6 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/guide.css">
-    <style>
-        .product-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 10px;
-            margin: 16px 0;
-            border-radius: 12px;
-            overflow: hidden;
-        }
-        .product-gallery img {
-            width: 100%;
-            height: 180px;
-            object-fit: contain;
-            background: #fff;
-            border-radius: 10px;
-            padding: 10px;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-        .product-gallery img:hover {
-            transform: scale(1.04);
-        }
-        .product-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 28px;
-            margin-bottom: 28px;
-        }
-        .product-card h3 {
-            margin-top: 0;
-            font-size: 1.25rem;
-        }
-        .product-card .product-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin: 10px 0 16px;
-            font-size: 0.88rem;
-            color: var(--muted);
-        }
-        .product-card .product-meta span {
-            background: var(--bg);
-            padding: 4px 12px;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-        }
-        .product-card .product-cta {
-            display: inline-block;
-            margin-top: 16px;
-            padding: 12px 28px;
-            background: var(--accent);
-            color: #fff;
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: opacity 0.2s;
-        }
-        .product-card .product-cta:hover {
-            opacity: 0.85;
-        }
-        @media (max-width: 600px) {
-            .product-gallery {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .product-gallery img {
-                height: 140px;
-            }
-        }
-    </style>
     <!-- Schema Markup — Article -->
     <script type="application/ld+json">
     {
@@ -374,9 +303,27 @@
                         <span>⭐ 4.6/5 (40 reviews)</span>
                         <span>🏷️ 100 micron · Standard shape</span>
                     </div>
-                    <div class="product-gallery">
-                        <img src="/images/guides/winmau-standard-liquid-1.jpg" alt="Winmau Mega Standard Liquid flights" loading="lazy">
-                        <img src="/images/guides/winmau-standard-liquid-2.jpg" alt="Winmau Mega Liquid flight design close up" loading="lazy">
+                    <div class="product-carousel" id="carousel-mega-liquid">
+                        <div class="carousel-track">
+                            <img src="/images/guides/winmau-standard-liquid-1.jpg" alt="Winmau Mega Standard Liquid flights front view" loading="lazy" class="carousel-slide active">
+                            <img src="/images/guides/winmau-standard-liquid-2.jpg" alt="Winmau Mega Standard Liquid flights design" loading="lazy" class="carousel-slide">
+                            <img src="/images/guides/winmau-standard-liquid-3.jpg" alt="Winmau Mega Standard Liquid flights close up" loading="lazy" class="carousel-slide">
+                            <img src="/images/guides/winmau-standard-liquid-4.jpg" alt="Winmau Mega Standard Liquid flights pack" loading="lazy" class="carousel-slide">
+                            <img src="/images/guides/winmau-standard-liquid-5.jpg" alt="Winmau Mega Standard Liquid flights colours" loading="lazy" class="carousel-slide">
+                            <img src="/images/guides/winmau-standard-liquid-6.jpg" alt="Winmau Mega Standard Liquid flights detail" loading="lazy" class="carousel-slide">
+                            <img src="/images/guides/winmau-standard-liquid-7.jpg" alt="Winmau Mega Standard Liquid flights set" loading="lazy" class="carousel-slide">
+                        </div>
+                        <button class="carousel-btn carousel-prev" onclick="carouselNav('carousel-mega-liquid', -1)">‹</button>
+                        <button class="carousel-btn carousel-next" onclick="carouselNav('carousel-mega-liquid', 1)">›</button>
+                        <div class="carousel-dots">
+                            <span class="carousel-dot active" onclick="carouselGo('carousel-mega-liquid', 0)"></span>
+                            <span class="carousel-dot" onclick="carouselGo('carousel-mega-liquid', 1)"></span>
+                            <span class="carousel-dot" onclick="carouselGo('carousel-mega-liquid', 2)"></span>
+                            <span class="carousel-dot" onclick="carouselGo('carousel-mega-liquid', 3)"></span>
+                            <span class="carousel-dot" onclick="carouselGo('carousel-mega-liquid', 4)"></span>
+                            <span class="carousel-dot" onclick="carouselGo('carousel-mega-liquid', 5)"></span>
+                            <span class="carousel-dot" onclick="carouselGo('carousel-mega-liquid', 6)"></span>
+                        </div>
                     </div>
                     <p>Same Winmau quality as the Prism Alpha, same 100-micron thickness, same standard shape — just a different design. The Liquid range has a distinctive swirl pattern that looks great under dartboard lighting. Same price as the Prism Alpha too.</p>
                     <p>The choice between this and the Prism Alpha is purely cosmetic — same material, same thickness, same performance. Pick whichever design you like the look of. 9 flights in the pack.</p>
