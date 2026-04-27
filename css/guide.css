@@ -169,3 +169,21 @@
 .guide-product-review-specs .spec-item{font-size:0.92rem;color:var(--text-secondary);padding:4px 0;}
 .guide-product-review-specs .spec-item strong{color:var(--text);}
 @media(max-width:600px){.guide-product-review-specs{grid-template-columns:1fr;gap:4px;}}
+/* Best Darts Accessories Carousel */
+.product-carousel { position: relative; width: 100%; max-width: 500px; margin: 16px auto; border-radius: 14px; overflow: hidden; background: #111; aspect-ratio: 1 / 1; }
+.carousel-track { position: relative; width: 100%; height: 100%; }
+.carousel-slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 0.4s ease; padding: 16px; }
+.carousel-slide.active { opacity: 1; }
+.carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: #fff; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.6rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s; z-index: 2; line-height: 1; }
+.carousel-btn:hover { background: rgba(0, 0, 0, 0.8); }
+.carousel-prev { left: 12px; }
+.carousel-next { right: 12px; }
+.carousel-dots { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 2; }
+.carousel-dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255, 255, 255, 0.35); cursor: pointer; transition: background 0.2s, transform 0.2s; }
+.carousel-dot.active { background: #fff; transform: scale(1.2); }
+body.light .product-carousel { background: #f0f0f0; }
+body.light .carousel-btn { background: rgba(0, 0, 0, 0.3); }
+body.light .carousel-btn:hover { background: rgba(0, 0, 0, 0.6); }
+body.light .carousel-dot { background: rgba(0, 0, 0, 0.25); }
+body.light .carousel-dot.active { background: #333; }
+@media (max-width: 600px) { .product-carousel { max-width: 100%; border-radius: 10px; } .carousel-btn { width: 36px; height: 36px; font-size: 1.3rem; } .carousel-prev { left: 8px; } .carousel-next { right: 8px; } }
