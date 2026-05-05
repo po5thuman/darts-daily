@@ -233,15 +233,36 @@ function showMessage(text) {
 function showShareButton() {
     document.getElementById("wordle-share-container").style.display = "block";
 }
-
-function shareResult() {
+function buildShareText() {
     const today = getUTCDateString();
     const won = todaysWord.split("").every(l => guessedLetters.includes(l));
     const remaining = MAX_WRONG - wrongGuesses;
-
     let text = "🎯 Darts Word " + today + "\n";
     text += won ? "Solved with " + remaining + "/6 darts remaining!\n" : "❌ Failed\n";
     text += "\n";
+    for (let i = 0; i < todaysWord.length; i++) {
+        text += won ? "🟩" : (guessedLetters.includes(todaysWord[i]) ? "🟩" : "🟥");
+    }
+    text += "\n";
+    text += "🎯".repeat(remaining) + "✖️".repeat(wrongGuesses);
+    text += "\n\nhttps://www.dartsdaily.net";
+    return text;
+}
+function shareResult() {
+    const text = buildShareText();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+            const btn = document.getElementById("wordle-share-btn");
+            const span = btn.querySelector("span");
+            span.textContent = "Copied!";
+            btn.classList.add("copied");
+            setTimeout(() => {
+                span.textContent = "Share Result";
+                btn.classList.remove("copied");
+            }, 2000);
+        });
+    }
+}
 
     // Visual representation
     for (let i = 0; i < todaysWord.length; i++) {
@@ -391,3 +412,22 @@ document.getElementById("word-hint").textContent = "💡 " + todaysHint;
 restoreGame();
 
 document.getElementById("wordle-share-btn").addEventListener("click", shareResult);
+document.getElementById("wordle-share-x")?.addEventListener("click", () => {
+    const text = buildShareText();
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank");
+});
+document.getElementById("wordle-share-fb")?.addEventListener("click", () => {
+    window.open("https://www.facebook.com/sharer/sharer.php?u=https://www.dartsdaily.net/wordle", "_blank");
+});
+document.getElementById("wordle-share-wa")?.addEventListener("click", () => {
+    const text = buildShareText();
+    window.open("https://wa.me/?text=" + encodeURIComponent(text), "_blank");
+});
+document.getElementById("wordle-share-reddit")?.addEventListener("click", () => {
+    const text = buildShareText();
+    window.open("https://reddit.com/submit?title=" + encodeURIComponent(text), "_blank");
+});
+document.getElementById("wordle-share-telegram")?.addEventListener("click", () => {
+    const text = buildShareText();
+    window.open("https://t.me/share/url?url=https://www.dartsdaily.net/wordle&text=" + encodeURIComponent(text), "_blank");
+});
