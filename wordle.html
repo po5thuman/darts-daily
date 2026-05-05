@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darts Wordle — DartsDaily</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/wordle.css">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="/" class="logo">Darts<span>Daily</span></a>
+        </div>
+        <div class="header-right">
+            <div class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">
+                <span class="theme-toggle-label" id="themeLabel">Dark</span>
+                <div class="toggle-track">
+                    <div class="toggle-thumb"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="wordle-page">
+        <div class="wordle-header">
+            <h1>🎯 Darts Wordle</h1>
+            <p class="wordle-subtitle">Guess the 5-letter darts word in 6 tries</p>
+        </div>
+
+        <div class="wordle-stats-bar">
+            <div class="wordle-stat-item">
+                <span class="wordle-stat-number" id="w-played">0</span>
+                <span class="wordle-stat-label">Played</span>
+            </div>
+            <div class="wordle-stat-item">
+                <span class="wordle-stat-number" id="w-win-pct">0</span>
+                <span class="wordle-stat-label">Win %</span>
+            </div>
+            <div class="wordle-stat-item">
+                <span class="wordle-stat-number" id="w-streak">0</span>
+                <span class="wordle-stat-label">Streak</span>
+            </div>
+            <div class="wordle-stat-item">
+                <span class="wordle-stat-number" id="w-max-streak">0</span>
+                <span class="wordle-stat-label">Best</span>
+            </div>
+        </div>
+
+        <div class="wordle-board" id="wordle-board"></div>
+
+        <div class="wordle-message" id="wordle-message"></div>
+
+        <div class="wordle-keyboard" id="wordle-keyboard"></div>
+
+        <div class="wordle-share-container" id="wordle-share-container" style="display:none;">
+            <button class="wordle-share-btn" id="wordle-share-btn">📋 Share Result</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="/guides/">Guides</a>
+        </div>
+        <p class="footer-text">© 2026 DartsDaily. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            const isLight = document.body.classList.toggle("light");
+            document.getElementById("themeLabel").textContent = isLight ? "Light" : "Dark";
+            localStorage.setItem("dartsDailyTheme", isLight ? "light" : "dark");
+        }
+        (function() {
+            const saved = localStorage.getItem("dartsDailyTheme");
+            if (saved === "light") {
+                document.body.classList.add("light");
+                document.getElementById("themeLabel").textContent = "Light";
+            }
+        })();
+    </script>
+    <script src="/js/wordle.js"></script>
+</body>
+</html>
