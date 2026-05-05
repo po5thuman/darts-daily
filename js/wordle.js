@@ -1,7 +1,6 @@
 // ════════════════════════════════════════════════════════════════
 // DARTS WORD — HANGMAN STYLE
 // ════════════════════════════════════════════════════════════════
-
 const WORDS = [
     { word: "OCHE", hint: "The line you throw from" },
     { word: "BULLS", hint: "The centre of the board" },
@@ -49,7 +48,6 @@ const WORDS = [
     { word: "JAMES", hint: "___ Wade — The Machine" },
     { word: "WAYNE", hint: "___ Mardle — Hawaii 501" },
     { word: "BOBBY", hint: "___ George — legendary darts player" },
-    { word: "PREMIER", hint: "___ League — a top PDC event" },
     { word: "GRAND", hint: "___ Prix — a major PDC ranking event" },
     { word: "MAJOR", hint: "A big tournament" },
     { word: "TOURS", hint: "PDC ___ — professional circuit" },
@@ -80,7 +78,6 @@ const WORDS = [
 ];
 
 const MAX_WRONG = 6;
-
 let todaysWord = "";
 let todaysHint = "";
 let guessedLetters = [];
@@ -88,9 +85,8 @@ let wrongGuesses = 0;
 let gameOver = false;
 
 // ════════════════════════════════════════════════════════════════
-// DATE & WORD SELECTION (UTC — matches main site)
+// DATE & WORD SELECTION
 // ════════════════════════════════════════════════════════════════
-
 function getDayOfYear() {
     const n = new Date();
     const start = Date.UTC(n.getUTCFullYear(), 0, 1);
@@ -105,14 +101,12 @@ function getUTCDateString() {
 
 function getTodaysWord() {
     const dayOfYear = getDayOfYear();
-    const entry = WORDS[dayOfYear % WORDS.length];
-    return entry;
+    return WORDS[dayOfYear % WORDS.length];
 }
 
 // ════════════════════════════════════════════════════════════════
 // BUILD UI
 // ════════════════════════════════════════════════════════════════
-
 function buildTiles() {
     const container = document.getElementById("word-tiles");
     container.innerHTML = "";
@@ -129,9 +123,9 @@ function buildKeyboard() {
     const keyboard = document.getElementById("wordle-keyboard");
     keyboard.innerHTML = "";
     const rows = [
-        ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
-        ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
-        ["Z", "X", "C", "V", "B", "N", "M"]
+        ["Q","W","E","R","T","Y","U","I","O","P"],
+        ["A","S","D","F","G","H","J","K","L"],
+        ["Z","X","C","V","B","N","M"]
     ];
     rows.forEach(row => {
         const rowDiv = document.createElement("div");
@@ -151,19 +145,15 @@ function buildKeyboard() {
 // ════════════════════════════════════════════════════════════════
 // GAME LOGIC
 // ════════════════════════════════════════════════════════════════
-
 function handleGuess(letter) {
     if (gameOver) return;
     if (guessedLetters.includes(letter)) return;
-
     guessedLetters.push(letter);
 
-    // Grey out the key
     const key = document.getElementById("key-" + letter);
     if (key) key.classList.add("used");
 
     if (todaysWord.includes(letter)) {
-        // Correct — reveal letters
         for (let i = 0; i < todaysWord.length; i++) {
             if (todaysWord[i] === letter) {
                 const tile = document.getElementById("tile-" + i);
@@ -171,39 +161,29 @@ function handleGuess(letter) {
                 tile.classList.add("revealed");
             }
         }
-
-        // Check win
         const allRevealed = todaysWord.split("").every(l => guessedLetters.includes(l));
         if (allRevealed) {
             gameOver = true;
-            // Change tiles to green
             for (let i = 0; i < todaysWord.length; i++) {
                 const tile = document.getElementById("tile-" + i);
                 tile.classList.remove("revealed");
                 tile.classList.add("revealed-final");
             }
-            const messages = ["Genius! 🎯", "Brilliant! 🎯", "Impressive! 🎯", "Well played! 🎯", "Nice one! 🎯", "Phew! 🎯"];
-            const msgIndex = Math.min(wrongGuesses, messages.length - 1);
-            showMessage(messages[msgIndex]);
+            const messages = ["Genius! 🎯","Brilliant! 🎯","Impressive! 🎯","Well played! 🎯","Nice one! 🎯","Phew! 🎯"];
+            showMessage(messages[Math.min(wrongGuesses, messages.length - 1)]);
             saveGameState(true);
             showShareButton();
         }
     } else {
-        // Wrong guess — lose a life
         const lifeEl = document.getElementById("life-" + (MAX_WRONG - 1 - wrongGuesses));
         if (lifeEl) lifeEl.classList.add("lost");
         wrongGuesses++;
         updateLivesLabel();
-
-        // Check lose
         if (wrongGuesses >= MAX_WRONG) {
             gameOver = true;
-            // Reveal remaining letters in red
             for (let i = 0; i < todaysWord.length; i++) {
                 const tile = document.getElementById("tile-" + i);
-                if (!tile.textContent) {
-                    tile.textContent = todaysWord[i];
-                }
+                if (!tile.textContent) tile.textContent = todaysWord[i];
                 tile.classList.remove("revealed");
                 tile.classList.add("revealed-fail");
             }
@@ -212,7 +192,6 @@ function handleGuess(letter) {
             showShareButton();
         }
     }
-
     saveProgress();
 }
 
@@ -224,15 +203,14 @@ function updateLivesLabel() {
 // ════════════════════════════════════════════════════════════════
 // MESSAGES & SHARE
 // ════════════════════════════════════════════════════════════════
-
 function showMessage(text) {
-    const msgDiv = document.getElementById("wordle-message");
-    msgDiv.innerHTML = "<span>" + text + "</span>";
+    document.getElementById("wordle-message").innerHTML = "<span>" + text + "</span>";
 }
 
 function showShareButton() {
     document.getElementById("wordle-share-container").style.display = "block";
 }
+
 function buildShareText() {
     const today = getUTCDateString();
     const won = todaysWord.split("").every(l => guessedLetters.includes(l));
@@ -248,6 +226,7 @@ function buildShareText() {
     text += "\n\nhttps://www.dartsdaily.net";
     return text;
 }
+
 function shareResult() {
     const text = buildShareText();
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -264,31 +243,9 @@ function shareResult() {
     }
 }
 
-    // Visual representation
-    for (let i = 0; i < todaysWord.length; i++) {
-        text += won ? "🟩" : (guessedLetters.includes(todaysWord[i]) ? "🟩" : "🟥");
-    }
-    text += "\n";
-    text += "🎯".repeat(remaining) + "✖️".repeat(wrongGuesses);
-    text += "\n\nhttps://www.dartsdaily.net";
-
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(() => {
-            const btn = document.getElementById("wordle-share-btn");
-            btn.textContent = "✅ Copied!";
-            btn.classList.add("copied");
-            setTimeout(() => {
-                btn.textContent = "📋 Share Result";
-                btn.classList.remove("copied");
-            }, 2000);
-        });
-    }
-}
-
 // ════════════════════════════════════════════════════════════════
 // STATS & PERSISTENCE
 // ════════════════════════════════════════════════════════════════
-
 function loadStats() {
     const stats = JSON.parse(localStorage.getItem("dartsWordStats") || '{"played":0,"won":0,"streak":0,"maxStreak":0}');
     document.getElementById("w-played").textContent = stats.played;
@@ -323,14 +280,12 @@ function saveProgress() {
 function restoreGame() {
     const savedDate = localStorage.getItem("dartsWordDate");
     const today = getUTCDateString();
-
     if (savedDate !== today) {
         localStorage.removeItem("dartsWordGuessed");
         localStorage.removeItem("dartsWordWrong");
         localStorage.removeItem("dartsWordOver");
         return;
     }
-
     const savedGuessed = JSON.parse(localStorage.getItem("dartsWordGuessed") || "[]");
     const savedWrong = parseInt(localStorage.getItem("dartsWordWrong") || "0");
     const wasOver = localStorage.getItem("dartsWordOver") === "true";
@@ -338,13 +293,11 @@ function restoreGame() {
     guessedLetters = savedGuessed;
     wrongGuesses = savedWrong;
 
-    // Grey out used keys
     guessedLetters.forEach(letter => {
         const key = document.getElementById("key-" + letter);
         if (key) key.classList.add("used");
     });
 
-    // Reveal correct letters
     for (let i = 0; i < todaysWord.length; i++) {
         if (guessedLetters.includes(todaysWord[i])) {
             const tile = document.getElementById("tile-" + i);
@@ -353,34 +306,23 @@ function restoreGame() {
         }
     }
 
-    // Remove lost lives
     for (let i = 0; i < wrongGuesses; i++) {
         const lifeEl = document.getElementById("life-" + (MAX_WRONG - 1 - i));
         if (lifeEl) lifeEl.classList.add("lost");
     }
+
     updateLivesLabel();
 
     if (wasOver) {
         gameOver = true;
         const won = todaysWord.split("").every(l => guessedLetters.includes(l));
-
         for (let i = 0; i < todaysWord.length; i++) {
             const tile = document.getElementById("tile-" + i);
             tile.classList.remove("revealed");
-            if (won) {
-                tile.textContent = todaysWord[i];
-                tile.classList.add("revealed-final");
-            } else {
-                tile.textContent = todaysWord[i];
-                tile.classList.add("revealed-fail");
-            }
+            tile.textContent = todaysWord[i];
+            tile.classList.add(won ? "revealed-final" : "revealed-fail");
         }
-
-        if (won) {
-            showMessage("You got it! 🎯");
-        } else {
-            showMessage("The word was " + todaysWord);
-        }
+        showMessage(won ? "You got it! 🎯" : "The word was " + todaysWord);
         showShareButton();
     }
 }
@@ -388,7 +330,6 @@ function restoreGame() {
 // ════════════════════════════════════════════════════════════════
 // KEYBOARD SUPPORT
 // ════════════════════════════════════════════════════════════════
-
 document.addEventListener("keydown", (e) => {
     if (e.ctrlKey || e.metaKey || e.altKey) return;
     const letter = e.key.toUpperCase();
@@ -398,36 +339,28 @@ document.addEventListener("keydown", (e) => {
 // ════════════════════════════════════════════════════════════════
 // INIT
 // ════════════════════════════════════════════════════════════════
-
 const todaysEntry = getTodaysWord();
 todaysWord = todaysEntry.word;
 todaysHint = todaysEntry.hint;
-
 buildTiles();
 buildKeyboard();
 loadStats();
-
 document.getElementById("word-hint").textContent = "💡 " + todaysHint;
-
 restoreGame();
 
 document.getElementById("wordle-share-btn").addEventListener("click", shareResult);
 document.getElementById("wordle-share-x")?.addEventListener("click", () => {
-    const text = buildShareText();
-    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank");
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(buildShareText()), "_blank");
 });
 document.getElementById("wordle-share-fb")?.addEventListener("click", () => {
-    window.open("https://www.facebook.com/sharer/sharer.php?u=https://www.dartsdaily.net/wordle", "_blank");
+    window.open("https://www.facebook.com/sharer/sharer.php?u=https://www.dartsdaily.net", "_blank");
 });
 document.getElementById("wordle-share-wa")?.addEventListener("click", () => {
-    const text = buildShareText();
-    window.open("https://wa.me/?text=" + encodeURIComponent(text), "_blank");
+    window.open("https://wa.me/?text=" + encodeURIComponent(buildShareText()), "_blank");
 });
 document.getElementById("wordle-share-reddit")?.addEventListener("click", () => {
-    const text = buildShareText();
-    window.open("https://reddit.com/submit?title=" + encodeURIComponent(text), "_blank");
+    window.open("https://reddit.com/submit?title=" + encodeURIComponent(buildShareText()), "_blank");
 });
 document.getElementById("wordle-share-telegram")?.addEventListener("click", () => {
-    const text = buildShareText();
-    window.open("https://t.me/share/url?url=https://www.dartsdaily.net/wordle&text=" + encodeURIComponent(text), "_blank");
+    window.open("https://t.me/share/url?url=https://www.dartsdaily.net&text=" + encodeURIComponent(buildShareText()), "_blank");
 });
