@@ -41,6 +41,8 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/guide.css">
+    <!-- Worlde -->
+    <link rel="stylesheet" href="css/wordle.css">
     <!-- Schema Markup — Organization -->
     <script type="application/ld+json">
     {
@@ -218,6 +220,51 @@
                             </svg>
                             <span>Copy</span>
                         </button>
+                    </div>
+                    <!-- DARTS WORD SECTION (inside trivia card) -->
+                    <div class="wordle-divider" style="border-top: 1px solid var(--border); margin: 24px 0;"></div>
+                    <div class="wordle-page" style="padding: 0; max-width: 100%;">
+                        <div class="wordle-header">
+                            <h2 style="font-size:1.1rem; font-weight:900; letter-spacing:-0.5px; color:var(--text); margin-bottom:4px;">🎯 Darts Word</h2>
+                            <p class="wordle-subtitle">Guess today's darts word — one letter at a time</p>
+                        </div>
+                        <div class="wordle-stats-bar">
+                            <div class="wordle-stat-item">
+                                <span class="wordle-stat-number" id="w-played">0</span>
+                                <span class="wordle-stat-label">Played</span>
+                            </div>
+                            <div class="wordle-stat-item">
+                                <span class="wordle-stat-number" id="w-win-pct">0</span>
+                                <span class="wordle-stat-label">Win %</span>
+                            </div>
+                            <div class="wordle-stat-item">
+                                <span class="wordle-stat-number" id="w-streak">0</span>
+                                <span class="wordle-stat-label">Streak</span>
+                            </div>
+                            <div class="wordle-stat-item">
+                                <span class="wordle-stat-number" id="w-max-streak">0</span>
+                                <span class="wordle-stat-label">Best</span>
+                            </div>
+                        </div>
+                        <div class="lives-display" id="lives-display">
+                            <span class="life active" id="life-0">🎯</span>
+                            <span class="life active" id="life-1">🎯</span>
+                            <span class="life active" id="life-2">🎯</span>
+                            <span class="life active" id="life-3">🎯</span>
+                            <span class="life active" id="life-4">🎯</span>
+                            <span class="life active" id="life-5">🎯</span>
+                        </div>
+                        <div class="lives-label" id="lives-label">6 darts remaining</div>
+                        <div class="word-tiles" id="word-tiles"></div>
+                        <div class="word-hint" id="word-hint"></div>
+                        <div class="wordle-message" id="wordle-message"></div>
+                        <div class="wordle-keyboard" id="wordle-keyboard"></div>
+                        <div class="wordle-share-container" id="wordle-share-container" style="display:none;">
+                            <button class="wordle-share-btn" id="wordle-share-btn">📋 Share Result</button>
+                        </div>
+                        <div style="text-align:center; margin-top:16px;">
+                            <a href="/wordle" style="font-size:0.75rem; color:var(--muted); text-decoration:none; font-weight:600;">Open full page →</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -507,5 +554,6 @@
         <p class="footer-text">© 2026 DartsDaily. All rights reserved.</p>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/wordle.js"></script>
 </body>
 </html>
