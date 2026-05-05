@@ -224,9 +224,9 @@
                     <!-- DARTS WORD SECTION (inside trivia card) -->
                     <div class="wordle-divider" style="border-top: 1px solid var(--border); margin: 24px 0;"></div>
                     <div class="wordle-page" style="padding: 0; max-width: 100%;">
-                        <div class="wordle-header">
-                            <h2 style="font-size:1.1rem; font-weight:900; letter-spacing:-0.5px; color:var(--text); margin-bottom:4px;">🎯 Darts Word</h2>
-                            <p class="wordle-subtitle">Guess today's darts word — one letter at a time</p>
+                        <div class="wordle-header" style="text-align:left; width:100%;">
+                            <div class="section-title">🎯 Darts Word</div>
+                            <div class="section-sub">Guess today's darts word — one letter at a time</div>
                         </div>
                         <div class="wordle-stats-bar">
                             <div class="wordle-stat-item">
@@ -260,7 +260,14 @@
                         <div class="wordle-message" id="wordle-message"></div>
                         <div class="wordle-keyboard" id="wordle-keyboard"></div>
                         <div class="wordle-share-container" id="wordle-share-container" style="display:none;">
-                            <button class="wordle-share-btn" id="wordle-share-btn">📋 Share Result</button>
+                            <div class="share-row">
+                                <button class="share-btn copy" id="wordle-share-btn">
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                                    </svg>
+                                    <span>Share Result</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
