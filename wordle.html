@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darts Wordle — DartsDaily</title>
+    <title>Darts Word — DartsDaily</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/wordle.css">
@@ -28,8 +28,8 @@
 
     <div class="wordle-page">
         <div class="wordle-header">
-            <h1>🎯 Darts Wordle</h1>
-            <p class="wordle-subtitle">Guess the 5-letter darts word in 6 tries</p>
+            <h1>🎯 Darts Word</h1>
+            <p class="wordle-subtitle">Guess today's darts word — one letter at a time</p>
         </div>
 
         <div class="wordle-stats-bar">
@@ -51,12 +51,30 @@
             </div>
         </div>
 
-        <div class="wordle-board" id="wordle-board"></div>
+        <!-- Lives display -->
+        <div class="lives-display" id="lives-display">
+            <span class="life active" id="life-0">🎯</span>
+            <span class="life active" id="life-1">🎯</span>
+            <span class="life active" id="life-2">🎯</span>
+            <span class="life active" id="life-3">🎯</span>
+            <span class="life active" id="life-4">🎯</span>
+            <span class="life active" id="life-5">🎯</span>
+        </div>
+        <div class="lives-label" id="lives-label">6 darts remaining</div>
 
+        <!-- Word tiles -->
+        <div class="word-tiles" id="word-tiles"></div>
+
+        <!-- Hint -->
+        <div class="word-hint" id="word-hint"></div>
+
+        <!-- Message -->
         <div class="wordle-message" id="wordle-message"></div>
 
+        <!-- Keyboard -->
         <div class="wordle-keyboard" id="wordle-keyboard"></div>
 
+        <!-- Share -->
         <div class="wordle-share-container" id="wordle-share-container" style="display:none;">
             <button class="wordle-share-btn" id="wordle-share-btn">📋 Share Result</button>
         </div>
