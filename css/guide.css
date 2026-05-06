@@ -197,3 +197,7 @@ body.light .carousel-dot.active { background: #333; }
 .product-card .product-cta { display: block; margin: 16px auto 0; padding: 12px 28px; background: var(--accent); color: #fff; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s; text-align: center; max-width: 280px; }
 .product-card .product-cta:hover { opacity: 0.85; }
 @media (max-width: 600px) { .product-gallery { grid-template-columns: repeat(2, 1fr); } .product-gallery img { height: 140px; } }                                                                                                                                                                                                                                
+/* Full width carousel for guide board reviews */
+.guide-section .product-carousel { width: 100%; max-width: 100%; border-radius: 12px; overflow: hidden; margin-bottom: 12px; }
+.guide-section .product-carousel .carousel-track { width: 100%; }
+.guide-section .product-carousel .carousel-slide { width: 100%; height: auto; object-fit: cover; aspect-ratio: 4/3; border-radius: 0; }
