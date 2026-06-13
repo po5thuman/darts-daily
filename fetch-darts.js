@@ -11,14 +11,14 @@ const commonParameters = {
     'SecretKey': process.env.AMAZON_SECRET_KEY,
     'PartnerTag': process.env.AMAZON_PARTNER_TAG,
     'PartnerType': 'Associates',
-    'Marketplace': 'www.amazon.com' // Matches your GBP (£) store profile
+    'Marketplace': 'www.amazon.co.uk' // Keeps it matching your GBP (£) store profile
 };
 
 // 3. Drop your target ASIN strings into this array!
 // You can put one, ten, or fifty here at a time.
 const asinsToFetch = [
     'B07V6V2K5X', // Example Harrows Wolfram ASIN
-    'B0B8Z9Y1X4'  // Add yours here
+    'B0B8Z9Y1X4'  // Example Target Darts ASIN
 ]; 
 
 const requestParameters = {
@@ -39,14 +39,16 @@ async function generateDartsJson() {
         return;
     }
 
-    if (asinsToFetch.length === 0 || asinsToFetch[0] === 'ADD_YOUR_ASINS_HERE') {
+    if (asinsToFetch.length === 0) {
         console.log("ℹ️ Please add at least one real Amazon ASIN string to the asinsToFetch array.");
         return;
     }
 
     try {
         console.log(`🔄 Contacting Amazon API for ${asinsToFetch.length} item(s)...`);
-        const data = await amazonPaapi.getItems(commonParameters, requestParameters);
+        
+        // This is the clean, stable SDK method execution syntax
+        const data = await amazonPaapi.GetItems(commonParameters, requestParameters);
         
         let currentProducts = [];
         const jsonPath = path.join(__dirname, 'products.json');
