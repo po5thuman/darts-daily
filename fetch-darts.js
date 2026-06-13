@@ -11,7 +11,7 @@ const commonParameters = {
     'SecretKey': process.env.AMAZON_SECRET_KEY,
     'PartnerTag': process.env.AMAZON_PARTNER_TAG,
     'PartnerType': 'Associates',
-    'Marketplace': 'www.amazon.co.uk' // Keeps it matching your GBP (£) store profile
+    'Marketplace': 'www.amazon.com' // Keeps it matching your GBP (£) store profile
 };
 
 // 3. Drop your target ASIN strings into this array!
