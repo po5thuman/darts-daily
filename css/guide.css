@@ -142,7 +142,7 @@
 .guides-view-all:hover { text-decoration: underline; }
 /* GUIDE RESPONSIVE */
 @media (max-width: 768px) { .guide-hero h1 { font-size: 1.6rem; } .quick-answer-grid { grid-template-columns: 1fr; gap: 12px; } .quick-answer-value { font-size: 1.5rem; } .related-guides { grid-template-columns: 1fr; } .guides-grid { grid-template-columns: 1fr; } .guide-wrapper { padding: 24px 16px 40px; } .guide-cta { padding: 28px 20px; } .setup-step { gap: 14px; } .setup-step-number { width: 34px; height: 34px; font-size: 0.85rem; } }
-@media (max-width: 480px) { .guide-hero h1 { font-size: 1.4rem; } .guide-section h2 { font-size: 1.2rem; } .breadcrumbs { padding: 10px 16px; font-size: 0.7rem; } .guide-meta { flex-wrap: wrap; gap: 6px; } .key-measurement { flex
+@media (max-width: 480px) { .guide-hero h1 { font-size: 1.4rem; } .guide-section h2 { font-size: 1.2rem; } .breadcrumbs { padding: 10px 16px; font-size: 0.7rem; } .guide-meta { flex-wrap: wrap; gap: 6px; } .key-measurement { flex-direction: column; } }
 /* REVIEW COMPONENTS */
 .review-verdict { margin-bottom: 16px; }
 .review-verdict-badge { display: inline-block; font-size: 0.7rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; background: var(--accent); color: #000; padding: 6px 14px; border-radius: 8px; }
@@ -165,3 +165,39 @@
 .pros ul li strong, .cons ul li strong { color: var(--text); }
 /* RESPONSIVE PROS/CONS */
 @media (max-width: 480px) { .pros-cons { grid-template-columns: 1fr; } }
+.guide-product-review-specs{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin:20px 0 24px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;}
+.guide-product-review-specs .spec-item{font-size:0.92rem;color:var(--text-secondary);padding:4px 0;}
+.guide-product-review-specs .spec-item strong{color:var(--text);}
+@media(max-width:600px){.guide-product-review-specs{grid-template-columns:1fr;gap:4px;}}
+/* Best Darts Accessories Carousel */
+.product-carousel { position: relative; width: 100%; max-width: 500px; margin: 16px auto; border-radius: 14px; overflow: hidden; background: #111; aspect-ratio: 1 / 1; }
+.carousel-track { position: relative; width: 100%; height: 100%; }
+.carousel-slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 0.4s ease; padding: 16px; }
+.carousel-slide.active { opacity: 1; }
+.carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0, 0, 0, 0.5); color: #fff; border: none; width: 44px; height: 44px; border-radius: 50%; font-size: 1.6rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s; z-index: 2; line-height: 1; }
+.carousel-btn:hover { background: rgba(0, 0, 0, 0.8); }
+.carousel-prev { left: 12px; }
+.carousel-next { right: 12px; }
+.carousel-dots { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 2; }
+.carousel-dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255, 255, 255, 0.35); cursor: pointer; transition: background 0.2s, transform 0.2s; }
+.carousel-dot.active { background: #fff; transform: scale(1.2); }
+body.light .product-carousel { background: #f0f0f0; }
+body.light .carousel-btn { background: rgba(0, 0, 0, 0.3); }
+body.light .carousel-btn:hover { background: rgba(0, 0, 0, 0.6); }
+body.light .carousel-dot { background: rgba(0, 0, 0, 0.25); }
+body.light .carousel-dot.active { background: #333; }
+@media (max-width: 600px) { .product-carousel { max-width: 100%; border-radius: 10px; } .carousel-btn { width: 36px; height: 36px; font-size: 1.3rem; } .carousel-prev { left: 8px; } .carousel-next { right: 8px; } }
+.product-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 16px 0; border-radius: 12px; overflow: hidden; }
+.product-gallery img { width: 100%; height: 180px; object-fit: contain; background: #fff; border-radius: 10px; padding: 10px; cursor: pointer; transition: transform 0.2s; }
+.product-gallery img:hover { transform: scale(1.04); }
+.product-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 28px; margin-bottom: 28px; }
+.product-card h3 { margin-top: 0; font-size: 1.25rem; }
+.product-card .product-meta { display: flex; flex-wrap: wrap; gap: 12px; margin: 10px 0 16px; font-size: 0.88rem; color: var(--muted); }
+.product-card .product-meta span { background: var(--bg); padding: 4px 12px; border-radius: 8px; border: 1px solid var(--border); }
+.product-card .product-cta { display: block; margin: 16px auto 0; padding: 12px 28px; background: var(--accent); color: #fff; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s; text-align: center; max-width: 280px; }
+.product-card .product-cta:hover { opacity: 0.85; }
+@media (max-width: 600px) { .product-gallery { grid-template-columns: repeat(2, 1fr); } .product-gallery img { height: 140px; } }                                                                                                                                                                                                                                
+/* Full width carousel for guide board reviews */
+.guide-section .product-carousel { width: 100%; max-width: 100%; border-radius: 12px; overflow: hidden; margin-bottom: 12px; }
+.guide-section .product-carousel .carousel-track { width: 100%; }
+.guide-section .product-carousel .carousel-slide { width: 100%; height: auto; object-fit: contain; border-radius: 0; }
