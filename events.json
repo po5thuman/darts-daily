@@ -34,8 +34,7 @@
     "date_display": "Thu 19 Mar 2026",
     "date_iso": "2026-03-19",
     "tour": "PDC Premier League",
-    "icon": "IE",
-	"ticket_url": "https://ticketmaster.evyy.net/en1qgj"
+    "icon": "IE"
   },
   {
     "id": 5,
@@ -54,8 +53,7 @@
     "date_display": "Thu 26 Mar 2026",
     "date_iso": "2026-03-26",
     "tour": "PDC Premier League",
-    "icon": "DE",
-    "ticket_url": "https://ticketmaster.evyy.net/GbKnGk"
+    "icon": "DE"
   },
   {
     "id": 7,
@@ -82,8 +80,7 @@
     "date_display": "Thu 02 Apr 2026",
     "date_iso": "2026-04-02",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG",
-    "ticket_url": "https://ticketmaster.evyy.net/DWyKjy"
+    "icon": "GB-ENG"
   },
   {
     "id": 10,
@@ -93,8 +90,7 @@
     "date_iso": "2026-04-04",
 	"end_date_iso": "2026-04-06",
     "tour": "PDC European Tour",
-    "icon": "DE",
-    "ticket_url": "https://prf.hn/l/aWzGw4a/"
+    "icon": "DE"
   },
   {
     "id": 11,
@@ -103,8 +99,7 @@
     "date_display": "Thu 09 Apr 2026",
     "date_iso": "2026-04-09",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG",
-	"ticket_url": "https://ticketmaster.evyy.net/jRerMn"
+    "icon": "GB-ENG"
   },
   {
     "id": 12,
@@ -131,8 +126,7 @@
     "date_display": "Thu 16 Apr 2026",
     "date_iso": "2026-04-16",
     "tour": "PDC Premier League",
-    "icon": "NL",
-	"ticket_url": "https://prf.hn/l/Oq2vV3k/"
+    "icon": "NL"
   },
   {
     "id": 15,
@@ -142,8 +136,7 @@
     "date_iso": "2026-04-17",
 	"end_date_iso": "2026-04-19",
     "tour": "PDC European Tour",
-    "icon": "DE",
-    "ticket_url": "https://prf.hn/l/aWzGw4a/"
+    "icon": "DE"
   },
   {
     "id": 16,
@@ -152,8 +145,7 @@
     "date_display": "Thu 23 Apr 2026",
     "date_iso": "2026-04-23",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG",
-	"ticket_url": "https://prf.hn/l/Oq2vV3k/"
+    "icon": "GB-ENG"
   },
   {
     "id": 17,
@@ -180,8 +172,7 @@
     "date_display": "Thu 30 Apr 2026",
     "date_iso": "2026-04-30",
     "tour": "PDC Premier League",
-    "icon": "GB-SCT",
-    "ticket_url": "https://ticketmaster.evyy.net/DWyKD2"
+    "icon": "GB-SCT"
   },
   {
     "id": 20,
@@ -208,8 +199,7 @@
     "date_display": "Thu 07 May 2026",
     "date_iso": "2026-05-07",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG",
-    "ticket_url": "https://ticketmaster.evyy.net/AgPWqR"
+    "icon": "GB-ENG"
   },
   {
     "id": 23,
@@ -219,8 +209,7 @@
     "date_iso": "2026-05-08",
 	"end_date_iso": "2026-05-10",
     "tour": "PDC European Tour",
-    "icon": "AT",
-	"ticket_url": "https://prf.hn/l/MdP5z8B/"
+    "icon": "AT"
   },
   {
     "id": 24,
@@ -247,8 +236,7 @@
     "date_display": "Thu 14 May 2026",
     "date_iso": "2026-05-14",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG",
-	"ticket_url": "https://prf.hn/l/Oq2vV3k/"
+    "icon": "GB-ENG"
   },
   {
     "id": 27,
@@ -275,8 +263,7 @@
     "date_display": "Thu 21 May 2026",
     "date_iso": "2026-05-21",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG",
-    "ticket_url": "https://ticketmaster.evyy.net/yZq2nD"
+    "icon": "GB-ENG"
   },
   {
     "id": 30,
@@ -286,8 +273,7 @@
     "date_iso": "2026-05-22",
 	"end_date_iso": "2026-05-24",
     "tour": "PDC European Tour",
-    "icon": "DE",
-    "ticket_url": "https://prf.hn/l/8jRdxz8/"
+    "icon": "DE"
   },
   {
     "id": 31,
@@ -296,8 +282,7 @@
     "date_display": "Thu 28 May 2026",
     "date_iso": "2026-05-28",
     "tour": "PDC Premier League",
-    "icon": "GB-ENG",
-	"ticket_url": "https://prf.hn/l/Oq2vV3k/"
+    "icon": "GB-ENG"
   },
   {
     "id": 32,
@@ -307,8 +292,7 @@
     "date_iso": "2026-05-29",
 	"end_date_iso": "2026-05-31",
     "tour": "PDC European Tour",
-    "icon": "DE",
-	"ticket_url": "https://prf.hn/l/PlbVzX8/"
+    "icon": "DE"
   },
   {
     "id": 33,
@@ -336,8 +320,7 @@
     "date_iso": "2026-06-05",
 	"end_date_iso": "2026-06-06",
     "tour": "PDC World Series",
-    "icon": "DK",
-	"ticket_url": "https://prf.hn/l/ngmlbXz/"
+    "icon": "DK"
   },
   {
     "id": 36,
@@ -347,8 +330,7 @@
     "date_iso": "2026-06-11",
 	"end_date_iso": "2026-06-14",
     "tour": "PDC World Cup",
-    "icon": "DE",
-	"ticket_url": "https://prf.hn/l/AJYB3d8/"
+    "icon": "DE"
   },
   {
     "id": 37,
@@ -376,8 +358,7 @@
     "date_iso": "2026-06-19",
 	"end_date_iso": "2026-06-21",
     "tour": "PDC European Tour",
-    "icon": "SK",
-	"ticket_url": "https://prf.hn/l/JpDVWqD/"
+    "icon": "SK"
   },
   {
     "id": 40,
@@ -387,8 +368,7 @@
     "date_iso": "2026-06-25",
 	"end_date_iso": "2026-06-26",
     "tour": "PDC World Series",
-    "icon": "US",
-    "ticket_url": "https://ticketmaster.evyy.net/c/7066403/264167/4272?u=https%3A%2F%2Fwww.ticketmaster.com%2Fu.s.-darts-masters-tickets%2Fartist%2F2722212&partnerpropertyid=8103814&MediaPartnerPropertyId=8103814"
+    "icon": "US"
   },
   {
     "id": 41,
@@ -416,8 +396,7 @@
     "date_iso": "2026-07-10",
 	"end_date_iso": "2026-07-12",
     "tour": "PDC European Tour",
-    "icon": "DE",
-    "ticket_url": "https://prf.hn/l/0eR4GdP/"
+    "icon": "DE"
   },
   {
     "id": 44,
@@ -427,8 +406,7 @@
     "date_iso": "2026-07-18",
 	"end_date_iso": "2026-07-26",
     "tour": "PDC",
-    "icon": "GB-ENG",
-    "ticket_url": "https://prf.hn/l/deMplm4/"
+    "icon": "GB-ENG"
   },
   {
     "id": 45,
@@ -456,8 +434,7 @@
     "date_iso": "2026-08-14",
 	"end_date_iso": "2026-08-15",
     "tour": "PDC World Series",
-    "icon": "NZ",
-    "ticket_url": "https://ticketmaster.evyy.net/bkOObB"
+    "icon": "NZ"
   },
   {
     "id": 48,
@@ -467,8 +444,7 @@
     "date_iso": "2026-08-21",
 	"end_date_iso": "2026-08-22",
     "tour": "PDC World Series",
-    "icon": "AU",
-    "ticket_url": "https://ticketmaster.evyy.net/c/7066403/1965672/24024?u=https%3A%2F%2Fwww.ticketmaster.com.au%2Fkenogo-australian-darts-masters-tickets%2Fartist%2F2734450&partnerpropertyid=8103814&MediaPartnerPropertyId=8103814"
+    "icon": "AU"
   },
   {
     "id": 49,
@@ -496,8 +472,7 @@
     "date_iso": "2026-08-28",
 	"end_date_iso": "2026-08-30",
     "tour": "PDC European Tour",
-    "icon": "HU",
-    "ticket_url": "https://prf.hn/l/mVO5e9m/"
+    "icon": "HU"
   },
   {
     "id": 52,
@@ -507,8 +482,7 @@
     "date_iso": "2026-09-04",
 	"end_date_iso": "2026-09-04",
     "tour": "PDC European Tour",
-    "icon": "CZ",
-    "ticket_url": "https://prf.hn/l/55RGNlZ/"
+    "icon": "CZ"
   },
   {
     "id": 53,
@@ -528,8 +502,7 @@
     "date_iso": "2026-09-17",
 	"end_date_iso": "2026-09-20",
     "tour": "PDC World Series",
-    "icon": "NL",
-    "ticket_url": "https://prf.hn/l/RvQZ9dd/"
+    "icon": "NL"
   },
   {
     "id": 55,
@@ -557,8 +530,7 @@
     "date_iso": "2026-09-28",
 	"end_date_iso": "2026-09-28",
     "tour": "PDC",
-    "icon": "GB-ENG",
-    "ticket_url": "https://prf.hn/l/G95XBwZ/"
+    "icon": "GB-ENG"
   },
   {
     "id": 58,
@@ -568,8 +540,7 @@
     "date_iso": "2026-10-09",
 	"end_date_iso": "2026-10-11",
     "tour": "PDC European Tour",
-    "icon": "CH",
-    "ticket_url": "https://prf.hn/l/VxGpzA9/"
+    "icon": "CH"
   },
   {
     "id": 59,
@@ -579,8 +550,7 @@
     "date_iso": "2026-10-16",
 	"end_date_iso": "2026-10-18",
     "tour": "PDC European Tour",
-    "icon": "NL",
-    "ticket_url": "https://prf.hn/l/xEM4nok/"
+    "icon": "NL"
   },
   {
     "id": 60,
@@ -590,8 +560,7 @@
     "date_iso": "2026-10-22",
 	"end_date_iso": "2026-10-25",
     "tour": "PDC European Tour",
-    "icon": "DE",
-    "ticket_url": "https://prf.hn/l/YRebdZG/"
+    "icon": "DE"
   },
   {
     "id": 61,
@@ -637,8 +606,7 @@
     "date_iso": "2026-11-14",
 	"end_date_iso": "2026-11-22",
     "tour": "PDC",
-    "icon": "GB-ENG",
-	"ticket_url": "https://prf.hn/l/Wo3ExVk/"
+    "icon": "GB-ENG"
   },
   {
     "id": 66,
