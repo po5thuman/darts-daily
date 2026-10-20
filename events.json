@@ -607,7 +607,7 @@
 	"end_date_iso": "2026-11-22",
     "tour": "PDC",
     "icon": "GB-ENG",
-    "link":"https://prf.hn/l/jXGDXpQ/"
+    "ticket_url": "https://prf.hn/l/jXGDXpQ/"
   },
   {
     "id": 66,
@@ -626,6 +626,7 @@
     "date_iso": "2026-12-10",
 	"end_date_iso": "2027-01-03",
     "tour": "PDC",
-    "icon": "GB-ENG"
+    "icon": "GB-ENG",
+    "ticket_url": "https://prf.hn/l/DLNeNYj/"
   }
 ]
