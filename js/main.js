@@ -424,14 +424,13 @@ function displayEventsPage(pageNumber) {
                         &nbsp;·&nbsp;
                         <span class="event-date">📅 ${event.date_display}</span>
                     </div>
-                    <div class="event-bottom-row">
-                        <span class="event-badge">${event.tour}</span>
-                        ${event.ticket_url ? `
+                    ${event.ticket_url ? `
+                        <div class="event-bottom-row">
                             <a href="${event.ticket_url}" target="_blank" rel="noopener noreferrer" class="ticket-btn">
                                 🎟️ Buy Tickets
                             </a>
-                        ` : ''}
-                    </div>
+                        </div>
+                    ` : ''}
                 </div>
             </div>
         `;
