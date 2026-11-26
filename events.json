@@ -65,7 +65,7 @@
     "date_iso": "2027-01-27",
     "end_date_iso": "2027-01-31",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/gxEdlyl/"
   },
   {
     "id": 73,
@@ -75,7 +75,7 @@
     "date_iso": "2027-02-04",
     "end_date_iso": "2027-02-04",
     "icon": "GB-SCT",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/o35zYgL/"
   },
   {
     "id": 74,
@@ -125,17 +125,17 @@
     "date_iso": "2027-02-11",
     "end_date_iso": "2027-02-11",
     "icon": "DE",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/deMD4pL/"
   },
   {
     "id": 79,
-    "name": "European Tour 1",
+    "name": "ET 1: Baltic Sea Darts",
     "location": "Kiel, Germany",
     "date_display": "Fri 12 Feb 2027 - Sun 14 Feb 2027",
     "date_iso": "2027-02-12",
     "end_date_iso": "2027-02-14",
     "icon": "DE",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/deo2pPk/"
   },
   {
     "id": 80,
@@ -165,17 +165,17 @@
     "date_iso": "2027-02-18",
     "end_date_iso": "2027-02-18",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/aWMDLXg/"
   },
   {
     "id": 83,
-    "name": "European Tour 2",
+    "name": "ET 2 - Poland Darts Open",
     "location": "Krakow, Poland",
     "date_display": "Fri 19 Feb 2027 - Sun 21 Feb 2027",
     "date_iso": "2027-02-19",
     "end_date_iso": "2027-02-21",
     "icon": "PL",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/Jp2Ly3v/"
   },
   {
     "id": 84,
@@ -215,7 +215,7 @@
     "date_iso": "2027-02-25",
     "end_date_iso": "2027-02-25",
     "icon": "GB-NIR",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/ERlkabp/"
   },
   {
     "id": 88,
@@ -235,7 +235,7 @@
     "date_iso": "2027-03-04",
     "end_date_iso": "2027-03-04",
     "icon": "GB-WLS",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/EJ2myLp/"
   },
   {
     "id": 90,
@@ -255,7 +255,7 @@
     "date_iso": "2027-03-11",
     "end_date_iso": "2027-03-11",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/8jRXyop/"
   },
   {
     "id": 92,
@@ -319,13 +319,13 @@
   },
   {
     "id": 98,
-    "name": "European Tour 4",
+    "name": "ET 4 - Darts Grand Prix de France",
     "location": "Liévin, France",
     "date_display": "Fri 19 Mar 2027 - Sun 21 Mar 2027",
     "date_iso": "2027-03-19",
     "end_date_iso": "2027-03-21",
     "icon": "FR",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/55ReMqV/"
   },
   {
     "id": 99,
@@ -335,7 +335,7 @@
     "date_iso": "2027-03-25",
     "end_date_iso": "2027-03-25",
     "icon": "BE",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/w9AqeZb/"
   },
   {
     "id": 100,
@@ -365,17 +365,17 @@
     "date_iso": "2027-04-01",
     "end_date_iso": "2027-04-01",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/eO1AeQD/"
   },
   {
     "id": 103,
-    "name": "European Tour 6",
+    "name": "ET 6 - European Darts Grand Prix",
     "location": "Sindelfingen, Germany",
     "date_display": "Fri 2 Apr 2027 - Sun 4 Apr 2027",
     "date_iso": "2027-04-02",
     "end_date_iso": "2027-04-04",
     "icon": "DE",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/20abQ2V/"
   },
   {
     "id": 104,
@@ -385,7 +385,7 @@
     "date_iso": "2027-04-08",
     "end_date_iso": "2027-04-08",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/vwMDBA2/"
   },
   {
     "id": 105,
@@ -425,7 +425,7 @@
     "date_iso": "2027-04-15",
     "end_date_iso": "2027-04-15",
     "icon": "NL",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/3PlQ8nw/"
   },
   {
     "id": 109,
@@ -475,7 +475,7 @@
     "date_iso": "2027-04-22",
     "end_date_iso": "2027-04-22",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/Rmeo3Mn/"
   },
   {
     "id": 114,
@@ -485,7 +485,7 @@
     "date_iso": "2027-04-29",
     "end_date_iso": "2027-04-29",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/Nd2ayDy/"
   },
   {
     "id": 115,
@@ -535,7 +535,7 @@
     "date_iso": "2027-05-06",
     "end_date_iso": "2027-05-06",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/w9MDg0b/"
   },
   {
     "id": 120,
@@ -595,17 +595,17 @@
     "date_iso": "2027-05-20",
     "end_date_iso": "2027-05-20",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/QLNl3Z2/"
   },
   {
     "id": 126,
-    "name": "European Tour 9",
+    "name": "ET 9 - Czech Darts Open",
     "location": "Prague, Czechia",
     "date_display": "Fri 21 May 2027 - Sun 23 May 2027",
     "date_iso": "2027-05-21",
     "end_date_iso": "2027-05-23",
     "icon": "CZ",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/3PDJXvw/"
   },
   {
     "id": 127,
@@ -615,7 +615,7 @@
     "date_iso": "2027-05-27",
     "end_date_iso": "2027-05-27",
     "icon": "GB-ENG",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/jWg31zQ/"
   },
   {
     "id": 128,
@@ -715,7 +715,7 @@
     "date_iso": "2027-06-25",
     "end_date_iso": "2027-06-26",
     "icon": "US",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/q3jaYXE/"
   },
   {
     "id": 137,
@@ -729,13 +729,13 @@
   },
   {
     "id": 182,
-    "name": "Danish Darts Masters",
+    "name": "Nordic Darts Masters",
     "location": "Forum, Copenhagen, Denmark",
     "date_display": "Fri 2 Jul 2027 - Sat 3 Jul 2027",
     "date_iso": "2027-07-02",
     "end_date_iso": "2027-07-03",
     "icon": "DK",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/y81vYze/"
   },
   {
     "id": 138,
@@ -769,13 +769,13 @@
   },
   {
     "id": 141,
-    "name": "European Tour 10",
+    "name": "ET 10 - German Darts Open",
     "location": "Leverkusen, Germany",
     "date_display": "Fri 9 Jul 2027 - Sun 11 Jul 2027",
     "date_iso": "2027-07-09",
     "end_date_iso": "2027-07-11",
     "icon": "DE",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/MbNmPx8/"
   },
   {
     "id": 142,
@@ -899,13 +899,13 @@
   },
   {
     "id": 154,
-    "name": "European Tour 12",
+    "name": "ET 12 - Belgian Darts Open",
     "location": "Ghent, Belgium",
     "date_display": "Fri 3 Sep 2027 - Sun 5 Sep 2027",
     "date_iso": "2027-09-03",
     "end_date_iso": "2027-09-05",
     "icon": "BE",
-    "ticket_url": ""
+    "ticket_url": "https://prf.hn/l/2MoBEkV/"
   },
   {
     "id": 155,
