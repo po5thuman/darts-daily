@@ -5,8 +5,7 @@
     "location": "Butlins, Minehead, England",
     "date_display": "Fri 27 Nov – Sun 29 Nov 2026",
     "date_iso": "2026-11-27",
-    "icon": "GB-ENG",
-    "tour": ""
+    "icon": "GB-ENG"
   },
   {
     "id": 67,
@@ -227,5 +226,946 @@
     "end_date_iso": "2027-02-28",
     "icon": "DE",
     "ticket_url": ""
+  },
+  {
+    "id": 89,
+    "name": "Premier League Night 5",
+    "location": "Utilita Arena, Cardiff, Wales",
+    "date_display": "Thu 4 Mar 2027",
+    "date_iso": "2027-03-04",
+    "end_date_iso": "2027-03-04",
+    "icon": "GB-WLS",
+    "ticket_url": ""
+  },
+  {
+    "id": 90,
+    "name": "UK Open",
+    "location": "Butlin's Minehead Resort, Minehead, England",
+    "date_display": "Fri 5 Mar 2027 - Sun 7 Mar 2027",
+    "date_iso": "2027-03-05",
+    "end_date_iso": "2027-03-07",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 91,
+    "name": "Premier League Night 6",
+    "location": "Motorpoint Arena, Nottingham, England",
+    "date_display": "Thu 11 Mar 2027",
+    "date_iso": "2027-03-11",
+    "end_date_iso": "2027-03-11",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 92,
+    "name": "Women's Series 5-8",
+    "location": "Leicester, England",
+    "date_display": "Sat 13 Mar 2027 - Sun 14 Mar 2027",
+    "date_iso": "2027-03-13",
+    "end_date_iso": "2027-03-14",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 93,
+    "name": "Tour Card Holder Qualifiers (ET 4-5)",
+    "location": "Leicester, England",
+    "date_display": "Sun 14 Mar 2027",
+    "date_iso": "2027-03-14",
+    "end_date_iso": "2027-03-14",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 94,
+    "name": "Players Championship 7",
+    "location": "Leicester, England",
+    "date_display": "Mon 15 Mar 2027",
+    "date_iso": "2027-03-15",
+    "end_date_iso": "2027-03-15",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 95,
+    "name": "Players Championship 8",
+    "location": "Leicester, England",
+    "date_display": "Tue 16 Mar 2027",
+    "date_iso": "2027-03-16",
+    "end_date_iso": "2027-03-16",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 96,
+    "name": "Tour Card Holder Qualifiers (ET 6-7)",
+    "location": "Leicester, England",
+    "date_display": "Wed 17 Mar 2027",
+    "date_iso": "2027-03-17",
+    "end_date_iso": "2027-03-17",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 97,
+    "name": "Premier League Night 7",
+    "location": "3Arena, Dublin, Ireland",
+    "date_display": "Thu 18 Mar 2027",
+    "date_iso": "2027-03-18",
+    "end_date_iso": "2027-03-18",
+    "icon": "IE",
+    "ticket_url": ""
+  },
+  {
+    "id": 98,
+    "name": "European Tour 4",
+    "location": "Liévin, France",
+    "date_display": "Fri 19 Mar 2027 - Sun 21 Mar 2027",
+    "date_iso": "2027-03-19",
+    "end_date_iso": "2027-03-21",
+    "icon": "FR",
+    "ticket_url": ""
+  },
+  {
+    "id": 99,
+    "name": "Premier League Night 8",
+    "location": "Antwerp, Belgium",
+    "date_display": "Thu 25 Mar 2027",
+    "date_iso": "2027-03-25",
+    "end_date_iso": "2027-03-25",
+    "icon": "BE",
+    "ticket_url": ""
+  },
+  {
+    "id": 100,
+    "name": "Winmau Challenge Tour 4-6",
+    "location": "Milton Keynes, England",
+    "date_display": "Fri 26 Mar 2027 - Sun 28 Mar 2027",
+    "date_iso": "2027-03-26",
+    "end_date_iso": "2027-03-28",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 101,
+    "name": "European Tour 5",
+    "location": "Munich, Germany",
+    "date_display": "Sat 27 Mar 2027 - Mon 29 Mar 2027",
+    "date_iso": "2027-03-27",
+    "end_date_iso": "2027-03-29",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 102,
+    "name": "Premier League Night 9",
+    "location": "Brighton Centre, Brighton, England",
+    "date_display": "Thu 1 Apr 2027",
+    "date_iso": "2027-04-01",
+    "end_date_iso": "2027-04-01",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 103,
+    "name": "European Tour 6",
+    "location": "Sindelfingen, Germany",
+    "date_display": "Fri 2 Apr 2027 - Sun 4 Apr 2027",
+    "date_iso": "2027-04-02",
+    "end_date_iso": "2027-04-04",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 104,
+    "name": "Premier League Night 10",
+    "location": "AO Arena, Manchester, England",
+    "date_display": "Thu 8 Apr 2027",
+    "date_iso": "2027-04-08",
+    "end_date_iso": "2027-04-08",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 105,
+    "name": "Players Championship 9",
+    "location": "Wigan, England",
+    "date_display": "Mon 12 Apr 2027",
+    "date_iso": "2027-04-12",
+    "end_date_iso": "2027-04-12",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 106,
+    "name": "Players Championship 10",
+    "location": "Wigan, England",
+    "date_display": "Tue 13 Apr 2027",
+    "date_iso": "2027-04-13",
+    "end_date_iso": "2027-04-13",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 107,
+    "name": "Tour Card Holder Qualifiers (ET 8-9)",
+    "location": "Wigan, England",
+    "date_display": "Wed 14 Apr 2027",
+    "date_iso": "2027-04-14",
+    "end_date_iso": "2027-04-14",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 108,
+    "name": "Premier League Night 11",
+    "location": "Rotterdam Ahoy, Rotterdam, Netherlands",
+    "date_display": "Thu 15 Apr 2027",
+    "date_iso": "2027-04-15",
+    "end_date_iso": "2027-04-15",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 109,
+    "name": "European Tour 7",
+    "location": "Göttingen, Germany",
+    "date_display": "Fri 16 Apr 2027 - Sun 18 Apr 2027",
+    "date_iso": "2027-04-16",
+    "end_date_iso": "2027-04-18",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 110,
+    "name": "Winmau Development Tour 4-6",
+    "location": "Leicester, England",
+    "date_display": "Fri 16 Apr 2027 - Sun 18 Apr 2027",
+    "date_iso": "2027-04-16",
+    "end_date_iso": "2027-04-18",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 111,
+    "name": "Players Championship 11",
+    "location": "Leicester, England",
+    "date_display": "Tue 20 Apr 2027",
+    "date_iso": "2027-04-20",
+    "end_date_iso": "2027-04-20",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 112,
+    "name": "Players Championship 12",
+    "location": "Leicester, England",
+    "date_display": "Wed 21 Apr 2027",
+    "date_iso": "2027-04-21",
+    "end_date_iso": "2027-04-21",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 113,
+    "name": "Premier League Night 12",
+    "location": "M&S Bank Arena, Liverpool, England",
+    "date_display": "Thu 22 Apr 2027",
+    "date_iso": "2027-04-22",
+    "end_date_iso": "2027-04-22",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 114,
+    "name": "Premier League Night 13",
+    "location": "Utilita Arena, Birmingham, England",
+    "date_display": "Thu 29 Apr 2027",
+    "date_iso": "2027-04-29",
+    "end_date_iso": "2027-04-29",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 115,
+    "name": "Winmau Challenge Tour 7",
+    "location": "Hildesheim, Germany",
+    "date_display": "Fri 30 Apr 2027",
+    "date_iso": "2027-04-30",
+    "end_date_iso": "2027-04-30",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 116,
+    "name": "Winmau Challenge Tour 8-9",
+    "location": "Hildesheim, Germany",
+    "date_display": "Sat 1 May 2027 - Sun 2 May 2027",
+    "date_iso": "2027-05-01",
+    "end_date_iso": "2027-05-02",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 117,
+    "name": "Players Championship 13",
+    "location": "Hildesheim, Germany",
+    "date_display": "Mon 3 May 2027",
+    "date_iso": "2027-05-03",
+    "end_date_iso": "2027-05-03",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 118,
+    "name": "Players Championship 14",
+    "location": "Hildesheim, Germany",
+    "date_display": "Tue 4 May 2027",
+    "date_iso": "2027-05-04",
+    "end_date_iso": "2027-05-04",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 119,
+    "name": "Premier League Night 14",
+    "location": "First Direct Arena, Leeds, England",
+    "date_display": "Thu 6 May 2027",
+    "date_iso": "2027-05-06",
+    "end_date_iso": "2027-05-06",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 120,
+    "name": "European Tour 8",
+    "location": "Graz, Austria",
+    "date_display": "Fri 7 May 2027 - Sun 9 May 2027",
+    "date_iso": "2027-05-07",
+    "end_date_iso": "2027-05-09",
+    "icon": "AT",
+    "ticket_url": ""
+  },
+  {
+    "id": 121,
+    "name": "Premier League Night 15",
+    "location": "P&J Live, Aberdeen, Scotland",
+    "date_display": "Thu 13 May 2027",
+    "date_iso": "2027-05-13",
+    "end_date_iso": "2027-05-13",
+    "icon": "GB-SCT",
+    "ticket_url": ""
+  },
+  {
+    "id": 122,
+    "name": "Women's Series 9-12",
+    "location": "Hildesheim, Germany",
+    "date_display": "Sat 15 May 2027 - Sun 16 May 2027",
+    "date_iso": "2027-05-15",
+    "end_date_iso": "2027-05-16",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 123,
+    "name": "Players Championship 15",
+    "location": "Hildesheim, Germany",
+    "date_display": "Mon 17 May 2027",
+    "date_iso": "2027-05-17",
+    "end_date_iso": "2027-05-17",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 124,
+    "name": "Players Championship 16",
+    "location": "Hildesheim, Germany",
+    "date_display": "Tue 18 May 2027",
+    "date_iso": "2027-05-18",
+    "end_date_iso": "2027-05-18",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 125,
+    "name": "Premier League Night 16",
+    "location": "Utilita Arena, Sheffield, England",
+    "date_display": "Thu 20 May 2027",
+    "date_iso": "2027-05-20",
+    "end_date_iso": "2027-05-20",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 126,
+    "name": "European Tour 9",
+    "location": "Prague, Czechia",
+    "date_display": "Fri 21 May 2027 - Sun 23 May 2027",
+    "date_iso": "2027-05-21",
+    "end_date_iso": "2027-05-23",
+    "icon": "CZ",
+    "ticket_url": ""
+  },
+  {
+    "id": 127,
+    "name": "Premier League Finals",
+    "location": "The O2, London, England",
+    "date_display": "Thu 27 May 2027",
+    "date_iso": "2027-05-27",
+    "end_date_iso": "2027-05-27",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 128,
+    "name": "Winmau Challenge Tour 10-12",
+    "location": "Wigan, England",
+    "date_display": "Fri 28 May 2027 - Sun 30 May 2027",
+    "date_iso": "2027-05-28",
+    "end_date_iso": "2027-05-30",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 129,
+    "name": "Players Championship 17",
+    "location": "Wigan, England",
+    "date_display": "Mon 31 May 2027",
+    "date_iso": "2027-05-31",
+    "end_date_iso": "2027-05-31",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 130,
+    "name": "Players Championship 18",
+    "location": "Wigan, England",
+    "date_display": "Tue 1 Jun 2027",
+    "date_iso": "2027-06-01",
+    "end_date_iso": "2027-06-01",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 131,
+    "name": "Tour Card Holder Qualifiers (ET 19-11)",
+    "location": "Wigan, England",
+    "date_display": "Wed 2 Jun 2027",
+    "date_iso": "2027-06-02",
+    "end_date_iso": "2027-06-02",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 132,
+    "name": "Winmau Development Tour 7-9",
+    "location": "Wigan, England",
+    "date_display": "Fri 4 Jun 2027 - Sun 6 Jun 2027",
+    "date_iso": "2027-06-04",
+    "end_date_iso": "2027-06-06",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 133,
+    "name": "World Cup of Darts",
+    "location": "Frankfurt, Germany",
+    "date_display": "Thu 10 Jun 2027 - Sun 13 Jun 2027",
+    "date_iso": "2027-06-10",
+    "end_date_iso": "2027-06-13",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 134,
+    "name": "Players Championship 19",
+    "location": "Hildesheim, Germany",
+    "date_display": "Tue 15 Jun 2027",
+    "date_iso": "2027-06-15",
+    "end_date_iso": "2027-06-15",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 135,
+    "name": "Players Championship 20",
+    "location": "Hildesheim, Germany",
+    "date_display": "Wed 16 Jun 2027",
+    "date_iso": "2027-06-16",
+    "end_date_iso": "2027-06-16",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 136,
+    "name": "European Open",
+    "location": "Salzburg, Austria",
+    "date_display": "Fri 18 Jun 2027 - Sun 20 Jun 2027",
+    "date_iso": "2027-06-18",
+    "end_date_iso": "2027-06-20",
+    "icon": "AT",
+    "ticket_url": ""
+  },
+  {
+    "id": 181,
+    "name": "US Darts Masters",
+    "location": "Madison Square Garden, New York, USA",
+    "date_display": "Fri 25 Jun 2027 - Sat 26 Jun 2027",
+    "date_iso": "2027-06-25",
+    "end_date_iso": "2027-06-26",
+    "icon": "US",
+    "ticket_url": ""
+  },
+  {
+    "id": 137,
+    "name": "Women's Series 13-16",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Sat 26 Jun 2027 - Sun 27 Jun 2027",
+    "date_iso": "2027-06-26",
+    "end_date_iso": "2027-06-27",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 182,
+    "name": "Danish Darts Masters",
+    "location": "Forum, Copenhagen, Denmark",
+    "date_display": "Fri 2 Jul 2027 - Sat 3 Jul 2027",
+    "date_iso": "2027-07-02",
+    "end_date_iso": "2027-07-03",
+    "icon": "DK",
+    "ticket_url": ""
+  },
+  {
+    "id": 138,
+    "name": "Players Championship 21",
+    "location": "Leicester, England",
+    "date_display": "Mon 5 Jul 2027",
+    "date_iso": "2027-07-05",
+    "end_date_iso": "2027-07-05",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 139,
+    "name": "Players Championship 22",
+    "location": "Leicester, England",
+    "date_display": "Tue 6 Jul 2027",
+    "date_iso": "2027-07-06",
+    "end_date_iso": "2027-07-06",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+{
+    "id": 140,
+    "name": "Tour Card Holder Qualifiers (ET 12-13)",
+    "location": "Leicester, England",
+    "date_display": "Wed 7 Jul 2027",
+    "date_iso": "2027-07-07",
+    "end_date_iso": "2027-07-07",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 141,
+    "name": "European Tour 10",
+    "location": "Leverkusen, Germany",
+    "date_display": "Fri 9 Jul 2027 - Sun 11 Jul 2027",
+    "date_iso": "2027-07-09",
+    "end_date_iso": "2027-07-11",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 142,
+    "name": "World Matchplay",
+    "location": "Winter Gardens, Blackpool, England",
+    "date_display": "Sat 17 Jul 2027 - Sun 25 Jul 2027",
+    "date_iso": "2027-07-17",
+    "end_date_iso": "2027-07-25",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 143,
+    "name": "Women's World Matchplay",
+    "location": "Winter Gardens, Blackpool, England",
+    "date_display": "Sun 25 Jul 2027",
+    "date_iso": "2027-07-25",
+    "end_date_iso": "2027-07-25",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 144,
+    "name": "Players Championship 23",
+    "location": "Hildesheim, Germany",
+    "date_display": "Tue 27 Jul 2027",
+    "date_iso": "2027-07-27",
+    "end_date_iso": "2027-07-27",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 145,
+    "name": "Players Championship 24",
+    "location": "Hildesheim, Germany",
+    "date_display": "Wed 28 Jul 2027",
+    "date_iso": "2027-07-28",
+    "end_date_iso": "2027-07-28",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 146,
+    "name": "Winmau Development Tour 10-11",
+    "location": "Hildesheim, Germany",
+    "date_display": "Fri 30 Jul 2027 - Sat 31 Jul 2027",
+    "date_iso": "2027-07-30",
+    "end_date_iso": "2027-07-31",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 147,
+    "name": "Winmau Development Tour 12",
+    "location": "Hildesheim, Germany",
+    "date_display": "Sun 1 Aug 2027",
+    "date_iso": "2027-08-01",
+    "end_date_iso": "2027-08-01",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 148,
+    "name": "Winmau Challenge Tour 13-15",
+    "location": "Milton Keynes, England",
+    "date_display": "Fri 13 Aug 2027 - Sun 15 Aug 2027",
+    "date_iso": "2027-08-13",
+    "end_date_iso": "2027-08-15",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 149,
+    "name": "Women's Series 17-20",
+    "location": "Leicester, England",
+    "date_display": "Sat 21 Aug 2027 - Sun 22 Aug 2027",
+    "date_iso": "2027-08-21",
+    "end_date_iso": "2027-08-22",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 150,
+    "name": "World Series of Darts Finals Tour Card Holders Qualifier",
+    "location": "Leicester, England",
+    "date_display": "Mon 23 Aug 2027",
+    "date_iso": "2027-08-23",
+    "end_date_iso": "2027-08-23",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 151,
+    "name": "Players Championship 25",
+    "location": "Leicester, England",
+    "date_display": "Tue 24 Aug 2027",
+    "date_iso": "2027-08-24",
+    "end_date_iso": "2027-08-24",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 152,
+    "name": "Players Championship 26",
+    "location": "Leicester, England",
+    "date_display": "Wed 25 Aug 2027",
+    "date_iso": "2027-08-25",
+    "end_date_iso": "2027-08-25",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 153,
+    "name": "European Tour 11",
+    "location": "Bratislava, Slovakia",
+    "date_display": "Fri 27 Aug 2027 - Sun 29 Aug 2027",
+    "date_iso": "2027-08-27",
+    "end_date_iso": "2027-08-29",
+    "icon": "SK",
+    "ticket_url": ""
+  },
+  {
+    "id": 154,
+    "name": "European Tour 12",
+    "location": "Ghent, Belgium",
+    "date_display": "Fri 3 Sep 2027 - Sun 5 Sep 2027",
+    "date_iso": "2027-09-03",
+    "end_date_iso": "2027-09-05",
+    "icon": "BE",
+    "ticket_url": ""
+  },
+  {
+    "id": 155,
+    "name": "Winmau Development Tour 13-15",
+    "location": "Leicester, England",
+    "date_display": "Fri 3 Sep 2027 - Sun 5 Sep 2027",
+    "date_iso": "2027-09-03",
+    "end_date_iso": "2027-09-05",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 156,
+    "name": "Players Championship 27",
+    "location": "Leicester, England",
+    "date_display": "Tue 7 Sep 2027",
+    "date_iso": "2027-09-07",
+    "end_date_iso": "2027-09-07",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 157,
+    "name": "Players Championship 28",
+    "location": "Leicester, England",
+    "date_display": "Wed 8 Sep 2027",
+    "date_iso": "2027-09-08",
+    "end_date_iso": "2027-09-08",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 158,
+    "name": "European Tour 13",
+    "location": "Basel, Switzerland",
+    "date_display": "Fri 10 Sep 2027 - Sun 12 Sep 2027",
+    "date_iso": "2027-09-10",
+    "end_date_iso": "2027-09-12",
+    "icon": "CH",
+    "ticket_url": ""
+  },
+  {
+    "id": 159,
+    "name": "World Series of Darts Finals",
+    "location": "Amsterdam, Netherlands",
+    "date_display": "Thu 16 Sep 2027 - Sun 19 Sep 2027",
+    "date_iso": "2027-09-16",
+    "end_date_iso": "2027-09-19",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 160,
+    "name": "Players Championship 29",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Tue 21 Sep 2027",
+    "date_iso": "2027-09-21",
+    "end_date_iso": "2027-09-21",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 161,
+    "name": "Players Championship 30",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Wed 22 Sep 2027",
+    "date_iso": "2027-09-22",
+    "end_date_iso": "2027-09-22",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 162,
+    "name": "Tour Card Holder Qualifiers (ET 14-15)",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Thu 23 Sep 2027",
+    "date_iso": "2027-09-23",
+    "end_date_iso": "2027-09-23",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 163,
+    "name": "Winmau Challenge Tour 16-18",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Fri 24 Sep 2027 - Sun 26 Sep 2027",
+    "date_iso": "2027-09-24",
+    "end_date_iso": "2027-09-26",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 164,
+    "name": "World Grand Prix",
+    "location": "Leicester, England",
+    "date_display": "Mon 27 Sep 2027 - Sun 3 Oct 2027",
+    "date_iso": "2027-09-27",
+    "end_date_iso": "2027-10-03",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 165,
+    "name": "Winmau Development Tour 16",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Thu 30 Sep 2027",
+    "date_iso": "2027-09-30",
+    "end_date_iso": "2027-09-30",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 166,
+    "name": "Winmau Development Tour 17-18",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Fri 1 Oct 2027 - Sat 2 Oct 2027",
+    "date_iso": "2027-10-01",
+    "end_date_iso": "2027-10-02",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 167,
+    "name": "World Youth Championship",
+    "location": "Den Bosch, Netherlands",
+    "date_display": "Sun 3 Oct 2027",
+    "date_iso": "2027-10-03",
+    "end_date_iso": "2027-10-03",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 168,
+    "name": "Players Championship 31",
+    "location": "Wigan, England",
+    "date_display": "Tue 5 Oct 2027",
+    "date_iso": "2027-10-05",
+    "end_date_iso": "2027-10-05",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 169,
+    "name": "Players Championship 32",
+    "location": "Wigan, England",
+    "date_display": "Wed 6 Oct 2027",
+    "date_iso": "2027-10-06",
+    "end_date_iso": "2027-10-06",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 170,
+    "name": "European Tour 14",
+    "location": "Budapest, Hungary",
+    "date_display": "Fri 8 Oct 2027 - Sun 10 Oct 2027",
+    "date_iso": "2027-10-08",
+    "end_date_iso": "2027-10-10",
+    "icon": "HU",
+    "ticket_url": ""
+  },
+  {
+    "id": 171,
+    "name": "Women's Series 21-24",
+    "location": "Leicester, England",
+    "date_display": "Sat 9 Oct 2027 - Sun 10 Oct 2027",
+    "date_iso": "2027-10-09",
+    "end_date_iso": "2027-10-10",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 172,
+    "name": "European Tour 15",
+    "location": "Maastricht, Netherlands",
+    "date_display": "Fri 15 Oct 2027 - Sun 17 Oct 2027",
+    "date_iso": "2027-10-15",
+    "end_date_iso": "2027-10-17",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 173,
+    "name": "Players Championship 33",
+    "location": "Maastricht, Netherlands",
+    "date_display": "Tue 19 Oct 2027",
+    "date_iso": "2027-10-19",
+    "end_date_iso": "2027-10-19",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 174,
+    "name": "Players Championship 34",
+    "location": "Maastricht, Netherlands",
+    "date_display": "Wed 20 Oct 2027",
+    "date_iso": "2027-10-20",
+    "end_date_iso": "2027-10-20",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 175,
+    "name": "Grand Slam of Darts TCH Qualifier",
+    "location": "Maastricht, Netherlands",
+    "date_display": "Thu 21 Oct 2027",
+    "date_iso": "2027-10-21",
+    "end_date_iso": "2027-10-21",
+    "icon": "NL",
+    "ticket_url": ""
+  },
+  {
+    "id": 176,
+    "name": "European Championship",
+    "location": "Dortmund, Germany",
+    "date_display": "Tue 26 Oct 2027 - Sun 31 Oct 2027",
+    "date_iso": "2027-10-26",
+    "end_date_iso": "2027-10-31",
+    "icon": "DE",
+    "ticket_url": ""
+  },
+  {
+    "id": 177,
+    "name": "Grand Slam of Darts",
+    "location": "Wolverhampton, England",
+    "date_display": "Sat 6 Nov 2027 - Sun 14 Nov 2027",
+    "date_iso": "2027-11-06",
+    "end_date_iso": "2027-11-14",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 178,
+    "name": "Players Championship Finals",
+    "location": "Butlins, Minehead, England",
+    "date_display": "Fri 26 Nov 2027 - Sun 28 Nov 2027",
+    "date_iso": "2027-11-26",
+    "end_date_iso": "2027-11-28",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 179,
+    "name": "World Darts Championships TCH Qualifier",
+    "location": "Leicester, England",
+    "date_display": "Mon 29 Nov 2027",
+    "date_iso": "2027-11-29",
+    "end_date_iso": "2027-11-29",
+    "icon": "GB-ENG",
+    "ticket_url": ""
+  },
+  {
+    "id": 180,
+    "name": "World Championship",
+    "location": "Alexandra Palace, London, England",
+    "date_display": "Thu 9 Dec 2027 - Sun 2 Jan 2028",
+    "date_iso": "2027-12-09",
+    "end_date_iso": "2028-01-02",
+    "icon": "GB-ENG",
+    "ticket_url": ""
   }
 ]
+
