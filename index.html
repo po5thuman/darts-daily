@@ -525,6 +525,52 @@
                 <a href="/guides/" class="guides-view-all">View All Guides →</a>
             </div>
             
+            <!-- PLAYER PROFILES -->
+            <section class="card full-width profiles-preview" aria-labelledby="profiles-heading">
+                <h2 class="card-eyebrow" id="profiles-heading">Player Profiles</h2>
+                <div class="section-title">Meet the Players</div>
+                <p class="section-sub">Explore player biographies, career highlights and achievements from the world of darts.</p>
+                <div class="profile-carousel" role="region" aria-label="Featured darts player profiles">
+                    <div class="profile-carousel-controls" hidden>
+                        <button type="button" class="profile-carousel-arrow" data-profile-prev aria-label="Previous players" aria-controls="profile-carousel-track">&#8249;</button>
+                        <button type="button" class="profile-carousel-arrow" data-profile-next aria-label="Next players" aria-controls="profile-carousel-track">&#8250;</button>
+                    </div>
+                    <div class="profile-carousel-track" id="profile-carousel-track" tabindex="0" aria-label="Scroll through player profiles">
+                        <a class="profile-carousel-item" href="/players/luke-littler">
+                            <img src="/players/luke-littler.webp" alt="" loading="lazy" decoding="async">
+                            <span class="profile-carousel-name">Luke Littler</span>
+                            <span class="profile-carousel-cta">View Profile →</span>
+                        </a>
+                        <a class="profile-carousel-item" href="/players/luke-humphries">
+                            <img src="/players/luke-humphries.webp" alt="" loading="lazy" decoding="async">
+                            <span class="profile-carousel-name">Luke Humphries</span>
+                            <span class="profile-carousel-cta">View Profile →</span>
+                        </a>
+                        <a class="profile-carousel-item" href="/players/michael-van-gerwen">
+                            <img src="/players/michael-van-gerwen.webp" alt="" loading="lazy" decoding="async">
+                            <span class="profile-carousel-name">Michael van Gerwen</span>
+                            <span class="profile-carousel-cta">View Profile →</span>
+                        </a>
+                        <a class="profile-carousel-item" href="/players/gian-van-veen">
+                            <img src="/players/gian-van-veen.webp" alt="" loading="lazy" decoding="async">
+                            <span class="profile-carousel-name">Gian van Veen</span>
+                            <span class="profile-carousel-cta">View Profile →</span>
+                        </a>
+                        <a class="profile-carousel-item" href="/players/jonny-clayton">
+                            <img src="/players/jonny-clayton.webp" alt="" loading="lazy" decoding="async">
+                            <span class="profile-carousel-name">Jonny Clayton</span>
+                            <span class="profile-carousel-cta">View Profile →</span>
+                        </a>
+                        <a class="profile-carousel-item" href="/players/gary-anderson">
+                            <img src="/players/gary-anderson.webp" alt="" loading="lazy" decoding="async">
+                            <span class="profile-carousel-name">Gary Anderson</span>
+                            <span class="profile-carousel-cta">View Profile →</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="/players/" class="guides-view-all">View All Player Profiles →</a>
+            </section>
+
             <!-- NEWSLETTER -->
             <div class="card full-width">
                 <div class="card-eyebrow">Newsletter</div>
@@ -595,5 +641,33 @@
     </footer>
     <script src="js/main.js"></script>
     <script src="js/wordle.js"></script>
+    <script>
+    (() => {
+        const carousel = document.querySelector('.profile-carousel');
+        if (!carousel) return;
+        const track = carousel.querySelector('.profile-carousel-track');
+        const controls = carousel.querySelector('.profile-carousel-controls');
+        const prev = carousel.querySelector('[data-profile-prev]');
+        const next = carousel.querySelector('[data-profile-next]');
+        const update = () => {
+            const max = Math.max(0, track.scrollWidth - track.clientWidth);
+            controls.hidden = max <= 2;
+            prev.disabled = track.scrollLeft <= 2;
+            next.disabled = track.scrollLeft >= max - 2;
+        };
+        const move = direction => {
+            const first = track.querySelector('.profile-carousel-item');
+            const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+            const step = first.getBoundingClientRect().width + gap;
+            track.scrollBy({left: direction * step, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+        };
+        prev.addEventListener('click', () => move(-1));
+        next.addEventListener('click', () => move(1));
+        track.addEventListener('scroll', update, {passive: true});
+        window.addEventListener('resize', update);
+        if ('ResizeObserver' in window) new ResizeObserver(update).observe(track);
+        update();
+    })();
+    </script>
 </body>
 </html>
