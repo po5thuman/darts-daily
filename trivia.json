@@ -1,482 +1,4747 @@
 [
   {
     "id": 1,
-    "question": "Who was the first player to hit a 9-dart finish on live television?",
-    "options": ["Phil Taylor", "John Lowe", "Eric Bristow", "Dennis Priestley"],
-    "correct": 1,
-    "explanation": "John Lowe achieved the first televised 9-dart finish on 13 October 1984 at the MFI World Matchplay. He won £102,000 — a record prize at the time.",
+    "question": "Who won the 2010 World Grand Prix?",
+    "options": [
+      "Raymond van Barneveld",
+      "Colin Lloyd",
+      "Adrian Lewis",
+      "James Wade"
+    ],
+    "correct": 3,
+    "explanation": "James Wade defeated Adrian Lewis 6-3 in the 2010 World Grand Prix final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 2,
-    "question": "How many World Championship titles did Phil Taylor win during his career?",
-    "options": ["12", "14", "16", "18"],
-    "correct": 2,
-    "explanation": "Phil Taylor won 16 World Championship titles — an all-time record in darts that is unlikely to ever be broken.",
+    "question": "What was the final score at the 2010 World Grand Prix?",
+    "options": [
+      "6-5",
+      "6-3",
+      "6-0",
+      "6-1"
+    ],
+    "correct": 1,
+    "explanation": "James Wade defeated Adrian Lewis 6-3 in the 2010 World Grand Prix final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 3,
-    "question": "What is the maximum checkout possible in a game of darts?",
-    "options": ["167", "170", "171", "180"],
-    "correct": 1,
-    "explanation": "The maximum checkout is 170 — Triple 20, Triple 20, Bullseye. It is the holy grail of finishing combinations in darts.",
+    "question": "Who won the 2010 PDC World Championship?",
+    "options": [
+      "Phil Taylor",
+      "Gian van Veen",
+      "Mark Dudbridge",
+      "Simon Whitlock"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Simon Whitlock 7-3 in the 2010 PDC World Championship final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 4,
-    "question": "Which country does Michael van Gerwen represent?",
-    "options": ["Belgium", "Germany", "Netherlands", "Denmark"],
-    "correct": 2,
-    "explanation": "Michael van Gerwen represents the Netherlands. He was born in Vlijmen and is widely regarded as the greatest player of the modern era.",
+    "question": "Who finished runner-up at the 2006 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Rod Harrington",
+      "Richie Burnett",
+      "James Wade"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated James Wade 18-11 in the 2006 World Matchplay final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 5,
-    "question": "What is the official throwing distance from the oche to the dartboard?",
-    "options": ["2.17m", "2.27m", "2.37m", "2.47m"],
-    "correct": 2,
-    "explanation": "The official throwing distance is 2.37 metres from the front of the board to the oche — standardised across all professional tournaments worldwide.",
+    "question": "What was the final score at the 2020 UK Open?",
+    "options": [
+      "11-2",
+      "11-9",
+      "11-6",
+      "11-0"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Gerwyn Price 11-9 in the 2020 UK Open final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 6,
-    "question": "What score does the bullseye carry in darts?",
-    "options": ["25", "40", "50", "60"],
-    "correct": 2,
-    "explanation": "The bullseye scores 50 points. The outer bull scores 25. Most professionals aim for Triple 20 as their primary scoring target rather than the bull.",
+    "question": "Who won the 2013 PDC Masters?",
+    "options": [
+      "Stephen Bunting",
+      "Phil Taylor",
+      "Adrian Lewis",
+      "Chris Dobey"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Adrian Lewis 10-1 in the 2013 PDC Masters final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 7,
-    "question": "Who was the first woman to beat a man at the PDC World Championship?",
-    "options": ["Lisa Ashton", "Deta Hedman", "Fallon Sherrock", "Mikuru Suzuki"],
+    "question": "Who won the 2011 World Matchplay?",
+    "options": [
+      "Mark Dudbridge",
+      "Michael Smith",
+      "Phil Taylor",
+      "James Wade"
+    ],
     "correct": 2,
-    "explanation": "Fallon Sherrock made history at the 2019 PDC World Championship by becoming the first woman ever to beat a man at the tournament — defeating Ted Evetts in round one.",
+    "explanation": "Phil Taylor defeated James Wade 18-8 in the 2011 World Matchplay final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 8,
-    "question": "What is the nickname of darts player Peter Wright?",
-    "options": ["The Power", "The Wizard", "Snakebite", "The Iceman"],
-    "correct": 2,
-    "explanation": "Peter Wright is nicknamed Snakebite — a nod to his colourful, snake-themed outfits and hairstyles that make him one of the most recognisable players in the sport.",
+    "question": "Who finished runner-up at the 2023 PDC World Youth Championship?",
+    "options": [
+      "Nathan Aspinall",
+      "Luke Littler",
+      "Josh Rock",
+      "Gian van Veen"
+    ],
+    "correct": 3,
+    "explanation": "Luke Littler defeated Gian van Veen 6-4 in the 2023 PDC World Youth Championship final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 9,
-    "question": "At what age did Luke Littler win the PDC World Championship in 2025?",
-    "options": ["15", "16", "17", "18"],
+    "question": "Who finished runner-up at the 2020 PDC World Youth Championship?",
+    "options": [
+      "Bradley Brooks",
+      "Nathan Girvan",
+      "Joe Davis",
+      "Berry van Peer"
+    ],
     "correct": 2,
-    "explanation": "Luke Littler won the PDC World Championship in January 2025 at the age of 17 — making him the youngest world champion in the tournament's history.",
+    "explanation": "Bradley Brooks defeated Joe Davis 6-5 in the 2020 PDC World Youth Championship final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 10,
-    "question": "What is the highest number of points you can score with a single dart?",
-    "options": ["50", "57", "60", "66"],
-    "correct": 2,
-    "explanation": "The maximum score with a single dart is 60 — the Triple 20. This is why professional players always aim for the top of the board as their primary scoring target.",
+    "question": "Who won the 2017 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Ronnie Baxter",
+      "Richie Burnett",
+      "Peter Wright"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Peter Wright 18-8 in the 2017 World Matchplay final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 11,
-    "question": "Which venue hosts the PDC World Darts Championship every year?",
-    "options": ["Wembley Arena", "Alexandra Palace", "The O2", "MSG Sphere"],
-    "correct": 1,
-    "explanation": "The PDC World Championship is held every year at Alexandra Palace in North London — known affectionately as Ally Pally. It is one of the most iconic venues in world sport.",
+    "question": "What was the final score at the 2008 World Matchplay?",
+    "options": [
+      "18-16",
+      "18-14",
+      "18-1",
+      "18-9"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated James Wade 18-9 in the 2008 World Matchplay final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 12,
-    "question": "How many points must a player start from in a standard professional darts game?",
-    "options": ["301", "401", "501", "601"],
-    "correct": 2,
-    "explanation": "A standard professional darts game starts at 501 points. Players must reach exactly zero, finishing on a double or the bullseye.",
+    "question": "Who finished runner-up at the 2012 European Championship?",
+    "options": [
+      "Luke Humphries",
+      "Peter Wright",
+      "Simon Whitlock",
+      "Wes Newton"
+    ],
+    "correct": 3,
+    "explanation": "Simon Whitlock defeated Wes Newton 11-5 in the 2012 European Championship final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 13,
-    "question": "Which player is nicknamed The Flying Scotsman?",
-    "options": ["Peter Wright", "Gary Anderson", "John Henderson", "Alan Warriner"],
-    "correct": 1,
-    "explanation": "Gary Anderson is nicknamed The Flying Scotsman. The two-time World Champion from Forfar is one of the most naturally talented players ever to pick up a dart.",
+    "question": "Who finished runner-up at the 2011 Premier League Darts?",
+    "options": [
+      "Simon Whitlock",
+      "Colin Lloyd",
+      "Gary Anderson",
+      "Adrian Lewis"
+    ],
+    "correct": 3,
+    "explanation": "Gary Anderson defeated Adrian Lewis 10-4 in the 2011 Premier League Darts final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 14,
-    "question": "How many sections are there on a standard dartboard?",
-    "options": ["18", "19", "20", "21"],
+    "question": "Who won the 2025 UK Open?",
+    "options": [
+      "Corey Cadby",
+      "Gerwyn Price",
+      "Luke Littler",
+      "James Wade"
+    ],
     "correct": 2,
-    "explanation": "There are 20 numbered sections on a standard dartboard, ranging from 1 to 20. The layout is designed so high numbers are surrounded by low numbers to penalise inaccuracy.",
+    "explanation": "Luke Littler defeated James Wade 11-2 in the 2025 UK Open final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 15,
-    "question": "What profession did Gerwyn Price have before becoming a professional darts player?",
-    "options": ["Footballer", "Rugby player", "Boxer", "Cricketer"],
-    "correct": 1,
-    "explanation": "Gerwyn Price played professional rugby union in Wales before switching to darts. He only turned professional at darts in his late 20s — making his World Championship title even more remarkable.",
+    "question": "Who won the 2007 Premier League Darts?",
+    "options": [
+      "Terry Jenkins",
+      "Roland Scholten",
+      "Phil Taylor",
+      "Peter Wright"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Terry Jenkins 16-6 in the 2007 Premier League Darts final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 16,
-    "question": "What year was the PDC — Professional Darts Corporation — founded?",
-    "options": ["1990", "1991", "1992", "1993"],
-    "correct": 3,
-    "explanation": "The PDC was founded in 1993 when 16 of the world's top players broke away from the BDO to form the World Darts Council — later renamed the Professional Darts Corporation.",
+    "question": "Who won the 2020 PDC Masters?",
+    "options": [
+      "Michael Smith",
+      "Peter Wright",
+      "Joe Cullen",
+      "Gary Anderson"
+    ],
+    "correct": 1,
+    "explanation": "Peter Wright defeated Michael Smith 11-10 in the 2020 PDC Masters final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 17,
-    "question": "Which player is nicknamed Barney?",
-    "options": ["Barry Hearn", "Raymond van Barneveld", "Andy Hamilton", "Dean Winstanley"],
+    "question": "Who finished runner-up at the 2020 Grand Slam of Darts?",
+    "options": [
+      "Peter Wright",
+      "James Wade",
+      "José de Sousa",
+      "Rob Cross"
+    ],
     "correct": 1,
-    "explanation": "Raymond van Barneveld is known as Barney. The Dutch legend won 5 World Championship titles and is best remembered for his iconic 7-6 victory over Phil Taylor in the 2007 PDC World final.",
+    "explanation": "José de Sousa defeated James Wade 16-12 in the 2020 Grand Slam of Darts final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 18,
-    "question": "What height must the centre of a dartboard be mounted from the floor?",
-    "options": ["1.53m", "1.63m", "1.73m", "1.83m"],
-    "correct": 2,
-    "explanation": "The centre of a dartboard — the bullseye — must be mounted exactly 1.73 metres from the floor in all professional tournaments. This is standardised worldwide.",
+    "question": "Who won the 2011 UK Open?",
+    "options": [
+      "Michael Smith",
+      "Vincent van der Voort",
+      "Wes Newton",
+      "James Wade"
+    ],
+    "correct": 3,
+    "explanation": "James Wade defeated Wes Newton 11-8 in the 2011 UK Open final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 19,
-    "question": "Which country does John Part represent?",
-    "options": ["USA", "Australia", "Canada", "New Zealand"],
-    "correct": 2,
-    "explanation": "John Part represents Canada. Nicknamed Darth Maple, he was the first non-European player to win a World Darts Championship and claimed three world titles across three different decades.",
+    "question": "Who won the 2022 World Matchplay?",
+    "options": [
+      "Michael van Gerwen",
+      "Ronnie Baxter",
+      "Adrian Lewis",
+      "Gerwyn Price"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Gerwyn Price 18-14 in the 2022 World Matchplay final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 20,
-    "question": "What is the nickname of darts player Gerwyn Price?",
-    "options": ["The Viking", "The Wizard", "The Iceman", "The Giant"],
-    "correct": 2,
-    "explanation": "Gerwyn Price is nicknamed The Iceman — a reference to his intense, focused demeanour on stage. The Welsh World Champion is one of the most driven competitors in the sport.",
+    "question": "Who won the 2023 PDC World Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Gary Anderson",
+      "Rod Harrington",
+      "Michael Smith"
+    ],
+    "correct": 3,
+    "explanation": "Michael Smith defeated Michael van Gerwen 7-4 in the 2023 PDC World Championship final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 21,
-    "question": "What walk-on music does Gary Anderson use?",
-    "options": ["Flower of Scotland", "500 Miles by The Proclaimers", "Jump Around", "Thunderstruck"],
+    "question": "Who finished runner-up at the 2014 UK Open?",
+    "options": [
+      "Robert Thornton",
+      "Terry Jenkins",
+      "Mark Walsh",
+      "Adrian Lewis"
+    ],
     "correct": 1,
-    "explanation": "Gary Anderson walks on to 500 Miles by The Proclaimers — one of the most beloved walk-on songs in darts. The Ally Pally crowd always sings along when The Flying Scotsman takes to the stage.",
+    "explanation": "Adrian Lewis defeated Terry Jenkins 11-1 in the 2014 UK Open final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 22,
-    "question": "How many World Championship titles did Eric Bristow win?",
-    "options": ["3", "4", "5", "6"],
-    "correct": 2,
-    "explanation": "Eric Bristow won 5 World Championship titles between 1980 and 1986, dominating an entire decade of darts. The Crafty Cockney was the undisputed king of the sport throughout the 1980s.",
+    "question": "Who won the 2017 European Championship?",
+    "options": [
+      "Jermaine Wattimena",
+      "Michael van Gerwen",
+      "Rob Cross",
+      "Terry Jenkins"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Rob Cross 11-7 in the 2017 European Championship final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 23,
-    "question": "What is the nickname of darts player Adrian Lewis?",
-    "options": ["The Ace", "Jackpot", "The Hammer", "Bullseye"],
-    "correct": 1,
-    "explanation": "Adrian Lewis is nicknamed Jackpot — a reference to his explosive ability to hit big finishes at crucial moments. He won back-to-back PDC World Championship titles in 2011 and 2012.",
+    "question": "Who won the 2014 Grand Slam of Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "Dave Chisnall",
+      "Luke Littler",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Dave Chisnall 16-13 in the 2014 Grand Slam of Darts final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 24,
-    "question": "Which player is known for his trademark colourful hair and outfits?",
-    "options": ["Gary Anderson", "Mensur Suljovic", "Peter Wright", "Simon Whitlock"],
-    "correct": 2,
-    "explanation": "Peter Wright — Snakebite — is famous for his wild, colourful hairstyles and outfits. His wife Joanne designs many of them and he has become one of the most visually distinctive players in sports history.",
+    "question": "Who won the 2017 Grand Slam of Darts?",
+    "options": [
+      "Luke Littler",
+      "Michael van Gerwen",
+      "Peter Wright",
+      "Rob Cross"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Peter Wright 16-12 in the 2017 Grand Slam of Darts final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 25,
-    "question": "What is the outer bull worth in a game of darts?",
-    "options": ["20", "25", "30", "50"],
-    "correct": 1,
-    "explanation": "The outer bull — also called the 25 ring or bull — is worth 25 points. The inner bullseye is worth 50 points and counts as a double for checkout purposes.",
+    "question": "Who finished runner-up at the 2020 World Grand Prix?",
+    "options": [
+      "Colin Lloyd",
+      "Gerwyn Price",
+      "Rod Harrington",
+      "Dirk van Duijvenbode"
+    ],
+    "correct": 3,
+    "explanation": "Gerwyn Price defeated Dirk van Duijvenbode 5-2 in the 2020 World Grand Prix final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 26,
-    "question": "Which player won the PDC World Championship in 2021?",
-    "options": ["Gary Anderson", "Peter Wright", "Gerwyn Price", "Michael van Gerwen"],
-    "correct": 2,
-    "explanation": "Gerwyn Price won the 2021 PDC World Championship, defeating Gary Anderson 7-3 in the final. The Iceman became the first Welsh player to win the PDC World title.",
+    "question": "Who won the 2023 World Matchplay?",
+    "options": [
+      "Nathan Aspinall",
+      "Jonny Clayton",
+      "Peter Manley",
+      "Raymond van Barneveld"
+    ],
+    "correct": 0,
+    "explanation": "Nathan Aspinall defeated Jonny Clayton 18-6 in the 2023 World Matchplay final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 27,
-    "question": "What is Luke Littler's nickname?",
-    "options": ["The Rocket", "The Nuke", "The Bomb", "The Missile"],
-    "correct": 1,
-    "explanation": "Luke Littler is nicknamed The Nuke — a powerful nickname for a player who exploded onto the world stage at 16 and won the PDC World Championship at just 17 years old.",
+    "question": "Who won the 2003 PDC World Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Simon Whitlock",
+      "John Part",
+      "Phil Taylor"
+    ],
+    "correct": 2,
+    "explanation": "John Part defeated Phil Taylor 7-6 in the 2003 PDC World Championship final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 28,
-    "question": "What is the minimum number of darts needed to finish a game of 501?",
-    "options": ["7", "8", "9", "10"],
-    "correct": 2,
-    "explanation": "The minimum number of darts needed to finish a game of 501 is 9 — known as a nine-dart finish or perfect leg. It is the holy grail of darts and one of sport's rarest achievements.",
+    "question": "Who won the 2019 UK Open?",
+    "options": [
+      "Rob Cross",
+      "James Wade",
+      "Peter Wright",
+      "Nathan Aspinall"
+    ],
+    "correct": 3,
+    "explanation": "Nathan Aspinall defeated Rob Cross 11-5 in the 2019 UK Open final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 29,
-    "question": "Which player is nicknamed The Crafty Cockney?",
-    "options": ["John Lowe", "Dennis Priestley", "Eric Bristow", "Bobby George"],
-    "correct": 2,
-    "explanation": "Eric Bristow was nicknamed The Crafty Cockney — a nod to his sharp, streetwise personality and his roots in East London. He was the dominant player in world darts throughout the 1980s.",
+    "question": "Who finished runner-up at the 2009 World Grand Prix?",
+    "options": [
+      "John Part",
+      "Phil Taylor",
+      "Rod Harrington",
+      "Raymond van Barneveld"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Raymond van Barneveld 6-3 in the 2009 World Grand Prix final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 30,
-    "question": "What sport did Jonny Clayton work in before becoming a professional darts player?",
-    "options": ["Plumber", "Electrician", "Plasterer", "Carpenter"],
-    "correct": 2,
-    "explanation": "Jonny Clayton — The Ferret — worked as a plasterer before turning professional at darts. He went on to win the Premier League and Grand Slam of Darts in the same year he went full time.",
+    "question": "Who finished runner-up at the 2007 World Matchplay?",
+    "options": [
+      "Terry Jenkins",
+      "Richie Burnett",
+      "James Wade",
+      "Peter Wright"
+    ],
+    "correct": 0,
+    "explanation": "James Wade defeated Terry Jenkins 18-7 in the 2007 World Matchplay final.",
     "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
-    {
+  {
     "id": 31,
-    "question": "Which player famously wore flamboyant Hawaiian shirts and was known as Hawaii 501?",
-    "options": ["Wayne Mardle", "Paul Lim", "John Part", "Simon Whitlock"],
-    "correct": 0,
-    "explanation": "Wayne Mardle was famous for his colourful Hawaiian shirts and lively walk-on, earning him the nickname Hawaii 501.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Who remembers Hawaii 501? #DartsDaily"
+    "question": "Who finished runner-up at the 2024 Players Championship Finals?",
+    "options": [
+      "Luke Humphries",
+      "Luke Littler",
+      "Ryan Searle",
+      "Gerwyn Price"
+    ],
+    "correct": 1,
+    "explanation": "Luke Humphries defeated Luke Littler 11-7 in the 2024 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 32,
-    "question": "Which country did Mensur Suljovic represent before Austria?",
-    "options": ["Hungary", "Serbia", "Slovenia", "Bosnia"],
-    "correct": 1,
-    "explanation": "Mensur Suljovic was born in Serbia but represents Austria in international darts.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Know your darts geography? #DartsDaily"
+    "question": "Who finished runner-up at the 2019 World Matchplay?",
+    "options": [
+      "Michael Smith",
+      "Dimitri Van den Bergh",
+      "Terry Jenkins",
+      "Rob Cross"
+    ],
+    "correct": 0,
+    "explanation": "Rob Cross defeated Michael Smith 18-13 in the 2019 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 33,
-    "question": "What is the standard height from the floor to the bullseye on a dartboard?",
-    "options": ["1.68m", "1.73m", "1.78m", "1.83m"],
-    "correct": 1,
-    "explanation": "The correct height from the floor to the bullseye is 1.73 metres.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Bulls up? #DartsDaily"
+    "question": "Who won the 2022 PDC World Youth Championship?",
+    "options": [
+      "Josh Rock",
+      "Luke Littler",
+      "Martin Schindler",
+      "Nathan Girvan"
+    ],
+    "correct": 0,
+    "explanation": "Josh Rock defeated Nathan Girvan 6-1 in the 2022 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 34,
-    "question": "Which player hit two televised nine-darters in the same tournament for the first time?",
-    "options": ["Raymond van Barneveld", "Phil Taylor", "Gary Anderson", "Adrian Lewis"],
+    "question": "Who finished runner-up at the 2025 UK Open?",
+    "options": [
+      "Gerwyn Price",
+      "James Wade",
+      "Corey Cadby",
+      "Luke Littler"
+    ],
     "correct": 1,
-    "explanation": "Phil Taylor hit two nine-darters at the 2010 Premier League, a first in a single televised event.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Double nine-darter legend! #DartsDaily"
+    "explanation": "Luke Littler defeated James Wade 11-2 in the 2025 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 35,
-    "question": "What is the largest possible score with three darts?",
-    "options": ["180", "177", "167", "170"],
+    "question": "Who finished runner-up at the 2012 Grand Slam of Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "José de Sousa",
+      "Phil Taylor",
+      "Raymond van Barneveld"
+    ],
     "correct": 0,
-    "explanation": "The largest possible score with three darts is 180, hitting three triple 20s.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! 180! #DartsDaily"
+    "explanation": "Raymond van Barneveld defeated Michael van Gerwen 16-14 in the 2012 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 36,
-    "question": "Who was the first player to win both the BDO and PDC World Championships?",
-    "options": ["John Part", "Raymond van Barneveld", "Dennis Priestley", "Phil Taylor"],
-    "correct": 1,
-    "explanation": "Raymond van Barneveld was the first to win both the BDO and PDC World titles.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Double world champ? #DartsDaily"
+    "question": "Who finished runner-up at the 2003 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Peter Evison",
+      "Wayne Mardle",
+      "Alan Warriner"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Wayne Mardle 18-12 in the 2003 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 37,
-    "question": "Who holds the record for the most World Matchplay titles?",
-    "options": ["Phil Taylor", "Michael van Gerwen", "Gary Anderson", "Peter Wright"],
-    "correct": 0,
-    "explanation": "Phil Taylor won 16 World Matchplay titles, far more than any other player in history.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Blackpool legend? #DartsDaily"
+    "question": "Who finished runner-up at the 2026 World Matchplay?",
+    "options": [
+      "Ronnie Baxter",
+      "Gary Anderson",
+      "Gerwyn Price",
+      "Luke Littler"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Gerwyn Price 18-9 in the 2026 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 38,
-    "question": "In which year was the first women's PDC World Championship held?",
-    "options": ["2000", "2001", "2010", "2019"],
+    "question": "Who won the 2015 UK Open?",
+    "options": [
+      "Nathan Aspinall",
+      "Corey Cadby",
+      "Michael van Gerwen",
+      "Peter Wright"
+    ],
     "correct": 2,
-    "explanation": "The first and only PDC Women's World Championship was held in 2010.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Women's darts milestone! #DartsDaily"
+    "explanation": "Michael van Gerwen defeated Peter Wright 11-5 in the 2015 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 39,
-    "question": "Which player is nicknamed 'The Wizard'?",
-    "options": ["Simon Whitlock", "Steve Beaton", "Terry Jenkins", "Mark Webster"],
+    "question": "Who finished runner-up at the 2005 World Grand Prix?",
+    "options": [
+      "Colin Lloyd",
+      "Phil Taylor",
+      "Brendan Dolan",
+      "Luke Humphries"
+    ],
     "correct": 0,
-    "explanation": "Simon Whitlock is known as The Wizard due to his iconic look and Australian background.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Spotted the Wizard? #DartsDaily"
+    "explanation": "Phil Taylor defeated Colin Lloyd 7-1 in the 2005 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 40,
-    "question": "What was the maiden name of PDC before it became the Professional Darts Corporation?",
-    "options": ["World Darts Organisation", "Darts World Federation", "World Darts Council", "Professional International Darts"],
-    "correct": 2,
-    "explanation": "The PDC was originally founded as the World Darts Council (WDC) in 1992.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Darts history buff? #DartsDaily"
+    "question": "Who won the 2008 World Grand Prix?",
+    "options": [
+      "Raymond van Barneveld",
+      "Roland Scholten",
+      "Jonny Clayton",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Raymond van Barneveld 6-2 in the 2008 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 41,
-    "question": "Which player was known as 'The Artist'?",
-    "options": ["Kevin Painter", "Alan Warriner", "Simon Whitlock", "Mark Webster"],
-    "correct": 0,
-    "explanation": "Kevin Painter is nicknamed The Artist, famous for his distinctive walk-on and aggressive game.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Can you name The Artist? #DartsDaily"
+    "question": "Who finished runner-up at the 2023 Players Championship Finals?",
+    "options": [
+      "Ryan Searle",
+      "Luke Humphries",
+      "Nathan Aspinall",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Luke Humphries defeated Michael van Gerwen 11-9 in the 2023 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 42,
-    "question": "Who was the youngest female qualifier for the PDC World Championship?",
-    "options": ["Beau Greaves", "Fallon Sherrock", "Anastasia Dobromyslova", "Mikuru Suzuki"],
-    "correct": 0,
-    "explanation": "Beau Greaves qualified for the PDC World Championship at age 18.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Wonderkid alert! #DartsDaily"
+    "question": "Who finished runner-up at the 2010 World Grand Prix?",
+    "options": [
+      "James Wade",
+      "Raymond van Barneveld",
+      "Adrian Lewis",
+      "Colin Lloyd"
+    ],
+    "correct": 2,
+    "explanation": "James Wade defeated Adrian Lewis 6-3 in the 2010 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 43,
-    "question": "What is the standard diameter of a dartboard?",
-    "options": ["13.5 inches", "15.5 inches", "17.75 inches", "18 inches"],
-    "correct": 2,
-    "explanation": "The standard dartboard has a diameter of 17.75 inches (451 mm).",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Boards and numbers! #DartsDaily"
+    "question": "Who won the 2006 Premier League Darts?",
+    "options": [
+      "Peter Wright",
+      "Phil Taylor",
+      "Luke Littler",
+      "Roland Scholten"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Roland Scholten 16-6 in the 2006 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 44,
-    "question": "Which dart player is known as 'The Bronzed Adonis'?",
-    "options": ["Steve Beaton", "Dennis Priestley", "Peter Wright", "John Lowe"],
-    "correct": 0,
-    "explanation": "Steve Beaton is famed as 'The Bronzed Adonis' for his tan and timeless style.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Flash player style! #DartsDaily"
+    "question": "Who won the 1998 World Grand Prix?",
+    "options": [
+      "Brendan Dolan",
+      "Rod Harrington",
+      "Phil Taylor",
+      "Mervyn King"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Rod Harrington 13-8 in the 1998 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 45,
-    "question": "What double do players typically try to leave for a two-dart 40 checkout?",
-    "options": ["Double 10", "Double 20", "Double 16", "Double 18"],
-    "correct": 2,
-    "explanation": "Double 16 is the most popular double finish for a 40 checkout.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Finishing with style? #DartsDaily"
+    "question": "Who finished runner-up at the 2011 World Matchplay?",
+    "options": [
+      "Mark Dudbridge",
+      "James Wade",
+      "Michael Smith",
+      "Phil Taylor"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated James Wade 18-8 in the 2011 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 46,
-    "question": "Which non-European country won the PDC World Cup of Darts for the first time in 2019?",
-    "options": ["Canada", "USA", "Japan", "Australia"],
-    "correct": 3,
-    "explanation": "Australia, represented by Simon Whitlock and Damon Heta, won the World Cup in 2019.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! World Cup history! #DartsDaily"
+    "question": "Who won the 2012 PDC World Youth Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "James Hubbard",
+      "Gian van Veen",
+      "Bradley Brooks"
+    ],
+    "correct": 1,
+    "explanation": "James Hubbard defeated Michael van Gerwen 6-3 in the 2012 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 47,
-    "question": "Who was the first player to average over 110 in a televised match?",
-    "options": ["Phil Taylor", "Michael van Gerwen", "Gary Anderson", "John Part"],
-    "correct": 0,
-    "explanation": "Phil Taylor was the first player to average over 110 during a televised match.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Monster averages! #DartsDaily"
+    "question": "Who finished runner-up at the 2017 Grand Slam of Darts?",
+    "options": [
+      "Rob Cross",
+      "Michael van Gerwen",
+      "Luke Littler",
+      "Peter Wright"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Peter Wright 16-12 in the 2017 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 48,
-    "question": "What is the term for three darts in the treble 19?",
-    "options": ["A Shanghai", "A Ton-57", "A Maximum", "A Treble Set"],
-    "correct": 1,
-    "explanation": "A score of 57 (three treble 19s) is often called a Ton-57.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Triple 19s! #DartsDaily"
+    "question": "Who finished runner-up at the 2010 World Matchplay?",
+    "options": [
+      "Raymond van Barneveld",
+      "Dimitri Van den Bergh",
+      "Phil Taylor",
+      "Michael Smith"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Raymond van Barneveld 18-12 in the 2010 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 49,
-    "question": "Which country is John Michael, 'The Deadly Rose,' from?",
-    "options": ["Italy", "Greece", "Cyprus", "Malta"],
-    "correct": 1,
-    "explanation": "John Michael, known as The Deadly Rose, hails from Greece.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! International darts! #DartsDaily"
+    "question": "Who finished runner-up at the 2015 PDC World Championship?",
+    "options": [
+      "Phil Taylor",
+      "Gary Anderson",
+      "Gerwyn Price",
+      "Peter Wright"
+    ],
+    "correct": 0,
+    "explanation": "Gary Anderson defeated Phil Taylor 7-6 in the 2015 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 50,
-    "question": "Who is known as 'Duzza'?",
-    "options": ["Glen Durrant", "Simon Whitlock", "Jamie Hughes", "Chris Dobey"],
-    "correct": 0,
-    "explanation": "Glen Durrant is nicknamed Duzza, winning three BDO world titles before moving to PDC.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Duzza time! #DartsDaily"
+    "question": "Who won the 2013 European Championship?",
+    "options": [
+      "Luke Humphries",
+      "Adrian Lewis",
+      "Simon Whitlock",
+      "Michael Smith"
+    ],
+    "correct": 1,
+    "explanation": "Adrian Lewis defeated Simon Whitlock 11-6 in the 2013 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 51,
-    "question": "Which darting venue is associated with the World Matchplay?",
-    "options": ["Winter Gardens", "Alexandra Palace", "Circus Tavern", "O2 Arena"],
-    "correct": 0,
-    "explanation": "The famous Winter Gardens in Blackpool has hosted the World Matchplay since 1994.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Blackpool classic! #DartsDaily"
+    "question": "Who finished runner-up at the 2002 World Grand Prix?",
+    "options": [
+      "Brendan Dolan",
+      "Simon Whitlock",
+      "John Part",
+      "Phil Taylor"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated John Part 7-3 in the 2002 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 52,
-    "question": "What is the nickname of Dutch star Dirk van Duijvenbode?",
-    "options": ["The Giant", "Aubergenius", "Mighty Mike", "The Bullet"],
-    "correct": 1,
-    "explanation": "Dirk van Duijvenbode is known as Aubergenius, thanks to his day job on an aubergine farm.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Aubergenius! #DartsDaily"
+    "question": "Who won the 2021 Premier League Darts?",
+    "options": [
+      "José de Sousa",
+      "Phil Taylor",
+      "Raymond van Barneveld",
+      "Jonny Clayton"
+    ],
+    "correct": 3,
+    "explanation": "Jonny Clayton defeated José de Sousa 11-5 in the 2021 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 53,
-    "question": "Which of these is a valid ‘Shanghai’ finish?",
-    "options": ["T20, D20, 20","T18, D18, 18","T16, D16, 16","All of the above"],
+    "question": "What was the final score at the 2026 European Championship?",
+    "options": [
+      "11-0",
+      "11-7",
+      "11-5",
+      "11-8"
+    ],
     "correct": 3,
-    "explanation": "A Shanghai finish consists of Single, Treble and Double of the same number, so all options are valid.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Shanghai finish expert! #DartsDaily"
+    "explanation": "Ross Smith defeated Martin Schindler 11-8 in the 2026 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 54,
-    "question": "Which famous dart player is known as 'The Iceman'?",
-    "options": ["Gary Anderson", "Gerwyn Price", "Michael Smith", "James Wade"],
-    "correct": 1,
-    "explanation": "Gerwyn Price is known as 'The Iceman' for his cool, intense persona and celebrations.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Cool under pressure! #DartsDaily"
+    "question": "Who won the 2019 Grand Slam of Darts?",
+    "options": [
+      "Gary Anderson",
+      "Michael van Gerwen",
+      "Peter Wright",
+      "Gerwyn Price"
+    ],
+    "correct": 3,
+    "explanation": "Gerwyn Price defeated Peter Wright 16-6 in the 2019 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 55,
-    "question": "Who won the Grand Slam of Darts in 2020?",
-    "options": ["Gerwyn Price", "Glen Durrant", "Jose de Sousa", "Simon Whitlock"],
-    "correct": 2,
-    "explanation": "Jose de Sousa made history as the first Portuguese Grand Slam champion in 2020.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Slam champion! #DartsDaily"
+    "question": "Who won the 2004 World Matchplay?",
+    "options": [
+      "Mark Dudbridge",
+      "Rob Cross",
+      "Peter Manley",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Mark Dudbridge 18-8 in the 2004 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 56,
-    "question": "Which English player is nicknamed 'The Asp'?",
-    "options": ["Nathan Aspinall", "Wayne Jones", "Gary Anderson", "Ryan Searle"],
-    "correct": 0,
-    "explanation": "Nathan Aspinall is nicknamed 'The Asp' and is known for his Premier League and UK Open wins.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Venom in the darts! #DartsDaily"
+    "question": "Who won the 1999 PDC World Championship?",
+    "options": [
+      "Luke Littler",
+      "Phil Taylor",
+      "Gian van Veen",
+      "Peter Manley"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Peter Manley 6-2 in the 1999 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 57,
-    "question": "For which country does Madars Razma play?",
-    "options": ["Lithuania", "Estonia", "Latvia", "Russia"],
-    "correct": 2,
-    "explanation": "Madars Razma is the top professional darts player from Latvia.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Northern stars! #DartsDaily"
+    "question": "Who finished runner-up at the 2019 PDC World Championship?",
+    "options": [
+      "Gerwyn Price",
+      "Luke Humphries",
+      "Michael van Gerwen",
+      "Michael Smith"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Michael Smith 7-3 in the 2019 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 58,
-    "question": "Which of these darts legends is NOT English?",
-    "options": ["John Lowe", "Eric Bristow", "Raymond van Barneveld", "Phil Taylor"],
-    "correct": 2,
-    "explanation": "Raymond van Barneveld is Dutch; the other legends listed are English.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Darting nations! #DartsDaily"
+    "question": "Who won the 2016 UK Open?",
+    "options": [
+      "Michael van Gerwen",
+      "Corey Cadby",
+      "Gerwyn Price",
+      "Peter Wright"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Peter Wright 11-4 in the 2016 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 59,
-    "question": "Which professional is known for using some of the heaviest darts (34g) in the PDC?",
-    "options": ["Peter Wright", "Ryan Searle", "James Wade", "Rob Cross"],
-    "correct": 1,
-    "explanation": "Ryan Searle is famous for using 34 gram darts, heavier than nearly everyone on the tour.",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Heavy metal darts! #DartsDaily"
+    "question": "Who finished runner-up at the 2017 PDC World Youth Championship?",
+    "options": [
+      "Dimitri Van den Bergh",
+      "Ricky Evans",
+      "Michael Smith",
+      "Josh Payne"
+    ],
+    "correct": 3,
+    "explanation": "Dimitri Van den Bergh defeated Josh Payne 6-3 in the 2017 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   },
   {
     "id": 60,
-    "question": "Who was the first Dutch player to win the World Darts Championship?",
-    "options": ["Jelle Klaasen", "Roland Scholten", "Raymond van Barneveld", "Michael van Gerwen"],
+    "question": "Who finished runner-up at the 2010 Grand Slam of Darts?",
+    "options": [
+      "Gary Anderson",
+      "Luke Humphries",
+      "James Wade",
+      "Scott Waites"
+    ],
     "correct": 2,
-    "explanation": "Raymond van Barneveld was the first Dutchman to win a world title, winning in 1998 (BDO).",
-    "share_text": "I just answered today's darts trivia on DartsDaily! Dutch darts history! #DartsDaily"
+    "explanation": "Scott Waites defeated James Wade 16-12 in the 2010 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 61,
+    "question": "Who finished runner-up at the 2021 Players Championship Finals?",
+    "options": [
+      "Mervyn King",
+      "Peter Wright",
+      "Ryan Searle",
+      "Luke Littler"
+    ],
+    "correct": 2,
+    "explanation": "Peter Wright defeated Ryan Searle 11-10 in the 2021 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 62,
+    "question": "Who finished runner-up at the 2021 World Matchplay?",
+    "options": [
+      "Rob Cross",
+      "Dimitri Van den Bergh",
+      "Peter Wright",
+      "Ronnie Baxter"
+    ],
+    "correct": 1,
+    "explanation": "Peter Wright defeated Dimitri Van den Bergh 18-9 in the 2021 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 63,
+    "question": "Who finished runner-up at the 2002 PDC World Championship?",
+    "options": [
+      "Gerwyn Price",
+      "Michael Smith",
+      "Peter Manley",
+      "Phil Taylor"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Peter Manley 7-0 in the 2002 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 64,
+    "question": "Who finished runner-up at the 2010 European Championship?",
+    "options": [
+      "Phil Taylor",
+      "Wayne Jones",
+      "Michael Smith",
+      "Peter Wright"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Wayne Jones 11-1 in the 2010 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 65,
+    "question": "Who won the 2024 PDC Masters?",
+    "options": [
+      "Jonny Clayton",
+      "Stephen Bunting",
+      "Dave Chisnall",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Stephen Bunting defeated Michael van Gerwen 11-7 in the 2024 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 66,
+    "question": "Who finished runner-up at the 2019 European Championship?",
+    "options": [
+      "Wes Newton",
+      "Rob Cross",
+      "Gerwyn Price",
+      "Michael van Gerwen"
+    ],
+    "correct": 2,
+    "explanation": "Rob Cross defeated Gerwyn Price 11-6 in the 2019 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 67,
+    "question": "Who won the 2022 European Championship?",
+    "options": [
+      "James Wade",
+      "Michael Smith",
+      "Terry Jenkins",
+      "Ross Smith"
+    ],
+    "correct": 3,
+    "explanation": "Ross Smith defeated Michael Smith 11-8 in the 2022 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 68,
+    "question": "Who won the 2016 World Matchplay?",
+    "options": [
+      "Mensur Suljović",
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Gerwyn Price"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Phil Taylor 18-10 in the 2016 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 69,
+    "question": "Who won the 2016 Players Championship Finals?",
+    "options": [
+      "Dave Chisnall",
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Gary Anderson"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Dave Chisnall 11-3 in the 2016 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 70,
+    "question": "Who won the 2026 PDC World Championship?",
+    "options": [
+      "Gian van Veen",
+      "Luke Littler",
+      "Dennis Priestley",
+      "Simon Whitlock"
+    ],
+    "correct": 1,
+    "explanation": "Luke Littler defeated Gian van Veen 7-1 in the 2026 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 71,
+    "question": "Who won the 2024 Grand Slam of Darts?",
+    "options": [
+      "Gary Anderson",
+      "Luke Littler",
+      "Martin Lukeman",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Luke Littler defeated Martin Lukeman 16-3 in the 2024 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 72,
+    "question": "Who won the 2013 Premier League Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "Rob Cross",
+      "Terry Jenkins",
+      "Phil Taylor"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Phil Taylor 10-8 in the 2013 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 73,
+    "question": "What was the final score at the 1994 PDC World Championship?",
+    "options": [
+      "6-1",
+      "6-3",
+      "6-2",
+      "6-0"
+    ],
+    "correct": 0,
+    "explanation": "Dennis Priestley defeated Phil Taylor 6-1 in the 1994 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 74,
+    "question": "What was the final score at the 2019 World Grand Prix?",
+    "options": [
+      "5-3",
+      "5-2",
+      "5-4",
+      "5-0"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Dave Chisnall 5-2 in the 2019 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 75,
+    "question": "Who won the 2017 Players Championship Finals?",
+    "options": [
+      "Jonny Clayton",
+      "Michael van Gerwen",
+      "Luke Littler",
+      "Mervyn King"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Jonny Clayton 11-2 in the 2017 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 76,
+    "question": "Who finished runner-up at the 2006 PDC World Championship?",
+    "options": [
+      "Kirk Shepherd",
+      "Phil Taylor",
+      "Gary Anderson",
+      "Peter Manley"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Peter Manley 7-0 in the 2006 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 77,
+    "question": "Who finished runner-up at the 2018 PDC World Championship?",
+    "options": [
+      "Rob Cross",
+      "Luke Humphries",
+      "John Part",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Rob Cross defeated Phil Taylor 7-2 in the 2018 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 78,
+    "question": "Who finished runner-up at the 1996 PDC World Championship?",
+    "options": [
+      "Phil Taylor",
+      "Luke Humphries",
+      "Dennis Priestley",
+      "Mark Dudbridge"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Dennis Priestley 6-4 in the 1996 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 79,
+    "question": "Who finished runner-up at the 2011 Grand Slam of Darts?",
+    "options": [
+      "Gary Anderson",
+      "Phil Taylor",
+      "Michael Smith",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Gary Anderson 16-4 in the 2011 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 80,
+    "question": "Who won the 1996 World Matchplay?",
+    "options": [
+      "Mark Dudbridge",
+      "Dennis Priestley",
+      "Peter Evison",
+      "Jonny Clayton"
+    ],
+    "correct": 2,
+    "explanation": "Peter Evison defeated Dennis Priestley 16-14 in the 1996 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 81,
+    "question": "Who won the 2003 World Matchplay?",
+    "options": [
+      "Alan Warriner",
+      "Peter Evison",
+      "Phil Taylor",
+      "Wayne Mardle"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Wayne Mardle 18-12 in the 2003 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 82,
+    "question": "Who finished runner-up at the 2001 PDC World Championship?",
+    "options": [
+      "Luke Littler",
+      "Phil Taylor",
+      "Andy Hamilton",
+      "John Part"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated John Part 7-0 in the 2001 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 83,
+    "question": "What was the final score at the 2014 European Championship?",
+    "options": [
+      "11-8",
+      "11-6",
+      "11-4",
+      "11-1"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Terry Jenkins 11-4 in the 2014 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 84,
+    "question": "Who finished runner-up at the 2024 European Championship?",
+    "options": [
+      "Jermaine Wattimena",
+      "Rob Cross",
+      "Simon Whitlock",
+      "Ritchie Edhouse"
+    ],
+    "correct": 0,
+    "explanation": "Ritchie Edhouse defeated Jermaine Wattimena 11-3 in the 2024 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 85,
+    "question": "What was the final score at the 1999 World Matchplay?",
+    "options": [
+      "19-15",
+      "19-14",
+      "19-17",
+      "19-12"
+    ],
+    "correct": 2,
+    "explanation": "Rod Harrington defeated Peter Manley 19-17 in the 1999 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 86,
+    "question": "Who won the 2009 Premier League Darts?",
+    "options": [
+      "Joe Cullen",
+      "Roland Scholten",
+      "Mervyn King",
+      "James Wade"
+    ],
+    "correct": 3,
+    "explanation": "James Wade defeated Mervyn King 13-8 in the 2009 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 87,
+    "question": "Who won the 2010 European Championship?",
+    "options": [
+      "Wayne Jones",
+      "Michael Smith",
+      "Peter Wright",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Wayne Jones 11-1 in the 2010 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 88,
+    "question": "Who finished runner-up at the 2016 Players Championship Finals?",
+    "options": [
+      "Gary Anderson",
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Dave Chisnall"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Dave Chisnall 11-3 in the 2016 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 89,
+    "question": "Who finished runner-up at the 2012 Players Championship Finals?",
+    "options": [
+      "Kim Huybrechts",
+      "Phil Taylor",
+      "Peter Wright",
+      "Rob Cross"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Kim Huybrechts 13-6 in the 2012 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 90,
+    "question": "What was the final score at the 2005 Premier League Darts?",
+    "options": [
+      "16-4",
+      "16-2",
+      "16-15",
+      "16-13"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Colin Lloyd 16-4 in the 2005 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 91,
+    "question": "Who finished runner-up at the 2016 UK Open?",
+    "options": [
+      "Michael van Gerwen",
+      "Corey Cadby",
+      "Peter Wright",
+      "Gerwyn Price"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Peter Wright 11-4 in the 2016 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 92,
+    "question": "Who finished runner-up at the 2002 World Matchplay?",
+    "options": [
+      "Raymond van Barneveld",
+      "John Part",
+      "Phil Taylor",
+      "Rod Harrington"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated John Part 18-16 in the 2002 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 93,
+    "question": "What was the final score at the 2017 UK Open?",
+    "options": [
+      "11-7",
+      "11-4",
+      "11-6",
+      "11-8"
+    ],
+    "correct": 2,
+    "explanation": "Peter Wright defeated Gerwyn Price 11-6 in the 2017 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 94,
+    "question": "Who won the 2014 World Matchplay?",
+    "options": [
+      "Peter Wright",
+      "Michael van Gerwen",
+      "Ronnie Baxter",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Michael van Gerwen 18-9 in the 2014 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 95,
+    "question": "Who won the 2002 World Matchplay?",
+    "options": [
+      "Rod Harrington",
+      "Phil Taylor",
+      "Raymond van Barneveld",
+      "John Part"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated John Part 18-16 in the 2002 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 96,
+    "question": "What was the final score at the 2017 PDC World Youth Championship?",
+    "options": [
+      "6-3",
+      "6-4",
+      "6-1",
+      "6-0"
+    ],
+    "correct": 0,
+    "explanation": "Dimitri Van den Bergh defeated Josh Payne 6-3 in the 2017 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 97,
+    "question": "Who finished runner-up at the 2025 PDC Masters?",
+    "options": [
+      "Jonny Clayton",
+      "Luke Humphries",
+      "Michael Smith",
+      "Raymond van Barneveld"
+    ],
+    "correct": 0,
+    "explanation": "Luke Humphries defeated Jonny Clayton 6-5 in the 2025 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 98,
+    "question": "What was the final score at the 2016 World Grand Prix?",
+    "options": [
+      "5-3",
+      "5-0",
+      "5-1",
+      "5-2"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Gary Anderson 5-2 in the 2016 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 99,
+    "question": "Who finished runner-up at the 2021 PDC Masters?",
+    "options": [
+      "Peter Wright",
+      "Jonny Clayton",
+      "Mervyn King",
+      "Stephen Bunting"
+    ],
+    "correct": 2,
+    "explanation": "Jonny Clayton defeated Mervyn King 11-8 in the 2021 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 100,
+    "question": "What was the final score at the 2008 UK Open?",
+    "options": [
+      "11-10",
+      "11-7",
+      "11-3",
+      "11-5"
+    ],
+    "correct": 1,
+    "explanation": "James Wade defeated Gary Mawson 11-7 in the 2008 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 101,
+    "question": "Who finished runner-up at the 2013 PDC World Youth Championship?",
+    "options": [
+      "Ricky Evans",
+      "Michael Smith",
+      "Dimitri Van den Bergh",
+      "Michael van Gerwen"
+    ],
+    "correct": 0,
+    "explanation": "Michael Smith defeated Ricky Evans 6-1 in the 2013 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 102,
+    "question": "What was the final score at the 2005 UK Open?",
+    "options": [
+      "13-10",
+      "13-3",
+      "13-1",
+      "13-7"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Mark Walsh 13-7 in the 2005 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 103,
+    "question": "Who won the 2006 World Grand Prix?",
+    "options": [
+      "Phil Taylor",
+      "Terry Jenkins",
+      "Brendan Dolan",
+      "Dirk van Duijvenbode"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Terry Jenkins 7-4 in the 2006 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 104,
+    "question": "Who won the 2022 Players Championship Finals?",
+    "options": [
+      "Mervyn King",
+      "Ryan Searle",
+      "Michael van Gerwen",
+      "Rob Cross"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Rob Cross 11-6 in the 2022 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 105,
+    "question": "Who won the 2011 PDC World Youth Championship?",
+    "options": [
+      "Ricky Evans",
+      "Michael Smith",
+      "Michael van Gerwen",
+      "Arron Monk"
+    ],
+    "correct": 3,
+    "explanation": "Arron Monk defeated Michael van Gerwen 6-4 in the 2011 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 106,
+    "question": "What was the final score at the 2021 Players Championship Finals?",
+    "options": [
+      "11-0",
+      "11-10",
+      "11-9",
+      "11-7"
+    ],
+    "correct": 1,
+    "explanation": "Peter Wright defeated Ryan Searle 11-10 in the 2021 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 107,
+    "question": "Who finished runner-up at the 1996 World Matchplay?",
+    "options": [
+      "Mark Dudbridge",
+      "Dennis Priestley",
+      "Peter Evison",
+      "Jonny Clayton"
+    ],
+    "correct": 1,
+    "explanation": "Peter Evison defeated Dennis Priestley 16-14 in the 1996 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 108,
+    "question": "Who finished runner-up at the 1998 PDC World Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Gian van Veen",
+      "Phil Taylor",
+      "Dennis Priestley"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Dennis Priestley 6-0 in the 1998 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 109,
+    "question": "Who finished runner-up at the 2018 World Matchplay?",
+    "options": [
+      "Mensur Suljović",
+      "Gary Anderson",
+      "Terry Jenkins",
+      "Raymond van Barneveld"
+    ],
+    "correct": 0,
+    "explanation": "Gary Anderson defeated Mensur Suljović 21-19 in the 2018 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 110,
+    "question": "What was the final score at the 2018 Players Championship Finals?",
+    "options": [
+      "11-9",
+      "11-6",
+      "11-10",
+      "11-4"
+    ],
+    "correct": 0,
+    "explanation": "Daryl Gurney defeated Michael van Gerwen 11-9 in the 2018 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 111,
+    "question": "Who won the 2024 Players Championship Finals?",
+    "options": [
+      "Luke Littler",
+      "Ryan Searle",
+      "Gerwyn Price",
+      "Luke Humphries"
+    ],
+    "correct": 3,
+    "explanation": "Luke Humphries defeated Luke Littler 11-7 in the 2024 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 112,
+    "question": "Who won the 2022 PDC Masters?",
+    "options": [
+      "Dave Chisnall",
+      "Joe Cullen",
+      "Adrian Lewis",
+      "Phil Taylor"
+    ],
+    "correct": 1,
+    "explanation": "Joe Cullen defeated Dave Chisnall 11-9 in the 2022 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 113,
+    "question": "Who finished runner-up at the 2010 UK Open?",
+    "options": [
+      "Phil Taylor",
+      "Dimitri Van den Bergh",
+      "Luke Humphries",
+      "Gary Anderson"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Gary Anderson 11-5 in the 2010 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 114,
+    "question": "Who won the 2013 World Grand Prix?",
+    "options": [
+      "Rod Harrington",
+      "Dave Chisnall",
+      "Phil Taylor",
+      "John Part"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Dave Chisnall 6-0 in the 2013 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 115,
+    "question": "Who finished runner-up at the 2008 UK Open?",
+    "options": [
+      "Gary Mawson",
+      "James Wade",
+      "Robert Thornton",
+      "Dimitri Van den Bergh"
+    ],
+    "correct": 0,
+    "explanation": "James Wade defeated Gary Mawson 11-7 in the 2008 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 116,
+    "question": "Who finished runner-up at the 2024 PDC World Youth Championship?",
+    "options": [
+      "Gian van Veen",
+      "Jurjen van der Velde",
+      "Luke Littler",
+      "Ted Evetts"
+    ],
+    "correct": 1,
+    "explanation": "Gian van Veen defeated Jurjen van der Velde 6-5 in the 2024 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 117,
+    "question": "Who finished runner-up at the 2012 UK Open?",
+    "options": [
+      "Adrian Lewis",
+      "Wes Newton",
+      "Robert Thornton",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Robert Thornton defeated Phil Taylor 11-5 in the 2012 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 118,
+    "question": "Who won the 2021 European Championship?",
+    "options": [
+      "Rob Cross",
+      "Terry Jenkins",
+      "Michael van Gerwen",
+      "Jermaine Wattimena"
+    ],
+    "correct": 0,
+    "explanation": "Rob Cross defeated Michael van Gerwen 11-8 in the 2021 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 119,
+    "question": "Who finished runner-up at the 2021 Grand Slam of Darts?",
+    "options": [
+      "Peter Wright",
+      "Gerwyn Price",
+      "Nathan Aspinall",
+      "Martin Lukeman"
+    ],
+    "correct": 0,
+    "explanation": "Gerwyn Price defeated Peter Wright 16-8 in the 2021 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 120,
+    "question": "Who won the 2026 World Matchplay?",
+    "options": [
+      "Gerwyn Price",
+      "Gary Anderson",
+      "Ronnie Baxter",
+      "Luke Littler"
+    ],
+    "correct": 3,
+    "explanation": "Luke Littler defeated Gerwyn Price 18-9 in the 2026 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 121,
+    "question": "Who finished runner-up at the 2025 World Matchplay?",
+    "options": [
+      "Peter Evison",
+      "Luke Littler",
+      "James Wade",
+      "Michael Smith"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated James Wade 18-13 in the 2025 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 122,
+    "question": "Who won the 1999 World Matchplay?",
+    "options": [
+      "Peter Evison",
+      "Raymond van Barneveld",
+      "Rod Harrington",
+      "Peter Manley"
+    ],
+    "correct": 2,
+    "explanation": "Rod Harrington defeated Peter Manley 19-17 in the 1999 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 123,
+    "question": "Who finished runner-up at the 2017 Players Championship Finals?",
+    "options": [
+      "Luke Littler",
+      "Mervyn King",
+      "Jonny Clayton",
+      "Michael van Gerwen"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Jonny Clayton 11-2 in the 2017 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 124,
+    "question": "Who won the 2014 World Grand Prix?",
+    "options": [
+      "Michael van Gerwen",
+      "James Wade",
+      "Gary Anderson",
+      "Shayne Burgess"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated James Wade 5-3 in the 2014 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 125,
+    "question": "Who won the 2019 World Grand Prix?",
+    "options": [
+      "Michael van Gerwen",
+      "Daryl Gurney",
+      "Adrian Lewis",
+      "Dave Chisnall"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Dave Chisnall 5-2 in the 2019 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 126,
+    "question": "What was the final score at the 2011 UK Open?",
+    "options": [
+      "11-6",
+      "11-8",
+      "11-3",
+      "11-10"
+    ],
+    "correct": 1,
+    "explanation": "James Wade defeated Wes Newton 11-8 in the 2011 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 127,
+    "question": "What was the final score at the 2024 PDC World Championship?",
+    "options": [
+      "7-4",
+      "7-6",
+      "7-3",
+      "7-2"
+    ],
+    "correct": 0,
+    "explanation": "Luke Humphries defeated Luke Littler 7-4 in the 2024 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 128,
+    "question": "Who won the 2012 World Grand Prix?",
+    "options": [
+      "Michael van Gerwen",
+      "Jonny Clayton",
+      "Daryl Gurney",
+      "Mervyn King"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Mervyn King 6-4 in the 2012 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 129,
+    "question": "Who won the 2020 Premier League Darts?",
+    "options": [
+      "Nathan Aspinall",
+      "Gary Anderson",
+      "Glen Durrant",
+      "Michael van Gerwen"
+    ],
+    "correct": 2,
+    "explanation": "Glen Durrant defeated Nathan Aspinall 11-8 in the 2020 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 130,
+    "question": "Who finished runner-up at the 2025 PDC World Youth Championship?",
+    "options": [
+      "Jurjen van der Velde",
+      "Arron Monk",
+      "Gian van Veen",
+      "Beau Greaves"
+    ],
+    "correct": 3,
+    "explanation": "Gian van Veen defeated Beau Greaves 6-3 in the 2025 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 131,
+    "question": "What was the final score at the 2014 UK Open?",
+    "options": [
+      "11-1",
+      "11-8",
+      "11-6",
+      "11-4"
+    ],
+    "correct": 0,
+    "explanation": "Adrian Lewis defeated Terry Jenkins 11-1 in the 2014 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 132,
+    "question": "Who won the 2019 European Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Gerwyn Price",
+      "Wes Newton",
+      "Rob Cross"
+    ],
+    "correct": 3,
+    "explanation": "Rob Cross defeated Gerwyn Price 11-6 in the 2019 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 133,
+    "question": "Who won the 2011 PDC World Championship?",
+    "options": [
+      "Gary Anderson",
+      "Luke Littler",
+      "Adrian Lewis",
+      "Kirk Shepherd"
+    ],
+    "correct": 2,
+    "explanation": "Adrian Lewis defeated Gary Anderson 7-5 in the 2011 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 134,
+    "question": "Who won the 1994 PDC World Championship?",
+    "options": [
+      "Kevin Painter",
+      "Dennis Priestley",
+      "Phil Taylor",
+      "Rod Harrington"
+    ],
+    "correct": 1,
+    "explanation": "Dennis Priestley defeated Phil Taylor 6-1 in the 1994 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 135,
+    "question": "Who finished runner-up at the 2019 PDC World Youth Championship?",
+    "options": [
+      "Berry van Peer",
+      "Michael van Gerwen",
+      "Adam Gawlas",
+      "Luke Humphries"
+    ],
+    "correct": 2,
+    "explanation": "Luke Humphries defeated Adam Gawlas 6-0 in the 2019 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 136,
+    "question": "Who won the 2009 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Ronnie Baxter",
+      "Michael Smith",
+      "Terry Jenkins"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Terry Jenkins 18-4 in the 2009 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 137,
+    "question": "Who won the 2009 Grand Slam of Darts?",
+    "options": [
+      "Dave Chisnall",
+      "Scott Waites",
+      "Rob Cross",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Scott Waites 16-2 in the 2009 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 138,
+    "question": "Who finished runner-up at the 2022 PDC World Championship?",
+    "options": [
+      "Michael Smith",
+      "Peter Wright",
+      "Gian van Veen",
+      "Peter Manley"
+    ],
+    "correct": 0,
+    "explanation": "Peter Wright defeated Michael Smith 7-5 in the 2022 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 139,
+    "question": "What was the final score at the 2023 UK Open?",
+    "options": [
+      "11-10",
+      "11-1",
+      "11-7",
+      "11-9"
+    ],
+    "correct": 0,
+    "explanation": "Andrew Gilding defeated Michael van Gerwen 11-10 in the 2023 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 140,
+    "question": "Who won the 2006 World Matchplay?",
+    "options": [
+      "Richie Burnett",
+      "Phil Taylor",
+      "James Wade",
+      "Rod Harrington"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated James Wade 18-11 in the 2006 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 141,
+    "question": "Who won the 2016 World Grand Prix?",
+    "options": [
+      "Nathan Aspinall",
+      "Gary Anderson",
+      "Simon Whitlock",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Gary Anderson 5-2 in the 2016 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 142,
+    "question": "What was the final score at the 2017 European Championship?",
+    "options": [
+      "11-0",
+      "11-9",
+      "11-7",
+      "11-6"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Rob Cross 11-7 in the 2017 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 143,
+    "question": "Who won the 2008 European Championship?",
+    "options": [
+      "Ross Smith",
+      "Phil Taylor",
+      "Adrian Lewis",
+      "Michael Smith"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Adrian Lewis 11-5 in the 2008 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 144,
+    "question": "Who finished runner-up at the 2016 PDC Masters?",
+    "options": [
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Dave Chisnall",
+      "Adrian Lewis"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Dave Chisnall 11-6 in the 2016 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 145,
+    "question": "What was the final score at the 2025 PDC Masters?",
+    "options": [
+      "6-3",
+      "6-1",
+      "6-5",
+      "6-0"
+    ],
+    "correct": 2,
+    "explanation": "Luke Humphries defeated Jonny Clayton 6-5 in the 2025 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 146,
+    "question": "Who won the 2008 World Matchplay?",
+    "options": [
+      "Gerwyn Price",
+      "Phil Taylor",
+      "John Part",
+      "James Wade"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated James Wade 18-9 in the 2008 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 147,
+    "question": "Who finished runner-up at the 2018 European Championship?",
+    "options": [
+      "Simon Whitlock",
+      "Terry Jenkins",
+      "James Wade",
+      "Ritchie Edhouse"
+    ],
+    "correct": 0,
+    "explanation": "James Wade defeated Simon Whitlock 11-8 in the 2018 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 148,
+    "question": "Who finished runner-up at the 2015 PDC Masters?",
+    "options": [
+      "Michael van Gerwen",
+      "Peter Wright",
+      "Raymond van Barneveld",
+      "Stephen Bunting"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Raymond van Barneveld 11-6 in the 2015 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 149,
+    "question": "Who won the 2015 World Matchplay?",
+    "options": [
+      "James Wade",
+      "Michael van Gerwen",
+      "Nathan Aspinall",
+      "Gary Anderson"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated James Wade 18-12 in the 2015 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 150,
+    "question": "Who won the 2020 PDC World Youth Championship?",
+    "options": [
+      "Bradley Brooks",
+      "Joe Davis",
+      "Berry van Peer",
+      "Nathan Girvan"
+    ],
+    "correct": 0,
+    "explanation": "Bradley Brooks defeated Joe Davis 6-5 in the 2020 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 151,
+    "question": "Who finished runner-up at the 2008 European Championship?",
+    "options": [
+      "Ross Smith",
+      "Michael Smith",
+      "Adrian Lewis",
+      "Phil Taylor"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Adrian Lewis 11-5 in the 2008 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 152,
+    "question": "Who won the 2007 World Matchplay?",
+    "options": [
+      "Terry Jenkins",
+      "Richie Burnett",
+      "James Wade",
+      "Peter Wright"
+    ],
+    "correct": 2,
+    "explanation": "James Wade defeated Terry Jenkins 18-7 in the 2007 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 153,
+    "question": "Who finished runner-up at the 2000 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Peter Wright",
+      "Peter Evison",
+      "Alan Warriner"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Alan Warriner 18-12 in the 2000 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 154,
+    "question": "Who won the 2019 World Matchplay?",
+    "options": [
+      "Terry Jenkins",
+      "Dimitri Van den Bergh",
+      "Rob Cross",
+      "Michael Smith"
+    ],
+    "correct": 2,
+    "explanation": "Rob Cross defeated Michael Smith 18-13 in the 2019 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 155,
+    "question": "Who finished runner-up at the 1998 World Grand Prix?",
+    "options": [
+      "Phil Taylor",
+      "Rod Harrington",
+      "Mervyn King",
+      "Brendan Dolan"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Rod Harrington 13-8 in the 1998 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 156,
+    "question": "Who won the 2007 World Grand Prix?",
+    "options": [
+      "Terry Jenkins",
+      "Roland Scholten",
+      "Shayne Burgess",
+      "James Wade"
+    ],
+    "correct": 3,
+    "explanation": "James Wade defeated Terry Jenkins 6-3 in the 2007 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 157,
+    "question": "Who finished runner-up at the 2003 PDC World Championship?",
+    "options": [
+      "Simon Whitlock",
+      "Phil Taylor",
+      "Adrian Lewis",
+      "John Part"
+    ],
+    "correct": 1,
+    "explanation": "John Part defeated Phil Taylor 7-6 in the 2003 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 158,
+    "question": "Who won the 2021 PDC Masters?",
+    "options": [
+      "Mervyn King",
+      "Peter Wright",
+      "Stephen Bunting",
+      "Jonny Clayton"
+    ],
+    "correct": 3,
+    "explanation": "Jonny Clayton defeated Mervyn King 11-8 in the 2021 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 159,
+    "question": "Who finished runner-up at the 2006 UK Open?",
+    "options": [
+      "Nathan Aspinall",
+      "James Wade",
+      "Raymond van Barneveld",
+      "Barrie Bates"
+    ],
+    "correct": 3,
+    "explanation": "Raymond van Barneveld defeated Barrie Bates 13-7 in the 2006 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 160,
+    "question": "Who finished runner-up at the 2012 PDC World Youth Championship?",
+    "options": [
+      "James Hubbard",
+      "Bradley Brooks",
+      "Michael van Gerwen",
+      "Gian van Veen"
+    ],
+    "correct": 2,
+    "explanation": "James Hubbard defeated Michael van Gerwen 6-3 in the 2012 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 161,
+    "question": "Who finished runner-up at the 2021 World Grand Prix?",
+    "options": [
+      "Daryl Gurney",
+      "Gerwyn Price",
+      "Jonny Clayton",
+      "Rod Harrington"
+    ],
+    "correct": 1,
+    "explanation": "Jonny Clayton defeated Gerwyn Price 5-1 in the 2021 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 162,
+    "question": "Who won the 2011 World Grand Prix?",
+    "options": [
+      "Jonny Clayton",
+      "Brendan Dolan",
+      "Phil Taylor",
+      "Alan Warriner"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Brendan Dolan 6-3 in the 2011 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 163,
+    "question": "Who finished runner-up at the 2015 European Championship?",
+    "options": [
+      "Rob Cross",
+      "Michael van Gerwen",
+      "Luke Humphries",
+      "Gary Anderson"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Gary Anderson 11-10 in the 2015 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 164,
+    "question": "Who won the 2020 PDC World Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Gary Anderson",
+      "Simon Whitlock",
+      "Peter Wright"
+    ],
+    "correct": 3,
+    "explanation": "Peter Wright defeated Michael van Gerwen 7-3 in the 2020 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 165,
+    "question": "Who won the 2018 UK Open?",
+    "options": [
+      "Raymond van Barneveld",
+      "Michael Smith",
+      "Corey Cadby",
+      "Gary Anderson"
+    ],
+    "correct": 3,
+    "explanation": "Gary Anderson defeated Corey Cadby 11-7 in the 2018 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 166,
+    "question": "Who won the 2024 UK Open?",
+    "options": [
+      "Andrew Gilding",
+      "Dimitri Van den Bergh",
+      "Raymond van Barneveld",
+      "Luke Humphries"
+    ],
+    "correct": 1,
+    "explanation": "Dimitri Van den Bergh defeated Luke Humphries 11-10 in the 2024 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 167,
+    "question": "Who finished runner-up at the 2015 Premier League Darts?",
+    "options": [
+      "Rob Cross",
+      "Gary Anderson",
+      "Phil Taylor",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Gary Anderson defeated Michael van Gerwen 11-7 in the 2015 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 168,
+    "question": "Who won the 2021 Players Championship Finals?",
+    "options": [
+      "Mervyn King",
+      "Peter Wright",
+      "Ryan Searle",
+      "Luke Littler"
+    ],
+    "correct": 1,
+    "explanation": "Peter Wright defeated Ryan Searle 11-10 in the 2021 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 169,
+    "question": "Who finished runner-up at the 2004 PDC World Championship?",
+    "options": [
+      "Phil Taylor",
+      "Kevin Painter",
+      "Mark Dudbridge",
+      "Raymond van Barneveld"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Kevin Painter 7-6 in the 2004 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 170,
+    "question": "Who won the 2009 European Championship?",
+    "options": [
+      "Mensur Suljović",
+      "Steve Beaton",
+      "Phil Taylor",
+      "Peter Wright"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Steve Beaton 11-3 in the 2009 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 171,
+    "question": "Who won the 2020 UK Open?",
+    "options": [
+      "Michael van Gerwen",
+      "Gerwyn Price",
+      "Phil Taylor",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Gerwyn Price 11-9 in the 2020 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 172,
+    "question": "Who won the 2022 Premier League Darts?",
+    "options": [
+      "Luke Humphries",
+      "Joe Cullen",
+      "Roland Scholten",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Joe Cullen 11-10 in the 2022 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 173,
+    "question": "Who won the 2024 PDC World Youth Championship?",
+    "options": [
+      "Gian van Veen",
+      "Ted Evetts",
+      "Jurjen van der Velde",
+      "Luke Littler"
+    ],
+    "correct": 0,
+    "explanation": "Gian van Veen defeated Jurjen van der Velde 6-5 in the 2024 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 174,
+    "question": "What was the final score at the 2003 PDC World Championship?",
+    "options": [
+      "7-0",
+      "7-2",
+      "7-5",
+      "7-6"
+    ],
+    "correct": 3,
+    "explanation": "John Part defeated Phil Taylor 7-6 in the 2003 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 175,
+    "question": "Who won the 2015 PDC World Championship?",
+    "options": [
+      "Gerwyn Price",
+      "Gary Anderson",
+      "Peter Wright",
+      "Phil Taylor"
+    ],
+    "correct": 1,
+    "explanation": "Gary Anderson defeated Phil Taylor 7-6 in the 2015 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 176,
+    "question": "Who finished runner-up at the 2011 World Grand Prix?",
+    "options": [
+      "Brendan Dolan",
+      "Jonny Clayton",
+      "Phil Taylor",
+      "Alan Warriner"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Brendan Dolan 6-3 in the 2011 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 177,
+    "question": "Who finished runner-up at the 2024 PDC Masters?",
+    "options": [
+      "Michael van Gerwen",
+      "Dave Chisnall",
+      "Stephen Bunting",
+      "Jonny Clayton"
+    ],
+    "correct": 0,
+    "explanation": "Stephen Bunting defeated Michael van Gerwen 11-7 in the 2024 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 178,
+    "question": "What was the final score at the 2018 PDC World Championship?",
+    "options": [
+      "7-5",
+      "7-2",
+      "7-6",
+      "7-1"
+    ],
+    "correct": 1,
+    "explanation": "Rob Cross defeated Phil Taylor 7-2 in the 2018 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 179,
+    "question": "What was the final score at the 2007 World Grand Prix?",
+    "options": [
+      "6-4",
+      "6-3",
+      "6-1",
+      "6-2"
+    ],
+    "correct": 1,
+    "explanation": "James Wade defeated Terry Jenkins 6-3 in the 2007 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 180,
+    "question": "Who won the 2014 PDC Masters?",
+    "options": [
+      "Luke Humphries",
+      "Michael van Gerwen",
+      "James Wade",
+      "Mervyn King"
+    ],
+    "correct": 2,
+    "explanation": "James Wade defeated Mervyn King 11-10 in the 2014 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 181,
+    "question": "Who finished runner-up at the 2022 PDC Masters?",
+    "options": [
+      "Phil Taylor",
+      "Dave Chisnall",
+      "Joe Cullen",
+      "Adrian Lewis"
+    ],
+    "correct": 1,
+    "explanation": "Joe Cullen defeated Dave Chisnall 11-9 in the 2022 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 182,
+    "question": "Who finished runner-up at the 2008 Premier League Darts?",
+    "options": [
+      "Phil Taylor",
+      "James Wade",
+      "Gerwyn Price",
+      "Michael Smith"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated James Wade 16-8 in the 2008 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 183,
+    "question": "Who finished runner-up at the 2013 European Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Michael Smith",
+      "Luke Humphries",
+      "Simon Whitlock"
+    ],
+    "correct": 3,
+    "explanation": "Adrian Lewis defeated Simon Whitlock 11-6 in the 2013 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 184,
+    "question": "What was the final score at the 2020 European Championship?",
+    "options": [
+      "11-8",
+      "11-7",
+      "11-1",
+      "11-4"
+    ],
+    "correct": 3,
+    "explanation": "Peter Wright defeated James Wade 11-4 in the 2020 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 185,
+    "question": "What was the final score at the 2020 World Matchplay?",
+    "options": [
+      "18-4",
+      "18-11",
+      "18-14",
+      "18-10"
+    ],
+    "correct": 3,
+    "explanation": "Dimitri Van den Bergh defeated Gary Anderson 18-10 in the 2020 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 186,
+    "question": "What was the final score at the 2013 World Grand Prix?",
+    "options": [
+      "6-0",
+      "6-3",
+      "6-4",
+      "6-5"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Dave Chisnall 6-0 in the 2013 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 187,
+    "question": "Who won the 2014 Players Championship Finals?",
+    "options": [
+      "Adrian Lewis",
+      "Gary Anderson",
+      "Rob Cross",
+      "Luke Humphries"
+    ],
+    "correct": 1,
+    "explanation": "Gary Anderson defeated Adrian Lewis 11-6 in the 2014 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 188,
+    "question": "Who won the 2013 UK Open?",
+    "options": [
+      "Andy Hamilton",
+      "Colin Osborne",
+      "Phil Taylor",
+      "Adrian Lewis"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Andy Hamilton 11-4 in the 2013 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 189,
+    "question": "What was the final score at the 2009 PDC World Championship?",
+    "options": [
+      "7-1",
+      "7-4",
+      "7-5",
+      "7-6"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Raymond van Barneveld 7-1 in the 2009 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 190,
+    "question": "Who finished runner-up at the 2026 PDC World Championship?",
+    "options": [
+      "Dennis Priestley",
+      "Simon Whitlock",
+      "Gian van Veen",
+      "Luke Littler"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Gian van Veen 7-1 in the 2026 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 191,
+    "question": "Who finished runner-up at the 2014 Premier League Darts?",
+    "options": [
+      "Luke Humphries",
+      "Raymond van Barneveld",
+      "Phil Taylor",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Raymond van Barneveld defeated Michael van Gerwen 10-6 in the 2014 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 192,
+    "question": "Who finished runner-up at the 2003 World Grand Prix?",
+    "options": [
+      "Mervyn King",
+      "John Part",
+      "Phil Taylor",
+      "Adrian Lewis"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated John Part 7-2 in the 2003 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 193,
+    "question": "Who finished runner-up at the 2018 Premier League Darts?",
+    "options": [
+      "Michael Smith",
+      "Joe Cullen",
+      "Colin Lloyd",
+      "Michael van Gerwen"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Michael Smith 11-4 in the 2018 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 194,
+    "question": "Who won the 2005 World Matchplay?",
+    "options": [
+      "Colin Lloyd",
+      "John Part",
+      "Gary Anderson",
+      "Mark Dudbridge"
+    ],
+    "correct": 0,
+    "explanation": "Colin Lloyd defeated John Part 18-12 in the 2005 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 195,
+    "question": "Who won the 2020 European Championship?",
+    "options": [
+      "James Wade",
+      "Wes Newton",
+      "Michael van Gerwen",
+      "Peter Wright"
+    ],
+    "correct": 3,
+    "explanation": "Peter Wright defeated James Wade 11-4 in the 2020 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 196,
+    "question": "What was the final score at the 2014 World Matchplay?",
+    "options": [
+      "18-1",
+      "18-3",
+      "18-9",
+      "18-8"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Michael van Gerwen 18-9 in the 2014 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 197,
+    "question": "Who won the 2012 Grand Slam of Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "Raymond van Barneveld",
+      "Phil Taylor",
+      "José de Sousa"
+    ],
+    "correct": 1,
+    "explanation": "Raymond van Barneveld defeated Michael van Gerwen 16-14 in the 2012 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 198,
+    "question": "Who won the 2009 UK Open?",
+    "options": [
+      "Phil Taylor",
+      "Gary Anderson",
+      "Colin Osborne",
+      "Terry Jenkins"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Colin Osborne 11-6 in the 2009 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 199,
+    "question": "Who won the 2014 PDC World Championship?",
+    "options": [
+      "Mark Dudbridge",
+      "Michael van Gerwen",
+      "Peter Wright",
+      "Kirk Shepherd"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Peter Wright 7-4 in the 2014 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 200,
+    "question": "Who finished runner-up at the 2012 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "James Wade",
+      "Alan Warriner",
+      "Mark Dudbridge"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated James Wade 18-15 in the 2012 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 201,
+    "question": "Who won the 2005 PDC World Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Mark Dudbridge",
+      "Phil Taylor",
+      "Peter Wright"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Mark Dudbridge 7-4 in the 2005 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 202,
+    "question": "Who won the 2012 European Championship?",
+    "options": [
+      "Wes Newton",
+      "Peter Wright",
+      "Simon Whitlock",
+      "Luke Humphries"
+    ],
+    "correct": 2,
+    "explanation": "Simon Whitlock defeated Wes Newton 11-5 in the 2012 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 203,
+    "question": "Who finished runner-up at the 2009 European Championship?",
+    "options": [
+      "Peter Wright",
+      "Steve Beaton",
+      "Mensur Suljović",
+      "Phil Taylor"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Steve Beaton 11-3 in the 2009 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 204,
+    "question": "What was the final score at the 2023 Premier League Darts?",
+    "options": [
+      "11-4",
+      "11-1",
+      "11-5",
+      "11-10"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Gerwyn Price 11-5 in the 2023 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 205,
+    "question": "Who won the 2023 PDC Masters?",
+    "options": [
+      "Peter Wright",
+      "James Wade",
+      "Chris Dobey",
+      "Rob Cross"
+    ],
+    "correct": 2,
+    "explanation": "Chris Dobey defeated Rob Cross 11-7 in the 2023 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 206,
+    "question": "Who won the 2018 Players Championship Finals?",
+    "options": [
+      "Gary Anderson",
+      "Daryl Gurney",
+      "Kim Huybrechts",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Daryl Gurney defeated Michael van Gerwen 11-9 in the 2018 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 207,
+    "question": "Who won the 2016 Premier League Darts?",
+    "options": [
+      "Jonny Clayton",
+      "Phil Taylor",
+      "Michael van Gerwen",
+      "José de Sousa"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Phil Taylor 11-3 in the 2016 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 208,
+    "question": "Who finished runner-up at the 2010 PDC World Championship?",
+    "options": [
+      "Gian van Veen",
+      "Mark Dudbridge",
+      "Phil Taylor",
+      "Simon Whitlock"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Simon Whitlock 7-3 in the 2010 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 209,
+    "question": "Who finished runner-up at the 2008 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Gerwyn Price",
+      "John Part",
+      "James Wade"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated James Wade 18-9 in the 2008 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 210,
+    "question": "Who won the 2012 PDC World Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Gary Anderson",
+      "Andy Hamilton",
+      "Kevin Painter"
+    ],
+    "correct": 0,
+    "explanation": "Adrian Lewis defeated Andy Hamilton 7-3 in the 2012 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 211,
+    "question": "Who won the 2019 Players Championship Finals?",
+    "options": [
+      "Jonny Clayton",
+      "Gerwyn Price",
+      "Phil Taylor",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Gerwyn Price 11-9 in the 2019 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 212,
+    "question": "Who finished runner-up at the 2001 World Matchplay?",
+    "options": [
+      "Richie Burnett",
+      "Peter Manley",
+      "Phil Taylor",
+      "Rod Harrington"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Richie Burnett 18-10 in the 2001 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 213,
+    "question": "Who won the 2025 Premier League Darts?",
+    "options": [
+      "Simon Whitlock",
+      "Gerwyn Price",
+      "Luke Humphries",
+      "Luke Littler"
+    ],
+    "correct": 2,
+    "explanation": "Luke Humphries defeated Luke Littler 11-8 in the 2025 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 214,
+    "question": "Who won the 2015 Premier League Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Gary Anderson",
+      "Rob Cross"
+    ],
+    "correct": 2,
+    "explanation": "Gary Anderson defeated Michael van Gerwen 11-7 in the 2015 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 215,
+    "question": "What was the final score at the 2023 World Matchplay?",
+    "options": [
+      "18-12",
+      "18-1",
+      "18-15",
+      "18-6"
+    ],
+    "correct": 3,
+    "explanation": "Nathan Aspinall defeated Jonny Clayton 18-6 in the 2023 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 216,
+    "question": "Who finished runner-up at the 1999 PDC World Championship?",
+    "options": [
+      "Luke Littler",
+      "Peter Manley",
+      "Phil Taylor",
+      "Gian van Veen"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Peter Manley 6-2 in the 1999 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 217,
+    "question": "Who won the 2024 European Championship?",
+    "options": [
+      "Simon Whitlock",
+      "Jermaine Wattimena",
+      "Rob Cross",
+      "Ritchie Edhouse"
+    ],
+    "correct": 3,
+    "explanation": "Ritchie Edhouse defeated Jermaine Wattimena 11-3 in the 2024 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 218,
+    "question": "Who finished runner-up at the 2016 European Championship?",
+    "options": [
+      "Wes Newton",
+      "Michael van Gerwen",
+      "Peter Wright",
+      "Mensur Suljović"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Mensur Suljović 11-1 in the 2016 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 219,
+    "question": "Who finished runner-up at the 2005 PDC World Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Mark Dudbridge",
+      "Peter Wright"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Mark Dudbridge 7-4 in the 2005 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 220,
+    "question": "Who finished runner-up at the 2020 Premier League Darts?",
+    "options": [
+      "Glen Durrant",
+      "Gary Anderson",
+      "Michael van Gerwen",
+      "Nathan Aspinall"
+    ],
+    "correct": 3,
+    "explanation": "Glen Durrant defeated Nathan Aspinall 11-8 in the 2020 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 221,
+    "question": "Who won the 2023 Grand Slam of Darts?",
+    "options": [
+      "Rob Cross",
+      "Phil Taylor",
+      "Luke Humphries",
+      "Gian van Veen"
+    ],
+    "correct": 2,
+    "explanation": "Luke Humphries defeated Rob Cross 16-8 in the 2023 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 222,
+    "question": "Who finished runner-up at the 2018 Players Championship Finals?",
+    "options": [
+      "Kim Huybrechts",
+      "Gary Anderson",
+      "Michael van Gerwen",
+      "Daryl Gurney"
+    ],
+    "correct": 2,
+    "explanation": "Daryl Gurney defeated Michael van Gerwen 11-9 in the 2018 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 223,
+    "question": "Who finished runner-up at the 2011 PDC World Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Luke Littler",
+      "Kirk Shepherd",
+      "Gary Anderson"
+    ],
+    "correct": 3,
+    "explanation": "Adrian Lewis defeated Gary Anderson 7-5 in the 2011 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 224,
+    "question": "Who won the 2022 PDC World Championship?",
+    "options": [
+      "Michael Smith",
+      "Gian van Veen",
+      "Peter Manley",
+      "Peter Wright"
+    ],
+    "correct": 3,
+    "explanation": "Peter Wright defeated Michael Smith 7-5 in the 2022 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 225,
+    "question": "Who finished runner-up at the 2014 Players Championship Finals?",
+    "options": [
+      "Adrian Lewis",
+      "Rob Cross",
+      "Gary Anderson",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Gary Anderson defeated Adrian Lewis 11-6 in the 2014 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 226,
+    "question": "Who won the 2011 European Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Michael van Gerwen",
+      "Gerwyn Price",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Adrian Lewis 11-8 in the 2011 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 227,
+    "question": "Who won the 2026 Premier League Darts?",
+    "options": [
+      "Luke Humphries",
+      "Michael Smith",
+      "Luke Littler",
+      "Mervyn King"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Luke Humphries 11-10 in the 2026 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 228,
+    "question": "What was the final score at the 2015 PDC World Championship?",
+    "options": [
+      "7-5",
+      "7-1",
+      "7-4",
+      "7-6"
+    ],
+    "correct": 3,
+    "explanation": "Gary Anderson defeated Phil Taylor 7-6 in the 2015 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 229,
+    "question": "Who finished runner-up at the 2023 World Grand Prix?",
+    "options": [
+      "Luke Humphries",
+      "Gerwyn Price",
+      "James Wade",
+      "Simon Whitlock"
+    ],
+    "correct": 1,
+    "explanation": "Luke Humphries defeated Gerwyn Price 5-2 in the 2023 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 230,
+    "question": "Who won the 2019 PDC World Youth Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Luke Humphries",
+      "Adam Gawlas",
+      "Berry van Peer"
+    ],
+    "correct": 1,
+    "explanation": "Luke Humphries defeated Adam Gawlas 6-0 in the 2019 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 231,
+    "question": "Who finished runner-up at the 2018 PDC Masters?",
+    "options": [
+      "Chris Dobey",
+      "Raymond van Barneveld",
+      "Dave Chisnall",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Raymond van Barneveld 11-9 in the 2018 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 232,
+    "question": "Who won the 1997 PDC World Championship?",
+    "options": [
+      "Gary Anderson",
+      "Phil Taylor",
+      "Andy Hamilton",
+      "Dennis Priestley"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Dennis Priestley 6-3 in the 1997 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 233,
+    "question": "Who finished runner-up at the 2019 UK Open?",
+    "options": [
+      "James Wade",
+      "Peter Wright",
+      "Nathan Aspinall",
+      "Rob Cross"
+    ],
+    "correct": 3,
+    "explanation": "Nathan Aspinall defeated Rob Cross 11-5 in the 2019 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 234,
+    "question": "Who won the 2015 PDC Masters?",
+    "options": [
+      "Peter Wright",
+      "Stephen Bunting",
+      "Michael van Gerwen",
+      "Raymond van Barneveld"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Raymond van Barneveld 11-6 in the 2015 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 235,
+    "question": "What was the final score at the 1997 PDC World Championship?",
+    "options": [
+      "6-0",
+      "6-3",
+      "6-5",
+      "6-4"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Dennis Priestley 6-3 in the 1997 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 236,
+    "question": "Who won the 2005 World Grand Prix?",
+    "options": [
+      "Phil Taylor",
+      "Colin Lloyd",
+      "Brendan Dolan",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Colin Lloyd 7-1 in the 2005 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 237,
+    "question": "Who finished runner-up at the 2016 Premier League Darts?",
+    "options": [
+      "José de Sousa",
+      "Michael van Gerwen",
+      "Jonny Clayton",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Phil Taylor 11-3 in the 2016 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 238,
+    "question": "Who won the 2004 World Grand Prix?",
+    "options": [
+      "Rod Harrington",
+      "Alan Warriner",
+      "Colin Lloyd",
+      "Peter Wright"
+    ],
+    "correct": 2,
+    "explanation": "Colin Lloyd defeated Alan Warriner 7-3 in the 2004 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 239,
+    "question": "Who finished runner-up at the 2023 European Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Ritchie Edhouse",
+      "Peter Wright",
+      "James Wade"
+    ],
+    "correct": 3,
+    "explanation": "Peter Wright defeated James Wade 11-6 in the 2023 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 240,
+    "question": "Who won the 2007 UK Open?",
+    "options": [
+      "Gary Anderson",
+      "Raymond van Barneveld",
+      "Vincent van der Voort",
+      "Andy Hamilton"
+    ],
+    "correct": 1,
+    "explanation": "Raymond van Barneveld defeated Vincent van der Voort 16-8 in the 2007 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 241,
+    "question": "Who finished runner-up at the 2014 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Ronnie Baxter",
+      "Peter Wright",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Michael van Gerwen 18-9 in the 2014 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 242,
+    "question": "Who won the 2017 Premier League Darts?",
+    "options": [
+      "Peter Wright",
+      "Michael van Gerwen",
+      "Joe Cullen",
+      "Luke Littler"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Peter Wright 11-10 in the 2017 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 243,
+    "question": "Who finished runner-up at the 2022 Premier League Darts?",
+    "options": [
+      "Roland Scholten",
+      "Michael van Gerwen",
+      "Joe Cullen",
+      "Luke Humphries"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Joe Cullen 11-10 in the 2022 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 244,
+    "question": "Who won the 2024 World Matchplay?",
+    "options": [
+      "Michael van Gerwen",
+      "Rob Cross",
+      "Luke Humphries",
+      "Dennis Priestley"
+    ],
+    "correct": 2,
+    "explanation": "Luke Humphries defeated Michael van Gerwen 18-15 in the 2024 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 245,
+    "question": "Who finished runner-up at the 2015 PDC World Youth Championship?",
+    "options": [
+      "Max Hopp",
+      "Josh Payne",
+      "Adam Gawlas",
+      "Nathan Aspinall"
+    ],
+    "correct": 3,
+    "explanation": "Max Hopp defeated Nathan Aspinall 6-5 in the 2015 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 246,
+    "question": "Who won the 2016 Grand Slam of Darts?",
+    "options": [
+      "Luke Littler",
+      "James Wade",
+      "Michael van Gerwen",
+      "Robert Thornton"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated James Wade 16-8 in the 2016 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 247,
+    "question": "Who finished runner-up at the 2009 Grand Slam of Darts?",
+    "options": [
+      "Rob Cross",
+      "Phil Taylor",
+      "Scott Waites",
+      "Dave Chisnall"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Scott Waites 16-2 in the 2009 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 248,
+    "question": "Who won the 2006 UK Open?",
+    "options": [
+      "Barrie Bates",
+      "James Wade",
+      "Raymond van Barneveld",
+      "Nathan Aspinall"
+    ],
+    "correct": 2,
+    "explanation": "Raymond van Barneveld defeated Barrie Bates 13-7 in the 2006 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 249,
+    "question": "Who won the 2012 Premier League Darts?",
+    "options": [
+      "Simon Whitlock",
+      "Phil Taylor",
+      "Michael Smith",
+      "Nathan Aspinall"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Simon Whitlock 10-7 in the 2012 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 250,
+    "question": "Who finished runner-up at the 2022 PDC World Youth Championship?",
+    "options": [
+      "Martin Schindler",
+      "Nathan Girvan",
+      "Josh Rock",
+      "Luke Littler"
+    ],
+    "correct": 1,
+    "explanation": "Josh Rock defeated Nathan Girvan 6-1 in the 2022 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 251,
+    "question": "Who won the 2016 European Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Mensur Suljović",
+      "Wes Newton",
+      "Peter Wright"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Mensur Suljović 11-1 in the 2016 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 252,
+    "question": "Who won the 2006 PDC World Championship?",
+    "options": [
+      "Kirk Shepherd",
+      "Peter Manley",
+      "Gary Anderson",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Peter Manley 7-0 in the 2006 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 253,
+    "question": "Who finished runner-up at the 2022 Grand Slam of Darts?",
+    "options": [
+      "Gian van Veen",
+      "Nathan Aspinall",
+      "Robert Thornton",
+      "Michael Smith"
+    ],
+    "correct": 1,
+    "explanation": "Michael Smith defeated Nathan Aspinall 16-5 in the 2022 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 254,
+    "question": "Who finished runner-up at the 2015 Grand Slam of Darts?",
+    "options": [
+      "Robert Thornton",
+      "Phil Taylor",
+      "José de Sousa",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Phil Taylor 16-13 in the 2015 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 255,
+    "question": "Who won the 2017 PDC Masters?",
+    "options": [
+      "Gary Anderson",
+      "Adrian Lewis",
+      "James Wade",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Gary Anderson 11-7 in the 2017 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 256,
+    "question": "Who won the 2026 PDC Masters?",
+    "options": [
+      "Luke Littler",
+      "Jonny Clayton",
+      "Mervyn King",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Luke Littler defeated Luke Humphries 6-5 in the 2026 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 257,
+    "question": "Who won the 1997 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Alan Warriner",
+      "Michael van Gerwen",
+      "Richie Burnett"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Alan Warriner 16-11 in the 1997 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 258,
+    "question": "Who finished runner-up at the 2025 PDC World Championship?",
+    "options": [
+      "Luke Humphries",
+      "Kevin Painter",
+      "Michael van Gerwen",
+      "Luke Littler"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Michael van Gerwen 7-3 in the 2025 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 259,
+    "question": "Who won the 2024 PDC World Championship?",
+    "options": [
+      "Luke Humphries",
+      "Gian van Veen",
+      "Mark Dudbridge",
+      "Luke Littler"
+    ],
+    "correct": 0,
+    "explanation": "Luke Humphries defeated Luke Littler 7-4 in the 2024 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 260,
+    "question": "Who finished runner-up at the 2013 PDC Masters?",
+    "options": [
+      "Phil Taylor",
+      "Adrian Lewis",
+      "Chris Dobey",
+      "Stephen Bunting"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Adrian Lewis 10-1 in the 2013 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 261,
+    "question": "What was the final score at the 2009 Grand Slam of Darts?",
+    "options": [
+      "16-2",
+      "16-12",
+      "16-3",
+      "16-10"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Scott Waites 16-2 in the 2009 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 262,
+    "question": "Who won the 2018 World Matchplay?",
+    "options": [
+      "Terry Jenkins",
+      "Gary Anderson",
+      "Raymond van Barneveld",
+      "Mensur Suljović"
+    ],
+    "correct": 1,
+    "explanation": "Gary Anderson defeated Mensur Suljović 21-19 in the 2018 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 263,
+    "question": "Who finished runner-up at the 2019 Premier League Darts?",
+    "options": [
+      "Mervyn King",
+      "Rob Cross",
+      "Michael van Gerwen",
+      "Roland Scholten"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Rob Cross 11-5 in the 2019 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 264,
+    "question": "What was the final score at the 2012 Grand Slam of Darts?",
+    "options": [
+      "16-14",
+      "16-13",
+      "16-10",
+      "16-9"
+    ],
+    "correct": 0,
+    "explanation": "Raymond van Barneveld defeated Michael van Gerwen 16-14 in the 2012 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 265,
+    "question": "Who won the 2013 PDC World Championship?",
+    "options": [
+      "Phil Taylor",
+      "Gary Anderson",
+      "Gian van Veen",
+      "Michael van Gerwen"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Michael van Gerwen 7-4 in the 2013 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 266,
+    "question": "Who finished runner-up at the 1999 World Grand Prix?",
+    "options": [
+      "Jonny Clayton",
+      "Phil Taylor",
+      "Shayne Burgess",
+      "Gerwyn Price"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Shayne Burgess 6-1 in the 1999 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 267,
+    "question": "Who finished runner-up at the 2022 European Championship?",
+    "options": [
+      "Michael Smith",
+      "Ross Smith",
+      "Terry Jenkins",
+      "James Wade"
+    ],
+    "correct": 0,
+    "explanation": "Ross Smith defeated Michael Smith 11-8 in the 2022 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 268,
+    "question": "Who finished runner-up at the 2018 World Grand Prix?",
+    "options": [
+      "Michael van Gerwen",
+      "Alan Warriner",
+      "Raymond van Barneveld",
+      "Peter Wright"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Peter Wright 5-2 in the 2018 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 269,
+    "question": "Who finished runner-up at the 2023 Premier League Darts?",
+    "options": [
+      "Gerwyn Price",
+      "Michael van Gerwen",
+      "Rob Cross",
+      "Gary Anderson"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Gerwyn Price 11-5 in the 2023 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 270,
+    "question": "Who won the 2007 PDC World Championship?",
+    "options": [
+      "Phil Taylor",
+      "Simon Whitlock",
+      "Raymond van Barneveld",
+      "Mark Dudbridge"
+    ],
+    "correct": 2,
+    "explanation": "Raymond van Barneveld defeated Phil Taylor 7-6 in the 2007 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 271,
+    "question": "Who won the 2019 Premier League Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "Mervyn King",
+      "Rob Cross",
+      "Roland Scholten"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Rob Cross 11-5 in the 2019 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 272,
+    "question": "Who finished runner-up at the 2013 Players Championship Finals?",
+    "options": [
+      "Jonny Clayton",
+      "Phil Taylor",
+      "Gerwyn Price",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Phil Taylor 11-7 in the 2013 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 273,
+    "question": "Who won the 2013 World Matchplay?",
+    "options": [
+      "Phil Taylor",
+      "Adrian Lewis",
+      "Mark Dudbridge",
+      "Jonny Clayton"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Adrian Lewis 18-13 in the 2013 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 274,
+    "question": "Who finished runner-up at the 2025 European Championship?",
+    "options": [
+      "Wayne Jones",
+      "Gian van Veen",
+      "Luke Humphries",
+      "Gary Anderson"
+    ],
+    "correct": 2,
+    "explanation": "Gian van Veen defeated Luke Humphries 11-10 in the 2025 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 275,
+    "question": "Who finished runner-up at the 2017 World Grand Prix?",
+    "options": [
+      "Terry Jenkins",
+      "Simon Whitlock",
+      "Daryl Gurney",
+      "Roland Scholten"
+    ],
+    "correct": 1,
+    "explanation": "Daryl Gurney defeated Simon Whitlock 5-4 in the 2017 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 276,
+    "question": "Who won the 2021 Grand Slam of Darts?",
+    "options": [
+      "Gerwyn Price",
+      "Martin Lukeman",
+      "Peter Wright",
+      "Nathan Aspinall"
+    ],
+    "correct": 0,
+    "explanation": "Gerwyn Price defeated Peter Wright 16-8 in the 2021 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 277,
+    "question": "Who won the 2020 Grand Slam of Darts?",
+    "options": [
+      "José de Sousa",
+      "James Wade",
+      "Peter Wright",
+      "Rob Cross"
+    ],
+    "correct": 0,
+    "explanation": "José de Sousa defeated James Wade 16-12 in the 2020 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 278,
+    "question": "Who finished runner-up at the 2026 PDC Masters?",
+    "options": [
+      "Luke Littler",
+      "Mervyn King",
+      "Luke Humphries",
+      "Jonny Clayton"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Luke Humphries 6-5 in the 2026 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 279,
+    "question": "What was the final score at the 2014 Premier League Darts?",
+    "options": [
+      "10-4",
+      "10-5",
+      "10-9",
+      "10-6"
+    ],
+    "correct": 3,
+    "explanation": "Raymond van Barneveld defeated Michael van Gerwen 10-6 in the 2014 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 280,
+    "question": "Who finished runner-up at the 2026 UK Open?",
+    "options": [
+      "Nathan Aspinall",
+      "Terry Jenkins",
+      "James Wade",
+      "Luke Littler"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated James Wade 11-7 in the 2026 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 281,
+    "question": "Who won the 2000 World Matchplay?",
+    "options": [
+      "Alan Warriner",
+      "Peter Wright",
+      "Peter Evison",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Alan Warriner 18-12 in the 2000 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 282,
+    "question": "Who finished runner-up at the 2005 Premier League Darts?",
+    "options": [
+      "Michael Smith",
+      "Phil Taylor",
+      "Colin Lloyd",
+      "Peter Wright"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Colin Lloyd 16-4 in the 2005 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 283,
+    "question": "What was the final score at the 2011 PDC World Youth Championship?",
+    "options": [
+      "6-0",
+      "6-4",
+      "6-3",
+      "6-1"
+    ],
+    "correct": 1,
+    "explanation": "Arron Monk defeated Michael van Gerwen 6-4 in the 2011 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 284,
+    "question": "Who won the 2014 PDC World Youth Championship?",
+    "options": [
+      "Dimitri Van den Bergh",
+      "Keegan Brown",
+      "Rowby-John Rodriguez",
+      "Luke Littler"
+    ],
+    "correct": 1,
+    "explanation": "Keegan Brown defeated Rowby-John Rodriguez 6-4 in the 2014 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 285,
+    "question": "Who finished runner-up at the 2009 UK Open?",
+    "options": [
+      "Gary Anderson",
+      "Colin Osborne",
+      "Terry Jenkins",
+      "Phil Taylor"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Colin Osborne 11-6 in the 2009 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 286,
+    "question": "What was the final score at the 2015 Grand Slam of Darts?",
+    "options": [
+      "16-4",
+      "16-7",
+      "16-13",
+      "16-3"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Phil Taylor 16-13 in the 2015 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 287,
+    "question": "Who finished runner-up at the 2022 World Grand Prix?",
+    "options": [
+      "Gary Anderson",
+      "Nathan Aspinall",
+      "Simon Whitlock",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Michael van Gerwen defeated Nathan Aspinall 5-3 in the 2022 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 288,
+    "question": "Who won the 2023 Players Championship Finals?",
+    "options": [
+      "Ryan Searle",
+      "Nathan Aspinall",
+      "Luke Humphries",
+      "Michael van Gerwen"
+    ],
+    "correct": 2,
+    "explanation": "Luke Humphries defeated Michael van Gerwen 11-9 in the 2023 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 289,
+    "question": "Who won the 2013 PDC World Youth Championship?",
+    "options": [
+      "Ricky Evans",
+      "Michael Smith",
+      "Dimitri Van den Bergh",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Michael Smith defeated Ricky Evans 6-1 in the 2013 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 290,
+    "question": "Who finished runner-up at the 2020 Players Championship Finals?",
+    "options": [
+      "Mervyn King",
+      "Kim Huybrechts",
+      "Luke Littler",
+      "Michael van Gerwen"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Mervyn King 11-10 in the 2020 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 291,
+    "question": "Who won the 2025 World Matchplay?",
+    "options": [
+      "James Wade",
+      "Michael Smith",
+      "Peter Evison",
+      "Luke Littler"
+    ],
+    "correct": 3,
+    "explanation": "Luke Littler defeated James Wade 18-13 in the 2025 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 292,
+    "question": "Who finished runner-up at the 2017 PDC World Championship?",
+    "options": [
+      "Gary Anderson",
+      "Luke Humphries",
+      "Michael van Gerwen",
+      "Adrian Lewis"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Gary Anderson 7-3 in the 2017 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 293,
+    "question": "Who finished runner-up at the 2025 Grand Slam of Darts?",
+    "options": [
+      "Luke Littler",
+      "José de Sousa",
+      "Luke Humphries",
+      "Robert Thornton"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Luke Humphries 16-11 in the 2025 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 294,
+    "question": "Who finished runner-up at the 2009 World Matchplay?",
+    "options": [
+      "Michael Smith",
+      "Terry Jenkins",
+      "Ronnie Baxter",
+      "Phil Taylor"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Terry Jenkins 18-4 in the 2009 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 295,
+    "question": "What was the final score at the 2011 World Matchplay?",
+    "options": [
+      "18-13",
+      "18-6",
+      "18-16",
+      "18-8"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated James Wade 18-8 in the 2011 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 296,
+    "question": "Who finished runner-up at the 2015 Players Championship Finals?",
+    "options": [
+      "Adrian Lewis",
+      "Michael van Gerwen",
+      "Dave Chisnall",
+      "Phil Taylor"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Adrian Lewis 11-6 in the 2015 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 297,
+    "question": "Who won the 2024 Premier League Darts?",
+    "options": [
+      "Luke Humphries",
+      "Simon Whitlock",
+      "Glen Durrant",
+      "Luke Littler"
+    ],
+    "correct": 3,
+    "explanation": "Luke Littler defeated Luke Humphries 11-7 in the 2024 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 298,
+    "question": "Who finished runner-up at the 2014 PDC Masters?",
+    "options": [
+      "Mervyn King",
+      "James Wade",
+      "Michael van Gerwen",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "James Wade defeated Mervyn King 11-10 in the 2014 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 299,
+    "question": "What was the final score at the 2012 PDC World Championship?",
+    "options": [
+      "7-3",
+      "7-4",
+      "7-1",
+      "7-5"
+    ],
+    "correct": 0,
+    "explanation": "Adrian Lewis defeated Andy Hamilton 7-3 in the 2012 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 300,
+    "question": "Who won the 2009 PDC World Championship?",
+    "options": [
+      "Rob Cross",
+      "Raymond van Barneveld",
+      "Phil Taylor",
+      "Luke Littler"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Raymond van Barneveld 7-1 in the 2009 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 301,
+    "question": "Who finished runner-up at the 2010 Premier League Darts?",
+    "options": [
+      "James Wade",
+      "Phil Taylor",
+      "Colin Lloyd",
+      "Roland Scholten"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated James Wade 10-8 in the 2010 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 302,
+    "question": "Who finished runner-up at the 2023 Grand Slam of Darts?",
+    "options": [
+      "Luke Humphries",
+      "Phil Taylor",
+      "Gian van Veen",
+      "Rob Cross"
+    ],
+    "correct": 3,
+    "explanation": "Luke Humphries defeated Rob Cross 16-8 in the 2023 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 303,
+    "question": "What was the final score at the 2019 PDC Masters?",
+    "options": [
+      "11-9",
+      "11-7",
+      "11-5",
+      "11-10"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated James Wade 11-5 in the 2019 PDC Masters final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 304,
+    "question": "Who won the 2005 Premier League Darts?",
+    "options": [
+      "Phil Taylor",
+      "Colin Lloyd",
+      "Peter Wright",
+      "Michael Smith"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Colin Lloyd 16-4 in the 2005 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 305,
+    "question": "Who won the 2012 World Matchplay?",
+    "options": [
+      "James Wade",
+      "Alan Warriner",
+      "Phil Taylor",
+      "Mark Dudbridge"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated James Wade 18-15 in the 2012 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 306,
+    "question": "Who won the 2018 Premier League Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "Colin Lloyd",
+      "Joe Cullen",
+      "Michael Smith"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated Michael Smith 11-4 in the 2018 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 307,
+    "question": "Who finished runner-up at the 2000 PDC World Championship?",
+    "options": [
+      "Dennis Priestley",
+      "Gian van Veen",
+      "Phil Taylor",
+      "Peter Wright"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Dennis Priestley 7-3 in the 2000 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 308,
+    "question": "Who finished runner-up at the 2019 Players Championship Finals?",
+    "options": [
+      "Phil Taylor",
+      "Michael van Gerwen",
+      "Gerwyn Price",
+      "Jonny Clayton"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Gerwyn Price 11-9 in the 2019 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 309,
+    "question": "Who finished runner-up at the 2021 European Championship?",
+    "options": [
+      "Jermaine Wattimena",
+      "Michael van Gerwen",
+      "Terry Jenkins",
+      "Rob Cross"
+    ],
+    "correct": 1,
+    "explanation": "Rob Cross defeated Michael van Gerwen 11-8 in the 2021 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 310,
+    "question": "Who finished runner-up at the 2012 Premier League Darts?",
+    "options": [
+      "Nathan Aspinall",
+      "Simon Whitlock",
+      "Michael Smith",
+      "Phil Taylor"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Simon Whitlock 10-7 in the 2012 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 311,
+    "question": "Who finished runner-up at the 2013 World Grand Prix?",
+    "options": [
+      "Rod Harrington",
+      "John Part",
+      "Phil Taylor",
+      "Dave Chisnall"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Dave Chisnall 6-0 in the 2013 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 312,
+    "question": "Who won the 2026 Grand Slam of Darts?",
+    "options": [
+      "Scott Waites",
+      "Gian van Veen",
+      "Michael van Gerwen",
+      "Gerwyn Price"
+    ],
+    "correct": 3,
+    "explanation": "Gerwyn Price defeated Gian van Veen 16-11 in the 2026 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 313,
+    "question": "What was the final score at the 2017 Premier League Darts?",
+    "options": [
+      "11-0",
+      "11-9",
+      "11-10",
+      "11-7"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Peter Wright 11-10 in the 2017 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 314,
+    "question": "Who finished runner-up at the 2011 PDC World Youth Championship?",
+    "options": [
+      "Arron Monk",
+      "Michael Smith",
+      "Michael van Gerwen",
+      "Ricky Evans"
+    ],
+    "correct": 2,
+    "explanation": "Arron Monk defeated Michael van Gerwen 6-4 in the 2011 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 315,
+    "question": "What was the final score at the 2021 Grand Slam of Darts?",
+    "options": [
+      "16-8",
+      "16-3",
+      "16-10",
+      "16-14"
+    ],
+    "correct": 0,
+    "explanation": "Gerwyn Price defeated Peter Wright 16-8 in the 2021 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 316,
+    "question": "Who won the 2012 UK Open?",
+    "options": [
+      "Robert Thornton",
+      "Phil Taylor",
+      "Wes Newton",
+      "Adrian Lewis"
+    ],
+    "correct": 0,
+    "explanation": "Robert Thornton defeated Phil Taylor 11-5 in the 2012 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 317,
+    "question": "Who won the 2021 PDC World Youth Championship?",
+    "options": [
+      "Ted Evetts",
+      "Josh Payne",
+      "Nathan Rafferty",
+      "Corey Cadby"
+    ],
+    "correct": 0,
+    "explanation": "Ted Evetts defeated Nathan Rafferty 6-4 in the 2021 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 318,
+    "question": "Who finished runner-up at the 2009 PDC World Championship?",
+    "options": [
+      "Rob Cross",
+      "Raymond van Barneveld",
+      "Phil Taylor",
+      "Luke Littler"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Raymond van Barneveld 7-1 in the 2009 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 319,
+    "question": "Who won the 1996 PDC World Championship?",
+    "options": [
+      "Luke Humphries",
+      "Dennis Priestley",
+      "Phil Taylor",
+      "Mark Dudbridge"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Dennis Priestley 6-4 in the 1996 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 320,
+    "question": "Who won the 2026 European Championship?",
+    "options": [
+      "Ross Smith",
+      "Steve Beaton",
+      "Martin Schindler",
+      "Terry Jenkins"
+    ],
+    "correct": 0,
+    "explanation": "Ross Smith defeated Martin Schindler 11-8 in the 2026 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 321,
+    "question": "Who finished runner-up at the 2024 World Matchplay?",
+    "options": [
+      "Michael van Gerwen",
+      "Rob Cross",
+      "Dennis Priestley",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Luke Humphries defeated Michael van Gerwen 18-15 in the 2024 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 322,
+    "question": "Who finished runner-up at the 2001 World Grand Prix?",
+    "options": [
+      "Michael van Gerwen",
+      "Alan Warriner",
+      "Phil Taylor",
+      "Roland Scholten"
+    ],
+    "correct": 3,
+    "explanation": "Alan Warriner defeated Roland Scholten 8-2 in the 2001 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 323,
+    "question": "Who finished runner-up at the 2013 World Matchplay?",
+    "options": [
+      "Jonny Clayton",
+      "Mark Dudbridge",
+      "Phil Taylor",
+      "Adrian Lewis"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Adrian Lewis 18-13 in the 2013 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 324,
+    "question": "Who won the 2026 UK Open?",
+    "options": [
+      "Luke Littler",
+      "Terry Jenkins",
+      "Nathan Aspinall",
+      "James Wade"
+    ],
+    "correct": 0,
+    "explanation": "Luke Littler defeated James Wade 11-7 in the 2026 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 325,
+    "question": "Who finished runner-up at the 2000 World Grand Prix?",
+    "options": [
+      "Terry Jenkins",
+      "Colin Lloyd",
+      "Phil Taylor",
+      "Shayne Burgess"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Shayne Burgess 6-1 in the 2000 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 326,
+    "question": "Who won the 2008 PDC World Championship?",
+    "options": [
+      "John Part",
+      "Raymond van Barneveld",
+      "Rob Cross",
+      "Kirk Shepherd"
+    ],
+    "correct": 0,
+    "explanation": "John Part defeated Kirk Shepherd 7-2 in the 2008 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 327,
+    "question": "What was the final score at the 2026 World Matchplay?",
+    "options": [
+      "18-5",
+      "18-3",
+      "18-9",
+      "18-4"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Gerwyn Price 18-9 in the 2026 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 328,
+    "question": "Who finished runner-up at the 2018 PDC World Youth Championship?",
+    "options": [
+      "Dimitri Van den Bergh",
+      "Nathan Girvan",
+      "Martin Schindler",
+      "Joe Davis"
+    ],
+    "correct": 2,
+    "explanation": "Dimitri Van den Bergh defeated Martin Schindler 6-3 in the 2018 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 329,
+    "question": "Who finished runner-up at the 1995 PDC World Championship?",
+    "options": [
+      "Rob Cross",
+      "Rod Harrington",
+      "Phil Taylor",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Rod Harrington 6-2 in the 1995 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 330,
+    "question": "Who won the 2017 PDC World Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Luke Humphries",
+      "Gary Anderson",
+      "Michael van Gerwen"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Gary Anderson 7-3 in the 2017 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 331,
+    "question": "Who finished runner-up at the 1997 World Matchplay?",
+    "options": [
+      "Alan Warriner",
+      "Richie Burnett",
+      "Michael van Gerwen",
+      "Phil Taylor"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Alan Warriner 16-11 in the 1997 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 332,
+    "question": "Who won the 2015 World Grand Prix?",
+    "options": [
+      "Robert Thornton",
+      "Michael van Gerwen",
+      "John Part",
+      "James Wade"
+    ],
+    "correct": 0,
+    "explanation": "Robert Thornton defeated Michael van Gerwen 5-4 in the 2015 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 333,
+    "question": "Who finished runner-up at the 2013 Grand Slam of Darts?",
+    "options": [
+      "Gary Anderson",
+      "Dave Chisnall",
+      "Phil Taylor",
+      "Robert Thornton"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated Robert Thornton 16-6 in the 2013 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 334,
+    "question": "What was the final score at the 2011 Premier League Darts?",
+    "options": [
+      "10-7",
+      "10-4",
+      "10-9",
+      "10-2"
+    ],
+    "correct": 1,
+    "explanation": "Gary Anderson defeated Adrian Lewis 10-4 in the 2011 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 335,
+    "question": "Who won the 2001 World Matchplay?",
+    "options": [
+      "Rod Harrington",
+      "Richie Burnett",
+      "Phil Taylor",
+      "Peter Manley"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Richie Burnett 18-10 in the 2001 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 336,
+    "question": "Who finished runner-up at the 2016 PDC World Championship?",
+    "options": [
+      "Adrian Lewis",
+      "John Part",
+      "Gary Anderson",
+      "Rod Harrington"
+    ],
+    "correct": 0,
+    "explanation": "Gary Anderson defeated Adrian Lewis 7-5 in the 2016 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 337,
+    "question": "Who won the 2002 PDC World Championship?",
+    "options": [
+      "Gerwyn Price",
+      "Michael Smith",
+      "Phil Taylor",
+      "Peter Manley"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Peter Manley 7-0 in the 2002 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 338,
+    "question": "Who finished runner-up at the 1998 World Matchplay?",
+    "options": [
+      "Rob Cross",
+      "Rod Harrington",
+      "Ronnie Baxter",
+      "Michael van Gerwen"
+    ],
+    "correct": 2,
+    "explanation": "Rod Harrington defeated Ronnie Baxter 19-17 in the 1998 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 339,
+    "question": "Who won the 2008 UK Open?",
+    "options": [
+      "Dimitri Van den Bergh",
+      "James Wade",
+      "Gary Mawson",
+      "Robert Thornton"
+    ],
+    "correct": 1,
+    "explanation": "James Wade defeated Gary Mawson 11-7 in the 2008 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 340,
+    "question": "Who finished runner-up at the 2013 UK Open?",
+    "options": [
+      "Andy Hamilton",
+      "Colin Osborne",
+      "Phil Taylor",
+      "Adrian Lewis"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Andy Hamilton 11-4 in the 2013 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 341,
+    "question": "Who won the 2016 PDC World Championship?",
+    "options": [
+      "Adrian Lewis",
+      "Gary Anderson",
+      "John Part",
+      "Rod Harrington"
+    ],
+    "correct": 1,
+    "explanation": "Gary Anderson defeated Adrian Lewis 7-5 in the 2016 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 342,
+    "question": "Who finished runner-up at the 2014 PDC World Youth Championship?",
+    "options": [
+      "Rowby-John Rodriguez",
+      "Luke Littler",
+      "Dimitri Van den Bergh",
+      "Keegan Brown"
+    ],
+    "correct": 0,
+    "explanation": "Keegan Brown defeated Rowby-John Rodriguez 6-4 in the 2014 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 343,
+    "question": "Who finished runner-up at the 2021 UK Open?",
+    "options": [
+      "Adrian Lewis",
+      "Luke Humphries",
+      "James Wade",
+      "Wes Newton"
+    ],
+    "correct": 1,
+    "explanation": "James Wade defeated Luke Humphries 11-5 in the 2021 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 344,
+    "question": "Who won the 2025 Players Championship Finals?",
+    "options": [
+      "Jonny Clayton",
+      "Nathan Aspinall",
+      "Luke Littler",
+      "Phil Taylor"
+    ],
+    "correct": 2,
+    "explanation": "Luke Littler defeated Nathan Aspinall 11-8 in the 2025 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 345,
+    "question": "Who finished runner-up at the 2016 PDC World Youth Championship?",
+    "options": [
+      "Corey Cadby",
+      "Rowby-John Rodriguez",
+      "Berry van Peer",
+      "Luke Humphries"
+    ],
+    "correct": 2,
+    "explanation": "Corey Cadby defeated Berry van Peer 6-2 in the 2016 PDC World Youth Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 346,
+    "question": "Who finished runner-up at the 2016 Grand Slam of Darts?",
+    "options": [
+      "James Wade",
+      "Robert Thornton",
+      "Luke Littler",
+      "Michael van Gerwen"
+    ],
+    "correct": 0,
+    "explanation": "Michael van Gerwen defeated James Wade 16-8 in the 2016 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 347,
+    "question": "Who won the 2021 UK Open?",
+    "options": [
+      "Wes Newton",
+      "James Wade",
+      "Luke Humphries",
+      "Adrian Lewis"
+    ],
+    "correct": 1,
+    "explanation": "James Wade defeated Luke Humphries 11-5 in the 2021 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 348,
+    "question": "What was the final score at the 2022 World Grand Prix?",
+    "options": [
+      "5-4",
+      "5-1",
+      "5-0",
+      "5-3"
+    ],
+    "correct": 3,
+    "explanation": "Michael van Gerwen defeated Nathan Aspinall 5-3 in the 2022 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 349,
+    "question": "Who won the 2015 Players Championship Finals?",
+    "options": [
+      "Adrian Lewis",
+      "Dave Chisnall",
+      "Michael van Gerwen",
+      "Phil Taylor"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Adrian Lewis 11-6 in the 2015 Players Championship Finals final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 350,
+    "question": "Who finished runner-up at the 2018 Grand Slam of Darts?",
+    "options": [
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Gary Anderson",
+      "Gerwyn Price"
+    ],
+    "correct": 2,
+    "explanation": "Gerwyn Price defeated Gary Anderson 16-13 in the 2018 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 351,
+    "question": "Who finished runner-up at the 2014 European Championship?",
+    "options": [
+      "Peter Wright",
+      "Mensur Suljović",
+      "Terry Jenkins",
+      "Michael van Gerwen"
+    ],
+    "correct": 2,
+    "explanation": "Michael van Gerwen defeated Terry Jenkins 11-4 in the 2014 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 352,
+    "question": "Who won the 2008 Premier League Darts?",
+    "options": [
+      "Phil Taylor",
+      "James Wade",
+      "Gerwyn Price",
+      "Michael Smith"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated James Wade 16-8 in the 2008 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 353,
+    "question": "Who won the 2010 Grand Slam of Darts?",
+    "options": [
+      "Scott Waites",
+      "Gary Anderson",
+      "James Wade",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Scott Waites defeated James Wade 16-12 in the 2010 Grand Slam of Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 354,
+    "question": "Who finished runner-up at the 2023 World Matchplay?",
+    "options": [
+      "Jonny Clayton",
+      "Nathan Aspinall",
+      "Peter Manley",
+      "Raymond van Barneveld"
+    ],
+    "correct": 0,
+    "explanation": "Nathan Aspinall defeated Jonny Clayton 18-6 in the 2023 World Matchplay final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 355,
+    "question": "Who finished runner-up at the 2023 PDC World Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Michael Smith",
+      "Gary Anderson",
+      "Rod Harrington"
+    ],
+    "correct": 0,
+    "explanation": "Michael Smith defeated Michael van Gerwen 7-4 in the 2023 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 356,
+    "question": "Who won the 2020 World Grand Prix?",
+    "options": [
+      "Gerwyn Price",
+      "Dirk van Duijvenbode",
+      "Rod Harrington",
+      "Colin Lloyd"
+    ],
+    "correct": 0,
+    "explanation": "Gerwyn Price defeated Dirk van Duijvenbode 5-2 in the 2020 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 357,
+    "question": "Who finished runner-up at the 2007 Premier League Darts?",
+    "options": [
+      "Phil Taylor",
+      "Terry Jenkins",
+      "Peter Wright",
+      "Roland Scholten"
+    ],
+    "correct": 1,
+    "explanation": "Phil Taylor defeated Terry Jenkins 16-6 in the 2007 Premier League Darts final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 358,
+    "question": "What was the final score at the 2021 PDC World Championship?",
+    "options": [
+      "7-6",
+      "7-2",
+      "7-5",
+      "7-3"
+    ],
+    "correct": 3,
+    "explanation": "Gerwyn Price defeated Gary Anderson 7-3 in the 2021 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 359,
+    "question": "Who finished runner-up at the 2023 UK Open?",
+    "options": [
+      "Gary Mawson",
+      "Michael van Gerwen",
+      "Andrew Gilding",
+      "Luke Littler"
+    ],
+    "correct": 1,
+    "explanation": "Andrew Gilding defeated Michael van Gerwen 11-10 in the 2023 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 360,
+    "question": "Who won the 2023 European Championship?",
+    "options": [
+      "James Wade",
+      "Peter Wright",
+      "Ritchie Edhouse",
+      "Michael van Gerwen"
+    ],
+    "correct": 1,
+    "explanation": "Peter Wright defeated James Wade 11-6 in the 2023 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 361,
+    "question": "Who won the 2022 UK Open?",
+    "options": [
+      "Nathan Aspinall",
+      "Danny Noppert",
+      "Dimitri Van den Bergh",
+      "Michael Smith"
+    ],
+    "correct": 1,
+    "explanation": "Danny Noppert defeated Michael Smith 11-10 in the 2022 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 362,
+    "question": "Who finished runner-up at the 2008 World Grand Prix?",
+    "options": [
+      "Raymond van Barneveld",
+      "Roland Scholten",
+      "Jonny Clayton",
+      "Phil Taylor"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Raymond van Barneveld 6-2 in the 2008 World Grand Prix final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 363,
+    "question": "Who won the 2001 PDC World Championship?",
+    "options": [
+      "Luke Littler",
+      "Andy Hamilton",
+      "John Part",
+      "Phil Taylor"
+    ],
+    "correct": 3,
+    "explanation": "Phil Taylor defeated John Part 7-0 in the 2001 PDC World Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 364,
+    "question": "Who finished runner-up at the 2011 European Championship?",
+    "options": [
+      "Michael van Gerwen",
+      "Phil Taylor",
+      "Adrian Lewis",
+      "Gerwyn Price"
+    ],
+    "correct": 2,
+    "explanation": "Phil Taylor defeated Adrian Lewis 11-8 in the 2011 European Championship final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
+  },
+  {
+    "id": 365,
+    "question": "Who won the 2010 UK Open?",
+    "options": [
+      "Phil Taylor",
+      "Gary Anderson",
+      "Dimitri Van den Bergh",
+      "Luke Humphries"
+    ],
+    "correct": 0,
+    "explanation": "Phil Taylor defeated Gary Anderson 11-5 in the 2010 UK Open final.",
+    "share_text": "I just answered today's darts trivia on DartsDaily! Do you know your darts? #DartsDaily"
   }
 ]
